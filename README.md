@@ -2,7 +2,27 @@
 
 **Versão:** 1.2  
 **Data:** maio de 2026  
-**Objetivo:** estruturar uma base forte para candidatura a fundos públicos, planeamento técnico e comunicação do projeto.
+**Objetivo:** apresentar a visão, conceito e plano de implementação de uma aldeia canina sustentável em Viseu, para candidatura a financiamento.
+
+## Índice
+
+1. [Enquadramento geral](#1-enquadramento-geral)
+2. [Conceito-base do projeto](#2-conceito-base-do-projeto)
+3. [Pontos fortes principais do projeto](#3-pontos-fortes-principais-do-projeto)
+4. [Objetivo estratégico da candidatura](#4-objetivo-estratégico-da-candidatura)
+5. [Estrutura](#5-estrutura)
+6. [Plano faseado de implementação](#6-plano-faseado-de-implementação)
+7. [Plano de sustentabilidade ambiental](#7-plano-de-sustentabilidade-ambiental)
+8. [Plano de bem-estar animal](#8-plano-de-bem-estar-animal)
+9. [Portal digital e política de imagens](#9-portal-digital-e-política-de-imagens)
+10. [Mobilidade animal](#10-mobilidade-animal)
+11. [Impacto social e territorial](#11-impacto-social-e-territorial)
+12. [Modelo de negócio](#12-modelo-de-negócio)
+13. [Lista final de prioridades](#13-lista-final-de-prioridades)
+14. [Riscos e mitigação](#14-riscos-e-mitigação)
+15. [Indicadores para candidatura](#15-indicadores-para-candidatura)
+16. [Estrutura recomendada da memória descritiva](#16-estrutura-recomendada-da-memória-descritiva)
+17. [Recomendações finais](#17-recomendações-finais)
 
 ---
 
@@ -28,18 +48,7 @@ A narrativa central deve ser:
 
 ## 2. Conceito-base do projeto
 
-### 2.1. Nome conceptual
-
-Sugestões:
-
-- **Aldeia Canina Sustentável do Vale**
-- **Eco Aldeia Canina de Viseu**
-- **Vale dos Patudos**
-- **Aldeia dos Patudos**
-- **Quinta Canina do Vale**
-- **Eco Hotel Canino do Vale**
-
-### 2.2. Posicionamento recomendado
+### 2.1. Posicionamento recomendado
 
 Em vez de apresentar o projeto como “um hotel canino”, devemos apresentá-lo como:
 
@@ -902,25 +911,34 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 
 ---
 
-## 13. Matriz de prioridades
+## 13. Lista final de prioridades
 
-| Ideia                           |    Impacto |       Custo |       Risco |   Prioridade |
-| ------------------------------- | ---------: | ----------: | ----------: | -----------: |
-| Aldeia canina modular           | Muito alto |        Alto |       Médio |       Máxima |
-| Zonas por perfil comportamental | Muito alto |       Médio |       Baixo |       Máxima |
-| Zona sénior/calma               | Muito alto | Baixo/Médio |       Baixo |       Máxima |
-| Trilhos sensoriais              |       Alto | Baixo/Médio |       Baixo |         Alta |
-| Programa de adaptação           |       Alto |       Baixo |       Baixo |         Alta |
-| Portal do tutor                 |       Alto |       Médio | Baixo/Médio |         Alta |
-| Fotos/vídeos controlados        |       Alto | Baixo/Médio |       Médio |         Alta |
-| Energia solar                   | Muito alto |        Alto |       Médio |         Alta |
-| Plano de água/drenagem          | Muito alto |  Médio/Alto |       Médio |       Máxima |
-| Carrinha/autocarro              |       Alto |  Médio/Alto |       Médio |         Alta |
-| Treino                          |       Alto |       Médio |       Baixo |         Alta |
-| Grooming                        |      Médio |       Médio |       Baixo |        Média |
-| Lago naturalizado               |       Alto |        Alto |        Alto | Média/Fase 2 |
-| Gatil                           |      Médio |  Médio/Alto |       Médio |     Fase 2/3 |
-| Live cameras                    |      Médio |       Médio |   Alto/RGPD | Baixa/Futura |
+Prioridade máxima:
+
+- aldeia canina modular;
+- zonas por perfil comportamental;
+- zona sénior/calma;
+- plano de água/drenagem.
+
+Prioridade alta:
+
+- trilhos sensoriais;
+- programa de adaptação;
+- portal do tutor;
+- fotos/vídeos controlados;
+- energia solar;
+- carrinha/autocarro;
+- treino.
+
+Prioridade média:
+
+- grooming.
+
+Fase posterior ou possibilidade futura:
+
+- lago naturalizado;
+- gatil;
+- live cameras.
 
 ---
 
@@ -987,130 +1005,7 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 
 ---
 
-## 16. Plano de trabalho em 90 dias
-
-### Dias 1–15 - Validação legal e territorial
-
-Ações:
-
-- confirmar PDM;
-- falar com Câmara Municipal;
-- verificar REN/RAN;
-- verificar linhas de água;
-- verificar acessos;
-- consultar DGAV;
-- contactar veterinário responsável;
-- avaliar necessidade de parecer da APA;
-- pedir levantamento topográfico.
-
-Entregáveis:
-
-- lista de condicionantes;
-- validação preliminar;
-- contactos técnicos;
-- decisão sobre viabilidade inicial.
-
-### Dias 15–30 - Masterplan conceptual
-
-Ações:
-
-- dividir terreno por zonas;
-- definir entrada;
-- definir aldeia canina;
-- definir zona calma;
-- definir parques;
-- definir zona técnica;
-- definir trilhos;
-- definir acessos de emergência;
-- desenhar expansão futura.
-
-Entregáveis:
-
-- planta conceptual;
-- descrição das zonas;
-- proposta de lotação inicial;
-- fluxos de circulação.
-
-### Dias 30–45 - Modelo de negócio
-
-Ações:
-
-- definir serviços;
-- estimar preços;
-- estimar custos;
-- definir equipa inicial;
-- definir lotação;
-- preparar projeções financeiras;
-- pedir orçamentos principais.
-
-Entregáveis:
-
-- tabela de serviços;
-- orçamento preliminar;
-- previsão de receitas;
-- mapa de custos.
-
-### Dias 45–60 - Sustentabilidade e inovação
-
-Ações:
-
-- plano solar;
-- plano de água;
-- plano de drenagem;
-- plano de materiais;
-- plano de resíduos;
-- conceito do portal;
-- política de imagens.
-
-Entregáveis:
-
-- plano ambiental;
-- lista de indicadores;
-- plano digital;
-- matriz de prioridades.
-
-### Dias 60–75 - Parcerias e impacto local
-
-Ações:
-
-- contactar veterinários;
-- contactar associações;
-- contactar escolas;
-- contactar fornecedores;
-- desenhar workshops;
-- preparar cartas de intenção.
-
-Entregáveis:
-
-- lista de parceiros;
-- cartas de intenção;
-- plano de impacto social;
-- calendário de ações.
-
-### Dias 75–90 - Dossier de candidatura
-
-Ações:
-
-- redigir memória descritiva;
-- organizar orçamentos;
-- preparar plano financeiro;
-- preparar cronograma;
-- rever riscos;
-- alinhar com aviso de candidatura;
-- preparar anexos.
-
-Entregáveis:
-
-- dossier de candidatura;
-- memória descritiva;
-- plano de investimento;
-- cronograma;
-- matriz de riscos;
-- anexos técnicos.
-
----
-
-## 17. Estrutura recomendada da memória descritiva
+## 16. Estrutura recomendada da memória descritiva
 
 1. Identificação do projeto
 2. Enquadramento territorial
@@ -1130,7 +1025,7 @@ Entregáveis:
 
 ---
 
-## 18. Recomendações finais
+## 17. Recomendações finais
 
 A mensagem central deve ser:
 
