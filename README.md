@@ -1,4 +1,4 @@
-# Plano Acionável - Aldeia Canina Sustentável em Viseu
+# Aldeia Canina Sustentável em Viseu
 
 **Versão:** 1.2  
 **Data:** maio de 2026  
