@@ -932,11 +932,11 @@ Prioridade alta:
 
 Prioridade média:
 
+- lago naturalizado;
 - grooming.
 
 Fase posterior ou possibilidade futura:
 
-- lago naturalizado;
 - gatil;
 - live cameras.
 
