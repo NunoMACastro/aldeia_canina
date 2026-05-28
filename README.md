@@ -11,18 +11,17 @@
 3. [Pontos fortes principais do projeto](#3-pontos-fortes-principais-do-projeto)
 4. [Objetivo estratégico da candidatura](#4-objetivo-estratégico-da-candidatura)
 5. [Estrutura](#5-estrutura)
-6. [Plano faseado de implementação](#6-plano-faseado-de-implementação)
-7. [Plano de sustentabilidade ambiental](#7-plano-de-sustentabilidade-ambiental)
-8. [Plano de bem-estar animal](#8-plano-de-bem-estar-animal)
-9. [Portal digital e política de imagens](#9-portal-digital-e-política-de-imagens)
-10. [Mobilidade animal](#10-mobilidade-animal)
-11. [Impacto social e territorial](#11-impacto-social-e-territorial)
-12. [Modelo de negócio](#12-modelo-de-negócio)
-13. [Lista final de prioridades](#13-lista-final-de-prioridades)
-14. [Riscos e mitigação](#14-riscos-e-mitigação)
-15. [Indicadores para candidatura](#15-indicadores-para-candidatura)
-16. [Estrutura recomendada da memória descritiva](#16-estrutura-recomendada-da-memória-descritiva)
-17. [Recomendações finais](#17-recomendações-finais)
+6. [Plano de sustentabilidade ambiental](#6-plano-de-sustentabilidade-ambiental)
+7. [Plano de bem-estar animal](#7-plano-de-bem-estar-animal)
+8. [Portal digital e política de imagens](#8-portal-digital-e-política-de-imagens)
+9. [Mobilidade animal](#9-mobilidade-animal)
+10. [Impacto social e territorial](#10-impacto-social-e-territorial)
+11. [Modelo de negócio](#11-modelo-de-negócio)
+12. [Lista final de prioridades](#12-lista-final-de-prioridades)
+13. [Riscos e mitigação](#13-riscos-e-mitigação)
+14. [Indicadores para candidatura](#14-indicadores-para-candidatura)
+15. [Estrutura recomendada da memória descritiva](#15-estrutura-recomendada-da-memória-descritiva)
+16. [Recomendações finais](#16-recomendações-finais)
 
 ---
 
@@ -151,7 +150,32 @@ Sugestões:
 
 O objetivo é comunicar que o projeto promove exercício físico, estimulação mental e redução de stress.
 
-### 3.6. Sustentabilidade ambiental
+### 3.6. Creche diária / ATL canino
+
+Para além das estadias com dormida, o projeto deve assumir explicitamente uma componente de **creche diária / ATL canino**.
+
+Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia, sem necessidade de alojamento noturno, e transforma o espaço numa resposta mais completa, regular e próxima da comunidade.
+
+Possíveis utilizações:
+
+- apoio a tutores com horários de trabalho longos;
+- ocupação saudável para cães jovens, ativos ou com necessidade de estímulo;
+- dias pontuais de acompanhamento quando o tutor não consegue estar presente;
+- integração progressiva antes de uma primeira estadia no hotel;
+- socialização controlada com outros cães compatíveis;
+- complemento a serviços de treino, grooming ou transporte.
+
+Pontos fortes:
+
+- cria uma fonte de receita mais recorrente;
+- aumenta a relação contínua com os tutores;
+- melhora o aproveitamento diário da infraestrutura;
+- funciona como porta de entrada para estadias, treino e grooming;
+- reforça a imagem do projeto como espaço de bem-estar animal, e não apenas como hotel para dormidas.
+
+A creche/ATL deve funcionar com avaliação prévia, grupos controlados, separação por porte e perfil comportamental, períodos de descanso e lotação diária adequada à equipa disponível.
+
+### 3.7. Sustentabilidade ambiental
 
 Pontos a valorizar:
 
@@ -169,7 +193,7 @@ Pontos a valorizar:
 - gestão responsável de resíduos;
 - mobilidade elétrica ou híbrida.
 
-### 3.7. Mobilidade animal inclusiva
+### 3.8. Mobilidade animal inclusiva
 
 A ideia do mini autocarro/carrinha é muito forte.
 
@@ -186,7 +210,7 @@ Possíveis usos:
 - parcerias com veterinários;
 - apoio a pessoas com dificuldade de deslocação.
 
-### 3.8. Portal digital do tutor
+### 3.9. Portal digital do tutor
 
 O portal do tutor deve ser incluído como elemento de digitalização e confiança.
 
@@ -214,7 +238,7 @@ Funcionalidades para fase posterior:
 - alertas;
 - recomendações pós-estadia.
 
-### 3.9. Imagens, vídeos e confiança dos tutores
+### 3.10. Imagens, vídeos e confiança dos tutores
 
 É recomendável incluir partilha de imagens, mas com prudência.
 
@@ -229,7 +253,7 @@ O modelo mais seguro é:
 
 Acesso permanente a câmaras pode trazer desafios de privacidade, RGPD, segurança, ansiedade dos tutores e gestão operacional. Por isso, deve ser apresentado como uma evolução possível, não como promessa central inicial.
 
-### 3.10. Lago raso naturalizado e zona aquática controlada
+### 3.11. Lago raso naturalizado e zona aquática controlada
 
 A criação de um lago raso naturalizado pode constituir um dos elementos diferenciadores do projeto, desde que seja concebido como uma infraestrutura controlada, segura e tecnicamente acompanhada.
 
@@ -466,89 +490,9 @@ Como não é prioridade, deve ser apresentado como fase posterior ou componente 
 
 ---
 
-## 6. Plano faseado de implementação
+## 6. Plano de sustentabilidade ambiental
 
-### Fase 0 - Validação e preparação
-
-Duração estimada: 1 a 3 meses.
-
-Ações:
-
-- confirmar PDM e viabilidade do terreno;
-- falar com a Câmara Municipal;
-- confirmar condicionantes REN/RAN/linhas de água;
-- consultar DGAV;
-- identificar médico veterinário responsável;
-- obter levantamento topográfico;
-- consultar arquiteto/engenheiro;
-- avaliar acessos;
-- avaliar drenagem;
-- confirmar necessidades de licenciamento;
-- preparar plano financeiro inicial.
-
-Entregáveis:
-
-- pré-enquadramento legal;
-- lista de condicionantes;
-- levantamento topográfico;
-- primeira planta conceptual;
-- mapa preliminar de riscos;
-- lista de orçamentos necessários.
-
-### Fase 1 - Núcleo essencial
-
-Objetivo: abrir com uma operação sólida, segura e diferenciada.
-
-Inclui:
-
-- vedação perimetral;
-- acessos principais;
-- receção;
-- zona técnica;
-- 8 a 15 casinhas modulares;
-- 2 ou 3 casinhas familiares;
-- zona calma/sénior;
-- parques exteriores;
-- trilhos sensoriais básicos;
-- drenagem do vale;
-- sistema inicial de energia solar;
-- recolha de águas pluviais;
-- protocolo veterinário;
-- software/portal simples;
-- plano de segurança.
-
-### Fase 2 - Diferenciação e serviços complementares
-
-Inclui:
-
-- grooming;
-- aulas de treino;
-- programa de adaptação;
-- programa cão sénior;
-- carrinha/autocarro canino;
-- portal com relatórios e imagens;
-- eventos e workshops;
-- parcerias com escolas, veterinários e associações;
-- expansão de trilhos e parques.
-
-### Fase 3 - Expansão
-
-Inclui:
-
-- mais casinhas;
-- zona aquática/lago naturalizado;
-- gatil completo;
-- zona de eventos;
-- app mais avançada;
-- sensores ambientais;
-- baterias adicionais;
-- alojamentos premium.
-
----
-
-## 7. Plano de sustentabilidade ambiental
-
-### 7.1. Energia
+### 6.1. Energia
 
 Medidas:
 
@@ -560,7 +504,7 @@ Medidas:
 - monitorização de consumos;
 - carregamento para viatura elétrica/híbrida.
 
-### 7.2. Água
+### 6.2. Água
 
 Medidas:
 
@@ -573,7 +517,7 @@ Medidas:
 - drenagem natural;
 - redução de água potável em lavagens exteriores, quando legalmente permitido.
 
-### 7.3. Solo e drenagem
+### 6.3. Solo e drenagem
 
 Como o terreno é em vale/covão, esta área é crítica.
 
@@ -588,7 +532,7 @@ Medidas:
 - controlo de lama;
 - plantação de vegetação para fixação do solo.
 
-### 7.4. Materiais
+### 6.4. Materiais
 
 Sugestões:
 
@@ -600,7 +544,7 @@ Sugestões:
 - telhados verdes em zonas selecionadas;
 - tintas e acabamentos de baixa toxicidade.
 
-### 7.5. Resíduos
+### 6.5. Resíduos
 
 Medidas:
 
@@ -613,9 +557,9 @@ Medidas:
 
 ---
 
-## 8. Plano de bem-estar animal
+## 7. Plano de bem-estar animal
 
-### 8.1. Avaliação inicial
+### 7.1. Avaliação inicial
 
 Antes de aceitar ou alojar um animal, recolher (pessoalmente ou via portal) informação detalhada sobre o perfil do cão, incluindo:
 
@@ -634,7 +578,7 @@ Antes de aceitar ou alojar um animal, recolher (pessoalmente ou via portal) info
 - necessidades especiais;
 - contacto veterinário habitual.
 
-### 8.2. Separação por perfil
+### 7.2. Separação por perfil
 
 Critérios:
 
@@ -648,7 +592,7 @@ Critérios:
 - experiência anterior em hotel;
 - pertença à mesma família.
 
-### 8.3. Rotinas adaptadas
+### 7.3. Rotinas adaptadas
 
 Cada cão pode ter um plano simples:
 
@@ -661,7 +605,7 @@ Cada cão pode ter um plano simples:
 - medicação;
 - observações.
 
-### 8.4. Programa “Primeira Estadia Sem Stress”
+### 7.4. Programa “Primeira Estadia Sem Stress”
 
 Objetivo: reduzir ansiedade e risco de má adaptação.
 
@@ -673,7 +617,7 @@ Etapas:
 4. Primeira noite, se necessário.
 5. Relatório comportamental.
 
-### 8.5. Programa “Cão Sénior”
+### 7.5. Programa “Cão Sénior”
 
 Inclui:
 
@@ -688,9 +632,9 @@ Inclui:
 
 ---
 
-## 9. Portal digital e política de imagens
+## 8. Portal digital e política de imagens
 
-### 9.1. Objetivo do portal
+### 8.1. Objetivo do portal
 
 O portal deve aumentar confiança, organização e profissionalismo.
 
@@ -704,7 +648,7 @@ Objetivos:
 - reforçar transparência;
 - apoiar a gestão interna.
 
-### 9.2. Funcionalidades prioritárias
+### 8.2. Funcionalidades prioritárias
 
 Fase inicial:
 
@@ -729,7 +673,7 @@ Fase posterior:
 - alertas;
 - agenda de grooming/treino.
 
-### 9.3. Imagens e vídeos
+### 8.3. Imagens e vídeos
 
 Modelo recomendado:
 
@@ -742,7 +686,7 @@ Modelo recomendado:
 - eliminação mediante política definida;
 - acesso apenas autenticado.
 
-### 9.4. Videovigilância
+### 8.4. Videovigilância
 
 A videovigilância deve ser tratada separadamente.
 
@@ -770,13 +714,13 @@ Recomendação:
 
 ---
 
-## 10. Mobilidade animal
+## 9. Mobilidade animal
 
-### 10.1. Conceito
+### 9.1. Conceito
 
 Serviço de transporte para recolha e entrega de animais.
 
-### 10.2. Valor para candidatura
+### 9.2. Valor para candidatura
 
 - inclusão;
 - acessibilidade;
@@ -786,7 +730,7 @@ Serviço de transporte para recolha e entrega de animais.
 - diferenciação comercial;
 - otimização de deslocações.
 
-### 10.3. Requisitos da viatura
+### 9.3. Requisitos da viatura
 
 - transportadoras seguras;
 - climatização;
@@ -801,9 +745,9 @@ Serviço de transporte para recolha e entrega de animais.
 
 ---
 
-## 11. Impacto social e territorial
+## 10. Impacto social e territorial
 
-### 11.1. Emprego local
+### 10.1. Emprego local
 
 O projeto pode criar funções como:
 
@@ -816,7 +760,7 @@ O projeto pode criar funções como:
 - apoio veterinário externo;
 - marketing/comunicação.
 
-### 11.2. Parcerias
+### 10.2. Parcerias
 
 Possíveis parceiros:
 
@@ -830,7 +774,7 @@ Possíveis parceiros:
 - groomers;
 - produtores locais de produtos para animais.
 
-### 11.3. Ações comunitárias
+### 10.3. Ações comunitárias
 
 Sugestões:
 
@@ -844,7 +788,7 @@ Sugestões:
 - caminhadas educativas;
 - campanhas solidárias.
 
-### 11.4. Programa social
+### 10.4. Programa social
 
 Pode existir uma quota limitada para situações especiais:
 
@@ -858,9 +802,9 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 
 ---
 
-## 12. Modelo de negócio
+## 11. Modelo de negócio
 
-### 12.1. Serviços principais
+### 11.1. Serviços principais
 
 | Serviço             |  Prioridade | Observação               |
 | ------------------- | ----------: | ------------------------ |
@@ -874,7 +818,7 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 | Gatil               | Média/Baixa | Fase posterior           |
 | Workshops           |       Média | Impacto local            |
 
-### 12.2. Fontes de receita
+### 11.2. Fontes de receita
 
 - estadias por noite;
 - creche diária;
@@ -889,7 +833,7 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 - serviços premium;
 - relatórios/fotografias incluídos ou em pacote superior.
 
-### 12.3. Custos principais
+### 11.3. Custos principais
 
 - compra do terreno;
 - projeto técnico;
@@ -911,7 +855,7 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 
 ---
 
-## 13. Lista final de prioridades
+## 12. Lista final de prioridades
 
 Prioridade máxima:
 
@@ -942,7 +886,7 @@ Fase posterior ou possibilidade futura:
 
 ---
 
-## 14. Riscos e mitigação
+## 13. Riscos e mitigação
 
 | Risco                     | Problema                                                     | Mitigação                                           |
 | ------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
@@ -961,9 +905,9 @@ Fase posterior ou possibilidade futura:
 
 ---
 
-## 15. Indicadores para candidatura
+## 14. Indicadores para candidatura
 
-### 15.1. Ambientais
+### 14.1. Ambientais
 
 - percentagem estimada de energia renovável consumida;
 - produção solar anual estimada;
@@ -974,7 +918,7 @@ Fase posterior ou possibilidade futura:
 - consumo energético mensal;
 - resíduos separados por tipo.
 
-### 15.2. Económicos
+### 14.2. Económicos
 
 - postos de trabalho criados;
 - fornecedores locais envolvidos;
@@ -984,7 +928,7 @@ Fase posterior ou possibilidade futura:
 - receitas por serviço;
 - crescimento previsto por fase.
 
-### 15.3. Sociais
+### 14.3. Sociais
 
 - número de workshops realizados;
 - número de famílias abrangidas;
@@ -993,7 +937,7 @@ Fase posterior ou possibilidade futura:
 - número de transportes realizados;
 - número de animais apoiados em programa social.
 
-### 15.4. Bem-estar animal
+### 14.4. Bem-estar animal
 
 - número de avaliações comportamentais;
 - número de relatórios enviados;
@@ -1005,7 +949,7 @@ Fase posterior ou possibilidade futura:
 
 ---
 
-## 16. Estrutura recomendada da memória descritiva
+## 15. Estrutura recomendada da memória descritiva
 
 1. Identificação do projeto
 2. Enquadramento territorial
@@ -1025,7 +969,7 @@ Fase posterior ou possibilidade futura:
 
 ---
 
-## 17. Recomendações finais
+## 16. Recomendações finais
 
 A mensagem central deve ser:
 
