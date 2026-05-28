@@ -1,6 +1,6 @@
 # Aldeia Canina Sustentável em Viseu
 
-**Versão:** 1.3  
+**Versão:** 1.4  
 **Data:** maio de 2026  
 **Objetivo:** apresentar a visão, conceito, componentes diferenciadoras e preocupações principais de uma aldeia canina sustentável em Viseu, para análise e desenvolvimento por gabinete de projetos.
 
