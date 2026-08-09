@@ -1,8 +1,8 @@
 # Aldeia Canina Sustentável em Viseu
 
-**Versão:** 1.4  
-**Data:** maio de 2026  
-**Objetivo:** apresentar a visão, conceito, componentes diferenciadoras e preocupações principais de uma aldeia canina sustentável em Viseu, para análise e desenvolvimento de projeto.
+**Versão:** 1.5<br>
+**Data:** agosto de 2026<br>
+**Objetivo:** apresentar a visão, conceito, componentes diferenciadoras e preocupações principais de uma aldeia canina sustentável em Viseu, para análise e desenvolvimento por gabinete de projetos.
 
 ## Índice
 
@@ -27,7 +27,9 @@
 
 ## 1. Enquadramento geral
 
-Este documento organiza uma proposta de criação de uma **aldeia canina sustentável em Viseu**, instalada num terreno com cerca de **26.000 m²**, em formato de vale/covão.
+Este documento organiza uma proposta de criação de uma **aldeia canina sustentável em Viseu**, a implantar num terreno amplo, preferencialmente em formato de vale/covão, tendo como referência preliminar uma área total igual ou superior a **20.000 m²**.
+
+Este valor constitui um pressuposto funcional do conceito, e não uma exigência legal nem uma dimensão definitivamente fixada. A área necessária deverá ser confirmada em função da capacidade prevista, área efetivamente utilizável, topografia, acessos, drenagem, segurança, condicionantes territoriais e possibilidade de expansão.
 
 A ideia principal é afastar o projeto do conceito tradicional de “canil” ou “hotel com boxes” e posicioná-lo como um equipamento diferenciado de:
 
@@ -35,6 +37,7 @@ A ideia principal é afastar o projeto do conceito tradicional de “canil” ou
 - creche diária / ATL canino;
 - bem-estar animal individualizado;
 - sustentabilidade ambiental;
+- reabilitação responsável das ruínas existentes como casa de apoio operacional;
 - educação canina;
 - mobilidade inclusiva;
 - digitalização da relação com os tutores;
@@ -42,7 +45,7 @@ A ideia principal é afastar o projeto do conceito tradicional de “canil” ou
 
 A narrativa central deve ser:
 
-> Criar uma aldeia canina sustentável, integrada na natureza, com unidades de alojamento independentes, creche diária / ATL canino, programas adaptados ao perfil de cada animal, soluções ambientais eficientes, transporte próprio e serviços complementares de treino, grooming, socialização e educação de tutores.
+> Criar uma aldeia canina sustentável, integrada na natureza, com casas de alojamento independentes, uma casa de apoio operacional resultante da reabilitação responsável das ruínas existentes, creche diária / ATL canino, programas adaptados ao perfil de cada animal, soluções ambientais eficientes, transporte próprio e serviços complementares de treino, grooming, socialização e educação de tutores.
 
 ---
 
@@ -60,25 +63,32 @@ Em vez de apresentar o projeto como “um hotel canino”, devemos apresentá-lo
 
 ### 3.1. Conceito de aldeia canina
 
-A organização em pequenas casinhas permite criar uma imagem muito diferenciadora face aos hotéis caninos tradicionais.
+A organização em pequenas casas de alojamento animal permite criar uma experiência muito diferenciadora face aos hotéis caninos tradicionais.
 
-Apesar de o projeto poder incluir a função de hotel, o objetivo conceptual não é criar apenas mais um hotel canino com boxes repetidas e um padrão único de alojamento. A ideia central é criar uma verdadeira **aldeia canina**, com unidades de diferentes tamanhos, distribuídas por zonas distintas do terreno, adaptadas ao porte, perfil, rotina e necessidades dos animais.
+Apesar de o projeto poder incluir a função de hotel, o objetivo conceptual não é criar apenas mais um hotel canino com boxes repetidas e um padrão único de alojamento. A ideia central é criar uma verdadeira **aldeia canina**, com pequenas casas independentes de diferentes dimensões, distribuídas por zonas distintas do terreno e adaptadas ao porte, perfil, rotina e necessidades dos animais.
+
+As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradicionais. Cada unidade deve assumir a forma de uma pequena casa de alojamento, integrada na paisagem e concebida para proporcionar proteção, repouso, conforto ambiental e separação adequada entre animais. No interior poderão existir um ou mais quartos de alojamento, consoante a tipologia, mantendo sempre uma organização que preserve o bem-estar, a privacidade e a segurança dos animais.
 
 #### Tipologias e distribuição no espaço
 
-- casinhas pequenas para cães pequenos, cães calmos ou estadias individuais;
-- casinhas médias para cães de maior porte ou cães que precisam de mais espaço;
-- casinhas familiares para 2, 3 ou 4 cães da mesma família;
-- casinhas em zonas mais tranquilas para cães sénior, ansiosos ou sensíveis;
-- casinhas mais afastadas para cães que não toleram bem proximidade constante;
+- casas pequenas para cães pequenos, cães calmos ou estadias individuais;
+- casas médias para cães de maior porte ou cães que precisam de mais espaço;
+- casas familiares para 2, 3 ou 4 cães da mesma família;
+- casas em zonas mais tranquilas para cães sénior, ansiosos ou sensíveis;
+- casas mais afastadas para cães que não toleram bem proximidade constante;
 - organização em núcleos ou pequenas ruas, reforçando a imagem de aldeia;
 - possibilidade de colocar as unidades em diferentes cotas ou zonas do vale, respeitando topografia, ruído, sombra, acessos e drenagem.
 
 #### Características recomendadas
 
 - unidades independentes;
-- diferentes dimensões de casinhas;
-- zona interior e zona exterior privada;
+- diferentes dimensões e configurações de casas;
+- um ou mais quartos de alojamento no interior, de acordo com a tipologia;
+- acesso direto de cada quarto a um espaço exterior privado e vedado;
+- isolamento térmico e soluções de atenuação acústica;
+- ventilação, iluminação natural controlada e conforto ambiental;
+- água, eletricidade, drenagem e encaminhamento adequado de águas residuais;
+- possibilidade de produção solar, quando técnica e operacionalmente viável;
 - integração paisagística;
 - caminhos entre unidades;
 - afastamento entre zonas calmas e zonas mais ativas;
@@ -97,22 +107,22 @@ Apesar de o projeto poder incluir a função de hotel, o objetivo conceptual nã
 
 #### Recomendações técnicas e operacionais
 
-- desenhar o layout das casinhas com base na topografia, drenagem, orientação solar, ruído e acessos;
+- desenhar o layout das casas com base na topografia, drenagem, orientação solar, ruído e acessos;
 - prever zonas diferenciadas por perfil comportamental e não apenas por dimensão física;
 - garantir acessos seguros para equipa, tutores, transporte, manutenção e emergência;
 - evitar uma implantação demasiado densa que faça a aldeia parecer um conjunto de boxes;
-- validar dimensões, materiais, ventilação, isolamento, drenagem e higienização com equipa técnica e médico veterinário responsável;
+- validar dimensões, materiais, ventilação, isolamento térmico, desempenho acústico, drenagem, saneamento e higienização com equipa técnica e médico veterinário responsável;
 - prever soluções de expansão que não comprometam o funcionamento da zona já existente.
 
 #### Cuidados específicos
 
 O conceito de aldeia deve ser real no desenho e na experiência, não apenas no nome. Se todas as unidades forem iguais, demasiado próximas ou organizadas como um canil tradicional, perde-se uma parte importante da diferenciação.
 
-Também deve evitar-se que a diversidade de casinhas complique demasiado a operação. A variedade deve servir o bem-estar animal e a gestão do espaço, mantendo regras claras de limpeza, circulação, segurança e lotação.
+Também deve evitar-se que a diversidade de casas complique demasiado a operação. A variedade deve servir o bem-estar animal e a gestão do espaço, mantendo regras claras de limpeza, circulação, segurança e lotação.
 
 ### 3.2. Terreno amplo e em vale
 
-O terreno de 26.000 m² permite criar uma experiência mais natural e menos industrial.
+Um terreno com uma área de referência igual ou superior a 20.000 m² poderá permitir uma implantação menos densa, com separação entre núcleos, zonas de atividade e descanso, percursos, áreas verdes e infraestruturas operacionais. A suficiência da área deverá ser confirmada através de estudo prévio de implantação.
 
 #### Potencialidades do terreno
 
@@ -194,7 +204,7 @@ O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas 
 
 #### Possíveis utilizações
 
-- escolha da casinha mais adequada;
+- escolha da casa e do quarto de alojamento mais adequados;
 - definição de parques compatíveis;
 - integração em creche/ATL;
 - preparação de primeira estadia;
@@ -386,6 +396,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 
 #### Áreas de intervenção ambiental
 
+- reabilitação e reutilização das ruínas existentes;
 - painéis solares;
 - eventual micro-rede energética;
 - baterias;
@@ -402,6 +413,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 
 #### Características recomendadas
 
+- aproveitamento do edificado existente sempre que a sua estabilidade e adequação funcional sejam confirmadas;
 - soluções energéticas proporcionais ao consumo previsto;
 - recolha e armazenamento de águas pluviais;
 - pavimentos permeáveis;
@@ -412,7 +424,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 
 #### Possíveis utilizações
 
-- alimentação parcial de energia das casinhas;
+- alimentação parcial de energia das casas de alojamento e da casa de apoio;
 - iluminação exterior eficiente;
 - apoio a equipamentos técnicos;
 - rega de zonas verdes com água recolhida, quando legalmente permitido;
@@ -422,6 +434,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 
 #### Recomendações técnicas e operacionais
 
+- avaliar estruturalmente as ruínas e confirmar o seu enquadramento urbanístico antes de definir a intervenção;
 - dimensionar energia solar com base em consumos reais previstos;
 - estudar baterias apenas quando fizer sentido técnico e financeiro;
 - planear drenagem e água em conjunto, sobretudo por se tratar de um vale;
@@ -431,7 +444,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 
 #### Cuidados específicos
 
-A sustentabilidade deve ser apresentada com ambição, mas sem prometer autonomia total antes de haver estudo técnico. Painéis solares em cada casinha podem ser uma imagem forte, mas a solução final deve depender de orientação, sombreamento, custo, manutenção e segurança.
+A sustentabilidade deve ser apresentada com ambição, mas sem prometer autonomia total antes de haver estudo técnico. A reabilitação das ruínas e a instalação de painéis solares nas casas de alojamento podem ser elementos fortes, mas as soluções finais devem depender da estabilidade do edificado, orientação, sombreamento, custo, manutenção e segurança.
 
 Também é importante evitar soluções “verdes” que depois sejam difíceis de limpar, manter ou licenciar.
 
@@ -678,7 +691,11 @@ O desenvolvimento técnico e a candidatura deverão demonstrar que o projeto é:
 
 ## 5. Estrutura
 
-### 5.1. Zona de entrada e receção
+### 5.1. Casa de Apoio Operacional e Receção
+
+A aldeia deverá incluir uma **Casa de Apoio Operacional**, preferencialmente instalada através da reabilitação das ruínas existentes no terreno, desde que a sua estabilidade, enquadramento urbanístico e adequação funcional sejam confirmados.
+
+Esta intervenção poderá valorizar o património construído existente e ser analisada no contexto de eventuais programas de apoio à reabilitação. A elegibilidade para financiamento não deve ser assumida antes de serem conhecidos o programa aplicável, as condições da candidatura e o projeto técnico.
 
 Funções:
 
@@ -687,45 +704,95 @@ Funções:
 - validação documental;
 - avaliação inicial;
 - entrega/recolha dos animais;
-- espaço administrativo;
+- gabinete administrativo e espaço para reuniões;
 - pequena loja de produtos, se fizer sentido.
+
+Instalações da equipa:
+
+- instalações sanitárias, incluindo solução acessível;
+- vestiários, duche e cacifos;
+- pequena copa para apoio à equipa;
+- sala de repouso temporário para permanências prolongadas ou situações operacionais excecionais.
+
+A sala de repouso constitui uma instalação de apoio à equipa. Não deve ser apresentada nem utilizada como habitação, alojamento turístico ou residência permanente.
+
+Áreas operacionais e técnicas:
+
+- lavandaria organizada para separar os circuitos de material sujo e limpo;
+- zona de preparação de alimentação animal;
+- armazém de alimentação em condições controladas, protegido de humidade, pragas e contaminação;
+- armazém separado para produtos de limpeza e higienização;
+- armazém independente para ferramentas, equipamentos e materiais de manutenção;
+- zona para lavagem, secagem e recolha de material;
+- arrumos para equipamento limpo;
+- área técnica para sistemas elétricos, água, energia e monitorização;
+- área controlada para separação e recolha de resíduos;
+- espaço para registos operacionais.
 
 Características:
 
 - acesso controlado;
 - dupla porta de segurança;
 - zona de espera separada;
+- separação entre circulação pública, áreas da equipa e circuitos operacionais;
+- separação física entre alimentação, produtos de limpeza, manutenção e resíduos;
 - espaço limpo e profissional;
 - boa sinalética;
-- fácil acesso para a carrinha/autocarro.
+- fácil acesso para a carrinha/autocarro;
+- acessibilidade e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio.
 
-### 5.2. Aldeia canina
+### 5.2. Aldeia canina e casas de alojamento animal
 
 O coração do projeto.
 
+As casas de alojamento animal devem funcionar como pequenas construções independentes ou integradas em núcleos pouco densos, evitando a imagem e a experiência de uma sequência de canis convencionais. A arquitetura, os materiais, o afastamento entre unidades e a relação com a paisagem devem reforçar o conceito de aldeia.
+
 Tipos de unidades sugeridas:
 
-| Tipo de casinha    | Utilização                  | Características           |
-| ------------------ | --------------------------- | ------------------------- |
-| Casinha S          | 1 cão pequeno/médio         | interior + pátio exterior |
-| Casinha M          | 1 cão grande ou 2 pequenos  | mais área, boa ventilação |
-| Casinha Família    | 2 a 4 cães da mesma família | alojamento conjunto       |
-| Casinha Calma      | cães idosos/sensíveis       | zona silenciosa           |
-| Casinha Individual | cães que não podem conviver | maior controlo            |
+| Tipo de casa    | Utilização                  | Configuração e adaptações principais                                             |
+| --------------- | --------------------------- | -------------------------------------------------------------------------------- |
+| Casa S          | 1 cão pequeno/médio         | quarto protegido, exterior privado e escala adaptada                             |
+| Casa M          | 1 cão grande ou 2 pequenos  | maior área interior e exterior, ventilação e circulação reforçadas               |
+| Casa Família    | 2 a 4 cães da mesma família | quartos comunicantes ou área conjunta, sem contacto com animais de outra família |
+| Casa Calma      | cães idosos/sensíveis       | zona silenciosa, maior atenuação acústica e pavimento confortável                |
+| Casa Individual | cães que não podem conviver | barreiras visuais, acessos próprios e maior controlo operacional                 |
 
-Cada casinha deve idealmente ter:
+Cada casa poderá integrar um ou mais quartos de alojamento, dependendo da tipologia. Cada quarto deverá possuir uma área interior protegida e acesso direto a um espaço exterior privado, vedado e separado das restantes áreas da aldeia. A configuração deverá permitir que o animal alterne entre repouso, observação e permanência exterior de acordo com a sua rotina e sempre sob as condições definidas pela equipa.
 
-- zona interior;
-- zona exterior privada;
-- sombra;
-- isolamento térmico;
-- ventilação;
-- pavimento lavável;
-- drenagem;
-- acesso seguro;
-- identificação clara;
-- iluminação eficiente;
-- possibilidade de monitorização ambiental.
+Características construtivas e ambientais recomendadas:
+
+- construção robusta, segura e integrada na paisagem;
+- isolamento térmico adequado ao clima local;
+- soluções de atenuação acústica entre quartos, casas e zonas funcionais;
+- ventilação adequada e renovação de ar;
+- iluminação natural controlada e iluminação artificial eficiente;
+- pavimento confortável, antiderrapante, lavável e resistente ao uso intensivo;
+- paredes, remates e materiais compatíveis com higienização frequente;
+- proteção contra humidade, chuva, calor, frio e correntes de ar;
+- monitorização ambiental de temperatura e humidade, quando aplicável.
+
+Organização do alojamento:
+
+- área interior seca, protegida e confortável;
+- cama, plataforma ou zona de repouso adequada ao perfil do animal;
+- água potável permanentemente disponível;
+- pontos de alimentação concebidos para reduzir contaminação e competição;
+- espaço exterior privado, vedado e com acesso direto a partir do quarto;
+- sombra e abrigo parcial no espaço exterior;
+- barreiras visuais quando o perfil comportamental do animal o exija;
+- identificação clara de cada casa e quarto;
+- dupla barreira ou sistema equivalente de segurança nos acessos;
+- acesso operacional para limpeza, manutenção e emergência.
+
+Infraestruturas:
+
+- abastecimento de água e eletricidade;
+- drenagem e encaminhamento adequado de águas residuais;
+- ligação à rede de saneamento ou solução autónoma devidamente estudada e licenciada;
+- possibilidade de produção solar local, quando técnica, económica e operacionalmente viável;
+- equipamentos instalados de forma a não criar riscos de mordedura, fuga, ferimento ou acesso indevido.
+
+Os painéis solares em cada casa constituem uma possibilidade e não uma solução obrigatória. A produção poderá ser individual, agrupada ou centralizada, consoante o estudo energético, a orientação solar, o sombreamento, a manutenção e a segurança.
 
 #### Referência legal mínima para alojamento de cães
 
@@ -847,19 +914,20 @@ Requisitos:
 - zona alternativa para cães que não gostam de água;
 - regras de segurança.
 
-### 5.7. Zona técnica
+### 5.7. Enfermaria e zona de isolamento/quarentena
 
-Pode incluir:
+A enfermaria e a zona de isolamento/quarentena devem ser tratadas como instalações especializadas, separadas da circulação pública, da preparação de alimentos e das áreas comuns da equipa.
 
-- lavandaria;
-- armazenamento de alimentação;
-- armazenamento de produtos de limpeza;
-- zona de preparação de refeições;
-- zona de higienização;
-- arrumos;
-- área de resíduos;
-- zona de isolamento/quarentena;
-- espaço para registos operacionais.
+Devem incluir, conforme validação técnica e veterinária:
+
+- acesso controlado e, sempre que possível, independente;
+- ventilação e materiais adequados à higienização;
+- condições de observação temporária de animais;
+- separação física e visual das restantes casas de alojamento;
+- ponto de água, drenagem e equipamentos próprios;
+- armazenamento dedicado de material de utilização exclusiva;
+- protocolos de entrada, saída, limpeza e gestão de resíduos;
+- articulação com médico veterinário, sem substituir cuidados clínicos externos quando necessários.
 
 ### 5.8. Grooming
 
@@ -1228,17 +1296,17 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 
 ### 11.1. Serviços principais
 
-| Serviço             |  Prioridade | Observação               |
-| ------------------- | ----------: | ------------------------ |
-| Hotel canino        |        Alta | Serviço central          |
-| Casinhas familiares |        Alta | Diferenciação forte      |
-| Creche diária       |  Média/Alta | Receita recorrente       |
-| Treino canino       |        Alta | Complementar e educativo |
-| Grooming            |       Média | Receita adicional        |
-| Transporte          |        Alta | Diferenciação e inclusão |
-| Eventos             |       Média | Comunidade e marketing   |
-| Gatil               | Média/Baixa | Possibilidade futura     |
-| Workshops           |       Média | Impacto local            |
+| Serviço          |  Prioridade | Observação               |
+| ---------------- | ----------: | ------------------------ |
+| Hotel canino     |        Alta | Serviço central          |
+| Casas familiares |        Alta | Diferenciação forte      |
+| Creche diária    |  Média/Alta | Receita recorrente       |
+| Treino canino    |        Alta | Complementar e educativo |
+| Grooming         |       Média | Receita adicional        |
+| Transporte       |        Alta | Diferenciação e inclusão |
+| Eventos          |       Média | Comunidade e marketing   |
+| Gatil            | Média/Baixa | Possibilidade futura     |
+| Workshops        |       Média | Impacto local            |
 
 ### 11.2. Fontes de receita
 
@@ -1260,11 +1328,13 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 - compra do terreno;
 - projeto técnico;
 - licenciamento;
+- avaliação estrutural e enquadramento urbanístico das ruínas;
+- reabilitação e equipamento da casa de apoio operacional;
 - terraplanagem e drenagem;
 - vedações;
-- casinhas;
-- receção;
-- zona técnica;
+- casas e quartos de alojamento animal;
+- espaços exteriores privados e respetivas vedações;
+- enfermaria e zona de isolamento/quarentena;
 - energia solar;
 - água e saneamento;
 - equipamentos;
@@ -1282,6 +1352,8 @@ Deve ser bem delimitado para não criar encargos impossíveis.
 Prioridade máxima:
 
 - aldeia canina modular;
+- casas de alojamento com quartos interiores e espaços exteriores privados;
+- casa de apoio operacional e reabilitação das ruínas existentes;
 - zonas por perfil comportamental;
 - zona sénior/calma;
 - plano de água/drenagem.
@@ -1311,20 +1383,23 @@ Componentes complementares ou futuras:
 
 ## 13. Riscos e mitigação
 
-| Risco                     | Problema                                                     | Mitigação                                           |
-| ------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| Licenciamento do terreno  | Pode não permitir construção ou atividade                    | Pré-enquadramento com Câmara e técnicos             |
-| Condicionantes ambientais | REN/RAN/linhas de água podem limitar obra                    | Estudo prévio e adaptação do layout                 |
-| Lago                      | Pode levantar questões ambientais, sanitárias e de segurança | Estudar e licenciar corretamente                    |
-| Ruído                     | Cães podem incomodar vizinhos                                | Barreiras vegetais, orientação e lotação controlada |
-| Drenagem                  | Vale pode acumular água/lama                                 | Plano técnico de drenagem                           |
-| Incêndio                  | Terreno natural com risco sazonal                            | Plano de emergência, acessos, reservatório          |
-| Higiene                   | Risco sanitário                                              | Protocolos, veterinário e zona de isolamento        |
-| Excesso de lotação        | Stress animal e falhas operacionais                          | Crescimento progressivo e lotação controlada        |
-| Imagens/vídeos            | Privacidade e RGPD                                           | Consentimento e partilha controlada                 |
-| Live cameras              | Gestão complexa e risco jurídico                             | Avaliar apenas como possibilidade futura            |
-| Custos elevados           | Investimento inicial pesado                                  | Modularidade e priorização de componentes           |
-| Operação complexa         | Muitos serviços ao mesmo tempo                               | Começar pelo núcleo essencial                       |
+| Risco                     | Problema                                                     | Mitigação                                                        |
+| ------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- |
+| Licenciamento do terreno  | Pode não permitir construção ou atividade                    | Pré-enquadramento com Câmara e técnicos                          |
+| Área útil do terreno      | A área total pode não corresponder à área utilizável         | Estudo de implantação, topografia e condicionantes               |
+| Condicionantes ambientais | REN/RAN/linhas de água podem limitar obra                    | Estudo prévio e adaptação do layout                              |
+| Ruínas existentes         | Estrutura ou enquadramento podem limitar a reabilitação      | Levantamento, avaliação estrutural e licenciamento               |
+| Lago                      | Pode levantar questões ambientais, sanitárias e de segurança | Estudar e licenciar corretamente                                 |
+| Ruído                     | Cães podem incomodar vizinhos ou outros animais              | Atenuação acústica, orientação, afastamento e lotação controlada |
+| Drenagem                  | Vale pode acumular água/lama                                 | Plano técnico de drenagem                                        |
+| Saneamento                | Águas residuais podem criar risco ambiental e sanitário      | Solução dimensionada, separada e devidamente licenciada          |
+| Incêndio                  | Terreno natural com risco sazonal                            | Plano de emergência, acessos, reservatório                       |
+| Higiene                   | Risco sanitário                                              | Protocolos, veterinário e zona de isolamento                     |
+| Excesso de lotação        | Stress animal e falhas operacionais                          | Crescimento progressivo e lotação controlada                     |
+| Imagens/vídeos            | Privacidade e RGPD                                           | Consentimento e partilha controlada                              |
+| Live cameras              | Gestão complexa e risco jurídico                             | Avaliar apenas como possibilidade futura                         |
+| Custos elevados           | Investimento inicial pesado                                  | Modularidade e priorização de componentes                        |
+| Operação complexa         | Muitos serviços ao mesmo tempo                               | Começar pelo núcleo essencial                                    |
 
 ---
 
@@ -1334,6 +1409,8 @@ Componentes complementares ou futuras:
 
 - percentagem estimada de energia renovável consumida;
 - produção solar anual estimada;
+- área de edificado existente reabilitada;
+- desempenho energético estimado da casa de apoio e das casas de alojamento;
 - litros de água pluvial recolhida;
 - redução de consumo de água potável;
 - área com pavimentos permeáveis;
@@ -1364,6 +1441,8 @@ Componentes complementares ou futuras:
 ### 14.4. Bem-estar animal
 
 - número de avaliações comportamentais;
+- número de casas e quartos de alojamento por tipologia;
+- área exterior privada disponibilizada por quarto;
 - número de relatórios enviados;
 - número de cães em programa de adaptação;
 - número de cães acompanhados em creche/ATL;
@@ -1398,22 +1477,24 @@ Componentes complementares ou futuras:
 
 A mensagem central deve ser:
 
-> Uma aldeia canina sustentável, segura e inovadora, que combina alojamento animal de qualidade, creche diária / ATL canino, bem-estar individualizado, atividades de enriquecimento, mobilidade inclusiva, digitalização e impacto positivo no território.
+> Uma aldeia canina sustentável, segura e inovadora, que combina casas de alojamento animal confortáveis e integradas na paisagem, reabilitação responsável do património existente, uma casa de apoio operacional completa, creche diária / ATL canino, bem-estar individualizado, atividades de enriquecimento, mobilidade inclusiva, digitalização e impacto positivo no território.
 
 As ideias mais importantes para destacar são:
 
 1. aldeia canina modular;
-2. tratamento diferenciado por perfil do animal;
-3. zona sénior e zona calma;
-4. creche diária / ATL canino;
-5. trilhos sensoriais e atividades de enriquecimento;
-6. sustentabilidade energética e hídrica;
-7. plano de drenagem do vale;
-8. portal digital do tutor;
-9. partilha controlada de imagens;
-10. mini autocarro/carrinha canina;
-11. parcerias locais;
-12. evolução modular;
-13. plano de segurança e bem-estar animal.
+2. casas de alojamento com quartos interiores e espaços exteriores privados;
+3. casa de apoio operacional através da reabilitação responsável das ruínas existentes;
+4. tratamento diferenciado por perfil do animal;
+5. zona sénior e zona calma;
+6. creche diária / ATL canino;
+7. trilhos sensoriais e atividades de enriquecimento;
+8. sustentabilidade energética e hídrica;
+9. plano de drenagem e saneamento;
+10. portal digital do tutor;
+11. partilha controlada de imagens;
+12. mini autocarro/carrinha canina;
+13. parcerias locais;
+14. evolução modular;
+15. plano de segurança e bem-estar animal.
 
 ---
