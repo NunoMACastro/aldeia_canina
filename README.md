@@ -740,6 +740,7 @@ Características:
 - boa sinalética;
 - fácil acesso para a carrinha/autocarro;
 - acessibilidade e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio.
+- possibilidade de integração com painéis solares, quando técnica e economicamente viável.
 
 ### 5.2. Aldeia canina e casas de alojamento animal
 
