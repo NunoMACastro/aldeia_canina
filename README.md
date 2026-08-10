@@ -83,6 +83,10 @@ A narrativa central deve ser:
 
 > Criar uma aldeia canina sustentável, integrada na natureza, com casas de alojamento independentes, uma casa de apoio operacional resultante da reabilitação responsável das ruínas existentes, creche diária / ATL canino, programas adaptados ao perfil de cada animal, soluções ambientais eficientes, transporte próprio e serviços complementares de treino, grooming, socialização e educação de tutores.
 
+![Vista aérea conceptual da Aldeia Canina, integrada numa paisagem natural com casas de alojamento, caminhos, zonas verdes e equipamentos de apoio](images/aerial-readme.webp)
+
+*Figura 1 — Visualização conceptual da organização geral da Aldeia Canina. Não representa uma implantação ou projeto de execução definitivo.*
+
 ---
 
 ### Conceito-base do projeto
@@ -783,6 +787,10 @@ Características:
 ### Aldeia canina e casas de alojamento animal
 
 > **Papel no projeto:** O coração do projeto.
+
+![Perspetiva conceptual do interior da Aldeia Canina, com casa de apoio, alojamentos independentes, caminhos e espaços exteriores](images/view-readme.webp)
+
+*Figura 2 — Visualização conceptual da experiência e ambiente pretendidos. A arquitetura, implantação e sinalética estão sujeitas a desenvolvimento e validação técnica.*
 
 As casas de alojamento animal devem funcionar como pequenas construções independentes ou integradas em núcleos pouco densos, evitando a imagem e a experiência de uma sequência de canis convencionais. A arquitetura, os materiais, o afastamento entre unidades e a relação com a paisagem devem reforçar o conceito de aldeia.
 
