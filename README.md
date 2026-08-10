@@ -4,19 +4,47 @@
 **Data:** agosto de 2026<br>
 **Objetivo:** apresentar a visão, conceito, componentes diferenciadoras e preocupações principais de uma aldeia canina sustentável em Viseu, para análise e desenvolvimento por gabinete de projetos.
 
-## Mapa de leitura
+## Mapa
 
 - [Visão](#visão)
     - [Enquadramento geral](#enquadramento-geral)
     - [Conceito-base do projeto](#conceito-base-do-projeto)
-    - [Pontos fortes principais do projeto](#pontos-fortes-principais-do-projeto)
-    - [Objetivo estratégico da candidatura](#objetivo-estratégico-da-candidatura)
+- [Pontos fortes principais do projeto](#pontos-fortes-principais-do-projeto)
+    - [Conceito de aldeia canina](#conceito-de-aldeia-canina)
+    - [Terreno amplo e em vale](#terreno-amplo-e-em-vale)
+    - [Tratamento diferenciado por perfil do animal](#tratamento-diferenciado-por-perfil-do-animal)
+    - [Zona sénior e zona calma](#zona-sénior-e-zona-calma)
+    - [Atividades e enriquecimento ambiental](#atividades-e-enriquecimento-ambiental)
+    - [Creche diária / ATL canino](#creche-diária--atl-canino)
+    - [Sustentabilidade ambiental](#sustentabilidade-ambiental)
+    - [Mobilidade animal inclusiva](#mobilidade-animal-inclusiva)
+    - [Portal digital do tutor](#portal-digital-do-tutor)
+    - [Imagens, vídeos e confiança dos tutores](#imagens-vídeos-e-confiança-dos-tutores)
+    - [Lago raso naturalizado e zona aquática controlada](#lago-raso-naturalizado-e-zona-aquática-controlada)
+- [Objetivo estratégico da candidatura](#objetivo-estratégico-da-candidatura)
 - [Espaço](#espaço)
-    - [Estrutura](#estrutura)
+    - [Casa de Apoio Operacional e Receção](#casa-de-apoio-operacional-e-receção)
+    - [Aldeia canina e casas de alojamento animal](#aldeia-canina-e-casas-de-alojamento-animal)
+    - [Parques exteriores por perfil](#parques-exteriores-por-perfil)
+    - [Trilhos sensoriais](#trilhos-sensoriais)
+    - [Creche diária / ATL canino](#creche-diária--atl-canino-1)
+    - [Zona aquática/lago naturalizado](#zona-aquáticalago-naturalizado)
+    - [Enfermaria e zona de isolamento/quarentena](#enfermaria-e-zona-de-isolamentoquarentena)
+    - [Grooming](#grooming)
+    - [Treino e educação canina](#treino-e-educação-canina)
+    - [Gatil](#gatil)
 - [Sustentabilidade](#sustentabilidade)
-    - [Plano de sustentabilidade ambiental](#plano-de-sustentabilidade-ambiental)
+    - [Energia](#energia)
+    - [Água](#água)
+    - [Solo e drenagem](#solo-e-drenagem)
+    - [Materiais](#materiais)
+    - [Resíduos](#resíduos)
 - [Cuidados e Bem-estar](#cuidados-e-bem-estar)
-    - [Plano de bem-estar animal](#plano-de-bem-estar-animal)
+    - [Avaliação inicial](#avaliação-inicial)
+    - [Separação por perfil](#separação-por-perfil)
+    - [Rotinas adaptadas](#rotinas-adaptadas)
+    - [Programa “Primeira Estadia Sem Stress”](#programa-primeira-estadia-sem-stress)
+    - [Programa “Cão Sénior”](#programa-cão-sénior)
 - [Sociedade](#sociedade)
     - [Portal digital e política de imagens](#portal-digital-e-política-de-imagens)
     - [Mobilidade animal](#mobilidade-animal)
@@ -26,7 +54,7 @@
     - [Lista final de prioridades](#lista-final-de-prioridades)
     - [Riscos e mitigação](#riscos-e-mitigação)
     - [Indicadores para candidatura](#indicadores-para-candidatura)
-    - [Elementos para a memória descritiva](#elementos-que-poderão-alimentar-a-memória-descritiva)
+    - [Elementos que poderão alimentar a memória descritiva](#elementos-que-poderão-alimentar-a-memória-descritiva)
     - [Recomendações finais](#recomendações-finais)
 
 ---
@@ -67,9 +95,9 @@ Em vez de apresentar o projeto como “um hotel canino”, devemos apresentá-lo
 
 ---
 
-### Pontos fortes principais do projeto
+## Pontos fortes principais do projeto
 
-#### Conceito de aldeia canina
+### Conceito de aldeia canina
 
 A organização em pequenas casas de alojamento animal permite criar uma experiência muito diferenciadora face aos hotéis caninos tradicionais.
 
@@ -77,7 +105,7 @@ Apesar de o projeto poder incluir a função de hotel, o objetivo conceptual nã
 
 As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradicionais. Cada unidade deve assumir a forma de uma pequena casa de alojamento, integrada na paisagem e concebida para proporcionar proteção, repouso, conforto ambiental e separação adequada entre animais. No interior poderão existir um ou mais quartos de alojamento, consoante a tipologia, mantendo sempre uma organização que preserve o bem-estar, a privacidade e a segurança dos animais.
 
-##### Tipologias e distribuição no espaço
+#### Tipologias e distribuição no espaço
 
 - casas pequenas para cães pequenos, cães calmos ou estadias individuais;
 - casas médias para cães de maior porte ou cães que precisam de mais espaço;
@@ -87,7 +115,7 @@ As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradi
 - organização em núcleos ou pequenas ruas, reforçando a imagem de aldeia;
 - possibilidade de colocar as unidades em diferentes cotas ou zonas do vale, respeitando topografia, ruído, sombra, acessos e drenagem.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - unidades independentes;
 - diferentes dimensões e configurações de casas;
@@ -103,7 +131,7 @@ As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradi
 - identificação clara de cada unidade;
 - crescimento modular e progressivo.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - alojamento individual;
 - alojamento de cães da mesma família;
@@ -113,7 +141,7 @@ As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradi
 - estadias curtas, médias ou prolongadas;
 - adaptação progressiva antes de uma primeira estadia completa.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - desenhar o layout das casas com base na topografia, drenagem, orientação solar, ruído e acessos;
 - prever zonas diferenciadas por perfil comportamental e não apenas por dimensão física;
@@ -122,17 +150,17 @@ As unidades não devem ser entendidas como uma sucessão de boxes ou canis tradi
 - validar dimensões, materiais, ventilação, isolamento térmico, desempenho acústico, drenagem, saneamento e higienização com equipa técnica e médico veterinário responsável;
 - prever soluções de expansão que não comprometam o funcionamento da zona já existente.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 O conceito de aldeia deve ser real no desenho e na experiência, não apenas no nome. Se todas as unidades forem iguais, demasiado próximas ou organizadas como um canil tradicional, perde-se uma parte importante da diferenciação.
 
 Também deve evitar-se que a diversidade de casas complique demasiado a operação. A variedade deve servir o bem-estar animal e a gestão do espaço, mantendo regras claras de limpeza, circulação, segurança e lotação.
 
-#### Terreno amplo e em vale
+### Terreno amplo e em vale
 
 Um terreno com uma área de referência igual ou superior a 20.000 m² poderá permitir uma implantação menos densa, com separação entre núcleos, zonas de atividade e descanso, percursos, áreas verdes e infraestruturas operacionais. A suficiência da área deverá ser confirmada através de estudo prévio de implantação.
 
-##### Potencialidades do terreno
+#### Potencialidades do terreno
 
 - caminhos internos tipo aldeia;
 - zonas verdes;
@@ -144,7 +172,7 @@ Um terreno com uma área de referência igual ou superior a 20.000 m² poderá p
 - integração com vegetação autóctone;
 - afastamento entre zonas ruidosas e zonas calmas.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - uso da forma natural do vale para separar zonas funcionais;
 - zonas altas e secas para unidades de alojamento;
@@ -154,7 +182,7 @@ Um terreno com uma área de referência igual ou superior a 20.000 m² poderá p
 - barreiras vegetais para conforto visual, ruído e vento;
 - integração paisagística com espécies adequadas ao local.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - alojamento distribuído em pequenos núcleos;
 - trilhos de passeio e exploração;
@@ -164,7 +192,7 @@ Um terreno com uma área de referência igual ou superior a 20.000 m² poderá p
 - espaços para aulas, workshops e eventos;
 - zona aquática controlada, se viável.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - realizar levantamento topográfico;
 - estudar escorrências, linhas de água, zonas húmidas e pontos de acumulação;
@@ -173,19 +201,19 @@ Um terreno com uma área de referência igual ou superior a 20.000 m² poderá p
 - prever zonas de retenção, pavimentos permeáveis e caminhos antiderrapantes;
 - validar condicionantes de PDM, REN, RAN, linhas de água e servidões.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 O facto de o terreno ser em vale é uma vantagem visual e conceptual, mas também pode ser um risco técnico. Drenagem, lama, cheias pontuais, erosão, acessos e incêndio devem ser avaliados antes de fechar qualquer implantação.
 
 O layout deve respeitar o terreno em vez de tentar contrariá-lo com uma solução demasiado artificial ou dispendiosa.
 
-#### Tratamento diferenciado por perfil do animal
+### Tratamento diferenciado por perfil do animal
 
 Este ponto deve ser destacado logo no início da candidatura.
 
 O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas diferentes para animais com necessidades diferentes.
 
-##### Perfis a considerar
+#### Perfis a considerar
 
 - cães sénior;
 - cães ansiosos;
@@ -200,7 +228,7 @@ O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas 
 - cães grandes;
 - cães da mesma família.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - ficha individual de cada animal;
 - avaliação prévia antes da admissão;
@@ -210,7 +238,7 @@ O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas 
 - equipas treinadas para leitura comportamental básica;
 - articulação com médico veterinário responsável.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - escolha da casa e do quarto de alojamento mais adequados;
 - definição de parques compatíveis;
@@ -220,7 +248,7 @@ O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas 
 - identificação de cães que devem evitar grupos;
 - criação de programas específicos para cães sénior, ansiosos ou reativos.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - criar uma ficha de admissão clara e obrigatória;
 - recolher informação de comportamento com pessoas, cães, ruídos, comida, manipulação e separação do tutor;
@@ -229,7 +257,7 @@ O projeto não deve alojar todos os cães da mesma forma. Deve prever respostas 
 - manter registos de incidentes, alterações de comportamento e observações da equipa;
 - rever o perfil do cão ao longo do tempo, porque o comportamento pode variar com idade, saúde e experiência.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 Separar por perfil não deve ser uma promessa vaga. É preciso ter regras, espaço, equipa e rotinas para o conseguir fazer de forma segura.
 
@@ -237,11 +265,11 @@ Também é importante evitar rotular permanentemente um cão. Um animal pode ser
 
 Esta abordagem permite apresentar o projeto como uma solução de **bem-estar animal individualizado**, e não apenas como alojamento temporário.
 
-#### Zona sénior e zona calma
+### Zona sénior e zona calma
 
 Deve existir uma área mais tranquila para cães idosos, sensíveis ou com necessidades especiais.
 
-##### Perfis beneficiados
+#### Perfis beneficiados
 
 - cães idosos;
 - cães com menor mobilidade;
@@ -252,7 +280,7 @@ Deve existir uma área mais tranquila para cães idosos, sensíveis ou com neces
 - cães em primeira estadia;
 - cães pequenos ou frágeis.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - afastamento das zonas de maior ruído;
 - menor estímulo visual;
@@ -264,7 +292,7 @@ Deve existir uma área mais tranquila para cães idosos, sensíveis ou com neces
 - zonas de descanso com sombra;
 - relatórios específicos para tutores.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - estadias sénior;
 - estadias de recuperação leve, sem substituir cuidados veterinários;
@@ -273,7 +301,7 @@ Deve existir uma área mais tranquila para cães idosos, sensíveis ou com neces
 - adaptação progressiva de cães em primeira experiência;
 - acompanhamento de animais com rotinas muito previsíveis.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - escolher uma zona com baixo ruído e boa sombra;
 - prever pavimentos confortáveis e fáceis de limpar;
@@ -282,7 +310,7 @@ Deve existir uma área mais tranquila para cães idosos, sensíveis ou com neces
 - criar rotinas estáveis de alimentação, passeio e descanso;
 - definir procedimentos para medicação, observação e comunicação com tutores.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 Esta zona não deve ser apresentada como enfermaria ou substituto de hospitalização veterinária. Deve ser uma zona de bem-estar e acompanhamento adaptado, com limites claros e articulação com médico veterinário quando necessário.
 
@@ -290,11 +318,11 @@ Também deve evitar-se misturar cães sénior frágeis com cães demasiado ativo
 
 Esta zona pode ser uma das maiores diferenciações comerciais e técnicas do projeto.
 
-#### Atividades e enriquecimento ambiental
+### Atividades e enriquecimento ambiental
 
 O projeto deve destacar que os animais não ficam apenas alojados. Têm atividades adaptadas, enriquecimento ambiental e estímulos saudáveis.
 
-##### Atividades possíveis
+#### Atividades possíveis
 
 - trilhos sensoriais;
 - percursos de faro;
@@ -310,7 +338,7 @@ O projeto deve destacar que os animais não ficam apenas alojados. Têm atividad
 - brincadeiras por grupo de compatibilidade;
 - atividades individuais para cães que não convivem bem com outros.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - atividades ajustadas ao perfil do cão;
 - alternância entre estímulo e descanso;
@@ -320,7 +348,7 @@ O projeto deve destacar que os animais não ficam apenas alojados. Têm atividad
 - supervisão da equipa;
 - registo de preferências e limitações de cada animal.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - redução de stress;
 - gasto físico saudável;
@@ -330,7 +358,7 @@ O projeto deve destacar que os animais não ficam apenas alojados. Têm atividad
 - sessões de treino leve;
 - experiências diferenciadoras para comunicação com tutores.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - definir atividades por idade, porte, energia e condição física;
 - evitar excesso de estímulo em cães ansiosos ou reativos;
@@ -339,7 +367,7 @@ O projeto deve destacar que os animais não ficam apenas alojados. Têm atividad
 - inspecionar regularmente túneis, rampas, plataformas e materiais;
 - garantir que plantas, substratos e equipamentos são seguros para cães.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 Enriquecimento ambiental não significa manter os cães sempre ativos. Descanso, previsibilidade e pausas são tão importantes como brincadeira e exercício.
 
@@ -347,13 +375,13 @@ As atividades devem ser supervisionadas e adaptadas. O mesmo exercício pode ser
 
 O objetivo é comunicar que o projeto promove exercício físico, estimulação mental e redução de stress.
 
-#### Creche diária / ATL canino
+### Creche diária / ATL canino
 
 Para além das estadias com dormida, o projeto deve assumir explicitamente uma componente de **creche diária / ATL canino**.
 
 Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia, sem necessidade de alojamento noturno, e transforma o espaço numa resposta mais completa, regular e próxima da comunidade.
 
-##### Modalidades de utilização
+#### Modalidades de utilização
 
 - dia completo;
 - meio dia;
@@ -363,7 +391,7 @@ Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia
 - integração com grooming;
 - integração com treino.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - avaliação prévia;
 - lotação diária controlada;
@@ -373,7 +401,7 @@ Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia
 - horários de entrada e saída;
 - comunicação simples com tutores.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - apoio a tutores com horários de trabalho longos;
 - ocupação saudável para cães jovens, ativos ou com necessidade de estímulo;
@@ -382,7 +410,7 @@ Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia
 - socialização controlada com outros cães compatíveis;
 - complemento a serviços de treino, grooming ou transporte.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - definir critérios de admissão específicos para creche/ATL;
 - criar horários de entrada, saída, descanso, atividade e alimentação;
@@ -392,17 +420,17 @@ Este serviço permite apoiar tutores que precisam de deixar o cão durante o dia
 - manter registos de adaptação, incidentes e compatibilidades;
 - articular a creche/ATL com reservas, transporte, grooming e treino.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 A creche/ATL deve funcionar com avaliação prévia, grupos controlados, separação por porte e perfil comportamental, períodos de descanso e lotação diária adequada à equipa disponível.
 
 Nem todos os cães são bons candidatos a creche em grupo. Deve existir a possibilidade de atividades individuais, adaptação gradual ou recusa fundamentada quando a segurança ou o bem-estar do animal ou do grupo possam estar em causa.
 
-#### Sustentabilidade ambiental
+### Sustentabilidade ambiental
 
 A sustentabilidade ambiental deve ser tratada como uma parte estrutural do projeto e não apenas como elemento decorativo. O terreno amplo, a exposição solar, a necessidade de água, a drenagem do vale e a utilização diária das instalações tornam este ponto especialmente relevante.
 
-##### Áreas de intervenção ambiental
+#### Áreas de intervenção ambiental
 
 - reabilitação e reutilização das ruínas existentes;
 - painéis solares;
@@ -419,7 +447,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 - gestão responsável de resíduos;
 - mobilidade elétrica ou híbrida.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - aproveitamento do edificado existente sempre que a sua estabilidade e adequação funcional sejam confirmadas;
 - soluções energéticas proporcionais ao consumo previsto;
@@ -430,7 +458,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 - iluminação eficiente;
 - monitorização de consumos.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - alimentação parcial de energia das casas de alojamento e da casa de apoio;
 - iluminação exterior eficiente;
@@ -440,7 +468,7 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 - comunicação ambiental do projeto;
 - eventual carregamento de viatura elétrica ou híbrida.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - avaliar estruturalmente as ruínas e confirmar o seu enquadramento urbanístico antes de definir a intervenção;
 - dimensionar energia solar com base em consumos reais previstos;
@@ -450,13 +478,13 @@ A sustentabilidade ambiental deve ser tratada como uma parte estrutural do proje
 - definir plano de resíduos, higienização e redução de descartáveis;
 - validar soluções ambientais elegíveis para financiamento.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 A sustentabilidade deve ser apresentada com ambição, mas sem prometer autonomia total antes de haver estudo técnico. A reabilitação das ruínas e a instalação de painéis solares nas casas de alojamento podem ser elementos fortes, mas as soluções finais devem depender da estabilidade do edificado, orientação, sombreamento, custo, manutenção e segurança.
 
 Também é importante evitar soluções “verdes” que depois sejam difíceis de limpar, manter ou licenciar.
 
-#### Mobilidade animal inclusiva
+### Mobilidade animal inclusiva
 
 A ideia do mini autocarro/carrinha é muito forte.
 
@@ -464,7 +492,7 @@ Deve ser apresentada como:
 
 > Serviço de mobilidade animal que reduz barreiras de acesso ao hotel, apoiando tutores sem transporte próprio, pessoas idosas, famílias com horários difíceis e clientes que vivem em zonas afastadas.
 
-##### Serviços associados
+#### Serviços associados
 
 - recolha e entrega para estadias;
 - recolha e entrega para creche/ATL;
@@ -474,7 +502,7 @@ Deve ser apresentada como:
 - parcerias com veterinários;
 - apoio a pessoas com dificuldade de deslocação.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - viatura adaptada ao transporte animal;
 - transportadoras ou compartimentos seguros;
@@ -485,7 +513,7 @@ Deve ser apresentada como:
 - rotas organizadas;
 - registo de recolhas e entregas.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - recolha em casa do tutor;
 - entrega após estadia;
@@ -495,7 +523,7 @@ Deve ser apresentada como:
 - apoio a tutores idosos ou sem viatura;
 - rotas em dias específicos.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - definir regras de transporte por porte, temperamento e saúde;
 - garantir que animais incompatíveis não viajam em contacto direto;
@@ -505,17 +533,17 @@ Deve ser apresentada como:
 - organizar rotas para reduzir stress e tempo de viagem;
 - avaliar viatura elétrica ou híbrida se for viável.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 O transporte é uma mais-valia, mas também acrescenta responsabilidade operacional. Deve haver regras claras para atrasos, recolhas, entregas, documentação, animais ansiosos, enjoos, fugas, acidentes e emergências.
 
 O serviço não deve ser apresentado como transporte livre ou improvisado, mas como uma operação controlada e registada.
 
-#### Portal digital do tutor
+### Portal digital do tutor
 
 O portal do tutor deve ser incluído como elemento de digitalização e confiança.
 
-##### Funcionalidades prioritárias
+#### Funcionalidades prioritárias
 
 - ficha do animal;
 - dados do tutor;
@@ -529,7 +557,7 @@ O portal do tutor deve ser incluído como elemento de digitalização e confian�
 - reservas de estadias, creche/ATL e serviços;
 - histórico de estadias e utilizações de creche/ATL.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - acesso autenticado;
 - dados organizados por tutor e por animal;
@@ -539,7 +567,7 @@ O portal do tutor deve ser incluído como elemento de digitalização e confian�
 - informação sanitária atualizável;
 - interface simples para a equipa.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - relatórios diários;
 - fotografias;
@@ -549,7 +577,7 @@ O portal do tutor deve ser incluído como elemento de digitalização e confian�
 - alertas;
 - recomendações pós-estadia.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - começar por funcionalidades essenciais;
 - evitar recolha de dados desnecessários;
@@ -559,17 +587,17 @@ O portal do tutor deve ser incluído como elemento de digitalização e confian�
 - garantir backups e controlo de acessos;
 - articular o portal com reservas, admissão e comunicação diária.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 O portal deve simplificar a operação, não criar trabalho duplicado. Se for demasiado complexo no arranque, pode gerar erros, baixa adesão e sobrecarga para a equipa.
 
 Também deve ser tratado com especial cuidado por envolver dados pessoais, informação sobre animais, documentos, autorizações e imagens.
 
-#### Imagens, vídeos e confiança dos tutores
+### Imagens, vídeos e confiança dos tutores
 
 É recomendável incluir partilha de imagens, mas com prudência.
 
-##### Modelo de comunicação visual
+#### Modelo de comunicação visual
 
 - fotografias e vídeos curtos selecionados pela equipa;
 - acesso apenas pelo tutor do animal;
@@ -578,7 +606,7 @@ Também deve ser tratado com especial cuidado por envolver dados pessoais, infor
 - regras diferentes para imagens privadas e redes sociais;
 - evitar promessa de câmaras 24/7 no arranque.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - captação controlada pela equipa;
 - partilha privada;
@@ -588,7 +616,7 @@ Também deve ser tratado com especial cuidado por envolver dados pessoais, infor
 - armazenamento limitado;
 - registo de consentimentos.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - tranquilizar tutores durante estadias;
 - mostrar adaptação do cão;
@@ -597,7 +625,7 @@ Também deve ser tratado com especial cuidado por envolver dados pessoais, infor
 - comunicar eventos e atividades;
 - criar material promocional apenas com autorização adequada.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - definir política de imagem;
 - recolher consentimento específico;
@@ -607,13 +635,13 @@ Também deve ser tratado com especial cuidado por envolver dados pessoais, infor
 - evitar prometer frequência diária se a equipa não conseguir cumprir;
 - avaliar videovigilância separadamente da comunicação com tutores.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 Acesso permanente a câmaras pode trazer desafios de privacidade, RGPD, segurança, ansiedade dos tutores e gestão operacional. Por isso, deve ser apresentado como uma evolução possível, não como promessa central no arranque.
 
 Também é importante evitar que a partilha de imagens interfira com a rotina dos animais ou com o trabalho de cuidado. A prioridade deve ser o bem-estar animal, não a produção constante de conteúdo.
 
-#### Lago raso naturalizado e zona aquática controlada
+### Lago raso naturalizado e zona aquática controlada
 
 A criação de um lago raso naturalizado pode constituir um dos elementos diferenciadores do projeto, desde que seja concebido como uma infraestrutura controlada, segura e tecnicamente acompanhada.
 
@@ -621,7 +649,7 @@ Mais do que um elemento decorativo, esta zona aquática poderá funcionar como e
 
 No entanto, pela sua natureza, o lago deve ser tratado como uma componente sujeita a estudo técnico prévio, validação ambiental, eventual licenciamento e protocolos rigorosos de segurança, higiene e manutenção.
 
-##### Potencialidades do lago
+#### Potencialidades do lago
 
 - enriquecimento ambiental através de contacto controlado com água e novos estímulos;
 - exercício físico supervisionado, especialmente útil para cães ativos;
@@ -631,7 +659,7 @@ No entanto, pela sua natureza, o lago deve ser tratado como uma componente sujei
 - criação de uma zona visualmente atrativa para comunicação, eventos e apresentação do projeto;
 - possibilidade de atividades adaptadas, como brincadeiras aquáticas leves, percursos junto à água e sessões controladas de exploração sensorial.
 
-##### Características recomendadas
+#### Características recomendadas
 
 - profundidade reduzida;
 - margens seguras;
@@ -642,7 +670,7 @@ No entanto, pela sua natureza, o lago deve ser tratado como uma componente sujei
 - zona seca alternativa;
 - integração com o plano de drenagem.
 
-##### Possíveis utilizações
+#### Possíveis utilizações
 
 - brincadeira supervisionada;
 - enriquecimento ambiental;
@@ -652,7 +680,7 @@ No entanto, pela sua natureza, o lago deve ser tratado como uma componente sujei
 - exploração sensorial junto à água;
 - elemento paisagístico diferenciador.
 
-##### Recomendações técnicas e operacionais
+#### Recomendações técnicas e operacionais
 
 - realizar estudo técnico prévio sobre viabilidade, drenagem, impermeabilização, segurança e manutenção;
 - confirmar previamente os requisitos legais, ambientais e eventuais necessidades de licenciamento;
@@ -673,7 +701,7 @@ No entanto, pela sua natureza, o lago deve ser tratado como uma componente sujei
 - integrar o lago no plano geral de drenagem e gestão da água do vale;
 - assegurar que a zona aquática não aumenta riscos de fuga, queda, lama excessiva ou contaminação cruzada entre animais.
 
-##### Cuidados específicos
+#### Cuidados específicos
 
 O lago não deve ser apresentado como uma zona de recreio livre ou permanente. Deve ser comunicado como uma área de acesso condicionado, supervisionado e adaptado ao perfil de cada animal.
 
@@ -683,7 +711,7 @@ Desta forma, o lago passa a ser uma mais-valia do projeto sem comprometer a segu
 
 ---
 
-### Objetivo estratégico da candidatura
+## Objetivo estratégico da candidatura
 
 O desenvolvimento técnico e a candidatura deverão demonstrar que o projeto é:
 
@@ -699,9 +727,9 @@ O desenvolvimento técnico e a candidatura deverão demonstrar que o projeto é:
 
 ## Espaço
 
-### Estrutura
+> **Estrutura**
 
-#### Casa de Apoio Operacional e Receção
+### Casa de Apoio Operacional e Receção
 
 A aldeia deverá incluir uma **Casa de Apoio Operacional**, preferencialmente instalada através da reabilitação das ruínas existentes no terreno, desde que a sua estabilidade, enquadramento urbanístico e adequação funcional sejam confirmados.
 
@@ -752,9 +780,9 @@ Características:
 - acessibilidade e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio.
 - possibilidade de integração com painéis solares, quando técnica e economicamente viável.
 
-#### Aldeia canina e casas de alojamento animal
+### Aldeia canina e casas de alojamento animal
 
-O coração do projeto.
+> **Papel no projeto:** O coração do projeto.
 
 As casas de alojamento animal devem funcionar como pequenas construções independentes ou integradas em núcleos pouco densos, evitando a imagem e a experiência de uma sequência de canis convencionais. A arquitetura, os materiais, o afastamento entre unidades e a relação com a paisagem devem reforçar o conceito de aldeia.
 
@@ -805,7 +833,7 @@ Infraestruturas:
 
 Os painéis solares em cada casa constituem uma possibilidade e não uma solução obrigatória. A produção poderá ser individual, agrupada ou centralizada, consoante o estudo energético, a orientação solar, o sombreamento, a manutenção e a segurança.
 
-##### Referência legal mínima para alojamento de cães
+#### Referência legal mínima para alojamento de cães
 
 O [Decreto-Lei n.º 276/2001, de 17 de outubro](https://diariodarepublica.pt/dr/detalhe/decreto-lei/276-2001-626241), prevê que o alojamento de cães e gatos obedeça às dimensões mínimas indicadas no respetivo anexo III. Estes valores devem ser tratados como mínimos legais de referência e não como dimensões recomendadas para o projeto final, que deverá ser validado pelo gabinete de projetos, médico veterinário responsável e entidades competentes.
 
@@ -848,7 +876,7 @@ As células assinaladas com "-" correspondem a situações em que a tabela legal
 
 O mesmo anexo indica ainda que a superfície mínima do chão do recinto para uma cadela e respetiva ninhada deve estar compreendida entre 4 m² e 6 m².
 
-#### Parques exteriores por perfil
+### Parques exteriores por perfil
 
 Não deve existir apenas “um parque grande”. Devem existir áreas adaptadas.
 
@@ -863,7 +891,7 @@ Sugestões:
 - parque para cães sénior;
 - parque para aulas.
 
-#### Trilhos sensoriais
+### Trilhos sensoriais
 
 Percursos com estímulos controlados.
 
@@ -889,7 +917,7 @@ Benefícios:
 - experiência diferenciadora;
 - enriquecimento ambiental.
 
-#### Creche diária / ATL canino
+### Creche diária / ATL canino
 
 A creche diária / ATL canino deve ser pensada como uma utilização diurna do espaço, sem alojamento noturno, articulada com os parques exteriores, trilhos sensoriais, zonas de descanso e avaliação comportamental.
 
@@ -904,7 +932,7 @@ Pode incluir:
 
 Esta componente deve ter lotação própria, regras de admissão, avaliação prévia e separação por porte, idade, energia e sociabilidade.
 
-#### Zona aquática/lago naturalizado
+### Zona aquática/lago naturalizado
 
 A ideia do lago é boa, mas deve ser tratada como infraestrutura controlada.
 
@@ -925,7 +953,7 @@ Requisitos:
 - zona alternativa para cães que não gostam de água;
 - regras de segurança.
 
-#### Enfermaria e zona de isolamento/quarentena
+### Enfermaria e zona de isolamento/quarentena
 
 A enfermaria e a zona de isolamento/quarentena devem ser tratadas como instalações especializadas, separadas da circulação pública, da preparação de alimentos e das áreas comuns da equipa.
 
@@ -940,7 +968,7 @@ Devem incluir, conforme validação técnica e veterinária:
 - protocolos de entrada, saída, limpeza e gestão de resíduos;
 - articulação com médico veterinário, sem substituir cuidados clínicos externos quando necessários.
 
-#### Grooming
+### Grooming
 
 Pode ser componente de arranque ou complementar, a validar pelo gabinete de projetos.
 
@@ -953,7 +981,7 @@ Serviços possíveis:
 - higiene básica;
 - preparação pós-estadia.
 
-#### Treino e educação canina
+### Treino e educação canina
 
 Serviços possíveis:
 
@@ -966,7 +994,7 @@ Serviços possíveis:
 - workshops para tutores;
 - aulas para famílias com crianças.
 
-#### Gatil
+### Gatil
 
 O gatil deve ser separado do hotel canino.
 
@@ -989,9 +1017,9 @@ Como não é prioridade, deve ser apresentado como possibilidade futura ou compo
 
 ## Sustentabilidade
 
-### Plano de sustentabilidade ambiental
+> **Plano de sustentabilidade ambiental**
 
-#### Energia
+### Energia
 
 Medidas:
 
@@ -1003,7 +1031,7 @@ Medidas:
 - monitorização de consumos;
 - carregamento para viatura elétrica/híbrida.
 
-#### Água
+### Água
 
 Medidas:
 
@@ -1016,7 +1044,7 @@ Medidas:
 - drenagem natural;
 - redução de água potável em lavagens exteriores, quando legalmente permitido.
 
-#### Solo e drenagem
+### Solo e drenagem
 
 Como o terreno é em vale/covão, esta área é crítica.
 
@@ -1031,7 +1059,7 @@ Medidas:
 - controlo de lama;
 - plantação de vegetação para fixação do solo.
 
-#### Materiais
+### Materiais
 
 Sugestões:
 
@@ -1043,7 +1071,7 @@ Sugestões:
 - telhados verdes em zonas selecionadas;
 - tintas e acabamentos de baixa toxicidade.
 
-#### Resíduos
+### Resíduos
 
 Medidas:
 
@@ -1058,9 +1086,9 @@ Medidas:
 
 ## Cuidados e Bem-estar
 
-### Plano de bem-estar animal
+> **Plano de bem-estar animal**
 
-#### Avaliação inicial
+### Avaliação inicial
 
 Antes de aceitar, alojar ou receber um animal em creche/ATL, recolher (pessoalmente ou via portal) informação detalhada sobre o perfil do cão, incluindo:
 
@@ -1080,7 +1108,7 @@ Antes de aceitar, alojar ou receber um animal em creche/ATL, recolher (pessoalme
 - necessidades especiais;
 - contacto veterinário habitual.
 
-#### Separação por perfil
+### Separação por perfil
 
 Critérios:
 
@@ -1095,7 +1123,7 @@ Critérios:
 - experiência anterior em creche/ATL;
 - pertença à mesma família.
 
-#### Rotinas adaptadas
+### Rotinas adaptadas
 
 Cada cão pode ter um plano simples:
 
@@ -1109,7 +1137,7 @@ Cada cão pode ter um plano simples:
 - medicação;
 - observações.
 
-#### Programa “Primeira Estadia Sem Stress”
+### Programa “Primeira Estadia Sem Stress”
 
 Objetivo: reduzir ansiedade e risco de má adaptação.
 
@@ -1121,7 +1149,7 @@ Etapas:
 4. Primeira noite, se necessário.
 5. Relatório comportamental.
 
-#### Programa “Cão Sénior”
+### Programa “Cão Sénior”
 
 Inclui:
 
