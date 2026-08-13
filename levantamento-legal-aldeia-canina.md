@@ -3,12 +3,12 @@
 ## Metadados documentais
 
 | Campo                | Valor                                                                                                                                                                                    |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ID                   | `AC-LEGAL-SURVEY`                                                                                                                                                                        |
 | Estado               | `RECERTIFICADO_P02_COM_BLOQUEIOS_LOCALIZADOS` — base oficial revista; não equivale a parecer nem fecha factos, decisões ou respostas externas em falta.                                  |
 | Versão/data de corte | 1.1 / 2026-08-12                                                                                                                                                                         |
 | Âmbito territorial   | Portugal continental, Município de Viseu.                                                                                                                                                |
-| Base/hash            | README baseline SHA-256 `0e84b223ecce8760b09ba8a7b11f9578b85156bfd0dddcc2ce96429a608b27ea`; ficheiro pré-P01 SHA-256 `2d805fc09b96f1f3d337a9f28ce3f475bd280ba7f63b4994e947fe0a85842a77`. |     |
+| Base/hash            | README baseline SHA-256 `0e84b223ecce8760b09ba8a7b11f9578b85156bfd0dddcc2ce96429a608b27ea`; ficheiro pré-P01 SHA-256 `2d805fc09b96f1f3d337a9f28ce3f475bd280ba7f63b4994e947fe0a85842a77`. |
 | Última revisão       | 2026-08-12 — P02, recertificação dirigida em fontes oficiais consultadas nesta data.                                                                                                     |
 | Próxima revisão      | 2026-08-28 para confirmar a eficácia do DL 130/2026; antes de 2026-09-27 para o regime nacional da Diretiva (UE) 2024/825; e nos restantes gatilhos da regra de atualização.             |
 

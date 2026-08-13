@@ -3,9 +3,9 @@
 ## Metadados documentais
 
 | Campo       | Valor                                                                                                                 |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | --- |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | ID          | `AC-LEGAL-QUESTIONS-ESSENTIAL`                                                                                        |
-| Finalidade  | Conduzir uma primeira consulta jurídica centrada nas decisões que podem viabilizar, condicionar ou impedir o projeto. |     |
+| Finalidade  | Conduzir uma primeira consulta jurídica centrada nas decisões que podem viabilizar, condicionar ou impedir o projeto. |
 | Versão/data | 1.0 / 2026-08-11                                                                                                      |
 |             |
 
