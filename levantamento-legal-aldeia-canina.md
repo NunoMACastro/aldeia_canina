@@ -37,7 +37,7 @@ Os maiores riscos de inviabilização não são a dimensão mínima dos alojamen
 
 ### Recomendação principal
 
-**BOA PRÁTICA / gate interno:** não adquirir nem comprometer definitivamente um terreno sem diligência técnica e jurídica e um pedido de informação prévia (PIP) favorável e suficientemente detalhado, salvo alternativa de controlo expressamente validada para a operação concreta. O PIP deve descrever alojamento com pernoita, creche/ATL, capacidade máxima, casas modulares, receção e instalações de pessoal, grooming, treino, transporte, loja, estacionamento, eventos, painéis solares/baterias, captação/reutilização de água, saneamento autónomo e lago, apenas se essas componentes integrarem o cenário a apreciar.
+**BOA PRÁTICA** não adquirir nem comprometer definitivamente um terreno sem diligência técnica e jurídica e um pedido de informação prévia (PIP) favorável e suficientemente detalhado, salvo alternativa de controlo expressamente validada para a operação concreta. O PIP deve descrever alojamento com pernoita, creche/ATL, capacidade máxima, casas modulares, receção e instalações de pessoal, grooming, treino, transporte, loja, estacionamento, eventos, painéis solares/baterias, captação/reutilização de água, saneamento autónomo e lago, apenas se essas componentes integrarem o cenário a apreciar.
 
 ## 2. Legenda e limites do levantamento
 
@@ -55,16 +55,6 @@ As etiquetas abaixo distinguem a natureza da afirmação da sua aplicabilidade. 
 | **BLOCKED_HUMAN**    | Falta decisão, documento ou facto que deve ser fornecido pelo promotor.                       |
 | **BLOCKED_EXTERNAL** | Falta resposta, decisão, processo ou confirmação de entidade/profissional externo.            |
 | **NÃO_APLICÁVEL**    | Só pode ser usado depois de confirmado o facto que exclui o regime.                           |
-
-Este relatório cobre as áreas materiais identificáveis no README. Não substitui:
-
-- certidão predial, cadastro e levantamento topográfico da parcela;
-- leitura das plantas de ordenamento e condicionantes do PDM à escala adequada;
-- pareceres de especialidades;
-- regulamentos dos serviços locais de água, saneamento e resíduos;
-- condições de uma futura candidatura a financiamento;
-- análise fiscal da sociedade, investimento e estrutura de financiamento;
-- contratos finais, apólices, licenças ou autorizações emitidas pelas entidades.
 
 ## 3. Matriz geral de áreas reguladas
 
@@ -129,13 +119,10 @@ O enquadramento local resulta do [PDM de Viseu, incluindo a alteração publicad
 
 **Limites:**
 
-- os 20 000 m² do README não são um mínimo legal nem garantem capacidade construtiva;
 - uma estrutura prefabricada, amovível ou «modular» pode continuar a ser uma operação urbanística;
 - uma ruína registada não confere automaticamente direito de reconstrução, ampliação ou novo uso;
 - uma comunicação à DGAV não sana uma desconformidade urbanística;
 - a designação comercial «hotel» não converte a atividade em hotelaria turística, mas também não a dispensa do uso urbanístico correto.
-
-**BOA PRÁTICA:** um PIP detalhado permite testar formalmente o cenário antes do projeto de execução. Incluir implantação máxima, faseamento e componentes condicionais quando se pretenda que fiquem abrangidos; uma resposta a uma primeira fase não deve ser extrapolada para expansões não apreciadas.
 
 ### 4.2. REN, RAN e outras servidões
 
