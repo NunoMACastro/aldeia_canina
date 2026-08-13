@@ -1,15 +1,15 @@
-# Levantamento jurídico-operacional — Aldeia Canina Sustentável em Viseu
+# Levantamento jurídico-operacional - Aldeia Canina Sustentável em Viseu
 
 ## Metadados documentais
 
 | Campo                | Valor                                                                                                                                                                                    |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ID                   | `AC-LEGAL-SURVEY`                                                                                                                                                                        |
-| Estado               | `RECERTIFICADO_P02_COM_BLOQUEIOS_LOCALIZADOS` — base oficial revista; não equivale a parecer nem fecha factos, decisões ou respostas externas em falta.                                  |
+| Estado               | `RECERTIFICADO_P02_COM_BLOQUEIOS_LOCALIZADOS` - base oficial revista; não equivale a parecer nem fecha factos, decisões ou respostas externas em falta.                                  |
 | Versão/data de corte | 1.1 / 2026-08-12                                                                                                                                                                         |
 | Âmbito territorial   | Portugal continental, Município de Viseu.                                                                                                                                                |
 | Base/hash            | README baseline SHA-256 `0e84b223ecce8760b09ba8a7b11f9578b85156bfd0dddcc2ce96429a608b27ea`; ficheiro pré-P01 SHA-256 `2d805fc09b96f1f3d337a9f28ce3f475bd280ba7f63b4994e947fe0a85842a77`. |
-| Última revisão       | 2026-08-12 — P02, recertificação dirigida em fontes oficiais consultadas nesta data.                                                                                                     |
+| Última revisão       | 2026-08-12 - P02, recertificação dirigida em fontes oficiais consultadas nesta data.                                                                                                     |
 | Próxima revisão      | 2026-08-28 para confirmar a eficácia do DL 130/2026; antes de 2026-09-27 para o regime nacional da Diretiva (UE) 2024/825; e nos restantes gatilhos da regra de atualização.             |
 
 > **Natureza do documento.** Este relatório é um levantamento técnico-jurídico de apoio à decisão, não um parecer jurídico nem uma confirmação de licenciabilidade. A viabilidade final depende, sobretudo, da parcela concreta, da capacidade, da implantação, dos projetos de especialidades e da interpretação das entidades competentes. Antes da compra do terreno, da submissão de projetos, da contratação de financiamento ou da abertura ao público, as conclusões relevantes devem ser validadas por advogado, arquiteto/coordenador de projeto, médico veterinário responsável, Município de Viseu, DGAV e, consoante o caso, APA, CCDR Centro, ANEPC e demais entidades.
@@ -114,9 +114,9 @@ Pontos nucleares da redação atual:
 - **NORMA/VALIDAR:** a utilização e respetivo título seguem, designadamente, os artigos 62.º-A, 62.º-B e 4.º-A; não se deve presumir uma «licença de utilização» genérica sem qualificar obras, uso e procedimento;
 - **VALIDAR:** consultas externas, prazos e títulos dependem da operação, localização e fase processual concretas.
 
-O enquadramento local resulta do [PDM de Viseu, incluindo a alteração publicada pelo Aviso n.º 5793/2023](https://diariodarepublica.pt/dr/detalhe/aviso/5793-2023-210468265) e do [Regulamento Municipal da Urbanização e da Edificação — Regulamento n.º 1289/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/1289-2024-895836324). O RMUE é anterior à revisão de 2026: não se presume globalmente inválido, mas terminologia, elementos instrutórios e regras procedimentais devem ser lidos à luz dos limites do artigo 3.º e da recondução de referências a títulos de utilização prevista no artigo 9.º do DL 108/2026. Essa recondução não confirma a validade material global de cada norma municipal; incompatibilidades devem ser confirmadas com o Município.
+O enquadramento local resulta do [PDM de Viseu, incluindo a alteração publicada pelo Aviso n.º 5793/2023](https://diariodarepublica.pt/dr/detalhe/aviso/5793-2023-210468265) e do [Regulamento Municipal da Urbanização e da Edificação - Regulamento n.º 1289/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/1289-2024-895836324). O RMUE é anterior à revisão de 2026: não se presume globalmente inválido, mas terminologia, elementos instrutórios e regras procedimentais devem ser lidos à luz dos limites do artigo 3.º e da recondução de referências a títulos de utilização prevista no artigo 9.º do DL 108/2026. Essa recondução não confirma a validade material global de cada norma municipal; incompatibilidades devem ser confirmadas com o Município.
 
-**Watchlist PDM — BLOCKED_EXTERNAL:** o [Anúncio n.º 193/2024](https://diariodarepublica.pt/dr/detalhe/anuncio/193-2024-875838790) prova que foi publicitada, no processo n.º 493/23.8BEVIS do TAF de Viseu, uma ação de impugnação de normas da alteração de 2023. Não foi localizada, até 2026-08-12, decisão oficial pública que demonstre o desfecho. Isto não prova suspensão, invalidade ou inaplicabilidade do PDM, nem confirma definitivamente a sua validade. Antes de aquisição ou confiança irreversível num enquadramento, obter estado processual certificado e confirmação atual do Município/advogado.
+**Watchlist PDM - BLOCKED_EXTERNAL:** o [Anúncio n.º 193/2024](https://diariodarepublica.pt/dr/detalhe/anuncio/193-2024-875838790) prova que foi publicitada, no processo n.º 493/23.8BEVIS do TAF de Viseu, uma ação de impugnação de normas da alteração de 2023. Não foi localizada, até 2026-08-12, decisão oficial pública que demonstre o desfecho. Isto não prova suspensão, invalidade ou inaplicabilidade do PDM, nem confirma definitivamente a sua validade. Antes de aquisição ou confiança irreversível num enquadramento, obter estado processual certificado e confirmação atual do Município/advogado.
 
 **Necessidades legais:**
 
@@ -149,22 +149,22 @@ Um hotel/creche canina não deve ser assumido como uso agrícola. Se a parcela e
 
 ### 4.3. Incêndio rural e SCIE
 
-O [Sistema de Gestão Integrada de Fogos Rurais — Decreto-Lei n.º 82/2021](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-172745166-172791121) é determinante em terrenos naturais:
+O [Sistema de Gestão Integrada de Fogos Rurais - Decreto-Lei n.º 82/2021](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-172745166-172791121) é determinante em terrenos naturais:
 
 - artigo 60.º: nas áreas prioritárias de prevenção e segurança (APPS), a construção é, em regra, proibida, salvo exceções legais; o projeto canino não consta de forma evidente dessas exceções;
 - artigo 61.º: fora de aglomerado rural, novas edificações ou ampliações em território florestal, ou a menos de 50 m deste, ficam sujeitas a faixa de gestão de combustível, afastamentos à extrema e requisitos de resistência/ignição;
 - artigo 62.º: admite medidas de mitigação e instrumentos de transferência de risco em situações abrangidas.
 
-Nos edifícios e recintos aplica-se também o [regime de segurança contra incêndio — Decreto-Lei n.º 220/2008](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-72828985), artigos 6.º, 8.º, 12.º, 21.º e 22.º, e o regulamento técnico republicado pela [Portaria n.º 135/2020](https://files.diariodarepublica.pt/1s/2020/06/10700/0000200214.pdf). O projetista deve classificar cada utilização-tipo e a categoria de risco; não é seguro presumir uma única classificação para receção, alojamentos, armazéns, lavandaria e instalações de pessoal.
+Nos edifícios e recintos aplica-se também o [regime de segurança contra incêndio - Decreto-Lei n.º 220/2008](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-72828985), artigos 6.º, 8.º, 12.º, 21.º e 22.º, e o regulamento técnico republicado pela [Portaria n.º 135/2020](https://files.diariodarepublica.pt/1s/2020/06/10700/0000200214.pdf). O projetista deve classificar cada utilização-tipo e a categoria de risco; não é seguro presumir uma única classificação para receção, alojamentos, armazéns, lavandaria e instalações de pessoal.
 
 Além do SCIE geral, o artigo 11.º do regime de alojamentos de animais exige proteção contra incêndios e alarme de avaria dos sistemas relevantes. Devem existir evacuação/transferência dos animais, compartimentação, acesso de socorro, reserva de água quando exigida, energia de emergência para sistemas críticos e medidas de autoproteção em exploração.
 
-**Intervenções florestais — NORMA + CONDICIONAL.** A [Lei n.º 18/2026](https://diariodarepublica.pt/dr/detalhe/lei/18-2026-1103945165) vigora desde 6 de maio de 2026 e produz efeitos desde 1 de janeiro de 2026. Na redação por ela dada ao [DL 31/2020 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-136990404), os artigos 1.º–2.º delimitam as operações florestais destinadas à comercialização ou ao autoconsumo industrial abrangidas; os artigos 4.º e 4.º-A regulam, respetivamente, o manifesto prévio e a autorização prévia do ICNF para corte, corte extraordinário, desbaste ou arranque nos casos legalmente previstos; os artigos 5.º e 8.º tratam prova de legitimidade e infrações. Antes de intervir, identificar parcela, cartografia, espécie, número de árvores, destino da madeira e natureza da operação.
+**Intervenções florestais - NORMA + CONDICIONAL.** A [Lei n.º 18/2026](https://diariodarepublica.pt/dr/detalhe/lei/18-2026-1103945165) vigora desde 6 de maio de 2026 e produz efeitos desde 1 de janeiro de 2026. Na redação por ela dada ao [DL 31/2020 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-136990404), os artigos 1.º–2.º delimitam as operações florestais destinadas à comercialização ou ao autoconsumo industrial abrangidas; os artigos 4.º e 4.º-A regulam, respetivamente, o manifesto prévio e a autorização prévia do ICNF para corte, corte extraordinário, desbaste ou arranque nos casos legalmente previstos; os artigos 5.º e 8.º tratam prova de legitimidade e infrações. Antes de intervir, identificar parcela, cartografia, espécie, número de árvores, destino da madeira e natureza da operação.
 
 Não confundir regimes distintos:
 
 - corte, corte extraordinário, desbaste ou arranque e respetivo manifesto/autorização ICNF. O artigo 2.º, n.º 3, dispensa o manifesto em casos de utilização própria exclusivamente não industrial ou intervenção até 10 árvores, mas essa dispensa deve ser validada perante os factos e não afasta automaticamente autorizações de áreas/espécies especiais ou outros regimes;
-- arborização ou rearborização, sujeita ao [RJAAR — DL 96/2013 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-34580675);
+- arborização ou rearborização, sujeita ao [RJAAR - DL 96/2013 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-34580675);
 - gestão de combustível ao abrigo do SGIFR;
 - proteção especial de espécies, incluindo sobreiro e azinheira no [DL 169/2001 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-167292655).
 
@@ -174,7 +174,7 @@ Não confundir regimes distintos:
 
 O [Decreto-Lei n.º 163/2006](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-108253479-108210669), artigos 2.º a 4.º, 6.º e 7.º, aplica requisitos de acessibilidade aos espaços de atendimento e uso público. O projeto deve prever, no mínimo, percurso acessível desde o estacionamento/entrada, receção, instalações sanitárias acessíveis e circulação utilizável. A acessibilidade do portal não substitui a física.
 
-O [Sistema de Certificação Energética — Decreto-Lei n.º 101-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150571263), designadamente artigo 18.º, abrange em regra edifícios novos e grandes renovações, com exceções específicas. O coordenador deve determinar quais os edifícios de comércio/serviços abrangidos; não se deve extrapolar automaticamente a mesma solução para todas as casas de animais.
+O [Sistema de Certificação Energética - Decreto-Lei n.º 101-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150571263), designadamente artigo 18.º, abrange em regra edifícios novos e grandes renovações, com exceções específicas. O coordenador deve determinar quais os edifícios de comércio/serviços abrangidos; não se deve extrapolar automaticamente a mesma solução para todas as casas de animais.
 
 ## 5. Regime do alojamento, creche e ATL
 
@@ -230,7 +230,7 @@ Os artigos 7.º a 15.º, 10.º e 11.º e o anexo III do DL 276/2001, conjugados 
 
 O anexo III fixa mínimos legais, não dimensões de conforto recomendadas. Para alojamento individual de cães:
 
-| Peso vivo     | Recinto fechado — área/altura | Recinto fechado exterior — área/altura |
+| Peso vivo     | Recinto fechado - área/altura | Recinto fechado exterior - área/altura |
 | ------------- | ----------------------------: | -------------------------------------: |
 | Até 16 kg     |                 2 m² / 1,80 m |                          6 m² / 1,80 m |
 | 16–20 kg      |               2,2 m² / 1,80 m |      6 m² / 1,80 m (escalão até 24 kg) |
@@ -354,7 +354,7 @@ Para cães e gatos, o anexo I, capítulo V, ponto 2.2, prevê alimentação em i
 
 **Natureza/estado: NORMA + CONDICIONAL conforme a solução.**
 
-A [Lei da Água — Lei n.º 58/2005](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-34506275), artigos 60.º e 62.º, e o [Decreto-Lei n.º 226-A/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34479475-43942075), artigos 19.º, 40.º, 50.º e 51.º, sujeitam a título utilizações como captação, ocupação/construção em recursos hídricos e rejeição de águas residuais.
+A [Lei da Água - Lei n.º 58/2005](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-34506275), artigos 60.º e 62.º, e o [Decreto-Lei n.º 226-A/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34479475-43942075), artigos 19.º, 40.º, 50.º e 51.º, sujeitam a título utilizações como captação, ocupação/construção em recursos hídricos e rejeição de águas residuais.
 
 **Necessidades legais e técnicas:**
 
@@ -393,7 +393,7 @@ O lago não tem uma autorização única. Pode exigir título se envolver capta�
 
 ### 7.4. Ruído
 
-O latido é uma fonte permanente de ruído e deve ser tratado como condicionante de implantação, não apenas de exploração. O [Regulamento Geral do Ruído — Decreto-Lei n.º 9/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34526375-43526275) estabelece:
+O latido é uma fonte permanente de ruído e deve ser tratado como condicionante de implantação, não apenas de exploração. O [Regulamento Geral do Ruído - Decreto-Lei n.º 9/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34526375-43526275) estabelece:
 
 - artigo 11.º: limites de exposição de 65 dB(A) Lden/55 dB(A) Ln em zona mista e 55/45 em zona sensível, sem prejuízo da classificação municipal;
 - artigo 13.º: atividade ruidosa permanente sujeita ao critério de incomodidade; diferença máxima de 5 dB de dia, 4 dB ao entardecer e 3 dB à noite, com as correções legais.
@@ -402,11 +402,11 @@ O licenciamento pode exigir avaliação acústica. Devem ser privilegiadas medid
 
 ### 7.5. Avaliação de impacte ambiental e natureza
 
-O [RJAIA — Decreto-Lei n.º 151-B/2013](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-70122774-70129411) não torna um hotel canino automaticamente sujeito a AIA. O regime pode, contudo, ser acionado por obras ou componentes enquadráveis nos anexos I/II, dimensão, localização em área sensível ou decisão caso a caso. Verificar igualmente Rede Natura, espécies/habitats, movimentos de terras e os regimes florestais individualizados na secção 4.3. Sem parcela e inventário de espécies, a aplicabilidade permanece `BLOCKED_HUMAN`.
+O [RJAIA - Decreto-Lei n.º 151-B/2013](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-70122774-70129411) não torna um hotel canino automaticamente sujeito a AIA. O regime pode, contudo, ser acionado por obras ou componentes enquadráveis nos anexos I/II, dimensão, localização em área sensível ou decisão caso a caso. Verificar igualmente Rede Natura, espécies/habitats, movimentos de terras e os regimes florestais individualizados na secção 4.3. Sem parcela e inventário de espécies, a aplicabilidade permanece `BLOCKED_HUMAN`.
 
 ### 7.6. Resíduos, químicos e cadáveres
 
-O [Regime Geral de Gestão de Resíduos — Decreto-Lei n.º 102-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150908020-150910369), artigo 9.º, responsabiliza o produtor pelo destino. Resíduos semelhantes a urbanos só integram a gestão municipal, em regra, quando compatíveis e abaixo de 1 100 litros/dia por estabelecimento; acima disso ou para fluxos especiais, é necessário operador autorizado e obrigações SIRER/e-GAR quando aplicáveis.
+O [Regime Geral de Gestão de Resíduos - Decreto-Lei n.º 102-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150908020-150910369), artigo 9.º, responsabiliza o produtor pelo destino. Resíduos semelhantes a urbanos só integram a gestão municipal, em regra, quando compatíveis e abaixo de 1 100 litros/dia por estabelecimento; acima disso ou para fluxos especiais, é necessário operador autorizado e obrigações SIRER/e-GAR quando aplicáveis.
 
 Separar, identificar e contratar destino para:
 
@@ -439,10 +439,10 @@ O [DL 130/2026](https://diariodarepublica.pt/dr/detalhe/decreto-lei/130-2026-113
 
 #### Carregamento de veículos elétricos
 
-O [DL 93/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303), em vigor desde 19 de agosto de 2025, revogou expressamente o DL 39/2010. Este último só pode ser referido como **histórico/revogado**. O regime atual articula-se com o [Regulamento (UE) 2023/1804 — AFIR](https://eur-lex.europa.eu/eli/reg/2023/1804/oj?locale=pt), as Portarias n.os 16, 31, 118, 128, 130 e 133/2026/1 reunidas na [página de legislação da DGEG](https://www.dgeg.gov.pt/pt/areas-setoriais/energia/energia-eletrica/mobilidade-eletrica/legislacao-aplicavel-e-despachos-dgeg/) e o [Regulamento da Mobilidade Elétrica n.º 7/2026 da ERSE](https://www.erse.pt/atividade/regulamento-mobilidade-eletrica/).
+O [DL 93/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303), em vigor desde 19 de agosto de 2025, revogou expressamente o DL 39/2010. Este último só pode ser referido como **histórico/revogado**. O regime atual articula-se com o [Regulamento (UE) 2023/1804 - AFIR](https://eur-lex.europa.eu/eli/reg/2023/1804/oj?locale=pt), as Portarias n.os 16, 31, 118, 128, 130 e 133/2026/1 reunidas na [página de legislação da DGEG](https://www.dgeg.gov.pt/pt/areas-setoriais/energia/energia-eletrica/mobilidade-eletrica/legislacao-aplicavel-e-despachos-dgeg/) e o [Regulamento da Mobilidade Elétrica n.º 7/2026 da ERSE](https://www.erse.pt/atividade/regulamento-mobilidade-eletrica/).
 
-- **CONDICIONAL — acesso privado:** carregador exclusivo da frota ou de utilizadores determinados, em local não aberto ao público, não é por esse facto um ponto acessível ao público; continua sujeito ao projeto elétrico, ao [DL 96/2017](https://diariodarepublica.pt/dr/detalhe/decreto-lei/96-2017-107987277) e aos requisitos técnicos/urbanísticos aplicáveis;
-- **CONDICIONAL — acesso público:** os artigos 9.º–11.º e 20.º–21.º do DL 93/2025 ativam o ramo do operador de ponto de carregamento, com licença ou comunicação conforme o caso, requisitos de instalação, acesso, pagamentos ad hoc, dados, informação, seguro e regras AFIR;
+- **CONDICIONAL - acesso privado:** carregador exclusivo da frota ou de utilizadores determinados, em local não aberto ao público, não é por esse facto um ponto acessível ao público; continua sujeito ao projeto elétrico, ao [DL 96/2017](https://diariodarepublica.pt/dr/detalhe/decreto-lei/96-2017-107987277) e aos requisitos técnicos/urbanísticos aplicáveis;
+- **CONDICIONAL - acesso público:** os artigos 9.º–11.º e 20.º–21.º do DL 93/2025 ativam o ramo do operador de ponto de carregamento, com licença ou comunicação conforme o caso, requisitos de instalação, acesso, pagamentos ad hoc, dados, informação, seguro e regras AFIR;
 - **NORMA temporal:** o artigo 44.º prevê transição até 31 de dezembro de 2026 e obrigações específicas a partir de 1 de janeiro de 2027 para pontos abrangidos.
 
 Não anunciar carregamento público antes de decidir acesso, potência, detentor/operador e modelo comercial e de confirmar o procedimento com DGEG/operador competente.
@@ -457,7 +457,7 @@ No [Código Civil consolidado](https://diariodarepublica.pt/dr/legislacao-consol
 
 Nenhuma destas normas permite afirmar responsabilidade automática sem identificar dever ou risco, facto, dano, nexo causal, culpa/presunção, interesse na utilização do animal e eventual causa de exclusão. A entrega do animal pode fazer nascer deveres contratuais de guarda e vigilância; quem responde, por que fundamento e em que medida depende do contrato e dos factos.
 
-| Cenário                                             | Enquadramento a testar — NORMA                                                 | Desenho contratual a VALIDAR                                                           | BOA PRÁTICA / seguro                                               |
+| Cenário                                             | Enquadramento a testar - NORMA                                                 | Desenho contratual a VALIDAR                                                           | BOA PRÁTICA / seguro                                               |
 | --------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Fuga                                                | Arts. 493.º e 798.º–800.º; deveres de guarda e nexo                            | Informação do tutor, contenção, recolha e autorização de busca                         | Duplo controlo, registo, resposta e cobertura de animais confiados |
 | Mordedura/dano a terceiro                           | Arts. 493.º e 502.º conforme vigilância, utilização/interesse e risco          | Admissão, comportamento conhecido, repartição de instruções sem excluir deveres legais | Segregação, treino da equipa e RC exploração                       |
@@ -466,15 +466,15 @@ Nenhuma destas normas permite afirmar responsabilidade automática sem identific
 | Transporte                                          | Arts. 798.º–800.º; regime especial de transporte e responsabilidade rodoviária | Rota, subcontratação, atraso, avaria e emergência                                      | Seguro automóvel + atividade + animais transportados               |
 | Ato de trabalhador ou prestador                     | Art. 800.º na relação contratual, sem prejuízo de outros títulos               | Cadeia de responsabilidade e direito de regresso                                       | Contratos, formação, supervisão e comprovativos de seguro          |
 
-O [regime das cláusulas contratuais gerais — DL 446/85 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34436475) exige comunicação, informação e boa-fé e afasta cláusulas proibidas. Não usar uma exclusão global por fuga, doença, lesão ou morte para tentar eliminar normas imperativas, negligência ou deveres essenciais. O contrato deve distribuir informação e procedimentos, não fabricar uma exoneração absoluta.
+O [regime das cláusulas contratuais gerais - DL 446/85 consolidado](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34436475) exige comunicação, informação e boa-fé e afasta cláusulas proibidas. Não usar uma exclusão global por fuga, doença, lesão ou morte para tentar eliminar normas imperativas, negligência ou deveres essenciais. O contrato deve distribuir informação e procedimentos, não fabricar uma exoneração absoluta.
 
 ### 8.2. Seguros
 
 **Obrigatórios identificados:**
 
-- acidentes de trabalho para trabalhadores — Lei 98/2009, artigo 79.º;
-- responsabilidade civil automóvel — [Decreto-Lei n.º 291/2007, artigo 4.º, na redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34563475-44941175);
-- seguro do detentor de animal perigoso/potencialmente perigoso — DL 315/2009, artigo 10.º, e Portaria 585/2004.
+- acidentes de trabalho para trabalhadores - Lei 98/2009, artigo 79.º;
+- responsabilidade civil automóvel - [Decreto-Lei n.º 291/2007, artigo 4.º, na redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34563475-44941175);
+- seguro do detentor de animal perigoso/potencialmente perigoso - DL 315/2009, artigo 10.º, e Portaria 585/2004.
 
 **Não identificados como universalmente obrigatórios, mas essenciais para viabilidade:**
 
@@ -524,9 +524,9 @@ O artigo 79.º do Código Civil protege o direito à imagem das pessoas. Uma fot
 
 Separar três finalidades, bases de licitude e documentos:
 
-1. captura/partilha privada com o tutor durante a estadia — execução do serviço e informação de privacidade;
-2. publicação promocional do cão — autorização contratual específica, revogável para o futuro;
-3. imagem/voz de pessoas — consentimento expresso próprio, com cautela reforçada para menores.
+1. captura/partilha privada com o tutor durante a estadia - execução do serviço e informação de privacidade;
+2. publicação promocional do cão - autorização contratual específica, revogável para o futuro;
+3. imagem/voz de pessoas - consentimento expresso próprio, com cautela reforçada para menores.
 
 Recusar marketing não pode impedir o acesso ao serviço principal. A galeria pública nunca deve reutilizar automaticamente material do portal privado.
 
@@ -543,7 +543,7 @@ A [CNPD sintetiza as regras de videovigilância](https://www.cnpd.pt/organizacoe
 - **NORMA:** é exigida sinalização e informação transparente. O âmbito do artigo 31.º da [Lei n.º 34/2013](https://diariodarepublica.pt/dr/detalhe/lei/34-2013-261089) e dos modelos da [Portaria n.º 273/2013, na redação republicada pela Portaria n.º 292/2020](https://diariodarepublica.pt/dr/detalhe/portaria/292-2020-151557424), incluindo eventual obrigação perante a PSP, deve ser confirmado para o sistema concreto; não se presume aplicável a todo e qualquer CCTV;
 - **NORMA/CONDICIONAL:** não existe uma autorização ou notificação prévia geral à CNPD. A responsabilidade cabe ao responsável pelo tratamento; a DPIA do artigo 35.º do RGPD só é obrigatória quando o tratamento for suscetível de resultar em alto risco, e a consulta prévia do artigo 36.º apenas quando subsista alto risco após as medidas previstas;
 - **NORMA:** o Código do Trabalho, artigos 20.º–21.º, impede usar câmaras para controlar o desempenho. O artigo 28.º da Lei n.º 58/2019 limita o uso laboral das gravações;
-- **NORMA/VALIDAR:** a captação de som só é admitida nas exceções indicadas pela CNPD — quando as instalações vigiadas estejam encerradas ou mediante autorização prévia da CNPD —, mantendo-se necessária a validação da configuração concreta; a configuração prudente é sem áudio.
+- **NORMA/VALIDAR:** a captação de som só é admitida nas exceções indicadas pela CNPD - quando as instalações vigiadas estejam encerradas ou mediante autorização prévia da CNPD -, mantendo-se necessária a validação da configuração concreta; a configuração prudente é sem áudio.
 
 **DECISÃO:** as live cameras para tutores ficam fora da primeira fase. Se forem reconsideradas, a decisão tem de identificar zonas segregadas, pessoas e animais potencialmente captados, base e finalidade, acesso individual, logs, retenção/gravação pelo utilizador, contexto laboral e risco. Só então se determina se há DPIA e, persistindo alto risco, consulta prévia à CNPD; nenhum destes passos deve ser tratado como formalidade universal nem como autorização automática.
 
@@ -578,7 +578,7 @@ Não são aceitáveis formulações do tipo «o hotel nunca responde por doença
 
 Identificar, antes da abertura, a entidade fiscalizadora e o centro RAL territorial/materialmente competente. Não copiar um centro de arbitragem de outro negócio sem confirmar competência.
 
-Letreiros, painéis e publicidade exterior devem também ser confirmados à luz do [Regulamento de Publicidade e Ocupação do Espaço Público de Viseu — Regulamento n.º 411/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/411-2024-859924351) e do procedimento municipal aplicável.
+Letreiros, painéis e publicidade exterior devem também ser confirmados à luz do [Regulamento de Publicidade e Ocupação do Espaço Público de Viseu - Regulamento n.º 411/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/411-2024-859924351) e do procedimento municipal aplicável.
 
 ### 10.4. Cookies e marketing direto
 
@@ -590,7 +590,7 @@ Cookies estritamente necessários podem funcionar sem consentimento; analytics, 
 
 **Natureza/estado: NORMA atual + watchlist `BLOCKED_EXTERNAL`.**
 
-O [regime das práticas comerciais desleais — Decreto-Lei n.º 57/2008](https://diariodarepublica.pt/dr/detalhe/decreto-lei/57-2008-246504), designadamente artigos 5.º–9.º, 14.º–16.º e 22.º, proíbe ações e omissões enganosas e prevê fiscalização/sanções. A [Lei de Defesa do Consumidor](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1996-34491075) e o [Código da Publicidade](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1990-34537375) reforçam os deveres de informação, licitude, identificabilidade e veracidade.
+O [regime das práticas comerciais desleais - Decreto-Lei n.º 57/2008](https://diariodarepublica.pt/dr/detalhe/decreto-lei/57-2008-246504), designadamente artigos 5.º–9.º, 14.º–16.º e 22.º, proíbe ações e omissões enganosas e prevê fiscalização/sanções. A [Lei de Defesa do Consumidor](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1996-34491075) e o [Código da Publicidade](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1990-34537375) reforçam os deveres de informação, licitude, identificabilidade e veracidade.
 
 Antes de publicar cada alegação, arquivar o objeto e âmbito da afirmação, método, baseline, período, dados, responsável pela medição e todas as qualificações materiais. Exemplos:
 
@@ -601,7 +601,7 @@ Antes de publicar cada alegação, arquivar o objeto e âmbito da afirmação, m
 
 A [Diretiva (UE) 2024/825](https://eur-lex.europa.eu/eli/dir/2024/825/oj?locale=pt) fixou 27 de março de 2026 para transposição e 27 de setembro de 2026 para aplicação nacional. Em 2026-08-12, a [página oficial de medidas nacionais de execução](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32024L0825) indicava para Portugal «Number of measures: 0» e não foi localizado diploma nacional de transposição no Diário da República. Isto prova apenas que não havia medida comunicada à Comissão nessa página, não certifica a inexistência absoluta de ato nacional.
 
-**Watchlist — BLOCKED_EXTERNAL:** confirmar a transposição e a data/forma de aplicação antes de 27 de setembro de 2026. Até lá, não apresentar as novas proibições da Diretiva como se já fossem uma lista negra diretamente aplicável em Portugal; as alegações enganosas continuam já proibidas pelo direito nacional atual.
+**Watchlist - BLOCKED_EXTERNAL:** confirmar a transposição e a data/forma de aplicação antes de 27 de setembro de 2026. Até lá, não apresentar as novas proibições da Diretiva como se já fossem uma lista negra diretamente aplicável em Portugal; as alegações enganosas continuam já proibidas pelo direito nacional atual.
 
 ### 10.6. Acessibilidade digital
 
@@ -613,7 +613,7 @@ O portal não deve transformar a empresa num prestador de serviços de pagamento
 
 Nos termos dos artigos 29.º e 36.º do CIVA, existe obrigação de emitir fatura por cada prestação, em regra até ao quinto dia útil, ou na data do adiantamento. O artigo 40.º regula faturas simplificadas e o artigo 52.º a conservação. A [Autoridade Tributária resume emissão e comunicação](https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Atividade_profissional/Fatura_e_recibo/Paginas/default.aspx): comunicar elementos até dia 5 do mês seguinte, usar séries/ATCUD e software certificado quando legalmente exigido.
 
-O CAE Rev.4 nuclear é [96992 — Atividades dos serviços para animais de companhia, nas notas explicativas oficiais do INE](https://webinq.ine.pt/Public/DownloadFiles.aspx?idFile=5477), incluindo treino, alojamento e tratamento similares, e excluindo atividade veterinária. Loja, transporte ou outras atividades podem exigir CAE secundários; confirmar com contabilista e entidades setoriais.
+O CAE Rev.4 nuclear é [96992 - Atividades dos serviços para animais de companhia, nas notas explicativas oficiais do INE](https://webinq.ine.pt/Public/DownloadFiles.aspx?idFile=5477), incluindo treino, alojamento e tratamento similares, e excluindo atividade veterinária. Loja, transporte ou outras atividades podem exigir CAE secundários; confirmar com contabilista e entidades setoriais.
 
 ## 11. Trabalho, segurança e organização da equipa
 
@@ -683,7 +683,7 @@ Indicadores de impacto e sustentabilidade devem ter definição, fonte, periodic
 
 ## 13. Roteiro legal recomendado
 
-### Fase 0 — fechar decisões de âmbito
+### Fase 0 - fechar decisões de âmbito
 
 1. Capacidade máxima de cães por noite e por creche.
 2. Aceitação ou exclusão de cães perigosos/potencialmente perigosos.
@@ -694,7 +694,7 @@ Indicadores de impacto e sustentabilidade devem ter definição, fonte, periodic
 7. Financiamento: objetivo, programa e aviso oficial, se existir candidatura.
 8. Horário, presença noturna e número de trabalhadores.
 
-### Fase 1 — diligência sobre a parcela, antes da compra
+### Fase 1 - diligência sobre a parcela, antes da compra
 
 1. Certidão predial, matriz, cadastro, topografia e acessos.
 2. PDM: classe/categoria, ordenamento e condicionantes, com confirmação municipal atual.
@@ -706,7 +706,7 @@ Indicadores de impacto e sustentabilidade devem ter definição, fonte, periodic
 8. PIP com todas as componentes e implantação faseada.
 9. Contrato-promessa condicionado ao resultado urbanístico e às validações materiais, aconselhado por advogado.
 
-### Fase 2 — projeto e controlo urbanístico
+### Fase 2 - projeto e controlo urbanístico
 
 1. Arquitetura e coordenação de especialidades.
 2. Veterinário responsável a participar no layout e fluxos.
@@ -715,7 +715,7 @@ Indicadores de impacto e sustentabilidade devem ter definição, fonte, periodic
 5. Qualificação da operação e procedimento aplicável nos artigos 4.º e 4.º-A do RJUE, incluindo licença, comunicação prévia ou comunicação prévia com prazo quando corresponda.
 6. Título de utilização aplicável segundo os artigos 4.º-A, 62.º-A e 62.º-B; não presumir uma licença genérica.
 
-### Fase 3 — habilitação setorial e operação
+### Fase 3 - habilitação setorial e operação
 
 1. Mera comunicação prévia DGAV e dossier do alojamento.
 2. Transporte, se existir: autorização do transportador, registo do meio e, para viagens superiores a oito horas, autorização tipo 2 e aprovação/certificado do veículo; confirmar o ramo até 65 km com a DSAVR Centro.
@@ -855,63 +855,63 @@ O proprietário e substituto da watchlist são uma **DECISÃO** ainda `POR_DECID
 
 ### Animais e operação
 
-- [DL 276/2001 — proteção e alojamento de animais de companhia, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875)
-- [DL 260/2012 — comunicação prévia e alteração do DL 276/2001](https://diariodarepublica.pt/dr/detalhe/decreto-lei/260-2012-190815)
-- [DGAV — procedimento, formulários e taxas de alojamentos](https://www.dgav.pt/animais/conteudo/animais-de-companhia/animais-de-companhia-bem-estar/requisitos-alojamentos/procedimento-para-comunicacao-previa-e-permissao-administrativa/)
-- [DGAV — FAQ de requisitos de bem-estar e alojamentos](https://www.dgav.pt/faq/conteudo/animal/animais-de-companhia/bem-estar/)
-- [DL 184/2009 — centros de atendimento médico-veterinários, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-156566057)
-- [DL 148/2008 — Código do Medicamento Veterinário, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-34503175)
-- [Regulamento (UE) 2019/6 — medicamentos veterinários](https://eur-lex.europa.eu/eli/reg/2019/6/oj?locale=pt)
-- [DGAV — medicamentos veterinários](https://www.dgav.pt/medicamentos/conteudo/medicamentos-veterinarios/)
-- [DL 82/2019 — SIAC](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684)
-- [DL 315/2009 — animais perigosos e potencialmente perigosos](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34511975)
-- [Regulamento (CE) 1/2005 — transporte, versão consolidada](https://eur-lex.europa.eu/legal-content/PT/ALL/?uri=CELEX%3A02005R0001-20191214)
-- [DL 265/2007 — execução nacional do transporte, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34561775)
-- [DGAV — registo/autorização de transportadores e meios](https://www.dgav.pt/animais/conteudo/animais-de-producao/bovinos/bem-estar-animal/transporte-de-animais-instalacoes-de-limpeza-e-desinfeccao/registo-e-autorizacao-de-transportadores/)
+- [DL 276/2001 - proteção e alojamento de animais de companhia, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875)
+- [DL 260/2012 - comunicação prévia e alteração do DL 276/2001](https://diariodarepublica.pt/dr/detalhe/decreto-lei/260-2012-190815)
+- [DGAV - procedimento, formulários e taxas de alojamentos](https://www.dgav.pt/animais/conteudo/animais-de-companhia/animais-de-companhia-bem-estar/requisitos-alojamentos/procedimento-para-comunicacao-previa-e-permissao-administrativa/)
+- [DGAV - FAQ de requisitos de bem-estar e alojamentos](https://www.dgav.pt/faq/conteudo/animal/animais-de-companhia/bem-estar/)
+- [DL 184/2009 - centros de atendimento médico-veterinários, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-156566057)
+- [DL 148/2008 - Código do Medicamento Veterinário, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-34503175)
+- [Regulamento (UE) 2019/6 - medicamentos veterinários](https://eur-lex.europa.eu/eli/reg/2019/6/oj?locale=pt)
+- [DGAV - medicamentos veterinários](https://www.dgav.pt/medicamentos/conteudo/medicamentos-veterinarios/)
+- [DL 82/2019 - SIAC](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684)
+- [DL 315/2009 - animais perigosos e potencialmente perigosos](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34511975)
+- [Regulamento (CE) 1/2005 - transporte, versão consolidada](https://eur-lex.europa.eu/legal-content/PT/ALL/?uri=CELEX%3A02005R0001-20191214)
+- [DL 265/2007 - execução nacional do transporte, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34561775)
+- [DGAV - registo/autorização de transportadores e meios](https://www.dgav.pt/animais/conteudo/animais-de-producao/bovinos/bem-estar-animal/transporte-de-animais-instalacoes-de-limpeza-e-desinfeccao/registo-e-autorizacao-de-transportadores/)
 
 ### Território, construção e ambiente
 
-- [DL 108/2026 — revisão e republicação do RJUE](https://diariodarepublica.pt/dr/detalhe/decreto-lei/108-2026-1128002421)
-- [Declaração de Retificação 29-A/2026/1 — RJUE](https://diariodarepublica.pt/dr/detalhe/declaracao-retificacao/29-a-2026-1152696606)
-- [PDM de Viseu — alteração de 2023](https://diariodarepublica.pt/dr/detalhe/aviso/5793-2023-210468265)
-- [DGT — depósito da alteração do PDM de Viseu](https://pcgt.dgterritorio.gov.pt/node/11446)
-- [Anúncio 193/2024 — processo 493/23.8BEVIS](https://diariodarepublica.pt/dr/detalhe/anuncio/193-2024-875838790)
-- [RMUE de Viseu — Regulamento 1289/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/1289-2024-895836324)
-- [REN — DL 166/2008](https://diariodarepublica.pt/dr/detalhe/decreto-lei/166-2008-453518)
-- [RAN — DL 73/2009](https://diariodarepublica.pt/dr/detalhe/decreto-lei/73-2009-603209)
-- [Incêndios rurais — DL 82/2021, redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-172745166-172791121)
-- [Lei 18/2026 — intervenções florestais e rastreabilidade](https://diariodarepublica.pt/dr/detalhe/lei/18-2026-1103945165)
-- [DL 31/2020 — manifesto e autorização de intervenções, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-136990404)
-- [DL 96/2013 — RJAAR, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-34580675)
-- [DL 169/2001 — sobreiro e azinheira, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-167292655)
-- [SCIE — DL 220/2008, redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-72828985)
-- [Lei da Água — Lei 58/2005](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-34506275)
-- [Utilizações de recursos hídricos — DL 226-A/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34479475-43942075)
-- [Ruído — DL 9/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34526375-43526275)
-- [Resíduos — DL 102-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150908020-150910369)
-- [DL 15/2022 — organização e funcionamento do SEN](https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022-177634016)
-- [DL 130/2026 — alteração futura dos limiares de autoconsumo](https://diariodarepublica.pt/dr/detalhe/decreto-lei/130-2026-1139897687)
-- [DL 93/2025 — mobilidade elétrica](https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303)
-- [DGEG — legislação e despachos de mobilidade elétrica](https://www.dgeg.gov.pt/pt/areas-setoriais/energia/energia-eletrica/mobilidade-eletrica/legislacao-aplicavel-e-despachos-dgeg/)
-- [ERSE — Regulamento da Mobilidade Elétrica](https://www.erse.pt/atividade/regulamento-mobilidade-eletrica/)
+- [DL 108/2026 - revisão e republicação do RJUE](https://diariodarepublica.pt/dr/detalhe/decreto-lei/108-2026-1128002421)
+- [Declaração de Retificação 29-A/2026/1 - RJUE](https://diariodarepublica.pt/dr/detalhe/declaracao-retificacao/29-a-2026-1152696606)
+- [PDM de Viseu - alteração de 2023](https://diariodarepublica.pt/dr/detalhe/aviso/5793-2023-210468265)
+- [DGT - depósito da alteração do PDM de Viseu](https://pcgt.dgterritorio.gov.pt/node/11446)
+- [Anúncio 193/2024 - processo 493/23.8BEVIS](https://diariodarepublica.pt/dr/detalhe/anuncio/193-2024-875838790)
+- [RMUE de Viseu - Regulamento 1289/2024](https://diariodarepublica.pt/dr/detalhe/regulamento/1289-2024-895836324)
+- [REN - DL 166/2008](https://diariodarepublica.pt/dr/detalhe/decreto-lei/166-2008-453518)
+- [RAN - DL 73/2009](https://diariodarepublica.pt/dr/detalhe/decreto-lei/73-2009-603209)
+- [Incêndios rurais - DL 82/2021, redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-172745166-172791121)
+- [Lei 18/2026 - intervenções florestais e rastreabilidade](https://diariodarepublica.pt/dr/detalhe/lei/18-2026-1103945165)
+- [DL 31/2020 - manifesto e autorização de intervenções, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-136990404)
+- [DL 96/2013 - RJAAR, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2013-34580675)
+- [DL 169/2001 - sobreiro e azinheira, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-167292655)
+- [SCIE - DL 220/2008, redação atual](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-72828985)
+- [Lei da Água - Lei 58/2005](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-34506275)
+- [Utilizações de recursos hídricos - DL 226-A/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34479475-43942075)
+- [Ruído - DL 9/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34526375-43526275)
+- [Resíduos - DL 102-D/2020](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2020-150908020-150910369)
+- [DL 15/2022 - organização e funcionamento do SEN](https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022-177634016)
+- [DL 130/2026 - alteração futura dos limiares de autoconsumo](https://diariodarepublica.pt/dr/detalhe/decreto-lei/130-2026-1139897687)
+- [DL 93/2025 - mobilidade elétrica](https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303)
+- [DGEG - legislação e despachos de mobilidade elétrica](https://www.dgeg.gov.pt/pt/areas-setoriais/energia/energia-eletrica/mobilidade-eletrica/legislacao-aplicavel-e-despachos-dgeg/)
+- [ERSE - Regulamento da Mobilidade Elétrica](https://www.erse.pt/atividade/regulamento-mobilidade-eletrica/)
 
 ### Negócio, pessoas e digital
 
 - [RGPD](https://eur-lex.europa.eu/legal-content/PT/ALL/?uri=CELEX%3A32016R0679)
-- [Lei 58/2019 — execução nacional do RGPD](https://diariodarepublica.pt/dr/detalhe/lei/58-2019-123815982)
-- [CNPD — videovigilância](https://www.cnpd.pt/organizacoes/areas-tematicas/videovigilancia/)
-- [Lei 34/2013 — atividade de segurança privada](https://diariodarepublica.pt/dr/detalhe/lei/34-2013-261089)
-- [Portaria 292/2020 — republicação da regulamentação de segurança privada](https://diariodarepublica.pt/dr/detalhe/portaria/292-2020-151557424)
-- [Código Civil — versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075)
-- [Lei 24/96 — defesa do consumidor, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1996-34491075)
-- [DL 57/2008 — práticas comerciais desleais](https://diariodarepublica.pt/dr/detalhe/decreto-lei/57-2008-246504)
-- [Diretiva (UE) 2024/825 — capacitação dos consumidores para a transição ecológica](https://eur-lex.europa.eu/eli/dir/2024/825/oj?locale=pt)
-- [EUR-Lex — medidas nacionais comunicadas para a Diretiva (UE) 2024/825](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32024L0825)
-- [DL 24/2014 — contratos à distância](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-73222992)
-- [DL 7/2004 — comércio eletrónico](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-73199154-73197499)
-- [DL 156/2005 — Livro de Reclamações](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2005-34431675)
-- [Lei 144/2015 — RAL](https://diariodarepublica.pt/dr/detalhe/lei/144-2015-70215248)
-- [Lei 102/2009 — segurança e saúde no trabalho](https://diariodarepublica.pt/dr/detalhe/lei/102-2009-490009)
+- [Lei 58/2019 - execução nacional do RGPD](https://diariodarepublica.pt/dr/detalhe/lei/58-2019-123815982)
+- [CNPD - videovigilância](https://www.cnpd.pt/organizacoes/areas-tematicas/videovigilancia/)
+- [Lei 34/2013 - atividade de segurança privada](https://diariodarepublica.pt/dr/detalhe/lei/34-2013-261089)
+- [Portaria 292/2020 - republicação da regulamentação de segurança privada](https://diariodarepublica.pt/dr/detalhe/portaria/292-2020-151557424)
+- [Código Civil - versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075)
+- [Lei 24/96 - defesa do consumidor, versão consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1996-34491075)
+- [DL 57/2008 - práticas comerciais desleais](https://diariodarepublica.pt/dr/detalhe/decreto-lei/57-2008-246504)
+- [Diretiva (UE) 2024/825 - capacitação dos consumidores para a transição ecológica](https://eur-lex.europa.eu/eli/dir/2024/825/oj?locale=pt)
+- [EUR-Lex - medidas nacionais comunicadas para a Diretiva (UE) 2024/825](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32024L0825)
+- [DL 24/2014 - contratos à distância](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-73222992)
+- [DL 7/2004 - comércio eletrónico](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-73199154-73197499)
+- [DL 156/2005 - Livro de Reclamações](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2005-34431675)
+- [Lei 144/2015 - RAL](https://diariodarepublica.pt/dr/detalhe/lei/144-2015-70215248)
+- [Lei 102/2009 - segurança e saúde no trabalho](https://diariodarepublica.pt/dr/detalhe/lei/102-2009-490009)
 - [Código do Trabalho](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475)
 
 ---
