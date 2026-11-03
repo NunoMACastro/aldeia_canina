@@ -10,7 +10,7 @@
 
 Este documento descreve o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É comum a todas as entidades a que o projeto é apresentado e deve ser lido em primeiro lugar.
 
-Cada entidade tem, além disso, um documento próprio, a ler a seguir a este, dedicado às matérias da sua área. As referências legais não são reproduzidas aqui; constam dos documentos de cada entidade.
+Cada entidade tem, além disso, um documento próprio, a ler a seguir a este, dedicado às matérias da sua área. As referências legais não são reproduzidas aqui; os documentos de cada entidade indicam os regimes que identificámos e as questões que gostaríamos de confirmar.
 
 | Entidade | Documento próprio |
 | --- | --- |
@@ -471,5 +471,5 @@ O núcleo essencial é pensado para caber em qualquer terreno da faixa de refer�
 - O terreno ainda não foi escolhido. Nenhum dos terrenos em avaliação é identificado ou avaliado aqui.
 - As figuras são visualizações conceptuais. Não representam nenhum dos terrenos em estudo, nem uma implantação, planta ou infraestrutura existente.
 - Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
-- O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. O enquadramento legal de cada matéria consta dos documentos das entidades e depende das fontes oficiais e da validação das entidades competentes.
+- O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes que identificámos; o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.
 - A aldeia não substitui cuidados veterinários. As referências à saúde dos animais descrevem observação, acompanhamento e articulação com médico veterinário.
