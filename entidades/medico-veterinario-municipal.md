@@ -1,22 +1,20 @@
-# Aldeia Canina Sustentável em Viseu — Médico Veterinário Municipal
-
-> Este documento acompanha a [apresentação do projeto](../README.md), que recomendamos ler primeiro.
+# Pedido de orientação ao médico veterinário municipal
 
 ## 1. Apresentação e pedido
 
-Somos o promotor da Aldeia Canina Sustentável em Viseu, cujos serviços reúnem cães de diferentes tutores em alojamento com pernoita e em creche diária. Estão em avaliação quatro terrenos, dois deles com ruínas. O projeto toma como referência uma área de 15 000 a 25 000 m². O terreno ainda não está escolhido.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). No alojamento com pernoita e na creche diária vamos receber cães de diferentes tutores. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
 
-Pedimos a vossa orientação e a confirmação da nossa leitura sobre a vertente hígio-sanitária das instalações e da operação (profilaxia, isolamento, higiene e articulação com o médico veterinário responsável do alojamento), antes de prepararmos as instalações e a mera comunicação prévia à [DGAV](dgav.md).
+Antes de prepararmos as instalações e a mera comunicação prévia à [DGAV](dgav.md), gostaríamos de ter a vossa orientação sobre a vertente hígio-sanitária das instalações e da operação (profilaxia, isolamento, higiene e articulação com o médico veterinário responsável do alojamento) e de saber se a nossa leitura está certa.
 
 ## 2. O que já analisámos
 
-Nas fontes oficiais consultadas até 3 de novembro de 2026, identificámos como relevantes:
+Nas fontes oficiais que consultámos até 3 de novembro de 2026, identificámos como relevantes:
 
-- [Decreto-Lei n.º 276/2001](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875): alojamento de animais de companhia, incluindo o médico veterinário responsável, a enfermaria e isolamento e as condições de higiene.
-- [Decreto-Lei n.º 82/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684) e [Despacho n.º 3924/2026](https://diariodarepublica.pt/dr/detalhe/despacho/3924-2026-1076923192): identificação eletrónica, registo no SIAC e profilaxias obrigatórias, incluindo a vacinação antirrábica.
-- [Regulamento (CE) n.º 1069/2009](https://eur-lex.europa.eu/eli/reg/2009/1069/oj?locale=pt): subprodutos animais, incluindo os cadáveres de animais de companhia ([encaminhamento explicado pela DGAV](https://www.dgav.pt/animais/conteudo/animais-de-companhia/subprodutos/)).
+- o [Decreto-Lei n.º 276/2001](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875), sobre o alojamento de animais de companhia, incluindo o médico veterinário responsável, a enfermaria e isolamento e as condições de higiene;
+- o [Decreto-Lei n.º 82/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684) e o [Despacho n.º 3924/2026](https://diariodarepublica.pt/dr/detalhe/despacho/3924-2026-1076923192), quanto à identificação eletrónica, ao registo no SIAC e às profilaxias obrigatórias, incluindo a vacinação antirrábica;
+- o [Regulamento (CE) n.º 1069/2009](https://eur-lex.europa.eu/eli/reg/2009/1069/oj?locale=pt), sobre subprodutos animais, incluindo os cadáveres de animais de companhia ([encaminhamento explicado pela DGAV](https://www.dgav.pt/animais/conteudo/animais-de-companhia/subprodutos/)).
 
-Gostaríamos de confirmar se esta leitura está correta e se há outros aspetos que devamos considerar desde já.
+Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos digam.
 
 ## 3. Perguntas
 
@@ -31,9 +29,4 @@ Gostaríamos de confirmar se esta leitura está correta e se há outros aspetos 
 
 ## 4. O que podemos facultar
 
-- **Disponível:** a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal e a sustentabilidade.
-- **Por fazer ou por obter, para cada terreno candidato:**
-  - levantamento topográfico;
-  - certidões prediais e cadastro;
-  - cartografia de perigosidade de incêndio rural.
-- Ainda não existem implantação, plantas nem capacidade máxima definidas: dependem da escolha do terreno.
+Neste momento podemos facultar a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal e a sustentabilidade. Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas: dependem da escolha do terreno.

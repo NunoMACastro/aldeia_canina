@@ -1,26 +1,24 @@
-# Aldeia Canina Sustentável em Viseu — Direção-Geral de Alimentação e Veterinária (DGAV)
-
-> Este documento acompanha a [apresentação do projeto](../README.md), que recomendamos ler primeiro.
+# Pedido de orientação à Direção-Geral de Alimentação e Veterinária (DGAV)
 
 ## 1. Apresentação e pedido
 
-Somos o promotor da Aldeia Canina Sustentável em Viseu, que prevê alojamento com pernoita, creche diária/ATL canino, grooming, treino e transporte de animais. Estão em avaliação quatro terrenos, dois deles com ruínas. O projeto toma como referência uma área de 15 000 a 25 000 m². O terreno ainda não está escolhido.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md) e que inclui alojamento com pernoita, creche diária/ATL canino, grooming, treino e transporte de animais. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
 
-Pedimos desde já a vossa orientação e a confirmação da nossa leitura, antes de prepararmos a mera comunicação prévia e as instalações: o enquadramento do alojamento condiciona o desenho das instalações, a capacidade e o serviço de transporte.
+O enquadramento do alojamento condiciona o desenho das instalações, a capacidade e o serviço de transporte. Por isso gostaríamos de ter desde já a vossa orientação, e de saber se a nossa leitura está certa, antes de prepararmos a mera comunicação prévia e as instalações.
 
 ## 2. O que já analisámos
 
-Nas fontes oficiais consultadas até 3 de novembro de 2026, identificámos como relevantes:
+Nas fontes oficiais que consultámos até 3 de novembro de 2026, identificámos como relevantes:
 
-- [Decreto-Lei n.º 276/2001, na redação consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875), incluindo a alteração do [Decreto-Lei n.º 260/2012](https://diariodarepublica.pt/dr/detalhe/decreto-lei/260-2012-190815): mera comunicação prévia, médico veterinário responsável, instalações, maneio, registos e dimensões mínimas do alojamento.
-- [Decreto-Lei n.º 82/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684) e [Despacho n.º 3924/2026](https://diariodarepublica.pt/dr/detalhe/despacho/3924-2026-1076923192): identificação, registo no SIAC e vacinação antirrábica.
-- [Decreto-Lei n.º 315/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34511975) e [Portaria n.º 317/2015](https://diariodarepublica.pt/dr/detalhe/portaria/317-2015-70411881): cães perigosos ou potencialmente perigosos e o respetivo treino, se os admitirmos.
-- [Decreto-Lei n.º 184/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-156566057): centros de atendimento médico-veterinários (CAMV).
-- [Código aprovado pelo Decreto-Lei n.º 148/2008](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-34503175), alterado e republicado pelo [Decreto-Lei n.º 314/2009](https://diariodarepublica.pt/dr/detalhe/decreto-lei/314-2009-483106), e [Regulamento (UE) 2019/6](https://eur-lex.europa.eu/eli/reg/2019/6/oj?locale=pt): medicamentos veterinários, incluindo a sua administração e conservação.
-- [Estatuto da Ordem dos Médicos Veterinários](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-808192498): atos clínicos reservados.
-- [Regulamento (CE) n.º 1/2005](https://eur-lex.europa.eu/legal-content/PT/ALL/?uri=CELEX%3A02005R0001-20191214) e [Decreto-Lei n.º 265/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34561775): transporte de animais em conexão com uma atividade económica.
+- o [Decreto-Lei n.º 276/2001, na redação consolidada](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875), incluindo a alteração do [Decreto-Lei n.º 260/2012](https://diariodarepublica.pt/dr/detalhe/decreto-lei/260-2012-190815), quanto à mera comunicação prévia, ao médico veterinário responsável, às instalações, ao maneio, aos registos e às dimensões mínimas do alojamento;
+- o [Decreto-Lei n.º 82/2019](https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684) e o [Despacho n.º 3924/2026](https://diariodarepublica.pt/dr/detalhe/despacho/3924-2026-1076923192), quanto à identificação, ao registo no SIAC e à vacinação antirrábica;
+- o [Decreto-Lei n.º 315/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34511975) e a [Portaria n.º 317/2015](https://diariodarepublica.pt/dr/detalhe/portaria/317-2015-70411881), sobre cães perigosos ou potencialmente perigosos e o respetivo treino, se os admitirmos;
+- o [Decreto-Lei n.º 184/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-156566057), sobre os centros de atendimento médico-veterinários (CAMV);
+- o [Código aprovado pelo Decreto-Lei n.º 148/2008](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-34503175), alterado e republicado pelo [Decreto-Lei n.º 314/2009](https://diariodarepublica.pt/dr/detalhe/decreto-lei/314-2009-483106), e o [Regulamento (UE) 2019/6](https://eur-lex.europa.eu/eli/reg/2019/6/oj?locale=pt), sobre medicamentos veterinários, incluindo a sua administração e conservação;
+- o [Estatuto da Ordem dos Médicos Veterinários](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-808192498), quanto aos atos clínicos reservados;
+- o [Regulamento (CE) n.º 1/2005](https://eur-lex.europa.eu/legal-content/PT/ALL/?uri=CELEX%3A02005R0001-20191214) e o [Decreto-Lei n.º 265/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34561775), sobre o transporte de animais em conexão com uma atividade económica.
 
-Gostaríamos de confirmar se esta leitura está correta e se há outros aspetos que devamos considerar desde já.
+Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos digam.
 
 ## 3. Perguntas
 
@@ -39,9 +37,4 @@ Gostaríamos de confirmar se esta leitura está correta e se há outros aspetos 
 
 ## 4. O que podemos facultar
 
-- **Disponível:** a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal, o transporte e o faseamento.
-- **Por fazer ou por obter, para cada terreno candidato:**
-  - levantamento topográfico;
-  - certidões prediais e cadastro;
-  - cartografia de perigosidade de incêndio rural.
-- Ainda não existem implantação, plantas nem capacidade máxima definidas: dependem da escolha do terreno.
+Neste momento podemos facultar a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal, o transporte e o faseamento. Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas, porque dependem da escolha do terreno.
