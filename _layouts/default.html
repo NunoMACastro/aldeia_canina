@@ -23,6 +23,20 @@
   {%- assign abertura = primeiro | strip | replace_first: "<p>", '<p class="abertura">' -%}
 {%- endif -%}
 
+{%- comment -%}
+  Na tabela do README, a ligação a cada documento tem como rótulo o nome do
+  ficheiro (`entidades/x.md`), útil no GitHub. No site, o rótulo passa a ser o
+  título do próprio documento, que é texto da fonte.
+{%- endcomment -%}
+{%- for p in site.data.paginas -%}
+  {%- capture de -%}<code>{{ p.md }}</code>{%- endcapture -%}
+  {%- if corpo contains de -%}
+    {%- assign alvo = site.pages | where: "url", p.url | first -%}
+    {%- assign rotulo = alvo.title | default: p.nome -%}
+    {%- assign corpo = corpo | replace: de, rotulo -%}
+  {%- endif -%}
+{%- endfor -%}
+
 {%- capture indice -%}
   {%- assign blocos = corpo | split: '<h2 id="' -%}
   {%- for bloco in blocos offset: 1 -%}
