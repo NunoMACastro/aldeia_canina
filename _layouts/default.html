@@ -90,6 +90,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if inicio %}{{ site.titulo_entrada }}{% else %}{{ titulo }}{% endif %} · {{ site.nome_barra }}</title>
 <meta name="description" content="{{ site.natureza }}">
+{%- comment -%} Decisão do utilizador: o site não deve aparecer nos motores de busca. {%- endcomment %}
+<meta name="robots" content="noindex, nofollow">
 <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 <script src="{{ '/assets/js/indice.js' | relative_url }}" defer></script>
@@ -131,7 +133,7 @@
   <div class="folha">
     <aside class="lado" aria-label="Sobre este documento e navegação">
       <div class="natureza">
-        <p class="natureza-t">Documento conceptual</p>
+        <p class="natureza-t">Documento preliminar</p>
         <p>{{ site.versao }}</p>
         <p>{{ site.natureza }}</p>
       </div>
@@ -161,9 +163,9 @@
   <div class="pe-in">
     <p>{{ site.versao_longa }}</p>
     <p>{{ site.natureza }}</p>
-    <p>Contacto do promotor: <span class="reservado">por preencher</span></p>
+    <p>Contactos do promotor: <a href="tel:+351{{ site.contacto_telefone | remove: ' ' }}">{{ site.contacto_telefone }}</a> e <a href="mailto:{{ site.contacto_email }}">{{ site.contacto_email }}</a></p>
     {%- if info %}
-    <p><a href="{{ site.repositorio_md }}{{ info.md }}" rel="noopener">Ler este documento em Markdown no GitHub</a></p>
+    <p class="pe-md"><a href="{{ site.repositorio_md }}{{ info.md }}" rel="noopener">Ler este documento em Markdown no GitHub</a></p>
     {%- endif %}
   </div>
 </footer>

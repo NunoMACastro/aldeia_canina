@@ -12,11 +12,14 @@ repositorio_md: https://github.com/NunoMACastro/aldeia_canina/blob/main/
 # estas frases mudam também.
 versao: "Versão 1.0, de 3 de novembro de 2026."
 versao_longa: "Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026, baseada na visão 2.0 do projeto, da mesma data."
-natureza: "É um documento conceptual, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal."
+natureza: "É um documento preliminar, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal."
 # Título da página de entrada no site: a primeira frase do README.
 titulo_entrada: "Apresentação do projeto às entidades"
 # Nome na barra superior, o único sítio do site onde aparece.
 nome_barra: "Projeto Aldeia Canina Sustentável em Viseu"
+# Contactos do promotor no rodapé, indicados pelo utilizador a 2026-11-04.
+contacto_telefone: "966 182 433"
+contacto_email: "mariajpsousa@icloud.com"
 
 markdown: kramdown
 kramdown:

@@ -1,15 +1,15 @@
-# As duas visualizações conceptuais do README.md. O texto alternativo e a
+# As duas visualizações ilustrativas do README.md. O texto alternativo e a
 # legenda são cópias literais das figuras 1 e 2 do README; se lá mudarem,
 # mudam aqui também. Nas páginas das entidades a legenda aparece sem o número.
 
 aerea:
   numero: 1
   imagem: images/aerial-readme.webp
-  alt: "Vista aérea conceptual de uma aldeia canina integrada numa paisagem natural, com pequenas casas de alojamento, caminhos, zonas verdes e edifícios de apoio"
-  legenda: "Visualização conceptual da organização geral da aldeia. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  alt: "Vista aérea ilustrativa de uma aldeia canina integrada numa paisagem natural, com pequenas casas de alojamento, caminhos, zonas verdes e edifícios de apoio"
+  legenda: "Visualização ilustrativa da organização geral da aldeia. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
 
 vista:
   numero: 2
   imagem: images/view-readme.webp
-  alt: "Perspetiva conceptual do interior de uma aldeia canina, com casa de apoio, casas de alojamento independentes, caminhos e espaços exteriores"
-  legenda: "Visualização conceptual do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  alt: "Perspetiva ilustrativa do interior de uma aldeia canina, com casa de apoio, casas de alojamento independentes, caminhos e espaços exteriores"
+  legenda: "Visualização ilustrativa do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."

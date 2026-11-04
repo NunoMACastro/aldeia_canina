@@ -4,7 +4,7 @@ Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026, 
 
 ## Sobre este documento
 
-Este documento apresenta o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É o mesmo para todas as entidades. É um documento conceptual, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal.
+Este documento apresenta o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É o mesmo para todas as entidades. É um documento preliminar, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal.
 
 Para cada entidade preparámos também um documento com os regimes que identificámos e as questões que gostaríamos de confirmar:
 
@@ -43,9 +43,9 @@ Os serviços vão do alojamento com pernoita à creche diária/ATL canino, com t
 
 Para a sustentabilidade ambiental, procuramos soluções eficientes (ver [secção 7](#7-sustentabilidade-e-infraestruturas)). O transporte serve também quem tem dificuldade em deslocar-se, a relação com os tutores apoia-se num portal digital (ver [secção 8](#8-inovação-e-relação-com-os-tutores)) e queremos que a aldeia tenha impacto económico e social no território. Crescerá por módulos, de forma progressiva (ver [secção 11](#11-faseamento)).
 
-![Vista aérea conceptual de uma aldeia canina integrada numa paisagem natural, com pequenas casas de alojamento, caminhos, zonas verdes e edifícios de apoio](images/aerial-readme.webp)
+![Vista aérea ilustrativa de uma aldeia canina integrada numa paisagem natural, com pequenas casas de alojamento, caminhos, zonas verdes e edifícios de apoio](images/aerial-readme.webp)
 
-_Figura 1. Visualização conceptual da organização geral da aldeia. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 1. Visualização ilustrativa da organização geral da aldeia. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 ## 2. Serviços previstos
 
@@ -119,9 +119,9 @@ O acesso é controlado, com dupla porta de segurança e uma zona de espera separ
 
 O projeto gira à volta das casas de alojamento animal: pequenas construções independentes ou agrupadas em núcleos pouco densos, para que nem a imagem nem a experiência sejam as de uma sequência de boxes. A arquitetura, os materiais, o afastamento entre as casas e a relação com a paisagem dão forma à ideia de aldeia.
 
-![Perspetiva conceptual do interior de uma aldeia canina, com casa de apoio, casas de alojamento independentes, caminhos e espaços exteriores](images/view-readme.webp)
+![Perspetiva ilustrativa do interior de uma aldeia canina, com casa de apoio, casas de alojamento independentes, caminhos e espaços exteriores](images/view-readme.webp)
 
-_Figura 2. Visualização conceptual do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 2. Visualização ilustrativa do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 Prevemos cinco tipologias de casa:
 
@@ -345,9 +345,9 @@ A composição e o calendário de cada fase definem-se no desenvolvimento do pro
 
 ## 12. Natureza e limites deste documento
 
-Este é um documento conceptual. Não é projeto de execução nem estudo de implantação, nem um pedido formal de informação prévia, licenciamento ou autorização. Apresentamo-lo às entidades antes da escolha do terreno e do PIP, para recolher a sua orientação. O terreno ainda não foi escolhido, e não identificamos nem avaliamos aqui nenhum dos quatro terrenos que estamos a considerar.
+Este é um documento preliminar. Não é projeto de execução nem estudo de implantação, nem um pedido formal de informação prévia, licenciamento ou autorização. Apresentamo-lo às entidades antes da escolha do terreno e do PIP, para recolher a sua orientação. O terreno ainda não foi escolhido, e não identificamos nem avaliamos aqui nenhum dos quatro terrenos que estamos a considerar.
 
-As figuras são visualizações conceptuais e não representam nenhum dos terrenos em estudo, nem uma implantação, planta ou infraestrutura existente. Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
+As figuras são visualizações ilustrativas e não representam nenhum dos terrenos em estudo, nem uma implantação, planta ou infraestrutura existente. Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
 
 O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes que identificámos, mas o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.
 

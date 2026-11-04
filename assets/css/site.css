@@ -31,7 +31,7 @@
   --tinta-2: #565D4F;     /* texto secundário */
   --pinho: #45552B;       /* ligações, números e marcas */
   --pinho-escuro: #34411F;/* faixa do rodapé e fundo do texto sobre a paisagem no telemóvel */
-  --erva: #B39660;        /* erva seca: filetes e marcas, nunca texto */
+  --erva: #B39660;        /* erva seca: só traços e filetes, nunca texto nem superfície */
   --neblina: #DDD6CA;     /* fundo das imagens; texto secundário sobre escuro */
   --pedra: #ECE8DF;       /* caixas de nota */
   --filete: #D8D3C8;
@@ -264,7 +264,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
 .pe a { color: var(--chao); }
 .pe a:hover { color: var(--chao); text-decoration-thickness: 2px; }
-.reservado { background: var(--erva); color: var(--tinta); padding: 0 .35em; font-weight: 600; }
 
 /* Portáteis com pouca altura: os postais das entidades continuam no primeiro ecrã */
 @media (min-width: 64.01rem) and (max-height: 820px) {
@@ -313,7 +312,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe a { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md { display: none; }
   /* A barra fica só com o nome: no papel é o único sítio onde ele aparece. */
   .barra { min-height: 0; padding: 0 0 3mm; border-bottom: 1px solid #999; }
   .nome { color: #000; font-size: 11pt; }
