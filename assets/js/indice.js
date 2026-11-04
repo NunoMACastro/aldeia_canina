@@ -1,13 +1,25 @@
-/* Marca no índice a secção que está a ser lida (no índice lateral e no do telemóvel).
+/* Comportamentos do site: menu «Documentos», coluna lateral perante figuras largas e índice que
+   marca a secção que está a ser lida (no índice lateral e no do telemóvel).
    Melhoria progressiva: sem este script, os índices funcionam como listas de ligações.
    Não recolhe nem envia dados. */
 (function () {
   "use strict";
-  /* No telemóvel, a barra de documentos desliza até à página atual. */
-  var atual = document.querySelector(".barra a[aria-current='page']");
-  var barra = atual && atual.closest("nav");
-  if (barra && barra.scrollWidth > barra.clientWidth) {
-    barra.scrollLeft = Math.max(0, atual.offsetLeft - 16);
+  /* O menu «Documentos» fecha com Escape, com um toque ou clique fora dele, quando o foco
+     sai dele (Tab) e quando se volta à página pelo histórico; sem este script, abre e fecha
+     só no próprio botão. Usa pointerdown porque no Safari do iPhone um clique em zona sem
+     ligação nem botão não chega ao documento. */
+  var menu = document.querySelector(".menu");
+  if (menu) {
+    document.addEventListener("pointerdown", function (e) {
+      if (menu.open && !menu.contains(e.target)) menu.open = false;
+    });
+    menu.addEventListener("focusout", function (e) {
+      if (menu.open && e.relatedTarget && !menu.contains(e.relatedTarget)) menu.open = false;
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+    });
+    window.addEventListener("pageshow", function () { menu.open = false; });
   }
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */

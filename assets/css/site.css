@@ -82,15 +82,37 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   min-height: 3.75rem; padding-block: .5rem; padding-inline: var(--margem);
   font-family: var(--f-titulo);
 }
-.nome { font: 600 1.15rem/1.2 var(--f-texto); color: var(--tinta); text-decoration: none; white-space: nowrap; letter-spacing: -.005em; }
+.nome { font: 600 1.15rem/1.25 var(--f-texto); color: var(--tinta); text-decoration: none; letter-spacing: -.005em; }
 .nome:hover { color: var(--pinho); }
-.barra ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.6rem; }
-.barra nav a {
-  display: block; padding: .45rem 0; font-weight: 600; font-size: .98rem;
-  color: var(--tinta); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap;
+
+/* Menu «Documentos»: um só botão abre a lista dos seis documentos (funciona sem JavaScript) */
+.menu { position: relative; flex: none; font-family: var(--f-titulo); }
+.menu summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .6rem;
+  padding: .5rem .95rem; border: 1px solid var(--filete); border-radius: 2px; background: var(--chao);
+  font-weight: 600; font-size: .98rem; color: var(--tinta);
+  transition: border-color .2s var(--suave), color .2s var(--suave);
 }
-.barra nav a:hover { color: var(--pinho); border-bottom-color: var(--erva); }
-.barra nav a[aria-current="page"] { color: var(--pinho); border-bottom-color: var(--pinho); }
+.menu summary::-webkit-details-marker { display: none; }
+.menu summary::after {
+  content: ""; width: .42rem; height: .42rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); transition: transform .25s var(--suave);
+}
+.menu[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+.menu summary:hover, .menu[open] summary { border-color: var(--pinho); color: var(--pinho); }
+.menu nav {
+  position: absolute; right: 0; top: calc(100% + .5rem); z-index: 20; width: min(25rem, calc(100vw - 2 * var(--gutter)));
+  background: var(--chao); border-top: 3px solid var(--erva); padding: .35rem 0;
+  box-shadow: 0 18px 40px -18px rgba(30, 34, 26, .55), 0 2px 8px -4px rgba(30, 34, 26, .25);
+}
+.menu ul { list-style: none; margin: 0; padding: 0; }
+.menu a {
+  display: block; padding: .6rem 1.1rem .6rem .95rem; border-left: 3px solid transparent;
+  color: var(--tinta); text-decoration: none; font-weight: 600; font-size: .98rem; line-height: 1.3;
+}
+.menu a:hover { background: var(--pedra); color: var(--pinho); }
+.menu a[aria-current="page"] { color: var(--pinho); border-left-color: var(--pinho); }
+@media (prefers-reduced-motion: reduce) { .menu summary, .menu summary::after { transition: none; } }
 
 /* Abertura: a paisagem ocupa o primeiro ecrã; o título e as ressalvas assentam na sombra da imagem */
 .vista { position: relative; overflow: hidden; background: var(--neblina); height: clamp(15rem, 36vh, 24rem); }
@@ -113,11 +135,9 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   margin: 0; font: 600 clamp(1.9rem, 1.2rem + 2.2vw, 3.1rem)/1.06 var(--f-texto);
   letter-spacing: -.018em; text-wrap: balance; text-shadow: 0 1px 18px rgba(22, 27, 18, .35);
 }
-.inicio .vista h1 { font-size: clamp(2.7rem, 1.3rem + 4.4vw, 5.6rem); line-height: .98; letter-spacing: -.025em; max-width: 13ch; }
-.linha-versao { margin: 1.1rem 0 .35rem; font: 400 1rem/1.45 var(--f-titulo); color: var(--neblina); max-width: 62ch; }
-.natureza-vista { margin: 0 0 .9rem; font: 600 1.02rem/1.45 var(--f-titulo); max-width: 58ch; }
+.inicio .vista h1 { font-size: clamp(2.1rem, 1.3rem + 2.2vw, 3.3rem); line-height: 1.04; letter-spacing: -.02em; max-width: 20ch; }
 .vista-legenda { margin: .7rem 0 0; font: 400 .84rem/1.4 var(--f-titulo); color: var(--neblina); max-width: 64ch; }
-.inicio .vista-legenda { padding-top: .6rem; border-top: 1px solid rgba(221, 214, 202, .35); }
+.inicio .vista-legenda { margin-top: .9rem; }
 .titulo-simples { max-width: 76rem; margin: 2.5rem auto 0; padding-inline: var(--margem); font: 600 2.2rem/1.1 var(--f-texto); }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -242,7 +262,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .pe { background: var(--pinho-escuro); color: var(--chao); }
 .pe-in { max-width: 76rem; margin: 0 auto; padding: 2.6rem var(--margem) 3rem; font: 400 .95rem/1.55 var(--f-titulo); }
 .pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
-.pe-in .pe-nome { margin-bottom: .9rem; font: 600 1.35rem/1.2 var(--f-texto); color: var(--chao); letter-spacing: -.01em; }
 .pe a { color: var(--chao); }
 .pe a:hover { color: var(--chao); text-decoration-thickness: 2px; }
 .reservado { background: var(--erva); color: var(--tinta); padding: 0 .35em; font-weight: 600; }
@@ -251,20 +270,11 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media (min-width: 64.01rem) and (max-height: 820px) {
   .inicio .vista { height: clamp(24rem, 62vh, 40rem); }
   .inicio .vista-texto { bottom: 6.2rem; }
-  .inicio .vista h1 { font-size: clamp(2.5rem, 1.2rem + 3.6vw, 4.6rem); }
   .postal-img { height: 6.2rem; }
 }
 
 /* Ecrãs médios */
 @media (max-width: 64rem) {
-  .barra { flex-direction: column; align-items: flex-start; gap: .3rem; padding-top: .8rem; }
-  .barra nav {
-    width: 100%; overflow-x: auto; scrollbar-width: none;
-    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
-    mask-image: linear-gradient(to right, #000 85%, transparent);
-  }
-  .barra nav::-webkit-scrollbar { display: none; }
-  .barra ul { gap: 1.25rem; padding-bottom: .2rem; padding-right: 2rem; }
   .postais ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .folha { grid-template-columns: minmax(0, 1fr); grid-template-areas: "lado" "doc"; padding-top: 2.5rem; }
   .lado { margin-bottom: 1rem; }
@@ -280,6 +290,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media (max-width: 40rem) {
   body { font-size: 1.0625rem; }
   .barra, .folha, .pe-in, .postais-fim, .postais-entrada { padding-inline: var(--gutter); }
+  .barra { gap: 1rem; }
+  .nome { font-size: 1.02rem; }
   .vista, .inicio .vista { height: auto; background: var(--pinho-escuro); }
   .vista picture { display: block; }
   .vista-img { position: relative; height: 15rem; }
@@ -288,7 +300,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .vista-texto, .inicio .vista-texto { position: relative; left: auto; right: auto; bottom: auto; max-width: none; padding: 1.4rem var(--gutter) 1.5rem; background: var(--pinho-escuro); }
   .vista h1 { text-shadow: none; }
   .inicio .vista-texto { padding-bottom: 1.6rem; }
-  .inicio .vista h1 { font-size: 2.6rem; }
+  .inicio .vista h1 { font-size: 2.1rem; }
   .postais-entrada { margin-top: 1.2rem; }
   .postais ul { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: .8rem; padding-bottom: .6rem; scrollbar-width: none; }
   .postais ul::-webkit-scrollbar { display: none; }
@@ -301,15 +313,18 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .barra, .saltar, .indice, .postais-entrada, .postais-fim, .pe a { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe a { display: none; }
+  /* A barra fica só com o nome: no papel é o único sítio onde ele aparece. */
+  .barra { min-height: 0; padding: 0 0 3mm; border-bottom: 1px solid #999; }
+  .nome { color: #000; font-size: 11pt; }
   .vista, .inicio .vista { height: auto; background: none; overflow: visible; }
   .vista-img { position: static; height: 6cm; transform: none; animation: none; }
   .entidade .vista-img, .entidade .vista-legenda { display: none; }
   .vista::after { display: none; }
   .vista-texto, .inicio .vista-texto { position: static; color: #000; background: none; padding: 4mm 0 0; max-width: none; }
-  .vista h1, .linha-versao, .natureza-vista { color: #000; }
+  .vista h1 { color: #000; }
   .vista h1, .inicio .vista h1 { font-size: 22pt; text-shadow: none; max-width: none; }
-  .linha-versao, .natureza-vista, .vista-legenda { color: #333; border: 0; }
+  .vista-legenda { color: #333; }
   .folha { display: block; padding: 6mm 0 0; max-width: none; }
   .lado { margin-bottom: 6mm; }
   .natureza { background: none; border: 1px solid #999; }
@@ -322,5 +337,5 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   a { color: #000; text-decoration: none; }
   .doc a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8.5pt; color: #444; word-break: break-all; }
   .pe { background: none; color: #333; }
-  .pe-in p, .pe-in .pe-nome { color: #333; }
+  .pe-in p { color: #333; }
 }

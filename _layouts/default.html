@@ -1,9 +1,11 @@
 {%- comment -%}
   Layout único do site. O conteúdo vem do Markdown convertido pelo kramdown.
-  O layout só reorganiza: tira o H1 para a abertura sobre a paisagem, passa a
-  primeira linha do README para essa abertura, destaca o número das secções,
-  monta o índice a partir dos títulos H2 e mostra os documentos das entidades
-  como postais. Não acrescenta texto ao documento.
+  O layout só reorganiza: o nome do projeto fica só na barra; o H1 do Markdown
+  passa a título sobre a paisagem (na entrada, a primeira frase do README); a
+  primeira linha do README sai do corpo porque está no rodapé (e a versão na
+  nota lateral); destaca o número das secções, monta o índice a partir dos
+  títulos H2 e mostra os documentos das entidades como postais. Não acrescenta
+  texto ao documento.
 {%- endcomment -%}
 {%- assign info = site.data.paginas | where: "url", page.url | first -%}
 {%- assign inicio = false -%}
@@ -17,11 +19,9 @@
   {%- unless titulo -%}{%- assign titulo = h1 | strip_html | strip -%}{%- endunless -%}
 {%- endif -%}
 
-{%- assign abertura = "" -%}
 {%- if inicio -%}
   {%- assign primeiro = corpo | split: "</p>" | first | append: "</p>" -%}
   {%- assign corpo = corpo | remove_first: primeiro -%}
-  {%- assign abertura = primeiro | strip | replace_first: "<p>", '<p class="linha-versao">' -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -88,7 +88,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if inicio %}Apresentação do projeto às entidades{% else %}{{ titulo }}{% endif %} · {{ site.title }}</title>
+<title>{% if inicio %}{{ site.titulo_entrada }}{% else %}{{ titulo }}{% endif %} · {{ site.nome_barra }}</title>
 <meta name="description" content="{{ site.natureza }}">
 <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
@@ -97,12 +97,15 @@
 <body class="{% if inicio %}inicio{% else %}entidade{% endif %}">
 <a class="saltar" href="#texto">Saltar para o texto</a>
 <header class="barra">
-  <a class="nome" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-  <nav aria-label="Documentos"><ul>
-    {%- for p in site.data.paginas -%}
-    <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.curto }}</a></li>
-    {%- endfor -%}
-  </ul></nav>
+  <a class="nome" href="{{ '/' | relative_url }}">{{ site.nome_barra }}</a>
+  <details class="menu">
+    <summary>Documentos</summary>
+    <nav aria-label="Documentos"><ul>
+      {%- for p in site.data.paginas -%}
+      <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nome }}</a></li>
+      {%- endfor -%}
+    </ul></nav>
+  </details>
 </header>
 <main id="texto">
   {%- if info %}
@@ -115,11 +118,7 @@
       <img class="vista-img" src="{{ info.faixa | default: fig.imagem | relative_url }}" alt="{{ fig.alt }}" fetchpriority="high">
     </picture>
     <div class="vista-texto">
-      <h1>{{ titulo }}</h1>
-      {%- if inicio %}
-      {{ abertura }}
-      <p class="natureza-vista">{{ site.natureza }}</p>
-      {%- endif %}
+      <h1>{% if inicio %}{{ site.titulo_entrada }}{% else %}{{ titulo }}{% endif %}</h1>
       <p class="vista-legenda">{% if inicio %}Figura {{ fig.numero }}. {% endif %}{{ fig.legenda }}</p>
     </div>
   </div>
@@ -131,13 +130,11 @@
   {%- endif %}
   <div class="folha">
     <aside class="lado" aria-label="Sobre este documento e navegação">
-      {%- unless inicio %}
       <div class="natureza">
         <p class="natureza-t">Documento conceptual</p>
         <p>{{ site.versao }}</p>
         <p>{{ site.natureza }}</p>
       </div>
-      {%- endunless %}
       <nav class="indice indice-lado" aria-label="Nesta página">
         <p class="indice-t">Nesta página</p>
         <ol>{{ indice }}</ol>
@@ -162,7 +159,6 @@
 </main>
 <footer class="pe">
   <div class="pe-in">
-    <p class="pe-nome">{{ site.title }}</p>
     <p>{{ site.versao_longa }}</p>
     <p>{{ site.natureza }}</p>
     <p>Contacto do promotor: <span class="reservado">por preencher</span></p>

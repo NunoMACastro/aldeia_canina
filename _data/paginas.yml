@@ -8,7 +8,6 @@
 
 - url: /
   md: README.md
-  curto: Apresentação
   nome: Apresentação do projeto
   figura: aerea
   foco_x: 50%
@@ -17,7 +16,6 @@
 
 - url: /entidades/camara-municipal-viseu.html
   md: entidades/camara-municipal-viseu.md
-  curto: Câmara Municipal
   nome: Câmara Municipal de Viseu
   figura: aerea
   faixa: images/faixas/camara-municipal-viseu-larga.jpg
@@ -28,7 +26,6 @@
 
 - url: /entidades/gabinete-tecnico-florestal.html
   md: entidades/gabinete-tecnico-florestal.md
-  curto: Gabinete Técnico Florestal
   nome: Gabinete Técnico Florestal
   figura: aerea
   faixa: images/faixas/gabinete-tecnico-florestal-larga.jpg
@@ -39,7 +36,6 @@
 
 - url: /entidades/dgav.html
   md: entidades/dgav.md
-  curto: DGAV
   nome: Direção-Geral de Alimentação e Veterinária (DGAV)
   figura: vista
   faixa: images/faixas/dgav-larga.jpg
@@ -50,7 +46,6 @@
 
 - url: /entidades/icnf.html
   md: entidades/icnf.md
-  curto: ICNF
   nome: Instituto da Conservação da Natureza e das Florestas (ICNF)
   figura: aerea
   faixa: images/faixas/icnf-larga.jpg
@@ -61,7 +56,6 @@
 
 - url: /entidades/medico-veterinario-municipal.html
   md: entidades/medico-veterinario-municipal.md
-  curto: Médico veterinário municipal
   nome: Médico veterinário municipal
   figura: vista
   faixa: images/faixas/medico-veterinario-municipal-larga.jpg
