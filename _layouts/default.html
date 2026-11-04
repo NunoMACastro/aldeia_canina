@@ -75,7 +75,7 @@
     {%- unless p.url == page.url -%}
     {%- assign f = site.data.figuras[p.figura] %}
     <li><a href="{{ p.url | relative_url }}" style="--fx:{{ p.foco_x }};--fy:{{ p.foco_y }};--zoom:{{ p.zoom }}">
-      <span class="postal-img"><img src="{{ p.faixa_estreita | default: f.imagem | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+      <span class="postal-img"><img src="{{ p.faixa_estreita | default: f.imagem | relative_url }}" alt="" loading="{% if inicio %}eager{% else %}lazy{% endif %}" decoding="async"></span>
       <span class="postal-nome">{{ p.nome }}</span>
     </a></li>
     {%- endunless -%}
