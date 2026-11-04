@@ -6,11 +6,11 @@
 **Base:** visão 2.0 do projeto, de 3 de novembro de 2026<br>
 **Natureza:** documento conceptual; não é projeto de execução nem pedido formal; terreno ainda por escolher
 
-## Como ler este documento
+## Sobre este documento
 
-Este documento descreve o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É comum a todas as entidades a que o projeto é apresentado e deve ser lido em primeiro lugar.
+Este documento apresenta o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É o mesmo para todas as entidades.
 
-Cada entidade tem, além disso, um documento próprio, a ler a seguir a este, dedicado às matérias da sua área. As referências legais não são reproduzidas aqui; os documentos de cada entidade indicam os regimes que identificámos e as questões que gostaríamos de confirmar.
+Para cada entidade preparámos também um documento com os regimes que identificámos e as questões que gostaríamos de confirmar:
 
 | Entidade | Documento próprio |
 | --- | --- |
@@ -20,7 +20,7 @@ Cada entidade tem, além disso, um documento próprio, a ler a seguir a este, de
 | Instituto da Conservação da Natureza e das Florestas (ICNF) | [`entidades/icnf.md`](entidades/icnf.md) |
 | Médico veterinário municipal | [`entidades/medico-veterinario-municipal.md`](entidades/medico-veterinario-municipal.md) |
 
-Para uma leitura rápida, as secções 1, 3 e 10 resumem o conceito, os critérios de escolha do terreno e as condicionantes com as medidas previstas.
+As secções 1, 3 e 10 resumem o conceito, os critérios de escolha do terreno e as condicionantes com as medidas previstas.
 
 Conteúdo:
 
