@@ -1,7 +1,10 @@
 # Navegação e faixa de paisagem de cada página, pela ordem da barra superior.
 # url: endereço da página no site; md: ficheiro de origem no repositório.
-# figura: chave em _data/figuras.yml; foco_x/foco_y/zoom: recorte da faixa,
-# escolhido pelo assunto de cada entidade.
+# figura: chave em _data/figuras.yml (legenda e texto alternativo).
+# faixa / faixa_estreita: recortes próprios de cada entidade, tirados das imagens
+# originais (images/aerial.png e images/view.png) e escolhidos pelo assunto da
+# entidade; a estreita serve o telemóvel e os postais. Sem faixa, usa-se a figura.
+# foco_x/foco_y/zoom: enquadramento da imagem dentro da faixa.
 
 - url: /
   md: README.md
@@ -17,42 +20,52 @@
   curto: Câmara Municipal
   nome: Câmara Municipal de Viseu
   figura: aerea
-  foco_x: 22%
-  foco_y: 52%
-  zoom: 1.7
+  faixa: images/faixas/camara-municipal-viseu-larga.jpg
+  faixa_estreita: images/faixas/camara-municipal-viseu-estreita.jpg
+  foco_x: 50%
+  foco_y: 50%
+  zoom: 1
 
 - url: /entidades/gabinete-tecnico-florestal.html
   md: entidades/gabinete-tecnico-florestal.md
   curto: Gabinete Técnico Florestal
   nome: Gabinete Técnico Florestal
   figura: aerea
-  foco_x: 72%
-  foco_y: 14%
-  zoom: 1.5
+  faixa: images/faixas/gabinete-tecnico-florestal-larga.jpg
+  faixa_estreita: images/faixas/gabinete-tecnico-florestal-estreita.jpg
+  foco_x: 50%
+  foco_y: 62%
+  zoom: 1
 
 - url: /entidades/dgav.html
   md: entidades/dgav.md
   curto: DGAV
   nome: Direção-Geral de Alimentação e Veterinária (DGAV)
   figura: vista
-  foco_x: 70%
-  foco_y: 52%
-  zoom: 1.5
+  faixa: images/faixas/dgav-larga.jpg
+  faixa_estreita: images/faixas/dgav-estreita.jpg
+  foco_x: 50%
+  foco_y: 50%
+  zoom: 1
 
 - url: /entidades/icnf.html
   md: entidades/icnf.md
   curto: ICNF
   nome: Instituto da Conservação da Natureza e das Florestas (ICNF)
   figura: aerea
-  foco_x: 94%
-  foco_y: 60%
-  zoom: 1.7
+  faixa: images/faixas/icnf-larga.jpg
+  faixa_estreita: images/faixas/icnf-estreita.jpg
+  foco_x: 50%
+  foco_y: 50%
+  zoom: 1
 
 - url: /entidades/medico-veterinario-municipal.html
   md: entidades/medico-veterinario-municipal.md
   curto: Médico veterinário municipal
   nome: Médico veterinário municipal
   figura: vista
-  foco_x: 40%
-  foco_y: 55%
-  zoom: 1.5
+  faixa: images/faixas/medico-veterinario-municipal-larga.jpg
+  faixa_estreita: images/faixas/medico-veterinario-municipal-estreita.jpg
+  foco_x: 50%
+  foco_y: 50%
+  zoom: 1

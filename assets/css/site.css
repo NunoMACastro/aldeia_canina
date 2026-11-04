@@ -1,8 +1,10 @@
 /* Aldeia Canina Sustentável em Viseu: estilos do site (GitHub Pages com Jekyll).
    Mundo: a paisagem da própria aldeia. As cores foram medidas nas duas
    visualizações do projeto (pedra ao sol, pinhal, erva seca, neblina das
-   colinas). A coluna de leitura fica calma; a paisagem fica no enquadramento.
-   O sistema está descrito em DESIGN.md (ficheiro interno, fora do site).
+   colinas). A paisagem abre cada página; a coluna de leitura fica calma.
+   Tipografia em duas vozes: a serifa (Source Serif 4, com tamanho ótico) fala
+   pelo documento, nos títulos e no texto; a sem serifa (Source Sans 3) orienta,
+   na barra, na coluna lateral, nos postais, nos quadros e nas legendas.
    O HTML do conteúdo vem do kramdown: figuras como <p><img></p> seguido de
    <p><em>legenda</em></p>, quadros como <table> simples. */
 
@@ -27,19 +29,23 @@
   --chao: #F6F6F3;        /* fundo claro de pedra */
   --tinta: #2A2F26;       /* verde-oliva quase negro */
   --tinta-2: #565D4F;     /* texto secundário */
-  --pinho: #45552B;       /* ligações e marcas */
-  --pinho-escuro: #34411F;
-  --erva: #B39660;        /* erva seca: só filetes */
-  --neblina: #DDD6CA;     /* fundo das imagens */
-  --pedra: #ECE8DF;       /* caixas de nota e rodapé */
+  --pinho: #45552B;       /* ligações, números e marcas */
+  --pinho-escuro: #34411F;/* faixa do rodapé e fundo do texto sobre a paisagem no telemóvel */
+  --erva: #B39660;        /* erva seca: filetes e marcas, nunca texto */
+  --neblina: #DDD6CA;     /* fundo das imagens; texto secundário sobre escuro */
+  --pedra: #ECE8DF;       /* caixas de nota */
   --filete: #D8D3C8;
-  --legenda: rgba(30, 34, 26, .82);
+  --sombra-paisagem: rgba(22, 27, 18, .8);
 
-  --f-titulo: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
-  --f-texto: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-titulo: "Source Sans 3", "Segoe UI", system-ui, sans-serif;  /* orientação */
+  --f-texto: "Source Serif 4", Georgia, "Times New Roman", serif;   /* documento */
 
   --medida: 66ch;
+  --lado: 19rem;
+  --vao: clamp(3rem, 5vw, 5.5rem);
   --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --margem: max(2rem, var(--gutter));
+  --suave: cubic-bezier(.16, 1, .3, 1);
   color-scheme: light;
 }
 
@@ -73,10 +79,10 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 /* Barra superior: nome e documentos */
 .barra {
   display: flex; align-items: center; justify-content: space-between; gap: 2rem;
-  min-height: 3.75rem; padding-block: .5rem; padding-inline: max(2rem, var(--gutter));
+  min-height: 3.75rem; padding-block: .5rem; padding-inline: var(--margem);
   font-family: var(--f-titulo);
 }
-.nome { font-weight: 700; font-size: 1.08rem; color: var(--tinta); text-decoration: none; white-space: nowrap; }
+.nome { font: 600 1.15rem/1.2 var(--f-texto); color: var(--tinta); text-decoration: none; white-space: nowrap; letter-spacing: -.005em; }
 .nome:hover { color: var(--pinho); }
 .barra ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.6rem; }
 .barra nav a {
@@ -86,48 +92,97 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .barra nav a:hover { color: var(--pinho); border-bottom-color: var(--erva); }
 .barra nav a[aria-current="page"] { color: var(--pinho); border-bottom-color: var(--pinho); }
 
-/* Faixa de paisagem: a figura 1 abre o site; cada entidade abre com o recorte do seu assunto */
-.vista { position: relative; margin: 0; background: var(--neblina); overflow: hidden; }
-.vista img {
-  display: block; width: 100%; height: min(clamp(14rem, 25vw, 22.5rem), 36vh);
+/* Abertura: a paisagem ocupa o primeiro ecrã; o título e as ressalvas assentam na sombra da imagem */
+.vista { position: relative; overflow: hidden; background: var(--neblina); height: clamp(15rem, 36vh, 24rem); }
+.inicio .vista { height: clamp(26rem, 68vh, 46rem); }
+.vista-img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
   object-fit: cover; object-position: 50% var(--fy, 45%);
   transform: scale(var(--zoom, 1)); transform-origin: var(--fx, 50%) 50%;
 }
-.entidade .vista img { height: clamp(8rem, 15vw, 13rem); }
-.vista figcaption {
-  position: absolute; z-index: 1; left: max(2rem, var(--gutter)); bottom: 1rem; max-width: 46rem;
-  background: var(--legenda); color: #F4F3EE;
-  padding: .45rem .75rem; font: 400 .88rem/1.4 var(--f-titulo);
+.vista::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, var(--sombra-paisagem) 0%, rgba(22, 27, 18, .5) 36%, rgba(22, 27, 18, 0) 68%);
+}
+.vista-texto {
+  position: absolute; z-index: 1; left: var(--margem); right: var(--margem); bottom: 2rem;
+  max-width: 54rem; color: var(--chao);
+}
+.inicio .vista-texto { bottom: 7rem; }
+.vista h1 {
+  margin: 0; font: 600 clamp(1.9rem, 1.2rem + 2.2vw, 3.1rem)/1.06 var(--f-texto);
+  letter-spacing: -.018em; text-wrap: balance; text-shadow: 0 1px 18px rgba(22, 27, 18, .35);
+}
+.inicio .vista h1 { font-size: clamp(2.7rem, 1.3rem + 4.4vw, 5.6rem); line-height: .98; letter-spacing: -.025em; max-width: 13ch; }
+.linha-versao { margin: 1.1rem 0 .35rem; font: 400 1rem/1.45 var(--f-titulo); color: var(--neblina); max-width: 62ch; }
+.natureza-vista { margin: 0 0 .9rem; font: 600 1.02rem/1.45 var(--f-titulo); max-width: 58ch; }
+.vista-legenda { margin: .7rem 0 0; font: 400 .84rem/1.4 var(--f-titulo); color: var(--neblina); max-width: 64ch; }
+.inicio .vista-legenda { padding-top: .6rem; border-top: 1px solid rgba(221, 214, 202, .35); }
+.titulo-simples { max-width: 76rem; margin: 2.5rem auto 0; padding-inline: var(--margem); font: 600 2.2rem/1.1 var(--f-texto); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .vista-img { animation: despertar 2.6s var(--suave) both; }
+  @keyframes despertar {
+    from { transform: scale(calc(var(--zoom, 1) * 1.07)); filter: saturate(.8) brightness(.94); }
+    to { transform: scale(var(--zoom, 1)); filter: none; }
+  }
 }
 
-/* Folha: título, coluna lateral e coluna de leitura */
-.folha {
-  display: grid; grid-template-columns: minmax(0, 44rem) minmax(15rem, 19rem);
-  grid-template-areas: "cabeca lado" "doc lado"; grid-template-rows: auto 1fr;
-  justify-content: space-between; column-gap: 4rem;
-  max-width: 76rem; margin: 0 auto;
-  padding: 2.75rem max(2rem, var(--gutter)) 4rem;
+/* Postais: cada documento com o recorte da paisagem da sua entidade */
+.postais ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+.postais li { display: flex; }
+.postais a {
+  display: flex; flex-direction: column; width: 100%; background: var(--chao); color: var(--tinta);
+  text-decoration: none; box-shadow: 0 14px 30px -18px rgba(30, 34, 26, .55), 0 2px 6px -3px rgba(30, 34, 26, .25);
+  transition: box-shadow .4s var(--suave), transform .4s var(--suave);
 }
-.cabeca { grid-area: cabeca; min-width: 0; }
+.postal-img { display: block; height: 7.5rem; overflow: hidden; background: var(--neblina); }
+.postal-img img {
+  display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% var(--fy, 50%);
+  transform: scale(var(--zoom, 1)); transform-origin: var(--fx, 50%) var(--fy, 50%);
+  transition: transform .7s var(--suave);
+}
+.postal-nome {
+  display: block; flex: 1; padding: .75rem .9rem .9rem; border-top: 3px solid var(--erva);
+  font: 600 .98rem/1.3 var(--f-titulo); text-wrap: balance;
+}
+.postais a:hover { transform: translateY(-3px); box-shadow: 0 20px 34px -18px rgba(30, 34, 26, .6), 0 2px 6px -3px rgba(30, 34, 26, .25); }
+.postais a:hover .postal-img img { transform: scale(calc(var(--zoom, 1) * 1.06)); }
+/* Foco em dois tons: legível sobre a paisagem escura e sobre o fundo claro */
+.postais a:focus-visible { outline: 2px solid var(--chao); outline-offset: 2px; box-shadow: 0 0 0 5px var(--pinho); }
+.postais a:hover .postal-nome { color: var(--pinho); }
+@media (prefers-reduced-motion: reduce) { .postais a, .postal-img img { transition: none; } .postais a:hover { transform: none; } }
+
+.postais-entrada { position: relative; z-index: 2; max-width: 76rem; margin: -5rem auto 0; padding-inline: var(--margem); }
+.postais-fim { max-width: 76rem; margin: 0 auto; padding: 1rem var(--margem) 3.5rem; }
+.postais-t { font: 600 1.6rem/1.2 var(--f-texto); margin: 0 0 1.2rem; padding-top: 1.4rem; border-top: 1px solid var(--filete); }
+.postais-nota { margin: .9rem 0 0; font: 400 .88rem/1.4 var(--f-titulo); color: var(--tinta-2); }
+
+/* Folha: coluna de leitura e coluna lateral */
+.folha {
+  display: grid; grid-template-columns: minmax(0, 1fr) var(--lado); grid-template-areas: "doc lado";
+  column-gap: var(--vao); max-width: 76rem; margin: 0 auto;
+  padding: 3.5rem var(--margem) 4rem;
+}
 .lado { grid-area: lado; }
 .doc { grid-area: doc; min-width: 0; }
 .indice-movel { display: none; }
 .indice-t { font-weight: 700; margin: 0 0 .5rem; }
-.cabeca h1 {
-  font: 700 clamp(2rem, 1.4rem + 2.4vw, 3.1rem)/1.08 var(--f-titulo);
-  letter-spacing: -.015em; margin: 0 0 .6rem; text-wrap: balance;
-}
-.entidade .cabeca h1 { font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.1rem); line-height: 1.15; }
-.abertura { font: 400 1.05rem/1.5 var(--f-titulo); color: var(--tinta-2); margin: 0 0 2.2rem; }
+
+/* Secções: o número abre cada secção, em grande, na voz do documento */
 .doc h2 {
-  position: relative;
-  font: 700 1.6rem/1.2 var(--f-titulo); letter-spacing: -.005em;
-  margin: 3.2rem 0 .9rem; padding-top: 1.1rem; border-top: 1px solid var(--filete); text-wrap: balance;
+  position: relative; margin: 4.2rem 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--filete);
+  font: 600 clamp(1.7rem, 1.35rem + 1vw, 2.15rem)/1.12 var(--f-texto); letter-spacing: -.012em; text-wrap: balance;
 }
+.doc > h2:first-child { margin-top: 0; }
 .doc h2::before { content: ""; position: absolute; top: -1px; left: 0; width: 3rem; height: 3px; background: var(--erva); }
-.doc h3 { font: 700 1.22rem/1.25 var(--f-titulo); margin: 2.2rem 0 .6rem; }
-.num { color: var(--pinho); font-variant-numeric: tabular-nums; margin-right: .15em; }
-.doc p, .doc li { max-width: var(--medida); }
+.doc h2 .num {
+  display: block; margin: 0 0 .35rem; color: var(--pinho);
+  font: 400 clamp(2.6rem, 2rem + 2vw, 3.6rem)/1 var(--f-texto); letter-spacing: -.03em; font-variant-numeric: lining-nums;
+}
+.doc h3 { font: 600 1.32rem/1.25 var(--f-texto); letter-spacing: -.005em; margin: 2.6rem 0 .6rem; }
+.doc h3 .num { color: var(--pinho); font-variant-numeric: lining-nums tabular-nums; margin-right: .25em; }
+.doc p, .doc li { max-width: var(--medida); text-wrap: pretty; }
 .doc p { margin: 0 0 1.05rem; }
 .doc ul, .doc ol { margin: 0 0 1.2rem; padding-left: 1.4rem; }
 .doc li { margin-bottom: .35rem; }
@@ -137,34 +192,40 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 /* Perguntas às entidades: o número interessa, porque se responde por número */
 .entidade [id="3-perguntas"] ~ ol { padding-left: 0; list-style: none; counter-reset: pergunta; }
 .entidade [id="3-perguntas"] ~ ol > li {
-  counter-increment: pergunta; position: relative; padding: .9rem 0 .9rem 2.6rem;
+  counter-increment: pergunta; position: relative; padding: 1rem 0 1rem 3rem;
   border-top: 1px solid var(--filete); margin: 0;
 }
 .entidade [id="3-perguntas"] ~ ol > li::before {
-  content: counter(pergunta); position: absolute; left: 0; top: .85rem;
-  font: 700 1.15rem/1.4 var(--f-titulo); color: var(--pinho); font-variant-numeric: tabular-nums;
+  content: counter(pergunta); position: absolute; left: 0; top: .8rem;
+  font: 600 1.55rem/1.2 var(--f-texto); color: var(--pinho); font-variant-numeric: lining-nums tabular-nums;
 }
 
 /* Quadros: o kramdown não os embrulha, por isso o próprio quadro desliza se for largo */
 .doc table {
-  display: block; overflow-x: auto; max-width: 100%; margin: 1.2rem 0 1.6rem;
+  display: block; overflow-x: auto; max-width: 100%; margin: 1.4rem 0 1.8rem;
   border-collapse: collapse; font: 400 .98rem/1.45 var(--f-titulo); font-variant-numeric: tabular-nums;
 }
-.doc thead th { text-align: left; font-weight: 700; border-bottom: 2px solid var(--tinta); padding: .55rem .8rem .55rem 0; }
-.doc tbody td { text-align: left; vertical-align: top; padding: .65rem .8rem .65rem 0; border-bottom: 1px solid var(--filete); }
-.doc tbody td:first-child { font-weight: 600; min-width: 9rem; }
+.doc thead th { text-align: left; font-weight: 700; border-bottom: 2px solid var(--tinta); padding: .55rem .9rem .55rem 0; }
+.doc tbody td { text-align: left; vertical-align: top; padding: .7rem .9rem .7rem 0; border-bottom: 1px solid var(--filete); }
+.doc tbody td:first-child { font-weight: 600; min-width: 9rem; color: var(--tinta); }
 
 /* Figuras no texto: imagem sozinha num parágrafo e legenda em itálico logo a seguir */
-.doc p:has(> img:only-child) { margin: 1.8rem 0 .6rem; max-width: none; }
+.doc p:has(> img:only-child) { margin: 2.4rem 0 .7rem; max-width: none; position: relative; z-index: 3; }
 .doc p > img:only-child { display: block; width: 100%; height: auto; background: var(--neblina); }
-.doc p:has(> img:only-child) + p { font: 400 .92rem/1.45 var(--f-titulo); color: var(--tinta-2); margin-bottom: 2rem; }
+.doc p:has(> img:only-child) + p { font: 400 .92rem/1.45 var(--f-titulo); color: var(--tinta-2); margin-bottom: 2.4rem; }
 .doc p:has(> img:only-child) + p em { font-style: normal; }
+/* Em ecrãs largos, a figura no texto ocupa também a largura da coluna lateral */
+@media (min-width: 64.01rem) {
+  .doc p:has(> img:only-child) { margin-right: calc(-1 * (var(--lado) + var(--vao))); }
+}
 /* Na página de entrada a figura 1 já abre o site; não se repete no texto */
 .inicio .doc p:has(> img[src$="aerial-readme.webp"]),
 .inicio .doc p:has(> img[src$="aerial-readme.webp"]) + p { display: none; }
 
 /* Coluna lateral */
-.lado { font-family: var(--f-titulo); font-size: .97rem; line-height: 1.45; }
+.lado { font-family: var(--f-titulo); font-size: .97rem; line-height: 1.45; transition: opacity .35s var(--suave), visibility .35s; }
+.lado.recolhido { opacity: 0; visibility: hidden; }
+@media (prefers-reduced-motion: reduce) { .lado { transition: none; } }
 .lado > * + * { margin-top: 1.8rem; }
 @media (min-width: 64.01rem) { .lado { position: sticky; top: 1.5rem; align-self: start; max-height: calc(100vh - 3rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--filete) transparent; } }
 .natureza { background: var(--pedra); padding: .85rem 1rem; border-top: 3px solid var(--erva); }
@@ -176,25 +237,25 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .indice a { display: block; padding: .28rem 0 .28rem .9rem; margin-left: -1px; border-left: 2px solid transparent; color: var(--tinta-2); text-decoration: none; }
 .indice a:hover { color: var(--pinho); }
 .indice a[aria-current="true"] { color: var(--pinho); border-left-color: var(--pinho); font-weight: 600; }
-.outros-t { font-weight: 700; margin: 0 0 .5rem; }
-.outros ul { list-style: none; margin: 0; padding: 0; }
-.outros a { display: block; padding: .4rem 0; border-top: 1px solid var(--filete); font-weight: 600; text-decoration: none; }
-.outros a:hover { text-decoration: underline; }
 
-/* Rodapé: versão, data e natureza ao pé de cada página */
-.pe { border-top: 1px solid var(--filete); background: var(--pedra); }
-.pe-in { max-width: 76rem; margin: 0 auto; padding: 1.6rem max(2rem, var(--gutter)) 2.4rem; font: 400 .92rem/1.5 var(--f-titulo); color: var(--tinta-2); }
-.pe-in p { margin: 0 0 .35rem; max-width: 60rem; }
-.reservado { background: #F3E7C9; color: #5B4A1F; padding: 0 .3em; font-weight: 600; }
+/* Rodapé: a sombra do pinhal fecha cada página, com versão, data e natureza */
+.pe { background: var(--pinho-escuro); color: var(--chao); }
+.pe-in { max-width: 76rem; margin: 0 auto; padding: 2.6rem var(--margem) 3rem; font: 400 .95rem/1.55 var(--f-titulo); }
+.pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
+.pe-in .pe-nome { margin-bottom: .9rem; font: 600 1.35rem/1.2 var(--f-texto); color: var(--chao); letter-spacing: -.01em; }
+.pe a { color: var(--chao); }
+.pe a:hover { color: var(--chao); text-decoration-thickness: 2px; }
+.reservado { background: var(--erva); color: var(--tinta); padding: 0 .35em; font-weight: 600; }
 
-/* Portáteis com pouca altura: os documentos das entidades continuam acima da dobra */
+/* Portáteis com pouca altura: os postais das entidades continuam no primeiro ecrã */
 @media (min-width: 64.01rem) and (max-height: 820px) {
-  .inicio .vista img { height: min(clamp(14rem, 25vw, 22.5rem), 30vh); }
-  .folha { padding-top: 2rem; }
-  .lado > * + * { margin-top: 1.4rem; }
+  .inicio .vista { height: clamp(24rem, 62vh, 40rem); }
+  .inicio .vista-texto { bottom: 6.2rem; }
+  .inicio .vista h1 { font-size: clamp(2.5rem, 1.2rem + 3.6vw, 4.6rem); }
+  .postal-img { height: 6.2rem; }
 }
 
-/* Ecrãs médios e pequenos */
+/* Ecrãs médios */
 @media (max-width: 64rem) {
   .barra { flex-direction: column; align-items: flex-start; gap: .3rem; padding-top: .8rem; }
   .barra nav {
@@ -204,39 +265,62 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   }
   .barra nav::-webkit-scrollbar { display: none; }
   .barra ul { gap: 1.25rem; padding-bottom: .2rem; padding-right: 2rem; }
-  .folha { grid-template-columns: minmax(0, 1fr); grid-template-areas: "cabeca" "lado" "doc"; grid-template-rows: auto; padding-top: 2rem; }
+  .postais ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .folha { grid-template-columns: minmax(0, 1fr); grid-template-areas: "lado" "doc"; padding-top: 2.5rem; }
   .lado { margin-bottom: 1rem; }
   .lado > * + * { margin-top: 1.2rem; }
-  .entidade .lado .outros, .indice-lado { display: none; }
-  .indice-movel { display: block; border-top: 1px solid var(--filete); padding: .5rem 0 0; }
+  .indice-lado { display: none; }
+  .indice-movel { display: block; border-top: 1px solid var(--filete); border-bottom: 1px solid var(--filete); padding: .5rem 0; }
   .indice-movel summary { padding: .3rem 0; }
   .indice-movel summary::marker { color: var(--pinho); }
   .indice-movel[open] ol { margin: .4rem 0 .6rem; }
 }
+
+/* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */
 @media (max-width: 40rem) {
   body { font-size: 1.0625rem; }
-  .barra, .folha, .pe-in { padding-inline: var(--gutter); }
-  .vista figcaption { position: relative; z-index: 1; left: auto; bottom: auto; max-width: none; background: var(--tinta); padding: .6rem var(--gutter); }
-  .doc h2 { margin-top: 2.6rem; }
+  .barra, .folha, .pe-in, .postais-fim, .postais-entrada { padding-inline: var(--gutter); }
+  .vista, .inicio .vista { height: auto; background: var(--pinho-escuro); }
+  .vista picture { display: block; }
+  .vista-img { position: relative; height: 15rem; }
+  .inicio .vista-img { height: 18rem; }
+  .vista::after { display: none; }
+  .vista-texto, .inicio .vista-texto { position: relative; left: auto; right: auto; bottom: auto; max-width: none; padding: 1.4rem var(--gutter) 1.5rem; background: var(--pinho-escuro); }
+  .vista h1 { text-shadow: none; }
+  .inicio .vista-texto { padding-bottom: 1.6rem; }
+  .inicio .vista h1 { font-size: 2.6rem; }
+  .postais-entrada { margin-top: 1.2rem; }
+  .postais ul { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: .8rem; padding-bottom: .6rem; scrollbar-width: none; }
+  .postais ul::-webkit-scrollbar { display: none; }
+  .postais li { flex: 0 0 72%; scroll-snap-align: start; }
+  .doc h2 { margin-top: 3.2rem; }
   .doc tbody td:first-child { min-width: 7rem; }
 }
 
-/* Impressão: o documento, sem navegação, com as ligações legíveis */
+/* Impressão: o documento, sem navegação nem efeitos, com as ligações legíveis */
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .barra, .saltar, .indice, .outros, .pe a { display: none; }
-  .vista img { height: 6cm; transform: none; }
-  .entidade .vista { display: none; }
-  .vista figcaption { position: static; background: none; color: #333; padding: 2mm 0 0; }
+  .barra, .saltar, .indice, .postais-entrada, .postais-fim, .pe a { display: none; }
+  .vista, .inicio .vista { height: auto; background: none; overflow: visible; }
+  .vista-img { position: static; height: 6cm; transform: none; animation: none; }
+  .entidade .vista-img, .entidade .vista-legenda { display: none; }
+  .vista::after { display: none; }
+  .vista-texto, .inicio .vista-texto { position: static; color: #000; background: none; padding: 4mm 0 0; max-width: none; }
+  .vista h1, .linha-versao, .natureza-vista { color: #000; }
+  .vista h1, .inicio .vista h1 { font-size: 22pt; text-shadow: none; max-width: none; }
+  .linha-versao, .natureza-vista, .vista-legenda { color: #333; border: 0; }
   .folha { display: block; padding: 6mm 0 0; max-width: none; }
   .lado { margin-bottom: 6mm; }
   .natureza { background: none; border: 1px solid #999; }
   .doc h2 { break-after: avoid; border-top-color: #999; }
+  .doc h2 .num { font-size: 20pt; }
   .doc h3 { break-after: avoid; }
   .doc table { display: table; overflow: visible; }
+  .doc p:has(> img:only-child) { margin-right: 0; }
   table, li, .doc p:has(> img:only-child) { break-inside: avoid; }
   a { color: #000; text-decoration: none; }
   .doc a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8.5pt; color: #444; word-break: break-all; }
-  .pe { background: none; }
+  .pe { background: none; color: #333; }
+  .pe-in p, .pe-in .pe-nome { color: #333; }
 }

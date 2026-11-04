@@ -1,8 +1,9 @@
 {%- comment -%}
   Layout único do site. O conteúdo vem do Markdown convertido pelo kramdown.
-  O layout só reorganiza: tira o H1 para o título da página, passa a primeira
-  linha do README para a abertura, destaca o número das secções e monta o
-  índice a partir dos títulos H2. Não acrescenta texto ao documento.
+  O layout só reorganiza: tira o H1 para a abertura sobre a paisagem, passa a
+  primeira linha do README para essa abertura, destaca o número das secções,
+  monta o índice a partir dos títulos H2 e mostra os documentos das entidades
+  como postais. Não acrescenta texto ao documento.
 {%- endcomment -%}
 {%- assign info = site.data.paginas | where: "url", page.url | first -%}
 {%- assign inicio = false -%}
@@ -20,7 +21,7 @@
 {%- if inicio -%}
   {%- assign primeiro = corpo | split: "</p>" | first | append: "</p>" -%}
   {%- assign corpo = corpo | remove_first: primeiro -%}
-  {%- assign abertura = primeiro | strip | replace_first: "<p>", '<p class="abertura">' -%}
+  {%- assign abertura = primeiro | strip | replace_first: "<p>", '<p class="linha-versao">' -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -64,6 +65,24 @@
   {%- capture para %}"><span class="num">{{ n }}.</span> {% endcapture -%}
   {%- assign corpo = corpo | replace: de, para -%}
 {%- endfor -%}
+
+{%- assign outros_t = "Outros documentos" -%}
+{%- if inicio -%}{%- assign outros_t = "Documentos das entidades" -%}{%- endif -%}
+{%- capture postais -%}
+<nav class="postais" aria-label="{{ outros_t }}">
+  <ul>
+    {%- for p in site.data.paginas -%}
+    {%- unless p.url == page.url -%}
+    {%- assign f = site.data.figuras[p.figura] %}
+    <li><a href="{{ p.url | relative_url }}" style="--fx:{{ p.foco_x }};--fy:{{ p.foco_y }};--zoom:{{ p.zoom }}">
+      <span class="postal-img"><img src="{{ p.faixa_estreita | default: f.imagem | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+      <span class="postal-nome">{{ p.nome }}</span>
+    </a></li>
+    {%- endunless -%}
+    {%- endfor %}
+  </ul>
+</nav>
+{%- endcapture -%}
 <!doctype html>
 <html lang="{{ site.lang }}">
 <head>
@@ -85,51 +104,65 @@
     {%- endfor -%}
   </ul></nav>
 </header>
-{%- if info %}
-{%- assign fig = site.data.figuras[info.figura] %}
-<figure class="vista" style="--fx:{{ info.foco_x }};--fy:{{ info.foco_y }};--zoom:{{ info.zoom }}">
-  <img src="{{ fig.imagem | relative_url }}" alt="{{ fig.alt }}" fetchpriority="high">
-  <figcaption>{% if inicio %}Figura {{ fig.numero }}. {% endif %}{{ fig.legenda }}</figcaption>
-</figure>
-{%- endif %}
-<main id="texto" class="folha">
-  <header class="cabeca">
-    <h1>{{ titulo }}</h1>
-    {{ abertura }}
-  </header>
-  <aside class="lado" aria-label="Sobre este documento e navegação">
-    <div class="natureza">
-      <p class="natureza-t">Documento conceptual</p>
-      <p>{{ site.versao }}</p>
-      <p>{{ site.natureza }}</p>
+<main id="texto">
+  {%- if info %}
+  {%- assign fig = site.data.figuras[info.figura] %}
+  <div class="vista" style="--fx:{{ info.foco_x }};--fy:{{ info.foco_y }};--zoom:{{ info.zoom }}">
+    <picture>
+      {%- if info.faixa_estreita %}
+      <source media="(max-width: 40rem)" srcset="{{ info.faixa_estreita | relative_url }}">
+      {%- endif %}
+      <img class="vista-img" src="{{ info.faixa | default: fig.imagem | relative_url }}" alt="{{ fig.alt }}" fetchpriority="high">
+    </picture>
+    <div class="vista-texto">
+      <h1>{{ titulo }}</h1>
+      {%- if inicio %}
+      {{ abertura }}
+      <p class="natureza-vista">{{ site.natureza }}</p>
+      {%- endif %}
+      <p class="vista-legenda">{% if inicio %}Figura {{ fig.numero }}. {% endif %}{{ fig.legenda }}</p>
     </div>
-    {%- assign outros_t = "Outros documentos" -%}
-    {%- if inicio -%}{%- assign outros_t = "Documentos das entidades" -%}{%- endif %}
-    <nav class="outros" aria-label="{{ outros_t }}">
-      <p class="outros-t">{{ outros_t }}</p>
-      <ul>
-        {%- for p in site.data.paginas -%}
-        {%- unless p.url == page.url %}
-        <li><a href="{{ p.url | relative_url }}">{{ p.nome }}</a></li>
-        {%- endunless -%}
-        {%- endfor %}
-      </ul>
-    </nav>
-    <nav class="indice indice-lado" aria-label="Nesta página">
-      <p class="indice-t">Nesta página</p>
-      <ol>{{ indice }}</ol>
-    </nav>
-    <details class="indice indice-movel">
-      <summary>Nesta página</summary>
-      <ol>{{ indice }}</ol>
-    </details>
-  </aside>
-  <div class="doc">
-    {{ corpo }}
   </div>
+  {%- else %}
+  <h1 class="titulo-simples">{{ titulo }}</h1>
+  {%- endif %}
+  {%- if inicio %}
+  <div class="postais-entrada">{{ postais }}</div>
+  {%- endif %}
+  <div class="folha">
+    <aside class="lado" aria-label="Sobre este documento e navegação">
+      {%- unless inicio %}
+      <div class="natureza">
+        <p class="natureza-t">Documento conceptual</p>
+        <p>{{ site.versao }}</p>
+        <p>{{ site.natureza }}</p>
+      </div>
+      {%- endunless %}
+      <nav class="indice indice-lado" aria-label="Nesta página">
+        <p class="indice-t">Nesta página</p>
+        <ol>{{ indice }}</ol>
+      </nav>
+      <details class="indice indice-movel">
+        <summary>Nesta página</summary>
+        <ol>{{ indice }}</ol>
+      </details>
+    </aside>
+    <div class="doc">
+      {{ corpo }}
+    </div>
+  </div>
+  {%- unless inicio %}
+  <section class="postais-fim" aria-labelledby="outros-documentos">
+    <h2 id="outros-documentos" class="postais-t">{{ outros_t }}</h2>
+    {{ postais }}
+    {%- comment -%} A segunda frase das legendas das figuras, igual nas duas. {%- endcomment %}
+    <p class="postais-nota">{{ site.data.figuras.aerea.legenda | split: ". " | last }}</p>
+  </section>
+  {%- endunless %}
 </main>
 <footer class="pe">
   <div class="pe-in">
+    <p class="pe-nome">{{ site.title }}</p>
     <p>{{ site.versao_longa }}</p>
     <p>{{ site.natureza }}</p>
     <p>Contacto do promotor: <span class="reservado">por preencher</span></p>

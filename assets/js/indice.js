@@ -9,6 +9,32 @@
   if (barra && barra.scrollWidth > barra.clientWidth) {
     barra.scrollLeft = Math.max(0, atual.offsetLeft - 16);
   }
+  /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
+     sem este script, a figura cobre-a por instantes. */
+  var lado = document.querySelector(".lado");
+  var largas = Array.prototype.slice.call(document.querySelectorAll(".doc p > img:only-child")).map(function (i) { return i.parentNode; });
+  if (lado && largas.length && window.matchMedia) {
+    var largo = window.matchMedia("(min-width: 64.01rem)");
+    var pendente = false;
+    var verificar = function () {
+      pendente = false;
+      var tapa = false;
+      if (largo.matches) {
+        var r = lado.getBoundingClientRect();
+        largas.forEach(function (p) {
+          if (getComputedStyle(p).display === "none") return;
+          var f = p.getBoundingClientRect();
+          if (f.bottom > r.top && f.top < r.bottom) tapa = true;
+        });
+      }
+      lado.classList.toggle("recolhido", tapa);
+    };
+    var pedir = function () { if (!pendente) { pendente = true; requestAnimationFrame(verificar); } };
+    window.addEventListener("scroll", pedir, { passive: true });
+    window.addEventListener("resize", pedir);
+    verificar();
+  }
+
   var links = Array.prototype.slice.call(document.querySelectorAll(".indice a[href^='#']"));
   if (!links.length || !("IntersectionObserver" in window)) return;
 
