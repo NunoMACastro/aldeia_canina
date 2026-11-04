@@ -29,11 +29,14 @@
   título do próprio documento, que é texto da fonte.
 {%- endcomment -%}
 {%- for p in site.data.paginas -%}
-  {%- capture de -%}<code>{{ p.md }}</code>{%- endcapture -%}
-  {%- if corpo contains de -%}
+  {%- capture fim -%}{{ p.md }}</code>{%- endcapture -%}
+  {%- if corpo contains fim -%}
     {%- assign alvo = site.pages | where: "url", p.url | first -%}
     {%- assign rotulo = alvo.title | default: p.nome -%}
-    {%- assign corpo = corpo | replace: de, rotulo -%}
+    {%- comment -%} No GitHub Pages o kramdown junta uma classe ao código em linha. {%- endcomment -%}
+    {%- capture de1 -%}<code class="language-plaintext highlighter-rouge">{{ p.md }}</code>{%- endcapture -%}
+    {%- capture de2 -%}<code>{{ p.md }}</code>{%- endcapture -%}
+    {%- assign corpo = corpo | replace: de1, rotulo | replace: de2, rotulo -%}
   {%- endif -%}
 {%- endfor -%}
 
