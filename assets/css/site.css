@@ -1,0 +1,242 @@
+/* Aldeia Canina Sustentável em Viseu: estilos do site (GitHub Pages com Jekyll).
+   Mundo: a paisagem da própria aldeia. As cores foram medidas nas duas
+   visualizações do projeto (pedra ao sol, pinhal, erva seca, neblina das
+   colinas). A coluna de leitura fica calma; a paisagem fica no enquadramento.
+   O sistema está descrito em DESIGN.md (ficheiro interno, fora do site).
+   O HTML do conteúdo vem do kramdown: figuras como <p><img></p> seguido de
+   <p><em>legenda</em></p>, quadros como <table> simples. */
+
+/* Fontes alojadas no próprio site (licença OFL, ver assets/fonts/), sem pedidos a terceiros */
+@font-face {
+  font-family: "Source Sans 3"; font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url("../fonts/source-sans-3-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Source Serif 4"; font-style: normal; font-weight: 400 600; font-display: swap;
+  src: url("../fonts/source-serif-4-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Source Serif 4"; font-style: italic; font-weight: 400 600; font-display: swap;
+  src: url("../fonts/source-serif-4-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --chao: #F6F6F3;        /* fundo claro de pedra */
+  --tinta: #2A2F26;       /* verde-oliva quase negro */
+  --tinta-2: #565D4F;     /* texto secundário */
+  --pinho: #45552B;       /* ligações e marcas */
+  --pinho-escuro: #34411F;
+  --erva: #B39660;        /* erva seca: só filetes */
+  --neblina: #DDD6CA;     /* fundo das imagens */
+  --pedra: #ECE8DF;       /* caixas de nota e rodapé */
+  --filete: #D8D3C8;
+  --legenda: rgba(30, 34, 26, .82);
+
+  --f-titulo: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-texto: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  --medida: 66ch;
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 1.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+body {
+  margin: 0;
+  background: var(--chao);
+  color: var(--tinta);
+  font: 400 1.125rem/1.65 var(--f-texto);
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: #D9E0C6; color: var(--tinta); }
+:focus-visible { outline: 3px solid var(--pinho); outline-offset: 3px; border-radius: 2px; }
+
+a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
+
+.saltar {
+  position: absolute; left: var(--gutter); top: -4rem;
+  background: var(--tinta); color: var(--chao); padding: .5rem .9rem;
+  font: 600 .95rem/1 var(--f-titulo); z-index: 10;
+}
+.saltar:focus { top: .75rem; }
+.saltar:hover, .saltar:focus { color: var(--chao); }
+
+/* Barra superior: nome e documentos */
+.barra {
+  display: flex; align-items: center; justify-content: space-between; gap: 2rem;
+  min-height: 3.75rem; padding-block: .5rem; padding-inline: max(2rem, var(--gutter));
+  font-family: var(--f-titulo);
+}
+.nome { font-weight: 700; font-size: 1.08rem; color: var(--tinta); text-decoration: none; white-space: nowrap; }
+.nome:hover { color: var(--pinho); }
+.barra ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.6rem; }
+.barra nav a {
+  display: block; padding: .45rem 0; font-weight: 600; font-size: .98rem;
+  color: var(--tinta); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap;
+}
+.barra nav a:hover { color: var(--pinho); border-bottom-color: var(--erva); }
+.barra nav a[aria-current="page"] { color: var(--pinho); border-bottom-color: var(--pinho); }
+
+/* Faixa de paisagem: a figura 1 abre o site; cada entidade abre com o recorte do seu assunto */
+.vista { position: relative; margin: 0; background: var(--neblina); overflow: hidden; }
+.vista img {
+  display: block; width: 100%; height: min(clamp(14rem, 25vw, 22.5rem), 36vh);
+  object-fit: cover; object-position: 50% var(--fy, 45%);
+  transform: scale(var(--zoom, 1)); transform-origin: var(--fx, 50%) 50%;
+}
+.entidade .vista img { height: clamp(8rem, 15vw, 13rem); }
+.vista figcaption {
+  position: absolute; z-index: 1; left: max(2rem, var(--gutter)); bottom: 1rem; max-width: 46rem;
+  background: var(--legenda); color: #F4F3EE;
+  padding: .45rem .75rem; font: 400 .88rem/1.4 var(--f-titulo);
+}
+
+/* Folha: título, coluna lateral e coluna de leitura */
+.folha {
+  display: grid; grid-template-columns: minmax(0, 44rem) minmax(15rem, 19rem);
+  grid-template-areas: "cabeca lado" "doc lado"; grid-template-rows: auto 1fr;
+  justify-content: space-between; column-gap: 4rem;
+  max-width: 76rem; margin: 0 auto;
+  padding: 2.75rem max(2rem, var(--gutter)) 4rem;
+}
+.cabeca { grid-area: cabeca; min-width: 0; }
+.lado { grid-area: lado; }
+.doc { grid-area: doc; min-width: 0; }
+.indice-movel { display: none; }
+.indice-t { font-weight: 700; margin: 0 0 .5rem; }
+.cabeca h1 {
+  font: 700 clamp(2rem, 1.4rem + 2.4vw, 3.1rem)/1.08 var(--f-titulo);
+  letter-spacing: -.015em; margin: 0 0 .6rem; text-wrap: balance;
+}
+.entidade .cabeca h1 { font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.1rem); line-height: 1.15; }
+.abertura { font: 400 1.05rem/1.5 var(--f-titulo); color: var(--tinta-2); margin: 0 0 2.2rem; }
+.doc h2 {
+  position: relative;
+  font: 700 1.6rem/1.2 var(--f-titulo); letter-spacing: -.005em;
+  margin: 3.2rem 0 .9rem; padding-top: 1.1rem; border-top: 1px solid var(--filete); text-wrap: balance;
+}
+.doc h2::before { content: ""; position: absolute; top: -1px; left: 0; width: 3rem; height: 3px; background: var(--erva); }
+.doc h3 { font: 700 1.22rem/1.25 var(--f-titulo); margin: 2.2rem 0 .6rem; }
+.num { color: var(--pinho); font-variant-numeric: tabular-nums; margin-right: .15em; }
+.doc p, .doc li { max-width: var(--medida); }
+.doc p { margin: 0 0 1.05rem; }
+.doc ul, .doc ol { margin: 0 0 1.2rem; padding-left: 1.4rem; }
+.doc li { margin-bottom: .35rem; }
+.doc li::marker { color: var(--pinho); }
+.doc code { font-size: .88em; background: var(--pedra); padding: .05em .3em; border-radius: 2px; }
+
+/* Perguntas às entidades: o número interessa, porque se responde por número */
+.entidade [id="3-perguntas"] ~ ol { padding-left: 0; list-style: none; counter-reset: pergunta; }
+.entidade [id="3-perguntas"] ~ ol > li {
+  counter-increment: pergunta; position: relative; padding: .9rem 0 .9rem 2.6rem;
+  border-top: 1px solid var(--filete); margin: 0;
+}
+.entidade [id="3-perguntas"] ~ ol > li::before {
+  content: counter(pergunta); position: absolute; left: 0; top: .85rem;
+  font: 700 1.15rem/1.4 var(--f-titulo); color: var(--pinho); font-variant-numeric: tabular-nums;
+}
+
+/* Quadros: o kramdown não os embrulha, por isso o próprio quadro desliza se for largo */
+.doc table {
+  display: block; overflow-x: auto; max-width: 100%; margin: 1.2rem 0 1.6rem;
+  border-collapse: collapse; font: 400 .98rem/1.45 var(--f-titulo); font-variant-numeric: tabular-nums;
+}
+.doc thead th { text-align: left; font-weight: 700; border-bottom: 2px solid var(--tinta); padding: .55rem .8rem .55rem 0; }
+.doc tbody td { text-align: left; vertical-align: top; padding: .65rem .8rem .65rem 0; border-bottom: 1px solid var(--filete); }
+.doc tbody td:first-child { font-weight: 600; min-width: 9rem; }
+
+/* Figuras no texto: imagem sozinha num parágrafo e legenda em itálico logo a seguir */
+.doc p:has(> img:only-child) { margin: 1.8rem 0 .6rem; max-width: none; }
+.doc p > img:only-child { display: block; width: 100%; height: auto; background: var(--neblina); }
+.doc p:has(> img:only-child) + p { font: 400 .92rem/1.45 var(--f-titulo); color: var(--tinta-2); margin-bottom: 2rem; }
+.doc p:has(> img:only-child) + p em { font-style: normal; }
+/* Na página de entrada a figura 1 já abre o site; não se repete no texto */
+.inicio .doc p:has(> img[src$="aerial-readme.webp"]),
+.inicio .doc p:has(> img[src$="aerial-readme.webp"]) + p { display: none; }
+
+/* Coluna lateral */
+.lado { font-family: var(--f-titulo); font-size: .97rem; line-height: 1.45; }
+.lado > * + * { margin-top: 1.8rem; }
+@media (min-width: 64.01rem) { .lado { position: sticky; top: 1.5rem; align-self: start; max-height: calc(100vh - 3rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--filete) transparent; } }
+.natureza { background: var(--pedra); padding: .85rem 1rem; border-top: 3px solid var(--erva); }
+.natureza p { margin: 0 0 .45rem; }
+.natureza p:last-child { margin: 0; }
+.natureza-t { font-weight: 700; color: var(--tinta); }
+.indice summary { font-weight: 700; cursor: pointer; padding: .2rem 0 .5rem; }
+.indice ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--filete); }
+.indice a { display: block; padding: .28rem 0 .28rem .9rem; margin-left: -1px; border-left: 2px solid transparent; color: var(--tinta-2); text-decoration: none; }
+.indice a:hover { color: var(--pinho); }
+.indice a[aria-current="true"] { color: var(--pinho); border-left-color: var(--pinho); font-weight: 600; }
+.outros-t { font-weight: 700; margin: 0 0 .5rem; }
+.outros ul { list-style: none; margin: 0; padding: 0; }
+.outros a { display: block; padding: .4rem 0; border-top: 1px solid var(--filete); font-weight: 600; text-decoration: none; }
+.outros a:hover { text-decoration: underline; }
+
+/* Rodapé: versão, data e natureza ao pé de cada página */
+.pe { border-top: 1px solid var(--filete); background: var(--pedra); }
+.pe-in { max-width: 76rem; margin: 0 auto; padding: 1.6rem max(2rem, var(--gutter)) 2.4rem; font: 400 .92rem/1.5 var(--f-titulo); color: var(--tinta-2); }
+.pe-in p { margin: 0 0 .35rem; max-width: 60rem; }
+.reservado { background: #F3E7C9; color: #5B4A1F; padding: 0 .3em; font-weight: 600; }
+
+/* Portáteis com pouca altura: os documentos das entidades continuam acima da dobra */
+@media (min-width: 64.01rem) and (max-height: 820px) {
+  .inicio .vista img { height: min(clamp(14rem, 25vw, 22.5rem), 30vh); }
+  .folha { padding-top: 2rem; }
+  .lado > * + * { margin-top: 1.4rem; }
+}
+
+/* Ecrãs médios e pequenos */
+@media (max-width: 64rem) {
+  .barra { flex-direction: column; align-items: flex-start; gap: .3rem; padding-top: .8rem; }
+  .barra nav {
+    width: 100%; overflow-x: auto; scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
+    mask-image: linear-gradient(to right, #000 85%, transparent);
+  }
+  .barra nav::-webkit-scrollbar { display: none; }
+  .barra ul { gap: 1.25rem; padding-bottom: .2rem; padding-right: 2rem; }
+  .folha { grid-template-columns: minmax(0, 1fr); grid-template-areas: "cabeca" "lado" "doc"; grid-template-rows: auto; padding-top: 2rem; }
+  .lado { margin-bottom: 1rem; }
+  .lado > * + * { margin-top: 1.2rem; }
+  .entidade .lado .outros, .indice-lado { display: none; }
+  .indice-movel { display: block; border-top: 1px solid var(--filete); padding: .5rem 0 0; }
+  .indice-movel summary { padding: .3rem 0; }
+  .indice-movel summary::marker { color: var(--pinho); }
+  .indice-movel[open] ol { margin: .4rem 0 .6rem; }
+}
+@media (max-width: 40rem) {
+  body { font-size: 1.0625rem; }
+  .barra, .folha, .pe-in { padding-inline: var(--gutter); }
+  .vista figcaption { position: relative; z-index: 1; left: auto; bottom: auto; max-width: none; background: var(--tinta); padding: .6rem var(--gutter); }
+  .doc h2 { margin-top: 2.6rem; }
+  .doc tbody td:first-child { min-width: 7rem; }
+}
+
+/* Impressão: o documento, sem navegação, com as ligações legíveis */
+@media print {
+  @page { margin: 18mm 16mm 20mm; }
+  body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
+  .barra, .saltar, .indice, .outros, .pe a { display: none; }
+  .vista img { height: 6cm; transform: none; }
+  .entidade .vista { display: none; }
+  .vista figcaption { position: static; background: none; color: #333; padding: 2mm 0 0; }
+  .folha { display: block; padding: 6mm 0 0; max-width: none; }
+  .lado { margin-bottom: 6mm; }
+  .natureza { background: none; border: 1px solid #999; }
+  .doc h2 { break-after: avoid; border-top-color: #999; }
+  .doc h3 { break-after: avoid; }
+  .doc table { display: table; overflow: visible; }
+  table, li, .doc p:has(> img:only-child) { break-inside: avoid; }
+  a { color: #000; text-decoration: none; }
+  .doc a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8.5pt; color: #444; word-break: break-all; }
+  .pe { background: none; }
+}

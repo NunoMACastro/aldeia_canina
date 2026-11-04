@@ -1,0 +1,51 @@
+# Site da Aldeia Canina Sustentável em Viseu, publicado com GitHub Pages (Jekyll).
+# O conteúdo vem só dos ficheiros Markdown (README.md e entidades/*.md), que
+# continuam a ler-se no GitHub sem cabeçalhos extra. Este ficheiro, o layout,
+# os dados em _data/ e os estilos tratam apenas da apresentação.
+
+title: Aldeia Canina Sustentável em Viseu
+lang: pt-PT
+repositorio_md: https://github.com/NunoMACastro/aldeia_canina/blob/main/
+
+# Textos de enquadramento repetidos em todas as páginas. São cópias literais do
+# README.md (primeira linha e secção «Sobre este documento»). Se o README mudar,
+# estas frases mudam também.
+versao: "Versão 1.0, de 3 de novembro de 2026."
+versao_longa: "Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026, baseada na visão 2.0 do projeto, da mesma data."
+natureza: "É um documento conceptual, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal."
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# Plugins que o GitHub Pages já traz: páginas sem front matter, README como
+# página de entrada, ligações .md convertidas e título tirado do primeiro H1.
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Ficheiros internos e de trabalho que não fazem parte do site.
+exclude:
+  - PRODUCT.md
+  - DESIGN.md
+  - prototipo-site
+  - images/aerial.png
+  - images/view.png
+  - Gemfile
+  - Gemfile.lock
+  - vendor

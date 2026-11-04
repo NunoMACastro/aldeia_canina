@@ -1,0 +1,125 @@
+{%- comment -%}
+  Layout único do site. O conteúdo vem do Markdown convertido pelo kramdown.
+  O layout só reorganiza: tira o H1 para o título da página, passa a primeira
+  linha do README para a abertura, destaca o número das secções e monta o
+  índice a partir dos títulos H2. Não acrescenta texto ao documento.
+{%- endcomment -%}
+{%- assign info = site.data.paginas | where: "url", page.url | first -%}
+{%- assign inicio = false -%}
+{%- if page.url == "/" -%}{%- assign inicio = true -%}{%- endif -%}
+
+{%- assign corpo = content -%}
+{%- assign titulo = page.title -%}
+{%- if corpo contains "<h1" -%}
+  {%- assign h1 = corpo | split: "</h1>" | first | append: "</h1>" -%}
+  {%- assign corpo = corpo | remove_first: h1 -%}
+  {%- unless titulo -%}{%- assign titulo = h1 | strip_html | strip -%}{%- endunless -%}
+{%- endif -%}
+
+{%- assign abertura = "" -%}
+{%- if inicio -%}
+  {%- assign primeiro = corpo | split: "</p>" | first | append: "</p>" -%}
+  {%- assign corpo = corpo | remove_first: primeiro -%}
+  {%- assign abertura = primeiro | strip | replace_first: "<p>", '<p class="abertura">' -%}
+{%- endif -%}
+
+{%- capture indice -%}
+  {%- assign blocos = corpo | split: '<h2 id="' -%}
+  {%- for bloco in blocos offset: 1 -%}
+    {%- assign cab = bloco | split: "</h2>" | first -%}
+    {%- assign ancora = cab | split: '"' | first -%}
+    {%- assign texto = cab | remove_first: ancora | remove_first: '">' | strip_html | strip -%}
+    <li><a href="#{{ ancora }}">{{ texto }}</a></li>
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- comment -%}
+  Número das secções em destaque. As capturas guardam o espaço final de propósito
+  (sem controlo de espaços no endcapture), para «4. » não apanhar «4.1 ».
+{%- endcomment -%}
+{%- for m in (1..9) -%}
+  {%- capture de %}">4.{{ m }} {% endcapture -%}
+  {%- capture para %}"><span class="num">4.{{ m }}</span> {% endcapture -%}
+  {%- assign corpo = corpo | replace: de, para -%}
+{%- endfor -%}
+{%- for n in (1..12) -%}
+  {%- capture de %}">{{ n }}. {% endcapture -%}
+  {%- capture para %}"><span class="num">{{ n }}.</span> {% endcapture -%}
+  {%- assign corpo = corpo | replace: de, para -%}
+{%- endfor -%}
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if inicio %}Apresentação do projeto às entidades{% else %}{{ titulo }}{% endif %} · {{ site.title }}</title>
+<meta name="description" content="{{ site.natureza }}">
+<link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script src="{{ '/assets/js/indice.js' | relative_url }}" defer></script>
+</head>
+<body class="{% if inicio %}inicio{% else %}entidade{% endif %}">
+<a class="saltar" href="#texto">Saltar para o texto</a>
+<header class="barra">
+  <a class="nome" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav aria-label="Documentos"><ul>
+    {%- for p in site.data.paginas -%}
+    <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.curto }}</a></li>
+    {%- endfor -%}
+  </ul></nav>
+</header>
+{%- if info %}
+{%- assign fig = site.data.figuras[info.figura] %}
+<figure class="vista" style="--fx:{{ info.foco_x }};--fy:{{ info.foco_y }};--zoom:{{ info.zoom }}">
+  <img src="{{ fig.imagem | relative_url }}" alt="{{ fig.alt }}" fetchpriority="high">
+  <figcaption>{% if inicio %}Figura {{ fig.numero }}. {% endif %}{{ fig.legenda }}</figcaption>
+</figure>
+{%- endif %}
+<main id="texto" class="folha">
+  <header class="cabeca">
+    <h1>{{ titulo }}</h1>
+    {{ abertura }}
+  </header>
+  <aside class="lado" aria-label="Sobre este documento e navegação">
+    <div class="natureza">
+      <p class="natureza-t">Documento conceptual</p>
+      <p>{{ site.versao }}</p>
+      <p>{{ site.natureza }}</p>
+    </div>
+    {%- assign outros_t = "Outros documentos" -%}
+    {%- if inicio -%}{%- assign outros_t = "Documentos das entidades" -%}{%- endif %}
+    <nav class="outros" aria-label="{{ outros_t }}">
+      <p class="outros-t">{{ outros_t }}</p>
+      <ul>
+        {%- for p in site.data.paginas -%}
+        {%- unless p.url == page.url %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.nome }}</a></li>
+        {%- endunless -%}
+        {%- endfor %}
+      </ul>
+    </nav>
+    <nav class="indice indice-lado" aria-label="Nesta página">
+      <p class="indice-t">Nesta página</p>
+      <ol>{{ indice }}</ol>
+    </nav>
+    <details class="indice indice-movel">
+      <summary>Nesta página</summary>
+      <ol>{{ indice }}</ol>
+    </details>
+  </aside>
+  <div class="doc">
+    {{ corpo }}
+  </div>
+</main>
+<footer class="pe">
+  <div class="pe-in">
+    <p>{{ site.versao_longa }}</p>
+    <p>{{ site.natureza }}</p>
+    <p>Contacto do promotor: <span class="reservado">por preencher</span></p>
+    {%- if info %}
+    <p><a href="{{ site.repositorio_md }}{{ info.md }}" rel="noopener">Ler este documento em Markdown no GitHub</a></p>
+    {%- endif %}
+  </div>
+</footer>
+</body>
+</html>
