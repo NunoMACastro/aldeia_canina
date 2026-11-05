@@ -52,6 +52,59 @@
       indiceMovel.querySelector("summary").focus({ preventScroll: true });
     });
   }
+  /* Apresentação: marca a primeira frase de cada secção (entrada) e de cada critério da
+     secção 3, e parte as componentes do faseamento (secção 11) em etiquetas. Só mexe na
+     forma: o texto fica igual, sem os pontos e vírgulas que separavam as componentes.
+     Sem este script, as secções começam com um parágrafo normal e o faseamento é um quadro. */
+  if (document.body.classList.contains("inicio")) {
+    /* A frase acaba num ponto seguido de espaço e maiúscula, dentro do primeiro texto do
+       elemento; se o elemento for uma só frase de texto simples, é toda a entrada. Quando a
+       frase atravessa uma ligação, fica como está. */
+    var marcarFrase = function (el, classe) {
+      var t = el.firstChild;
+      if (!t || t.nodeType !== 3) return;
+      var m = /^[\s\S]*?[.!?](?=\s+[A-ZÀ-ÖØ-Þ«(])/.exec(t.data);
+      if (!m) {
+        if (el.childNodes.length !== 1 || !/[.!?]\s*$/.test(t.data)) return;
+      } else {
+        t.splitText(m[0].length);
+      }
+      var s = document.createElement("span");
+      s.className = classe;
+      el.insertBefore(s, t);
+      s.appendChild(t);
+    };
+    Array.prototype.forEach.call(document.querySelectorAll(".doc > h2"), function (h) {
+      var p = h.nextElementSibling;
+      if (p && p.tagName === "P" && !p.querySelector("img")) marcarFrase(p, "entrada");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) td:nth-child(2)'), function (td) {
+      marcarFrase(td, "criterio-tipo");
+    });
+    /* Os números com espaço entre milhares («15 000») não partem no fim da linha */
+    var andar = document.createTreeWalker(document.querySelector(".doc"), NodeFilter.SHOW_TEXT);
+    while (andar.nextNode()) {
+      if (/\d \d{3}\b/.test(andar.currentNode.data)) andar.currentNode.data = andar.currentNode.data.replace(/(\d) (?=\d{3}\b)/g, "$1 ");
+    }
+    /* No percurso das etapas (secção 5), sem o ponto e vírgula de lista no fim de cada etapa */
+    Array.prototype.forEach.call(document.querySelectorAll('.doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li'), function (li) {
+      if (li.childNodes.length === 1 && li.firstChild.nodeType === 3) li.firstChild.data = li.firstChild.data.trim().replace(/[;.]$/, "");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) td:nth-child(2)'), function (td) {
+      if (td.children.length) return;
+      var ul = document.createElement("ul");
+      ul.className = "etiquetas";
+      td.textContent.split(";").forEach(function (parte) {
+        var texto = parte.trim().replace(/\.$/, "");
+        if (!texto) return;
+        var li = document.createElement("li");
+        li.textContent = texto;
+        ul.appendChild(li);
+      });
+      td.textContent = "";
+      td.appendChild(ul);
+    });
+  }
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */
   var lado = document.querySelector(".lado");

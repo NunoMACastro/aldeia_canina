@@ -55,6 +55,44 @@
 {%- endcapture -%}
 
 {%- comment -%}
+  Na apresentação, a secção 4 abre com uma grelha das suas subsecções, cada uma com a
+  miniatura da aguarela que o README lhe junta, quando há. Usa só os títulos e as figuras
+  que já estão no texto; fica antes da primeira subsecção, seguida da mesma ressalva que
+  acompanha os postais (a segunda frase das legendas das figuras).
+{%- endcomment -%}
+{%- if inicio and corpo contains '<h2 id="4-' -%}
+  {%- assign s4 = corpo | split: '<h2 id="4-' | last | split: '<h2 id="5-' | first -%}
+  {%- assign s4_id = s4 | split: '"' | first | prepend: "4-" -%}
+  {%- assign subs = s4 | split: '<h3 id="' -%}
+  {%- if subs.size > 1 -%}
+    {%- assign primeira = subs[1] | split: '"' | first -%}
+    {%- capture espacos -%}
+<nav class="espacos" aria-labelledby="{{ s4_id }}"><ol>
+      {%- for bloco in subs offset: 1 -%}
+        {%- assign cab = bloco | split: "</h3>" | first -%}
+        {%- assign ancora = cab | split: '"' | first -%}
+        {%- assign texto = cab | remove_first: ancora | remove_first: '">' | strip_html | strip -%}
+        {%- assign numero = texto | split: " " | first -%}
+        {%- assign nome = texto | remove_first: numero | strip -%}
+        {%- assign mini = "" -%}
+        {%- if bloco contains "aguarelas/" -%}
+          {%- assign partes = bloco | split: 'src="' -%}
+          {%- assign mini = partes[1] | split: '"' | first | replace: "aguarelas/", "aguarelas/postais/" -%}
+        {%- endif %}
+  <li{% if mini == "" %} class="sem-figura"{% endif %}><a href="#{{ ancora }}">
+    {%- if mini != "" %}<span class="espaco-img"><img src="{{ mini }}" alt="" loading="lazy" decoding="async"></span>{% endif -%}
+    <span class="espaco-num">{{ numero }}</span> <span class="espaco-nome">{{ nome }}</span></a></li>
+      {%- endfor %}
+</ol></nav>
+<p class="espacos-nota">{{ site.data.figuras.aerea.legenda | split: ". " | last }}</p>
+    {%- endcapture -%}
+    {%- capture alvo -%}<h3 id="{{ primeira }}"{%- endcapture -%}
+    {%- capture troca -%}{{ espacos }}{{ alvo }}{%- endcapture -%}
+    {%- assign corpo = corpo | replace_first: alvo, troca -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
   Número das secções em destaque. As capturas guardam o espaço final de propósito
   (sem controlo de espaços no endcapture), para «4. » não apanhar «4.1 ».
 {%- endcomment -%}

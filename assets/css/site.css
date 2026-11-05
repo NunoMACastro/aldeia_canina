@@ -255,6 +255,133 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .inicio .doc p:has(> img[src$="aldeia-vista-aerea.jpg"]),
 .inicio .doc p:has(> img[src$="aldeia-vista-aerea.jpg"]) + p { display: none; }
 
+/* Apresentação: as estruturas que o README já tem (quadros, listas, etapas) leem-se de
+   relance. Cada peça é apanhada pela secção onde está, pelo id do título (o h2 da secção N
+   tem id começado por «N-»), sem mudar o Markdown; tudo isto se aplica sem JavaScript.
+   O script só marca a primeira frase de cada secção e de cada critério e parte o
+   faseamento em etiquetas. */
+.inicio .doc .entrada {
+  display: block; margin-bottom: .6rem; color: var(--tinta);
+  font-size: 1.28rem; line-height: 1.45; letter-spacing: -.004em;
+}
+/* Cabeçalhos dos quadros transformados: ficam para leitores de ecrã, não à vista */
+.inicio .doc h2[id^="2-"] + table thead,
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) thead,
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) thead {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+.inicio .doc h2[id^="2-"] + table,
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table),
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) { display: block; overflow: visible; margin: 1.6rem 0 2rem; }
+.inicio .doc h2[id^="2-"] + table :is(tr, td),
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) :is(tr, td),
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) td { display: block; padding: 0; border: 0; min-width: 0; }
+
+/* §2 Serviços: fichas em duas colunas, separadas por filetes, com o nome na voz do documento */
+.inicio .doc h2[id^="2-"] + table tbody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.2rem; }
+.inicio .doc h2[id^="2-"] + table tr { padding: .95rem 0 1.15rem; border-top: 1px solid var(--filete); }
+.inicio .doc h2[id^="2-"] + table td:first-child { margin-bottom: .35rem; font: 600 1.15rem/1.25 var(--f-texto); letter-spacing: -.005em; }
+
+/* §3 Critérios: os dois critérios lado a lado, em pedra clara, com a natureza de cada um à frente */
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tbody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr { padding: 1.05rem 1.2rem 1.25rem; background: var(--pedra); border-top: 2px solid var(--tinta); }
+.inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) td:first-child { margin-bottom: .55rem; font: 600 1.32rem/1.2 var(--f-texto); letter-spacing: -.005em; }
+.inicio .doc .criterio-tipo { display: block; margin-bottom: .35rem; font-weight: 700; color: var(--tinta); }
+/* §3 O que avaliamos em cada terreno: lista de verificação em duas colunas */
+.inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.2rem;
+  list-style: none; padding: 0; margin: 1rem 0 1.9rem; border-bottom: 1px solid var(--filete);
+}
+.inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) > li {
+  position: relative; margin: 0; padding: .62rem 0 .62rem 1.25rem; border-top: 1px solid var(--filete);
+  font-size: 1.02rem; line-height: 1.45;
+}
+.inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) > li::before {
+  content: ""; position: absolute; left: 0; top: 1.22rem; width: .42rem; height: .42rem; background: var(--pinho);
+}
+
+/* §4 Espaços: grelha das nove subsecções, com a miniatura da aguarela de cada uma, quando há */
+.espacos ol {
+  list-style: none; margin: 1.8rem 0 .6rem; padding: 0;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem 1.1rem;
+}
+.espacos li { margin: 0; max-width: none; }
+/* Cada entrada: o lugar da imagem com o número da subsecção numa placa de pedra ao sol no
+   canto, e o nome por baixo. Sem figura no README não se inventa imagem: o lugar passa a
+   uma pequena abertura de secção, em pedra clara, com o traço curto de erva seca e o
+   número como numeral, como os títulos das secções. */
+.espacos a { position: relative; display: flex; flex-direction: column; height: 100%; color: var(--tinta); text-decoration: none; }
+.espaco-img { display: block; height: 5.6rem; overflow: hidden; background: var(--neblina); }
+.espaco-img img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .7s var(--suave); }
+.espaco-num {
+  position: absolute; left: 0; top: calc(5.6rem - 2rem); min-width: 2.9rem; padding: .32rem .5rem 0;
+  background: var(--chao); color: var(--pinho);
+  font: 400 1.35rem/1.25 var(--f-texto); font-variant-numeric: lining-nums tabular-nums; letter-spacing: -.02em;
+}
+.sem-figura a { padding-top: 5.6rem; }
+.sem-figura .espaco-num {
+  top: 0; right: 0; height: 5.6rem; display: flex; align-items: flex-end; padding: 0 .8rem .55rem;
+  background: var(--pedra); font-size: clamp(2.2rem, 1.8rem + 1vw, 2.6rem); line-height: 1; letter-spacing: -.03em;
+}
+.sem-figura a::before { content: ""; position: absolute; z-index: 1; top: 0; left: 0; width: 3rem; height: 3px; background: var(--erva); }
+.espaco-nome { display: block; margin-top: .55rem; font: 600 .98rem/1.3 var(--f-titulo); text-wrap: balance; }
+/* A mesma ressalva que acompanha os postais: as miniaturas são as aguarelas ilustrativas */
+.doc .espacos-nota { margin: .9rem 0 0; font: 400 .88rem/1.4 var(--f-titulo); color: var(--tinta-2); }
+.espacos a:hover .espaco-nome { color: var(--pinho); }
+.espacos a:hover .espaco-img img { transform: scale(1.06); }
+@media (prefers-reduced-motion: reduce) { .espaco-img img { transition: none; } .espacos a:hover .espaco-img img { transform: none; } }
+
+/* §5 Programa de Adaptação: as cinco etapas num percurso, com o traço das secções a marcar cada uma */
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) {
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); column-gap: 1rem;
+  list-style: none; padding: 0; margin: 1.6rem 0 2rem; counter-reset: etapa;
+}
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li {
+  position: relative; margin: 0; padding-top: 3.55rem; counter-increment: etapa;
+  font: 600 1.05rem/1.35 var(--f-texto);
+}
+/* As etapas e as etiquetas vêm de listas do README que começam em minúscula; isoladas, começam em maiúscula */
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li::first-letter,
+.inicio .doc .etiquetas li::first-letter { text-transform: uppercase; }
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li::before {
+  content: counter(etapa); position: absolute; top: 0; left: 0;
+  font: 400 2.1rem/1 var(--f-texto); color: var(--pinho); font-variant-numeric: lining-nums; letter-spacing: -.02em;
+}
+/* O caminho: filete contínuo até à etapa seguinte, com o traço de erva seca no início de cada etapa */
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li::after {
+  content: ""; position: absolute; top: 2.65rem; left: 0; right: -1rem; height: 3px;
+  background: linear-gradient(var(--erva), var(--erva)) 0 0 / 1.5rem 3px no-repeat,
+              linear-gradient(var(--filete), var(--filete)) 0 1px / 100% 1px no-repeat;
+}
+.inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li:last-child::after { right: 0; }
+
+/* §11 Faseamento: patamares por ordem de prioridade; o núcleo essencial em pedra clara */
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tr {
+  display: grid; grid-template-columns: 10.5rem minmax(0, 1fr); column-gap: 1.4rem;
+  padding: 1rem 0 1.1rem; border-top: 1px solid var(--filete);
+}
+/* O fundo do núcleo sai da coluna para os nomes dos níveis ficarem alinhados */
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tbody tr:first-child {
+  padding: 1.15rem 1.2rem 1.25rem; margin-inline: -1.2rem; background: var(--pedra); border-top: 2px solid var(--tinta);
+}
+.inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) td:first-child { font: 600 1.15rem/1.25 var(--f-texto); letter-spacing: -.005em; }
+.inicio .doc .etiquetas { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; margin: 0; padding: 0; }
+.inicio .doc .etiquetas li { margin: 0; padding: .32rem .62rem; background: var(--pedra); border-radius: 2px; font: 400 .93rem/1.3 var(--f-titulo); }
+.inicio .doc tbody tr:first-child .etiquetas li { background: var(--chao); }
+
+/* Barra de progresso da leitura: só onde o browser liga a animação ao scroll, sem script, e
+   só sem pedido de movimento reduzido, como o resto do movimento do site */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .inicio::before {
+      content: ""; position: fixed; z-index: 30; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--pinho); transform-origin: 0 50%; transform: scaleX(0);
+      animation: progresso linear both; animation-timeline: scroll(root);
+    }
+    @keyframes progresso { to { transform: scaleX(1); } }
+  }
+}
+
 /* Coluna lateral */
 .lado { font-family: var(--f-titulo); font-size: .97rem; line-height: 1.45; transition: opacity .35s var(--suave), visibility .35s; }
 .lado.recolhido { opacity: 0; visibility: hidden; }
@@ -338,13 +465,52 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .doc table:has(thead th:nth-child(3):last-child) thead tr { border-bottom: 2px solid var(--tinta); }
   .doc table:has(thead th:nth-child(3):last-child) :is(th, td) { border-bottom: 0; padding-right: 0; min-width: 0; }
   .doc table:has(thead th:nth-child(3):last-child) :is(th, td):first-child { grid-column: 1 / -1; padding-bottom: 0; }
+  /* Apresentação: as peças passam a uma coluna */
+  .inicio .doc .entrada { font-size: 1.2rem; }
+  .inicio .doc h2[id^="2-"] + table tbody,
+  .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tbody,
+  .inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) { grid-template-columns: minmax(0, 1fr); }
+  .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr { padding: 1rem var(--gutter) 1.15rem; margin-inline: calc(-1 * var(--gutter)); }
+  /* Grelha da §4: uma lista de linhas, com a miniatura à esquerda */
+  .espacos ol { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--filete); }
+  .espacos a {
+    display: grid; grid-template-columns: 4.6rem 2.4rem minmax(0, 1fr); column-gap: .85rem; align-items: center;
+    min-height: 44px; padding: .55rem 0; border-top: 1px solid var(--filete);
+  }
+  .espaco-img { height: 3.1rem; grid-column: 1; }
+  .espaco-num { position: static; grid-column: 2; min-width: 2.4rem; padding: 0; background: none; font-size: 1.15rem; }
+  .espaco-nome { grid-column: 3; margin: 0; }
+  /* Sem figura: o numeral ocupa o lugar da miniatura e não se repete ao lado */
+  .sem-figura a { padding-top: .55rem; }
+  .sem-figura .espaco-num { grid-column: 1; height: 3.1rem; padding: 0 .55rem .4rem; font-size: 1.6rem; }
+  .sem-figura a::before { top: .55rem; width: 1.6rem; }
+  /* Etapas: uma por linha, com o número na margem, como as perguntas das entidades; um filete
+     vertical, com o traço de erva seca no início de cada etapa, mantém o percurso */
+  .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) { grid-template-columns: minmax(0, 1fr); }
+  .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li { padding: .55rem 0 1.1rem 3rem; }
+  .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li::before { top: .3rem; font-size: 1.55rem; font-weight: 600; }
+  .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li::after {
+    top: 2.35rem; bottom: .2rem; left: .45rem; right: auto; width: 3px; height: auto;
+    background: linear-gradient(var(--erva), var(--erva)) 0 0 / 3px 1.2rem no-repeat,
+                linear-gradient(var(--filete), var(--filete)) 1px 0 / 1px 100% no-repeat;
+  }
+  .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) > li:last-child::after { display: none; }
+  .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tr { grid-template-columns: minmax(0, 1fr); row-gap: .6rem; }
+  .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tbody tr:first-child { padding-inline: var(--gutter); margin-inline: calc(-1 * var(--gutter)); }
 }
 
 /* Impressão: o documento, sem navegação nem efeitos, com as ligações legíveis */
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]) { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .espacos-nota, .inicio::before { display: none; }
+  /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */
+  .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr,
+  .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tbody tr:first-child { background: none; border: 1px solid #999; border-top: 2px solid #000; margin-inline: 0; }
+  .inicio .doc .etiquetas li, .inicio .doc tbody tr:first-child .etiquetas li { background: none; border: 1px solid #999; }
+  /* Todos os patamares com o mesmo recuo do núcleo, para as duas colunas alinharem no papel */
+  .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tr { padding-inline: 1.2rem; }
+  .inicio .doc .entrada { font-size: 12pt; }
   /* A barra fica só com o nome: no papel é o único sítio onde ele aparece. */
   .barra { min-height: 0; padding: 0 0 3mm; border-bottom: 1px solid #999; }
   .nome { color: #000; font-size: 11pt; }
