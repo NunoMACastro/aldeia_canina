@@ -51,8 +51,6 @@ exclude:
   - PRODUCT.md
   - DESIGN.md
   - prototipo-site
-  - images/aerial.png
-  - images/view.png
   - Gemfile
   - Gemfile.lock
   - vendor

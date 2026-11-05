@@ -114,17 +114,19 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .menu a[aria-current="page"] { color: var(--pinho); border-left-color: var(--pinho); }
 @media (prefers-reduced-motion: reduce) { .menu summary, .menu summary::after { transition: none; } }
 
-/* Abertura: a paisagem ocupa o primeiro ecrã; o título e as ressalvas assentam na sombra da imagem */
-.vista { position: relative; overflow: hidden; background: var(--neblina); height: clamp(15rem, 36vh, 24rem); }
+/* Abertura: a paisagem ocupa o primeiro ecrã; o título e as ressalvas assentam num painel de pinhal */
+.vista { position: relative; overflow: hidden; background: var(--neblina); height: clamp(16rem, 42vh, 27rem); }
 .inicio .vista { height: clamp(26rem, 68vh, 46rem); }
 .vista-img {
   position: absolute; inset: 0; width: 100%; height: 100%;
   object-fit: cover; object-position: 50% var(--fy, 45%);
   transform: scale(var(--zoom, 1)); transform-origin: var(--fx, 50%) 50%;
 }
+/* Só um esbatido leve na base, onde assentam os postais da entrada: a aguarela é clara
+   e fica com a luz do papel. O contraste do texto vem do painel, não da sombra. */
 .vista::after {
   content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: linear-gradient(to top, var(--sombra-paisagem) 0%, rgba(22, 27, 18, .5) 36%, rgba(22, 27, 18, 0) 68%);
+  background: linear-gradient(to top, rgba(22, 27, 18, .28) 0%, rgba(22, 27, 18, 0) 40%);
 }
 .vista-texto {
   position: absolute; z-index: 1; left: var(--margem); right: var(--margem); bottom: 2rem;
@@ -138,6 +140,15 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .inicio .vista h1 { font-size: clamp(2.1rem, 1.3rem + 2.2vw, 3.3rem); line-height: 1.04; letter-spacing: -.02em; max-width: 20ch; }
 .vista-legenda { margin: .7rem 0 0; font: 400 .84rem/1.4 var(--f-titulo); color: var(--neblina); max-width: 64ch; }
 .inicio .vista-legenda { margin-top: .9rem; }
+/* Em ecrãs largos o texto fica num painel de pinhal quase opaco, como a faixa verde do
+   telemóvel: sobre o papel mais claro da aguarela dá cerca de 9:1 no título e 6,9:1 na legenda. */
+@media (min-width: 40.01rem) {
+  .vista-texto {
+    width: fit-content; max-width: min(46rem, calc(100% - 2 * var(--margem)));
+    padding: 1.1rem 1.4rem 1.15rem; background: rgba(31, 38, 23, .84);
+  }
+  .vista h1 { text-shadow: none; }
+}
 .titulo-simples { max-width: 76rem; margin: 2.5rem auto 0; padding-inline: var(--margem); font: 600 2.2rem/1.1 var(--f-texto); }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -239,8 +250,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .doc p:has(> img:only-child) { margin-right: calc(-1 * (var(--lado) + var(--vao))); }
 }
 /* Na página de entrada a figura 1 já abre o site; não se repete no texto */
-.inicio .doc p:has(> img[src$="aerial-readme.webp"]),
-.inicio .doc p:has(> img[src$="aerial-readme.webp"]) + p { display: none; }
+.inicio .doc p:has(> img[src$="aldeia-vista-aerea.jpg"]),
+.inicio .doc p:has(> img[src$="aldeia-vista-aerea.jpg"]) + p { display: none; }
 
 /* Coluna lateral */
 .lado { font-family: var(--f-titulo); font-size: .97rem; line-height: 1.45; transition: opacity .35s var(--suave), visibility .35s; }
@@ -292,7 +303,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .barra { gap: 1rem; }
   .nome { font-size: 1.02rem; }
   .vista, .inicio .vista { height: auto; background: var(--pinho-escuro); }
-  .vista picture { display: block; }
   .vista-img { position: relative; height: 15rem; }
   .inicio .vista-img { height: 18rem; }
   .vista::after { display: none; }
