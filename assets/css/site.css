@@ -85,7 +85,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .nome { font: 600 1.15rem/1.25 var(--f-texto); color: var(--tinta); text-decoration: none; letter-spacing: -.005em; }
 .nome:hover { color: var(--pinho); }
 
-/* Menu «Documentos»: um só botão abre a lista dos seis documentos (funciona sem JavaScript) */
+/* Menu «Entidades»: um só botão abre a lista dos seis documentos (funciona sem JavaScript) */
 .menu { position: relative; flex: none; font-family: var(--f-titulo); }
 .menu summary {
   list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .6rem;
@@ -107,11 +107,13 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 }
 .menu ul { list-style: none; margin: 0; padding: 0; }
 .menu a {
-  display: block; padding: .6rem 1.1rem .6rem .95rem; border-left: 3px solid transparent;
+  display: block; padding: .75rem 1.1rem .75rem .95rem; border-left: 3px solid transparent;
   color: var(--tinta); text-decoration: none; font-weight: 600; font-size: .98rem; line-height: 1.3;
 }
 .menu a:hover { background: var(--pedra); color: var(--pinho); }
 .menu a[aria-current="page"] { color: var(--pinho); border-left-color: var(--pinho); }
+/* A apresentação não é uma entidade: fica no topo da lista, separada das cinco por um filete */
+.menu .menu-inicio { border-bottom: 1px solid var(--filete); margin-bottom: .35rem; padding-bottom: .35rem; }
 @media (prefers-reduced-motion: reduce) { .menu summary, .menu summary::after { transition: none; } }
 
 /* Abertura: a paisagem ocupa o primeiro ecrã; o título e as ressalvas assentam num painel de pinhal */
@@ -294,7 +296,20 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .indice-movel summary { padding: .3rem 0; }
   .indice-movel summary::marker { color: var(--pinho); }
   .indice-movel[open] ol { margin: .4rem 0 .6rem; }
+  .indice-movel a { display: flex; align-items: center; min-height: 44px; padding-block: .4rem; }
+  /* Botão «Índice»: sem coluna lateral, leva de volta ao índice depois de o leitor o passar.
+     A margem de scroll impede que o Tab deixe uma ligação focada por baixo do botão. */
+  html { scroll-padding-bottom: calc(44px + 2rem); }
+  .ao-indice:not([hidden]) {
+    position: fixed; z-index: 15; right: var(--gutter); bottom: max(1rem, env(safe-area-inset-bottom));
+    display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.05rem;
+    background: var(--pinho); color: var(--chao); border-radius: 2px;
+    font: 600 .95rem/1 var(--f-titulo); text-decoration: none;
+    box-shadow: 0 10px 24px -12px rgba(30, 34, 26, .6), 0 2px 6px -3px rgba(30, 34, 26, .3);
+  }
+  .ao-indice:hover { background: var(--pinho-escuro); }
 }
+.ao-indice { display: none; }
 
 /* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */
 @media (max-width: 40rem) {
@@ -316,13 +331,20 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .postais li { flex: 0 0 72%; scroll-snap-align: start; }
   .doc h2 { margin-top: 3.2rem; }
   .doc tbody td:first-child { min-width: 7rem; }
+  /* Quadros de três colunas: a primeira coluna passa a título da linha e as outras duas
+     ficam lado a lado, com o dobro da largura que teriam em três colunas */
+  .doc table:has(thead th:nth-child(3):last-child) :is(thead, tbody) { display: block; }
+  .doc table:has(thead th:nth-child(3):last-child) tr { display: grid; grid-template-columns: 1fr 1fr; column-gap: .9rem; border-bottom: 1px solid var(--filete); }
+  .doc table:has(thead th:nth-child(3):last-child) thead tr { border-bottom: 2px solid var(--tinta); }
+  .doc table:has(thead th:nth-child(3):last-child) :is(th, td) { border-bottom: 0; padding-right: 0; min-width: 0; }
+  .doc table:has(thead th:nth-child(3):last-child) :is(th, td):first-child { grid-column: 1 / -1; padding-bottom: 0; }
 }
 
 /* Impressão: o documento, sem navegação nem efeitos, com as ligações legíveis */
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]) { display: none; }
   /* A barra fica só com o nome: no papel é o único sítio onde ele aparece. */
   .barra { min-height: 0; padding: 0 0 3mm; border-bottom: 1px solid #999; }
   .nome { color: #000; font-size: 11pt; }

@@ -104,10 +104,10 @@
 <header class="barra">
   <a class="nome" href="{{ '/' | relative_url }}">{{ site.nome_barra }}</a>
   <details class="menu">
-    <summary>Documentos</summary>
-    <nav aria-label="Documentos"><ul>
+    <summary>Entidades</summary>
+    <nav aria-label="Entidades"><ul>
       {%- for p in site.data.paginas -%}
-      <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nome }}</a></li>
+      <li{% if p.url == "/" %} class="menu-inicio"{% endif %}><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nome }}</a></li>
       {%- endfor -%}
     </ul></nav>
   </details>
@@ -139,7 +139,7 @@
         <p class="indice-t">Nesta página</p>
         <ol>{{ indice }}</ol>
       </nav>
-      <details class="indice indice-movel">
+      <details class="indice indice-movel" id="indice">
         <summary>Nesta página</summary>
         <ol>{{ indice }}</ol>
       </details>
@@ -157,6 +157,8 @@
   </section>
   {%- endunless %}
 </main>
+{%- comment -%} Só aparece com JavaScript, em ecrãs sem coluna lateral, depois de o leitor passar o índice. {%- endcomment %}
+<a class="ao-indice" href="#indice" hidden>Índice</a>
 <footer class="pe">
   <div class="pe-in">
     <p>{{ site.versao_longa }}</p>
