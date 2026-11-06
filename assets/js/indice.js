@@ -104,6 +104,165 @@
       td.textContent = "";
       td.appendChild(ul);
     });
+
+    /* Resumo primeiro, detalhe a pedido. Em cada secção ficam à vista o título, o primeiro
+       parágrafo (com a entrada), as peças visuais e a frase com dois pontos que as introduz;
+       o resto fica fechado até o leitor pedir, num botão no fim da secção. Ficam sempre
+       abertos «Sobre este documento» e a §12, que têm as ressalvas; as secções 1 e 3 e o
+       quadro da 10, que o próprio README apresenta como o resumo («As secções 1, 3 e 10
+       resumem…»); os parágrafos de prudência que se leem sozinhos (a aldeia não substitui
+       cuidados veterinários, as câmaras em direto fora da primeira fase); e o que for tão
+       curto que um botão não compensa. Na §4, cada entrada da grelha abre só a sua subsecção.
+       As partes fechadas usam hidden="until-found": a pesquisa do browser encontra-as e
+       abre-as onde isso é suportado. Sem este script e na impressão, aparece tudo. */
+    var doc = document.querySelector(".doc");
+    var PECAS = '[id^="2-"] + table, [id^="3-"] ~ table:not([id^="4-"] ~ table), [id^="3-"] ~ ul:not([id^="4-"] ~ ul), ' +
+      '.espacos, .espacos-nota, [id^="5-"] ~ ol:not([id^="6-"] ~ ol), [id^="10-"] ~ table:not([id^="11-"] ~ table), ' +
+      '[id^="11-"] ~ table:not([id^="12-"] ~ table)';
+    var PRUDENCIA = /A aldeia não substitui cuidados veterinários|câmaras em direto para tutores/;
+    var CURTO = 300;
+    var seccoes = [];
+    Array.prototype.forEach.call(doc.children, function (el) {
+      if (el.tagName === "H2") seccoes.push({ h2: el, els: [] });
+      else if (seccoes.length) seccoes[seccoes.length - 1].els.push(el);
+    });
+    var registos = [];
+    var controlos = [];
+    var n = 0;
+    var aberta = function (parte) { return !parte.hasAttribute("hidden"); };
+    var mostrar = function (partes, abrir) {
+      partes.forEach(function (parte) {
+        if (abrir && !aberta(parte)) {
+          parte.removeAttribute("hidden");
+          parte.classList.add("a-abrir");
+        } else if (!abrir) {
+          parte.setAttribute("hidden", "until-found");
+          parte.classList.remove("a-abrir");
+        }
+      });
+    };
+    seccoes.forEach(function (s, k) {
+      if (/^(sobre-este-documento|1-|3-|12-)/.test(s.h2.id)) return;
+      var visivel = function (el, i) {
+        if (i === 0 && el.tagName === "P") return true;
+        if (el.matches(PECAS)) return true;
+        if (el.tagName === "P" && PRUDENCIA.test(el.textContent)) return true;
+        var seguinte = s.els[i + 1];
+        return el.tagName === "P" && /:\s*$/.test(el.textContent) && !!seguinte && seguinte.matches(PECAS);
+      };
+      var escondidos = s.els.filter(function (el, i) { return !visivel(el, i); });
+      var texto = escondidos.reduce(function (t, el) { return t + el.textContent.trim().length; }, 0);
+      if (!escondidos.length || (texto < CURTO && !escondidos.some(function (el) { return el.querySelector("img"); }))) return;
+      /* Agrupa os elementos fechados em blocos seguidos; na §4, um grupo por subsecção */
+      var quatro = /^4-/.test(s.h2.id);
+      var grupos = [];
+      var grupo = null;
+      var parte = null;
+      s.els.forEach(function (el, i) {
+        if (visivel(el, i)) { parte = null; return; }
+        if (!grupo || (quatro && el.tagName === "H3")) { grupo = []; grupos.push(grupo); parte = null; }
+        if (!parte) {
+          parte = document.createElement("div");
+          parte.className = "detalhe";
+          parte.id = "detalhe-" + (++n);
+          parte.setAttribute("hidden", "until-found");
+          parte.setAttribute("tabindex", "-1");
+          doc.insertBefore(parte, el);
+          grupo.push(parte);
+        }
+        parte.appendChild(el);
+      });
+      var todas = [].concat.apply([], grupos);
+      var botao = document.createElement("button");
+      botao.type = "button";
+      botao.className = "ler-mais";
+      botao.setAttribute("aria-controls", todas.map(function (p) { return p.id; }).join(" "));
+      doc.insertBefore(botao, seccoes[k + 1] ? seccoes[k + 1].h2 : null);
+      /* O estado diz-se num só sinal, o rótulo (sem aria-expanded, que o contradiria). Com a
+         secção só em parte aberta (uma subsecção da §4, por exemplo), oferece o resto. */
+      var atualizar = function () {
+        var completa = todas.every(aberta);
+        botao.classList.toggle("aberto", completa);
+        botao.textContent = completa ? "Mostrar só o resumo" : "Ler a secção completa";
+      };
+      atualizar();
+      controlos.push({ todas: todas, atualizar: atualizar });
+      grupos.forEach(function (g) {
+        var abrirGrupo = function () { mostrar(g, true); atualizarTudo(); };
+        g.forEach(function (p) {
+          registos.push({ parte: p, abrir: abrirGrupo });
+          p.addEventListener("beforematch", abrirGrupo);
+        });
+      });
+      /* Ao abrir, o leitor vai para o primeiro texto acabado de abrir (na §4, a 4.1, logo
+         abaixo da grelha), com o foco nele. Ao fechar, volta ao título da secção, para não
+         ficar a meio de texto que desapareceu, e o foco fica no botão. */
+      botao.addEventListener("click", function () {
+        var novas = todas.filter(function (p) { return !aberta(p); });
+        if (novas.length) {
+          mostrar(novas, true);
+          atualizarTudo();
+          novas[0].scrollIntoView({ block: "start" });
+          novas[0].focus({ preventScroll: true });
+        } else {
+          mostrar(todas, false);
+          atualizarTudo();
+          s.h2.scrollIntoView({ block: "start" });
+        }
+      });
+    });
+    /* Um só botão, na coluna lateral, abre ou fecha todas as secções */
+    var tudo = null;
+    var atualizarTudo = function () {
+      controlos.forEach(function (c) { c.atualizar(); });
+      if (!tudo) return;
+      var todasAbertas = controlos.every(function (c) { return c.todas.every(aberta); });
+      tudo.classList.toggle("aberto", todasAbertas);
+      tudo.textContent = todasAbertas ? "Fechar todas as secções" : "Abrir todas as secções";
+    };
+    var lado = document.querySelector(".lado");
+    if (controlos.length && lado) {
+      tudo = document.createElement("button");
+      tudo.type = "button";
+      tudo.className = "abrir-tudo";
+      tudo.setAttribute("aria-controls", registos.map(function (r) { return r.parte.id; }).join(" "));
+      tudo.addEventListener("click", function () {
+        var abrir = !tudo.classList.contains("aberto");
+        controlos.forEach(function (c) { mostrar(c.todas, abrir); });
+        atualizarTudo();
+      });
+      lado.appendChild(tudo);
+      atualizarTudo();
+    }
+    /* Uma ligação ou um endereço para um ponto dentro de uma parte fechada (índice, grelha da
+       §4, «ver secção 4.9», ligação partilhada) abre primeiro o grupo onde ele está. */
+    var abrirAlvo = function (id) {
+      var alvo = id && document.getElementById(id);
+      var parte = alvo && alvo.closest(".detalhe[hidden]");
+      if (!parte) return null;
+      registos.forEach(function (r) { if (r.parte === parte) r.abrir(); });
+      return alvo;
+    };
+    var alvoDe = function (href) {
+      try { return decodeURIComponent(href.slice(1)); } catch (e) { return href.slice(1); }
+    };
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (a) abrirAlvo(alvoDe(a.getAttribute("href")));
+    }, true);
+    var irParaHash = function () {
+      var alvo = abrirAlvo(alvoDe(location.hash));
+      if (alvo) alvo.scrollIntoView({ block: "start" });
+    };
+    window.addEventListener("hashchange", irParaHash);
+    /* Ao chegar por um endereço com âncora, abre logo e só desce depois de a página carregar:
+       antes disso, as imagens e as fontes ainda mudam as alturas e o scroll perde-se. */
+    if (location.hash) {
+      var inicial = abrirAlvo(alvoDe(location.hash));
+      if (inicial) {
+        window.addEventListener("load", function () { inicial.scrollIntoView({ block: "start", behavior: "instant" }); });
+      }
+    }
   }
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */

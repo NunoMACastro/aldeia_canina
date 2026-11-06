@@ -369,6 +369,30 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .inicio .doc .etiquetas li { margin: 0; padding: .32rem .62rem; background: var(--pedra); border-radius: 2px; font: 400 .93rem/1.3 var(--f-titulo); }
 .inicio .doc tbody tr:first-child .etiquetas li { background: var(--chao); }
 
+/* Resumo primeiro, detalhe a pedido (o script fecha o detalhe de cada secção e põe estes
+   botões; sem script, não existem e aparece tudo). Os botões são controlos, como o botão
+   «Entidades»: contorno de filete, cantos de 2px, e o verde de pinhal da ação. */
+.ler-mais, .abrir-tudo {
+  display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; padding: .5rem .95rem;
+  border: 1px solid var(--filete); border-radius: 2px; background: var(--chao); color: var(--pinho);
+  font: 600 .98rem/1.2 var(--f-titulo); cursor: pointer;
+  transition: border-color .2s var(--suave), background-color .2s var(--suave);
+}
+.ler-mais { margin: .2rem 0 0; }
+.ler-mais::after, .abrir-tudo::after {
+  content: ""; flex: none; width: .42rem; height: .42rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); transition: transform .25s var(--suave);
+}
+.ler-mais.aberto::after, .abrir-tudo.aberto::after { transform: translateY(2px) rotate(-135deg); }
+.ler-mais:hover, .abrir-tudo:hover { border-color: var(--pinho); background: var(--pedra); }
+/* O texto acabado de abrir recebe o foco, para a leitura continuar nele; não é um controlo, sem anel */
+.detalhe:focus { outline: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .detalhe.a-abrir { animation: abrir .5s var(--suave) both; }
+  @keyframes abrir { from { opacity: 0; transform: translateY(-.4rem); } }
+}
+@media (prefers-reduced-motion: reduce) { .ler-mais, .abrir-tudo, .ler-mais::after, .abrir-tudo::after { transition: none; } }
+
 /* Barra de progresso da leitura: só onde o browser liga a animação ao scroll, sem script, e
    só sem pedido de movimento reduzido, como o resto do movimento do site */
 @supports (animation-timeline: scroll()) {
@@ -503,7 +527,9 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .espacos-nota, .inicio::before { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .espacos-nota, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
+  /* No papel sai o documento inteiro, com as partes fechadas abertas */
+  .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
   /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr,
   .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tbody tr:first-child { background: none; border: 1px solid #999; border-top: 2px solid #000; margin-inline: 0; }
