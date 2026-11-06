@@ -2,8 +2,8 @@
   Layout único do site. O conteúdo vem do Markdown convertido pelo kramdown.
   O layout só reorganiza: o nome do projeto fica só na barra; o H1 do Markdown
   passa a título sobre a paisagem (na entrada, a primeira frase do README); a
-  primeira linha do README sai do corpo porque está no rodapé (e a versão na
-  nota lateral); destaca o número das secções, monta o índice a partir dos
+  primeira linha do README sai do corpo porque o título está na abertura e a
+  versão na nota lateral; destaca o número das secções, monta o índice a partir dos
   títulos H2 e mostra os documentos das entidades como postais. Não acrescenta
   texto ao documento.
 {%- endcomment -%}
@@ -26,23 +26,6 @@
   {%- assign primeiro = corpo | split: "</p>" | first | append: "</p>" -%}
   {%- assign corpo = corpo | remove_first: primeiro -%}
 {%- endif -%}
-
-{%- comment -%}
-  Na tabela do README, a ligação a cada documento tem como rótulo o nome do
-  ficheiro (`entidades/x.md`), útil no GitHub. No site, o rótulo passa a ser o
-  título do próprio documento, que é texto da fonte.
-{%- endcomment -%}
-{%- for p in site.data.paginas -%}
-  {%- capture fim -%}{{ p.md }}</code>{%- endcapture -%}
-  {%- if corpo contains fim -%}
-    {%- assign alvo = site.pages | where: "url", p.url | first -%}
-    {%- assign rotulo = alvo.title | default: p.nome -%}
-    {%- comment -%} No GitHub Pages o kramdown junta uma classe ao código em linha. {%- endcomment -%}
-    {%- capture de1 -%}<code class="language-plaintext highlighter-rouge">{{ p.md }}</code>{%- endcapture -%}
-    {%- capture de2 -%}<code>{{ p.md }}</code>{%- endcapture -%}
-    {%- assign corpo = corpo | replace: de1, rotulo | replace: de2, rotulo -%}
-  {%- endif -%}
-{%- endfor -%}
 
 {%- capture indice -%}
   {%- assign blocos = corpo | split: '<h2 id="' -%}
@@ -169,7 +152,7 @@
       <div class="natureza">
         <p class="natureza-t">Documento preliminar</p>
         <p>{{ site.versao }}</p>
-        <p>{{ site.natureza }}</p>
+        <p>{{ site.natureza_curta }}</p>
       </div>
       <nav class="indice indice-lado" aria-label="Nesta página">
         <p class="indice-t">Nesta página</p>
@@ -195,12 +178,8 @@
 <a class="ao-indice" href="#indice" hidden>Índice</a>
 <footer class="pe">
   <div class="pe-in">
-    {%- comment -%} A natureza do documento fica na caixa do topo da coluna lateral; o rodapé não a repete. {%- endcomment %}
-    <p>{{ site.versao_longa }}</p>
-    <p>Contactos do promotor: <a href="tel:+351{{ site.contacto_telefone | remove: ' ' }}">{{ site.contacto_telefone }}</a> e <a href="mailto:{{ site.contacto_email }}">{{ site.contacto_email }}</a></p>
-    {%- if info %}
-    <p class="pe-md"><a href="{{ site.repositorio_md }}{{ info.md }}" rel="noopener">Ler este documento em Markdown no GitHub</a></p>
-    {%- endif %}
+    {%- comment -%} A versão e a natureza do documento ficam na caixa do topo da coluna lateral; o rodapé tem só os contactos. {%- endcomment %}
+    <p>Contactos: <a href="tel:+351{{ site.contacto_telefone | remove: ' ' }}">{{ site.contacto_telefone }}</a> e <a href="mailto:{{ site.contacto_email }}">{{ site.contacto_email }}</a></p>
   </div>
 </footer>
 </body>

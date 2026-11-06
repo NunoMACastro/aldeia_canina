@@ -1,6 +1,6 @@
 # Aldeia Canina Sustentável em Viseu
 
-Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026, baseada na visão 2.0 do projeto, da mesma data.
+Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026.
 
 ## Sobre este documento
 
@@ -10,11 +10,11 @@ Para cada entidade preparámos também um documento com os regimes que identific
 
 | Entidade | Documento próprio |
 | --- | --- |
-| Câmara Municipal de Viseu | [`entidades/camara-municipal-viseu.md`](entidades/camara-municipal-viseu.md) |
-| Gabinete Técnico Florestal | [`entidades/gabinete-tecnico-florestal.md`](entidades/gabinete-tecnico-florestal.md) |
-| Direção-Geral de Alimentação e Veterinária (DGAV) | [`entidades/dgav.md`](entidades/dgav.md) |
-| Instituto da Conservação da Natureza e das Florestas (ICNF) | [`entidades/icnf.md`](entidades/icnf.md) |
-| Médico veterinário municipal | [`entidades/medico-veterinario-municipal.md`](entidades/medico-veterinario-municipal.md) |
+| Câmara Municipal de Viseu | [Pedido de orientação à Câmara Municipal de Viseu](entidades/camara-municipal-viseu.md) |
+| Gabinete Técnico Florestal | [Pedido de orientação ao Gabinete Técnico Florestal](entidades/gabinete-tecnico-florestal.md) |
+| Direção-Geral de Alimentação e Veterinária (DGAV) | [Pedido de orientação à Direção-Geral de Alimentação e Veterinária (DGAV)](entidades/dgav.md) |
+| Instituto da Conservação da Natureza e das Florestas (ICNF) | [Pedido de orientação ao Instituto da Conservação da Natureza e das Florestas (ICNF)](entidades/icnf.md) |
+| Médico veterinário municipal | [Pedido de orientação ao médico veterinário municipal](entidades/medico-veterinario-municipal.md) |
 
 As secções 1, 3 e 10 resumem o conceito, os critérios de escolha do terreno e as condicionantes com as medidas previstas.
 
@@ -78,7 +78,7 @@ Na escolha do terreno aplicamos dois critérios nossos:
 | Saneamento | Eliminatório. O terreno tem de permitir a ligação à rede pública de saneamento ou uma solução autónoma licenciável, dimensionada para a lotação máxima e para os dejetos, as lavagens, o grooming, a lavandaria e os picos de ocupação. |
 | Perigosidade de incêndio rural | Condicionante, avaliada caso a caso. Não construímos nas áreas de perigosidade «muito alta» nem na sua envolvente, cuja distância ainda está por definir. Um terreno com uma mancha destas não fica automaticamente excluído. A decisão depende da dimensão do terreno face à mancha e à envolvente. |
 
-O critério de perigosidade não dispensa a confirmação, com as entidades competentes, da carta de perigosidade que se aplica a cada terreno e das restrições legais à edificação em áreas de risco de incêndio, incluindo as que possam abranger outras classes de perigosidade.
+O critério de perigosidade não substitui a confirmação, junto das entidades competentes, da carta de perigosidade que se aplica a cada terreno e das restrições legais à edificação em áreas de risco de incêndio, incluindo as que se apliquem a outras classes de perigosidade.
 
 Em cada terreno candidato avaliamos também:
 
@@ -293,7 +293,7 @@ O transporte é uma operação controlada e registada. Segue regras por porte, t
 
 ## 7. Sustentabilidade e infraestruturas
 
-A sustentabilidade ambiental faz parte do projeto de raiz, e o terreno amplo, a exposição solar, a necessidade de água, a drenagem, o saneamento e a utilização diária das instalações dão-lhe ainda mais peso. As soluções finais dependem de estudo técnico e serão proporcionais ao consumo previsto. Não assumimos autonomia energética antes desse estudo.
+A sustentabilidade ambiental faz parte do projeto de raiz, e o terreno amplo, a exposição solar, a necessidade de água, a drenagem, o saneamento e a utilização diária das instalações dão-lhe ainda mais peso. As soluções finais dependem de estudo técnico e serão proporcionais ao consumo previsto.
 
 ![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
 
@@ -386,5 +386,3 @@ Este é um documento preliminar. Não é projeto de execução nem estudo de imp
 As figuras são visualizações ilustrativas e não representam nenhum dos terrenos em estudo, nem uma implantação, planta ou infraestrutura existente. Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
 
 O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes que identificámos, mas o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.
-
-A aldeia não substitui cuidados veterinários. Quando nos referimos à saúde dos animais, falamos de observação, acompanhamento e articulação com médico veterinário.

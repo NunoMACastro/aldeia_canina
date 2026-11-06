@@ -25,7 +25,7 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 
 ## 3. Perguntas
 
-Como este documento é público, não identificamos aqui os terrenos candidatos. As perguntas sobre cada terreno pressupõem que os identifiquemos junto dos vossos serviços.
+Como este documento é público, não identificamos aqui os terrenos candidatos. Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
 
 1. Qual é o calendário previsto para a carta de APPS adaptada da sub-região Viseu Dão Lafões? Que cartografia de perigosidade se aplicará aos procedimentos a partir de 1 de janeiro de 2027, quando os PMDFCI deixarem de produzir efeitos?
 2. Qual é a natureza jurídica da metodologia nacional de adaptação das APPS? Prevê alguma zona de transição ou distância em torno das manchas de perigosidade «muito alta»? Como tendem a ser tratadas, nas tipologias C e D, as áreas de classe «alta»?
@@ -39,4 +39,4 @@ Como este documento é público, não identificamos aqui os terrenos candidatos.
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com a visão, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, a informação sobre a ocupação florestal, o inventário de espécies, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação ainda não está definida, porque depende do terreno que escolhermos e da orientação que recebermos.
+Neste momento podemos facultar a [apresentação do projeto](../README.md), com o conceito, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, a informação sobre a ocupação florestal, o inventário de espécies, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação ainda não está definida, porque depende do terreno que escolhermos e da orientação que recebermos.

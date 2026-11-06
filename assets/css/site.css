@@ -390,6 +390,12 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 }
 @media (prefers-reduced-motion: reduce) { .ler-mais, .abrir-tudo, .ler-mais::after, .abrir-tudo::after { transition: none; } }
 
+/* No ecrã, a lista «Conteúdo:» de «Sobre este documento» repete o índice «Nesta página», por
+   isso não se mostra; no papel, onde o índice não sai, fica. */
+@media screen {
+  .inicio .doc h2[id="sobre-este-documento"] ~ :is(p:has(+ ol), ol):not(h2[id^="1-"] ~ *) { display: none; }
+}
+
 /* Barra de progresso da leitura: só onde o browser liga a animação ao scroll, sem script, e
    só sem pedido de movimento reduzido, como o resto do movimento do site */
 @supports (animation-timeline: scroll()) {
@@ -419,7 +425,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .indice a:hover { color: var(--pinho); }
 .indice a[aria-current="true"] { color: var(--pinho); border-left-color: var(--pinho); font-weight: 600; }
 
-/* Rodapé: a sombra do pinhal fecha cada página, com a versão, os contactos e a ligação para o Markdown */
+/* Rodapé: a sombra do pinhal fecha cada página, com os contactos */
 .pe { background: var(--pinho-escuro); color: var(--chao); }
 .pe-in { max-width: 76rem; margin: 0 auto; padding: 2.6rem var(--margem) 3rem; font: 400 .95rem/1.55 var(--f-titulo); }
 .pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
@@ -524,7 +530,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
   /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */

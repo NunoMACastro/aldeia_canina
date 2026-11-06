@@ -14,13 +14,13 @@ Nas fontes oficiais que consultámos até 3 de novembro de 2026, identificámos 
 
 - o [Decreto-Lei n.º 82/2021](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-172745166-172791121), que estabelece o Sistema de Gestão Integrada de Fogos Rurais (SGIFR), na redação atual, quanto à perigosidade de incêndio rural, às áreas prioritárias de prevenção e segurança (APPS), aos condicionamentos à edificação e às faixas de gestão de combustível;
 - o [Decreto-Lei n.º 49/2022](https://diariodarepublica.pt/dr/detalhe/decreto-lei/49-2022-186307878) e o [Decreto-Lei n.º 86/2026](https://diariodarepublica.pt/dr/detalhe/decreto-lei/86-2026-1085738182), que mantêm transitoriamente as cartas de perigosidade dos planos municipais de defesa da floresta contra incêndios (PMDFCI);
-- a metodologia de adaptação das APPS, aprovada pela comissão nacional em 24 de fevereiro de 2023 e publicada no portal do SGIFR, quanto às tipologias das APPS e ao tratamento das manchas de perigosidade. A sua natureza jurídica está por confirmar.
+- a metodologia de adaptação das APPS, aprovada pela comissão nacional em 24 de fevereiro de 2023 e publicada no portal do SGIFR, quanto às tipologias das APPS e ao tratamento das manchas de perigosidade. Ainda não sabemos se esta metodologia é vinculativa.
 
 Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos digam.
 
 ## 3. Perguntas
 
-Como este documento é público, não identificamos aqui os terrenos candidatos. As perguntas sobre cada terreno pressupõem que os identifiquemos junto dos vossos serviços.
+Como este documento é público, não identificamos aqui os terrenos candidatos. Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
 
 1. Que carta de perigosidade se aplica hoje a cada terreno candidato: a do PMDFCI, em regime transitório, ou outra? Em que classes se encontram o terreno e a sua envolvente próxima? Podem facultar-nos extratos dessa carta?
 2. Se ainda não houver carta de APPS adaptada para Viseu Dão Lafões, que áreas da carta do PMDFCI contam como APPS com condicionamentos à edificação, para efeitos do artigo 60.º do Decreto-Lei n.º 82/2021?
@@ -33,4 +33,4 @@ Como este documento é público, não identificamos aqui os terrenos candidatos.
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com a visão, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação não está definida: depende do terreno que escolhermos e da orientação que recebermos.
+Neste momento podemos facultar a [apresentação do projeto](../README.md), com o conceito, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação não está definida: depende do terreno que escolhermos e da orientação que recebermos.

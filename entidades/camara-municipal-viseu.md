@@ -27,7 +27,7 @@ Se houver outras normas ou aspetos que devamos ter em conta desde já, agradecem
 
 ## 3. Perguntas
 
-Como este documento é público, não identificamos aqui os terrenos candidatos. As perguntas sobre cada terreno pressupõem que os identifiquemos junto dos vossos serviços.
+Como este documento é público, não identificamos aqui os terrenos candidatos. Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
 
 1. Os artigos 60.º e 61.º que nos indicaram são os do Decreto-Lei n.º 82/2021, de 13 de outubro?
 2. Para cada terreno candidato, qual é a classe e a categoria de solo no PDM, que usos e parâmetros de edificabilidade se aplicam e que condicionantes (REN, RAN, domínio hídrico, outras servidões) constam da planta de condicionantes? Concordam que a atividade seja apreciada como serviço de alojamento de animais?
@@ -44,4 +44,4 @@ Como este documento é público, não identificamos aqui os terrenos candidatos.
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com a visão, os serviços, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos o levantamento topográfico, as certidões prediais e o cadastro, nem a cartografia de perigosidade de incêndio rural. A implantação, o projeto de arquitetura e a capacidade máxima ainda não estão definidos: dependem da escolha do terreno e da orientação que recebermos.
+Neste momento podemos facultar a [apresentação do projeto](../README.md), com o conceito, os serviços, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos o levantamento topográfico, as certidões prediais e o cadastro, nem a cartografia de perigosidade de incêndio rural. A implantação, o projeto de arquitetura e a capacidade máxima ainda não estão definidos: dependem da escolha do terreno e da orientação que recebermos.
