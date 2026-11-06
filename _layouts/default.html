@@ -57,8 +57,7 @@
 {%- comment -%}
   Na apresentação, a secção 4 abre com uma grelha das suas subsecções, cada uma com a
   miniatura da aguarela que o README lhe junta, quando há. Usa só os títulos e as figuras
-  que já estão no texto; fica antes da primeira subsecção, seguida da mesma ressalva que
-  acompanha os postais (a segunda frase das legendas das figuras).
+  que já estão no texto; fica antes da primeira subsecção.
 {%- endcomment -%}
 {%- if inicio and corpo contains '<h2 id="4-' -%}
   {%- assign s4 = corpo | split: '<h2 id="4-' | last | split: '<h2 id="5-' | first -%}
@@ -84,7 +83,6 @@
     <span class="espaco-num">{{ numero }}</span> <span class="espaco-nome">{{ nome }}</span></a></li>
       {%- endfor %}
 </ol></nav>
-<p class="espacos-nota">{{ site.data.figuras.aerea.legenda | split: ". " | last }}</p>
     {%- endcapture -%}
     {%- capture alvo -%}<h3 id="{{ primeira }}"{%- endcapture -%}
     {%- capture troca -%}{{ espacos }}{{ alvo }}{%- endcapture -%}
@@ -190,8 +188,6 @@
   <section class="postais-fim" aria-labelledby="outros-documentos">
     <h2 id="outros-documentos" class="postais-t">{{ outros_t }}</h2>
     {{ postais }}
-    {%- comment -%} A segunda frase das legendas das figuras, igual em todas. {%- endcomment %}
-    <p class="postais-nota">{{ site.data.figuras.aerea.legenda | split: ". " | last }}</p>
   </section>
   {%- endunless %}
 </main>
@@ -199,8 +195,8 @@
 <a class="ao-indice" href="#indice" hidden>Índice</a>
 <footer class="pe">
   <div class="pe-in">
+    {%- comment -%} A natureza do documento fica na caixa do topo da coluna lateral; o rodapé não a repete. {%- endcomment %}
     <p>{{ site.versao_longa }}</p>
-    <p>{{ site.natureza }}</p>
     <p>Contactos do promotor: <a href="tel:+351{{ site.contacto_telefone | remove: ' ' }}">{{ site.contacto_telefone }}</a> e <a href="mailto:{{ site.contacto_email }}">{{ site.contacto_email }}</a></p>
     {%- if info %}
     <p class="pe-md"><a href="{{ site.repositorio_md }}{{ info.md }}" rel="noopener">Ler este documento em Markdown no GitHub</a></p>

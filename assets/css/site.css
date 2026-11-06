@@ -189,7 +189,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .postais-entrada { position: relative; z-index: 2; max-width: 76rem; margin: -5rem auto 0; padding-inline: var(--margem); }
 .postais-fim { max-width: 76rem; margin: 0 auto; padding: 1rem var(--margem) 3.5rem; }
 .postais-t { font: 600 1.6rem/1.2 var(--f-texto); margin: 0 0 1.2rem; padding-top: 1.4rem; border-top: 1px solid var(--filete); }
-.postais-nota { margin: .9rem 0 0; font: 400 .88rem/1.4 var(--f-titulo); color: var(--tinta-2); }
 
 /* Folha: coluna de leitura e coluna lateral */
 .folha {
@@ -325,8 +324,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 }
 .sem-figura a::before { content: ""; position: absolute; z-index: 1; top: 0; left: 0; width: 3rem; height: 3px; background: var(--erva); }
 .espaco-nome { display: block; margin-top: .55rem; font: 600 .98rem/1.3 var(--f-titulo); text-wrap: balance; }
-/* A mesma ressalva que acompanha os postais: as miniaturas são as aguarelas ilustrativas */
-.doc .espacos-nota { margin: .9rem 0 0; font: 400 .88rem/1.4 var(--f-titulo); color: var(--tinta-2); }
 .espacos a:hover .espaco-nome { color: var(--pinho); }
 .espacos a:hover .espaco-img img { transform: scale(1.06); }
 @media (prefers-reduced-motion: reduce) { .espaco-img img { transition: none; } .espacos a:hover .espaco-img img { transform: none; } }
@@ -422,7 +419,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .indice a:hover { color: var(--pinho); }
 .indice a[aria-current="true"] { color: var(--pinho); border-left-color: var(--pinho); font-weight: 600; }
 
-/* Rodapé: a sombra do pinhal fecha cada página, com versão, data e natureza */
+/* Rodapé: a sombra do pinhal fecha cada página, com a versão, os contactos e a ligação para o Markdown */
 .pe { background: var(--pinho-escuro); color: var(--chao); }
 .pe-in { max-width: 76rem; margin: 0 auto; padding: 2.6rem var(--margem) 3rem; font: 400 .95rem/1.55 var(--f-titulo); }
 .pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
@@ -527,7 +524,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .espacos-nota, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .pe-md, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
   /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */

@@ -117,7 +117,7 @@
        abre-as onde isso é suportado. Sem este script e na impressão, aparece tudo. */
     var doc = document.querySelector(".doc");
     var PECAS = '[id^="2-"] + table, [id^="3-"] ~ table:not([id^="4-"] ~ table), [id^="3-"] ~ ul:not([id^="4-"] ~ ul), ' +
-      '.espacos, .espacos-nota, [id^="5-"] ~ ol:not([id^="6-"] ~ ol), [id^="10-"] ~ table:not([id^="11-"] ~ table), ' +
+      '.espacos, [id^="5-"] ~ ol:not([id^="6-"] ~ ol), [id^="10-"] ~ table:not([id^="11-"] ~ table), ' +
       '[id^="11-"] ~ table:not([id^="12-"] ~ table)';
     var PRUDENCIA = /A aldeia não substitui cuidados veterinários|câmaras em direto para tutores/;
     var CURTO = 300;

@@ -8,46 +8,46 @@ aerea:
   imagem: images/aguarelas/aldeia-vista-aerea.jpg
   postal: images/aguarelas/postais/aldeia-vista-aerea.jpg
   alt: "Vista aérea ilustrativa, em aguarela, de uma aldeia canina numa paisagem de colinas, com pequenas casas de madeira e os seus espaços exteriores vedados, caminhos, parques, um trilho sensorial, um lago raso vedado (previsto só se o terreno o permitir) e a casa de apoio em pedra"
-  legenda: "Visualização ilustrativa da organização geral da aldeia. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa da organização geral da aldeia."
 
 casa_apoio:
   numero: 2
   imagem: images/aguarelas/casa-de-apoio.jpg
   postal: images/aguarelas/postais/casa-de-apoio.jpg
   alt: "Aguarela ilustrativa da Casa de Apoio Operacional numa casa de pedra, na hipótese de reabilitação de uma ruína existente, com porta de entrada de duas folhas, pérgula, estacionamento em saibro e a viatura de transporte"
-  legenda: "Visualização ilustrativa da Casa de Apoio Operacional. A casa só resulta da reabilitação de uma ruína se o terreno a tiver e a sua viabilidade for confirmada. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa da Casa de Apoio Operacional."
 
 casas:
   numero: 3
   imagem: images/aguarelas/entre-as-casas.jpg
   postal: images/aguarelas/postais/entre-as-casas.jpg
   alt: "Aguarela ilustrativa de um caminho entre casas de alojamento independentes, com uma casa de madeira em primeiro plano, o seu espaço exterior vedado com acesso por uma antecâmara de dois portões e um cão a descansar à sombra do alpendre, junto a uma taça de água"
-  legenda: "Visualização ilustrativa do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa do ambiente pretendido."
 
 trilho:
   numero: 5
   imagem: images/aguarelas/trilho-sensorial.jpg
   postal: images/aguarelas/postais/trilho-sensorial.jpg
   alt: "Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães"
-  legenda: "Visualização ilustrativa de um trilho sensorial. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa de um trilho sensorial."
 
 creche:
   numero: 6
   imagem: images/aguarelas/creche-e-parques.jpg
   postal: images/aguarelas/postais/creche-e-parques.jpg
   alt: "Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos"
-  legenda: "Visualização ilustrativa da creche diária e dos parques por grupo. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa da creche diária e dos parques por grupo."
 
 lago:
   numero: 9
   imagem: images/aguarelas/lago.jpg
   postal: images/aguarelas/postais/lago.jpg
   alt: "Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado"
-  legenda: "Visualização ilustrativa da zona aquática, prevista só se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa da zona aquática."
 
 paisagem:
   numero: 11
   imagem: images/aguarelas/aldeia-na-paisagem.jpg
   postal: images/aguarelas/postais/aldeia-na-paisagem.jpg
   alt: "Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados"
-  legenda: "Visualização ilustrativa da integração da aldeia na paisagem. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
+  legenda: "Visualização ilustrativa da integração da aldeia na paisagem."

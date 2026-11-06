@@ -45,7 +45,7 @@ Para a sustentabilidade ambiental, procuramos soluções eficientes (ver [secç�
 
 ![Vista aérea ilustrativa, em aguarela, de uma aldeia canina numa paisagem de colinas, com pequenas casas de madeira e os seus espaços exteriores vedados, caminhos, parques, um trilho sensorial, um lago raso vedado (previsto só se o terreno o permitir) e a casa de apoio em pedra](images/aguarelas/aldeia-vista-aerea.jpg)
 
-_Figura 1. Visualização ilustrativa da organização geral da aldeia. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 1. Visualização ilustrativa da organização geral da aldeia._
 
 ## 2. Serviços previstos
 
@@ -109,7 +109,7 @@ Na Casa de Apoio Operacional ficam a receção e as funções de apoio da aldeia
 
 ![Aguarela ilustrativa da Casa de Apoio Operacional numa casa de pedra, na hipótese de reabilitação de uma ruína existente, com porta de entrada de duas folhas, pérgula, estacionamento em saibro e a viatura de transporte](images/aguarelas/casa-de-apoio.jpg)
 
-_Figura 2. Visualização ilustrativa da Casa de Apoio Operacional. A casa só resulta da reabilitação de uma ruína se o terreno a tiver e a sua viabilidade for confirmada. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 2. Visualização ilustrativa da Casa de Apoio Operacional._
 
 Na receção atendemos os tutores e fazemos o check-in e o check-out das estadias, da creche/ATL e dos serviços complementares, a validação documental, a avaliação inicial e a entrega e recolha dos animais. Há também um gabinete administrativo, um espaço para reuniões e, eventualmente, uma pequena loja de produtos.
 
@@ -125,7 +125,7 @@ O projeto gira à volta das casas de alojamento animal: pequenas construções i
 
 ![Aguarela ilustrativa de um caminho entre casas de alojamento independentes, com uma casa de madeira em primeiro plano, o seu espaço exterior vedado com acesso por uma antecâmara de dois portões e um cão a descansar à sombra do alpendre, junto a uma taça de água](images/aguarelas/entre-as-casas.jpg)
 
-_Figura 3. Visualização ilustrativa do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 3. Visualização ilustrativa do ambiente pretendido._
 
 Prevemos cinco tipologias de casa:
 
@@ -164,7 +164,7 @@ As áreas exteriores dividem-se por perfil. Há parques para cães pequenos, par
 
 ![Aguarela ilustrativa de quatro parques vedados lado a lado, cada um com entrada de portão duplo: dois cães pequenos num, um cão grande a correr atrás de uma bola noutro, um cão mais velho a descansar numa plataforma à sombra de um carvalho, e uma cuidadora à entrada do último com um cão pela trela; ao fundo, casas de madeira e a casa de apoio em pedra](images/aguarelas/parques-por-perfil.jpg)
 
-_Figura 4. Visualização ilustrativa dos parques exteriores por perfil. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 4. Visualização ilustrativa dos parques exteriores por perfil._
 
 ### 4.4 Trilhos sensoriais e atividades de enriquecimento
 
@@ -172,7 +172,7 @@ Os trilhos sensoriais juntam relva, areia, madeira, pedra lisa, casca de pinheir
 
 ![Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães](images/aguarelas/trilho-sensorial.jpg)
 
-_Figura 5. Visualização ilustrativa de um trilho sensorial. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 5. Visualização ilustrativa de um trilho sensorial._
 
 Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos, zonas de escavação controlada, pequenas pontes, túneis baixos e plataformas de equilíbrio, agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
 
@@ -186,7 +186,7 @@ A creche diária/ATL canino é para tutores que precisam de deixar o cão durant
 
 ![Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos](images/aguarelas/creche-e-parques.jpg)
 
-_Figura 6. Visualização ilustrativa da creche diária e dos parques por grupo. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 6. Visualização ilustrativa da creche diária e dos parques por grupo._
 
 Tem uma zona de receção e entrega rápida, áreas de permanência diurna e parques por grupo de compatibilidade. O dia segue horários de entrada, saída, atividade, descanso e alimentação, e há zonas de pausa para evitar o excesso de excitação. As rotinas adaptam-se ao perfil do cão, e a creche liga-se ao treino, ao grooming e ao transporte.
 
@@ -209,7 +209,7 @@ A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação p
 
 ![Aguarela ilustrativa de uma pequena enfermaria em pedra e madeira, separada das casas de alojamento por uma sebe, com uma cuidadora à porta, interior de azulejo claro, ponto de água e grelha de drenagem à entrada, e um pátio vedado de observação, com entrada de portão duplo, onde um cão descansa numa cama](images/aguarelas/enfermaria-e-isolamento.jpg)
 
-_Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento._
 
 ### 4.7 Grooming e treino
 
@@ -219,7 +219,7 @@ O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), inclu
 
 ![Aguarela ilustrativa de um pequeno edifício de madeira com a sala de grooming à vista, onde uma groomer escova um cão preso na mesa, e de um parque de treino vedado ao lado, com entrada de portão duplo, onde um treinador trabalha com um cão pela trela e uma família com uma criança assiste num banco](images/aguarelas/grooming-e-treino.jpg)
 
-_Figura 8. Visualização ilustrativa do espaço de grooming e do parque de treino. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 8. Visualização ilustrativa do espaço de grooming e do parque de treino._
 
 ### 4.8 Zona aquática
 
@@ -227,7 +227,7 @@ Se o terreno escolhido o permitir, prevemos um lago raso naturalizado, pensado c
 
 ![Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado](images/aguarelas/lago.jpg)
 
-_Figura 9. Visualização ilustrativa da zona aquática, prevista só se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 9. Visualização ilustrativa da zona aquática._
 
 O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes, e valoriza a paisagem do terreno. Não é uma zona de recreio livre nem permanente.
 
@@ -243,7 +243,7 @@ O gatil é só uma possibilidade futura ou uma componente secundária, e depende
 
 ![Aguarela ilustrativa de um possível gatil num edifício de madeira afastado das casas dos cães, que se veem ao longe, com janelas grandes que mostram prateleiras, postes para trepar, esconderijos e zonas individuais com três gatos, e um recinto exterior fechado com rede](images/aguarelas/gatil.jpg)
 
-_Figura 10. Visualização ilustrativa de um possível gatil, que é só uma possibilidade futura e depende da área e das condicionantes do terreno. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 10. Visualização ilustrativa de um possível gatil._
 
 ## 5. Bem-estar animal e funcionamento
 
@@ -297,7 +297,7 @@ A sustentabilidade ambiental faz parte do projeto de raiz, e o terreno amplo, a 
 
 ![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
 
-_Figura 11. Visualização ilustrativa da integração da aldeia na paisagem. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 11. Visualização ilustrativa da integração da aldeia na paisagem._
 
 Se o terreno tiver ruínas ou edificado existente, queremos reabilitá-los e reutilizá-los, depois da avaliação estrutural e da confirmação do enquadramento urbanístico (ver [secção 3](#3-terreno-e-critérios-de-seleção)).
 
