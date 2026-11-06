@@ -1,4 +1,4 @@
-# As sete figuras do README.md, em aguarela. O texto alternativo e a legenda são
+# As figuras do README.md, em aguarela, usadas nas aberturas e nos postais (sete das onze). O texto alternativo e a legenda são
 # cópias literais do README; se lá mudarem, mudam aqui também. Nas páginas das
 # entidades a legenda aparece sem o número. «postal» é a mesma imagem reduzida
 # a 720 px, para os postais; não é um recorte.
@@ -25,28 +25,28 @@ casas:
   legenda: "Visualização ilustrativa do ambiente pretendido. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
 
 trilho:
-  numero: 4
+  numero: 5
   imagem: images/aguarelas/trilho-sensorial.jpg
   postal: images/aguarelas/postais/trilho-sensorial.jpg
   alt: "Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães"
   legenda: "Visualização ilustrativa de um trilho sensorial. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
 
 creche:
-  numero: 5
+  numero: 6
   imagem: images/aguarelas/creche-e-parques.jpg
   postal: images/aguarelas/postais/creche-e-parques.jpg
   alt: "Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos"
   legenda: "Visualização ilustrativa da creche diária e dos parques por grupo. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
 
 lago:
-  numero: 6
+  numero: 9
   imagem: images/aguarelas/lago.jpg
   postal: images/aguarelas/postais/lago.jpg
   alt: "Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado"
   legenda: "Visualização ilustrativa da zona aquática, prevista só se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução."
 
 paisagem:
-  numero: 7
+  numero: 11
   imagem: images/aguarelas/aldeia-na-paisagem.jpg
   postal: images/aguarelas/postais/aldeia-na-paisagem.jpg
   alt: "Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados"

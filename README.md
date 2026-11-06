@@ -162,13 +162,17 @@ As dimensões das casas, dos quartos e dos espaços exteriores ficam definidas n
 
 As áreas exteriores dividem-se por perfil. Há parques para cães pequenos, para cães grandes e para cães sénior, um parque ativo e um parque calmo, um parque individual, um parque de adaptação e um parque para aulas. Os parques usam-se por horários e por grupos de compatibilidade, alternados para reduzir conflitos.
 
+![Aguarela ilustrativa de quatro parques vedados lado a lado, cada um com entrada de portão duplo: dois cães pequenos num, um cão grande a correr atrás de uma bola noutro, um cão mais velho a descansar numa plataforma à sombra de um carvalho, e uma cuidadora à entrada do último com um cão pela trela; ao fundo, casas de madeira e a casa de apoio em pedra](images/aguarelas/parques-por-perfil.jpg)
+
+_Figura 4. Visualização ilustrativa dos parques exteriores por perfil. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+
 ### 4.4 Trilhos sensoriais e atividades de enriquecimento
 
 Os trilhos sensoriais juntam relva, areia, madeira, pedra lisa, casca de pinheiro, plantas aromáticas seguras, pequenas rampas, túneis, plataformas, zonas de faro e pontos de pausa, em percursos com estímulos controlados. Contribuem para estimular mentalmente os animais, reduzir a ansiedade e dar-lhes atividade física moderada e enriquecimento ambiental.
 
 ![Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães](images/aguarelas/trilho-sensorial.jpg)
 
-_Figura 4. Visualização ilustrativa de um trilho sensorial. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 5. Visualização ilustrativa de um trilho sensorial. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos, zonas de escavação controlada, pequenas pontes, túneis baixos e plataformas de equilíbrio, agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
 
@@ -182,7 +186,7 @@ A creche diária/ATL canino é para tutores que precisam de deixar o cão durant
 
 ![Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos](images/aguarelas/creche-e-parques.jpg)
 
-_Figura 5. Visualização ilustrativa da creche diária e dos parques por grupo. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 6. Visualização ilustrativa da creche diária e dos parques por grupo. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 Tem uma zona de receção e entrega rápida, áreas de permanência diurna e parques por grupo de compatibilidade. O dia segue horários de entrada, saída, atividade, descanso e alimentação, e há zonas de pausa para evitar o excesso de excitação. As rotinas adaptam-se ao perfil do cão, e a creche liga-se ao treino, ao grooming e ao transporte.
 
@@ -203,11 +207,19 @@ A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação p
 - protocolos de entrada, saída, limpeza e gestão de resíduos;
 - articulação com o médico veterinário, sem substituir cuidados clínicos externos quando necessários.
 
+![Aguarela ilustrativa de uma pequena enfermaria em pedra e madeira, separada das casas de alojamento por uma sebe, com uma cuidadora à porta, interior de azulejo claro, ponto de água e grelha de drenagem à entrada, e um pátio vedado de observação, com entrada de portão duplo, onde um cão descansa numa cama](images/aguarelas/enfermaria-e-isolamento.jpg)
+
+_Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+
 ### 4.7 Grooming e treino
 
 Há um espaço para os serviços de grooming descritos na [secção 2](#2-serviços-previstos). Pode entrar na fase de arranque ou ficar como componente complementar, o que se decide no desenvolvimento do projeto.
 
 O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), incluindo os workshops para tutores, usam o parque próprio e os espaços para aulas, workshops e eventos.
+
+![Aguarela ilustrativa de um pequeno edifício de madeira com a sala de grooming à vista, onde uma groomer escova um cão preso na mesa, e de um parque de treino vedado ao lado, com entrada de portão duplo, onde um treinador trabalha com um cão pela trela e uma família com uma criança assiste num banco](images/aguarelas/grooming-e-treino.jpg)
+
+_Figura 8. Visualização ilustrativa do espaço de grooming e do parque de treino. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 ### 4.8 Zona aquática
 
@@ -215,7 +227,7 @@ Se o terreno escolhido o permitir, prevemos um lago raso naturalizado, pensado c
 
 ![Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado](images/aguarelas/lago.jpg)
 
-_Figura 6. Visualização ilustrativa da zona aquática, prevista só se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 9. Visualização ilustrativa da zona aquática, prevista só se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes, e valoriza a paisagem do terreno. Não é uma zona de recreio livre nem permanente.
 
@@ -228,6 +240,10 @@ A qualidade da água é controlada com regularidade e há um plano de limpeza, f
 ### 4.9 Gatil
 
 O gatil é só uma possibilidade futura ou uma componente secundária, e depende da área e das condicionantes do terreno. A existir, fica separado da área canina, num edifício afastado do ruído dos cães, com boa ventilação, luz natural, enriquecimento vertical, esconderijos, prateleiras, zonas individuais, controlo de odores, acesso controlado e baixa densidade.
+
+![Aguarela ilustrativa de um possível gatil num edifício de madeira afastado das casas dos cães, que se veem ao longe, com janelas grandes que mostram prateleiras, postes para trepar, esconderijos e zonas individuais com três gatos, e um recinto exterior fechado com rede](images/aguarelas/gatil.jpg)
+
+_Figura 10. Visualização ilustrativa de um possível gatil, que é só uma possibilidade futura e depende da área e das condicionantes do terreno. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 ## 5. Bem-estar animal e funcionamento
 
@@ -281,7 +297,7 @@ A sustentabilidade ambiental faz parte do projeto de raiz, e o terreno amplo, a 
 
 ![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
 
-_Figura 7. Visualização ilustrativa da integração da aldeia na paisagem. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
+_Figura 11. Visualização ilustrativa da integração da aldeia na paisagem. O lago só está previsto se o terreno escolhido o permitir. Não representa nenhum dos terrenos em estudo, nem uma implantação ou um projeto de execução._
 
 Se o terreno tiver ruínas ou edificado existente, queremos reabilitá-los e reutilizá-los, depois da avaliação estrutural e da confirmação do enquadramento urbanístico (ver [secção 3](#3-terreno-e-critérios-de-seleção)).
 
