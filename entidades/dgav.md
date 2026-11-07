@@ -24,7 +24,7 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 
 1. O alojamento com pernoita, a creche/ATL, as casas familiares e o eventual treino com alojamento cabem numa única mera comunicação prévia? Como devem ser descritas as atividades e a capacidade, por recinto e por espécie?
 2. O grooming e o treino sem alojamento devem constar autonomamente da comunicação? Exigem plantas ou elementos próprios?
-3. Como se aplicam os mínimos do anexo III do Decreto-Lei n.º 276/2001 a casas com um quarto interior e um espaço exterior privado e vedado: o quarto como recinto fechado e o exterior como recinto fechado exterior, ou de outra forma?
+3. Como se aplicam os mínimos do anexo III do Decreto-Lei n.º 276/2001 a casas com um quarto interior e um espaço exterior privado e vedado? O quarto conta como recinto fechado e o exterior como recinto fechado exterior, ou é de outra forma?
 4. Nas casas familiares, com dois a quatro cães do mesmo agregado, aplicam-se os mínimos de alojamento em grupo do anexo III? Há requisitos adicionais?
 5. Como deve ser calculada e documentada a capacidade máxima do alojamento e da creche/ATL, e que elementos esperam para a demonstrar (plantas funcionais, circuitos de limpo e sujo, pessoal)?
 6. Onde situam a fronteira entre a enfermaria de isolamento e primeiros cuidados e o regime dos CAMV, em particular quando o médico veterinário responsável observa ou trata pontualmente, no local, um animal alojado? Recomendam obter uma posição escrita sobre esse modelo?

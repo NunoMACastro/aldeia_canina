@@ -76,9 +76,9 @@ Na escolha do terreno aplicamos dois critérios nossos:
 | Critério | Como o aplicamos |
 | --- | --- |
 | Saneamento | Eliminatório. O terreno tem de permitir a ligação à rede pública de saneamento ou uma solução autónoma licenciável, dimensionada para a lotação máxima e para os dejetos, as lavagens, o grooming, a lavandaria e os picos de ocupação. |
-| Perigosidade de incêndio rural | Condicionante, avaliada caso a caso. Não construímos nas áreas de perigosidade «muito alta» nem na sua envolvente, cuja distância ainda está por definir. Um terreno com uma mancha destas não fica automaticamente excluído. A decisão depende da dimensão do terreno face à mancha e à envolvente. |
+| Perigosidade de incêndio rural | Condicionante, avaliada caso a caso. Não construímos nas áreas de perigosidade «muito alta» nem na sua envolvente, cuja distância ainda está por definir. |
 
-O critério de perigosidade não substitui a confirmação, junto das entidades competentes, da carta de perigosidade que se aplica a cada terreno e das restrições legais à edificação em áreas de risco de incêndio, incluindo as que se apliquem a outras classes de perigosidade.
+Um terreno com uma mancha de perigosidade «muito alta» não fica automaticamente excluído. A decisão depende da dimensão do terreno face à mancha e à envolvente. O critério de perigosidade não substitui a confirmação, junto das entidades competentes, da carta de perigosidade que se aplica a cada terreno. Também não substitui a confirmação, junto das entidades competentes, das restrições legais à edificação em áreas de risco de incêndio, incluindo as que se apliquem a outras classes de perigosidade.
 
 Em cada terreno candidato avaliamos também:
 
@@ -229,7 +229,7 @@ Se o terreno escolhido o permitir, prevemos um lago raso naturalizado, pensado c
 
 _Figura 9. Visualização ilustrativa da zona aquática._
 
-O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes, e valoriza a paisagem do terreno. Não é uma zona de recreio livre nem permanente.
+O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes. Não é uma zona de recreio livre nem permanente.
 
 Tem profundidade reduzida e controlada, zonas rasas claramente delimitadas e margens seguras, com rampas de entrada e saída em vários pontos e acessos antiderrapantes. Tem também vedação ou delimitação física e sombra nas zonas de espera, e entra no plano geral de drenagem e gestão da água.
 
