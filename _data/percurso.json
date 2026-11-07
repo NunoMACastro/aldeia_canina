@@ -1,0 +1,33 @@
+{
+  "_nota": "Correspondências editoriais da apresentação, decididas pelo utilizador a 2026-11-07. «fases»: os espaços da §4 que cada nível do quadro da §11 nomeia (o nível tem de ser o texto exato da primeira coluna desse quadro; os espaços, o número da subsecção). «fios»: as passagens do README sobre cada condicionante do quadro da §10 (a condicionante tem de ser o texto exato da primeira coluna; cada passagem, um excerto exato do README, dentro de um só parágrafo, item ou célula). Se o README mudar, estas listas mudam também; o verificar.py confirma que cada excerto ainda existe.",
+  "fases": [
+    { "nivel": "Núcleo essencial", "espacos": ["4.1", "4.2", "4.6"] },
+    { "nivel": "Prioridade alta", "espacos": ["4.4", "4.5", "4.7"] },
+    { "nivel": "Prioridade média", "espacos": ["4.7", "4.8"] },
+    { "nivel": "Complementares ou futuras", "espacos": ["4.9"] }
+  ],
+  "fios": [
+    {
+      "condicionante": "Saneamento",
+      "passagens": [
+        "O terreno tem de permitir a ligação à rede pública de saneamento ou uma solução autónoma licenciável, dimensionada para a lotação máxima e para os dejetos, as lavagens, o grooming, a lavandaria e os picos de ocupação.",
+        "As casas têm abastecimento de água e eletricidade, drenagem e encaminhamento adequado das águas residuais, com ligação à rede de saneamento ou a uma solução autónoma estudada e licenciada.",
+        "O saneamento segue o critério eliminatório",
+        "A água, a drenagem e o saneamento planeiam-se em conjunto, sobretudo em terrenos com variação de cotas ou pontos de acumulação de água.",
+        "plano de água, saneamento e drenagem"
+      ]
+    },
+    {
+      "condicionante": "Ruído",
+      "passagens": [
+        "a distância a vizinhos e a outros recetores sensíveis ao ruído;",
+        "As zonas ruidosas ficam afastadas das calmas.",
+        "Usamos barreiras vegetais pensadas para o conforto visual, o ruído e o vento, e a vegetação autóctone e as espécies adequadas ao local integram a aldeia na paisagem.",
+        "Zona silenciosa, maior atenuação acústica e pavimento confortável.",
+        "As casas podem ficar a cotas ou em zonas diferentes do terreno, consoante a topografia, o ruído, a sombra, os acessos e a drenagem.",
+        "atenuação acústica entre quartos, casas e zonas funcionais",
+        "Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra."
+      ]
+    }
+  ]
+}

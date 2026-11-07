@@ -17,7 +17,8 @@
       if (menu.open && e.relatedTarget && !menu.contains(e.relatedTarget)) menu.open = false;
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+      /* preventDefault avisa os outros controlos de que este Escape já fechou alguma coisa */
+      if (e.key === "Escape" && menu.open) { e.preventDefault(); menu.open = false; menu.querySelector("summary").focus(); }
     });
     window.addEventListener("pageshow", function () { menu.open = false; });
   }
@@ -55,6 +56,11 @@
     faixa.appendChild(faixaLista);
     document.body.insertBefore(faixa, document.querySelector("main"));
     document.documentElement.classList.add("com-faixa");
+    /* A altura real da faixa (cresce com uma letra maior) acerta o sítio do percurso por baixo dela */
+    var medirFaixa = function () {
+      if (faixa.offsetHeight) document.documentElement.style.setProperty("--faixa-altura", faixa.offsetHeight + "px");
+    };
+    if (window.ResizeObserver) new ResizeObserver(medirFaixa).observe(faixa);
 
     var fecharLista = function (focar) {
       if (faixaLista.hidden) return;
@@ -75,7 +81,9 @@
     faixa.addEventListener("focusout", function (e) {
       if (e.relatedTarget && !faixa.contains(e.relatedTarget)) fecharLista(false);
     });
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !faixaLista.hidden) fecharLista(true); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !faixaLista.hidden) { e.preventDefault(); fecharLista(true); }
+    });
     window.addEventListener("pageshow", function () { fecharLista(false); });
 
     /* Verificação no scroll e não IntersectionObserver: um salto direto (ligação, movimento
@@ -86,10 +94,13 @@
     var faixaPendente = false;
     var reverFaixa = function () {
       faixaPendente = false;
-      var ver = !largoFaixa.matches && indiceMovel.getBoundingClientRect().bottom < 0;
+      /* Com um percurso ativo («Voltar» ou um fio), a faixa fica à vista, porque o percurso assenta nela */
+      var ver = !largoFaixa.matches && (indiceMovel.getBoundingClientRect().bottom < 0 ||
+        document.documentElement.classList.contains("com-percurso"));
       if (!ver && faixa.contains(document.activeElement)) indiceMovel.querySelector("summary").focus({ preventScroll: true });
       if (!ver) fecharLista(false);
       faixa.classList.toggle("visivel", ver);
+      if (ver) medirFaixa();
     };
     var pedirFaixa = function () { if (!faixaPendente) { faixaPendente = true; window.requestAnimationFrame(reverFaixa); } };
     window.addEventListener("scroll", pedirFaixa, { passive: true });
@@ -400,6 +411,299 @@
         window.addEventListener("load", function () { inicial.scrollIntoView({ block: "start", behavior: "instant" }); });
       }
     }
+
+    /* Percurso: um só sítio para voltar ao ponto de leitura depois de uma remissão e para andar
+       pelas passagens de um fio. No ecrã largo fica em baixo, na coluna lateral; abaixo de 64rem,
+       logo por baixo da faixa da secção, que fica à vista enquanto ele estiver. Os rótulos são de
+       controlos; o texto do documento não muda. */
+    var raiz = document.documentElement;
+    var percurso = document.createElement("div");
+    percurso.className = "percurso";
+    percurso.hidden = true;
+    var voltar = document.createElement("button");
+    voltar.type = "button";
+    voltar.className = "percurso-voltar";
+    voltar.textContent = "Voltar ao ponto de leitura";
+    /* O navegador do fio é um grupo com o nome e a posição como rótulo, para o foco em «Seguinte»
+       ter contexto; a posição e a passagem anunciam-se numa região à parte (ver irPara) */
+    var fioCaixa = document.createElement("div");
+    fioCaixa.className = "percurso-fio";
+    fioCaixa.setAttribute("role", "group");
+    fioCaixa.setAttribute("aria-labelledby", "percurso-t");
+    var fioT = document.createElement("p");
+    fioT.className = "percurso-t";
+    fioT.id = "percurso-t";
+    var fioNome = document.createElement("span");
+    var fioPos = document.createElement("span");
+    fioPos.className = "percurso-pos";
+    fioT.appendChild(fioNome);
+    fioT.appendChild(document.createTextNode(": "));
+    fioT.appendChild(fioPos);
+    var fioBotoes = document.createElement("div");
+    fioBotoes.className = "percurso-botoes";
+    var botaoPercurso = function (rotulo) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = rotulo;
+      fioBotoes.appendChild(b);
+      return b;
+    };
+    var anterior = botaoPercurso("Anterior");
+    var seguinte = botaoPercurso("Seguinte");
+    var fecharFio = botaoPercurso("Fechar");
+    fioCaixa.appendChild(fioT);
+    fioCaixa.appendChild(fioBotoes);
+    percurso.appendChild(voltar);
+    percurso.appendChild(fioCaixa);
+    document.body.insertBefore(percurso, document.querySelector("main"));
+    /* Região sempre presente, escondida à vista, para os leitores de ecrã ouvirem a posição no fio */
+    var aviso = document.createElement("div");
+    aviso.className = "so-leitor";
+    aviso.setAttribute("aria-live", "polite");
+    aviso.setAttribute("aria-atomic", "true");
+    document.body.appendChild(aviso);
+    var anunciar = function (texto) {
+      aviso.textContent = "";
+      window.setTimeout(function () { aviso.textContent = texto; }, 60);
+    };
+
+    /* O percurso está fixo no ecrã, mas na ordem da página fica junto ao ponto de leitura, para o
+       Tab e os leitores de ecrã o encontrarem ali e não no topo: antes do bloco de topo do destino
+       de uma remissão, ou depois do bloco da passagem atual de um fio. Mover um elemento tira-lhe
+       o foco; quem o tinha recebe-o de volta. */
+    var blocoDe = function (el) {
+      while (el && el.parentElement !== doc) el = el.parentElement;
+      return el;
+    };
+    var colocar = function (referencia) {
+      if (!referencia || referencia === percurso) return;
+      var foco = percurso.contains(document.activeElement) ? document.activeElement : null;
+      doc.insertBefore(percurso, referencia);
+      if (foco) foco.focus({ preventScroll: true });
+    };
+
+    var modo = null;
+    /* A altura real do percurso (no telemóvel pode ocupar duas linhas) acerta a paragem das âncoras */
+    var medirPercurso = function () {
+      if (percurso.offsetHeight) raiz.style.setProperty("--percurso-altura", percurso.offsetHeight + "px");
+    };
+    if (window.ResizeObserver) new ResizeObserver(medirPercurso).observe(percurso);
+    var mostrarModo = function (novo) {
+      modo = novo;
+      if (novo) percurso.setAttribute("data-modo", novo); else percurso.removeAttribute("data-modo");
+      percurso.hidden = !novo;
+      raiz.classList.toggle("com-percurso", !!novo);
+      if (novo) medirPercurso();
+      if (typeof pedirFaixa === "function") pedirFaixa();
+    };
+    /* Uma parte fechada onde está um elemento abre-se pelo mesmo caminho das ligações */
+    var abrirOnde = function (el) {
+      var parte = el.closest(".detalhe[hidden]");
+      if (parte) registos.forEach(function (r) { if (r.parte === parte) r.abrir(); });
+    };
+
+    /* «Voltar»: depois de seguir uma remissão do texto («ver secção 3»), devolve o leitor à
+       ligação de onde saiu, com o foco nela. Desaparece quando é usado ou quando o leitor volta
+       a ver essa ligação por si. Não conta o índice, a grelha da §4 nem as ligações da faixa. */
+    var origem = null;
+    var origemSaiu = false;
+    document.addEventListener("click", function (e) {
+      /* Um clique com modificadores (nova aba) ou de outro botão não sai da página */
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      var a = e.target.closest && e.target.closest('.doc a[href^="#"]');
+      if (!a || modo === "fio" || a.closest(".espacos") || !a.closest("p, li, td")) return;
+      origem = a;
+      origemSaiu = false;
+      colocar(blocoDe(document.getElementById(alvoDe(a.getAttribute("href")))));
+      mostrarModo("voltar");
+    });
+    voltar.addEventListener("click", function () {
+      var o = origem;
+      origem = null;
+      mostrarModo(null);
+      if (!o) return;
+      abrirOnde(o);
+      o.scrollIntoView({ block: "center", behavior: "instant" });
+      o.focus({ preventScroll: true });
+    });
+    var percursoPendente = false;
+    var reverPercurso = function () {
+      percursoPendente = false;
+      if (modo !== "voltar" || !origem) return;
+      var r = origem.getBoundingClientRect();
+      var vista = r.height > 0 && r.bottom > 0 && r.top < window.innerHeight;
+      if (!vista) origemSaiu = true;
+      else if (origemSaiu) {
+        /* Se o foco estiver no percurso quando ele se esconde, passa para a ligação de origem */
+        if (percurso.contains(document.activeElement)) origem.focus({ preventScroll: true });
+        origem = null;
+        mostrarModo(null);
+      }
+    };
+    window.addEventListener("scroll", function () {
+      if (!percursoPendente) { percursoPendente = true; window.requestAnimationFrame(reverPercurso); }
+    }, { passive: true });
+
+    /* Correspondências editoriais (_data/percurso.json), postas pelo layout na página */
+    var dados = null;
+    var dadosEl = document.getElementById("dados-percurso");
+    try { dados = dadosEl ? JSON.parse(dadosEl.textContent) : null; } catch (erro) { dados = null; }
+    var normal = function (t) { return t.replace(/\s+/g, " ").trim(); };
+    var semFim = function (t) { return t.replace(/[;.]$/, ""); };
+
+    /* Lente do faseamento: por cima da grelha da §4, os níveis do quadro da §11, com os nomes que
+       lá estão. Escolher um destaca os espaços desse nível e esbate os outros; escolher o mesmo
+       outra vez volta a mostrar todos. Só entram níveis que existem no quadro e espaços que
+       existem na grelha. */
+    var grelha = doc.querySelector(".espacos");
+    var h11 = doc.querySelector(':scope > h2[id^="11-"]');
+    if (dados && dados.fases && grelha && h11) {
+      var niveis = Array.prototype.map.call(doc.querySelectorAll('[id^="11-"] ~ table:not([id^="12-"] ~ table) tbody td:first-child'), function (td) {
+        return normal(td.textContent);
+      });
+      var tiles = {};
+      Array.prototype.forEach.call(grelha.querySelectorAll("li"), function (li) {
+        var num = li.querySelector(".espaco-num");
+        if (num) tiles[normal(num.textContent)] = li;
+      });
+      var fases = dados.fases.filter(function (f) { return niveis.indexOf(f.nivel) !== -1; });
+      if (fases.length) {
+        var grupoFases = document.createElement("div");
+        grupoFases.className = "fases";
+        grupoFases.setAttribute("role", "group");
+        var fasesT = document.createElement("span");
+        fasesT.className = "fases-t";
+        fasesT.id = "fases-t";
+        fasesT.textContent = normal(h11.textContent).replace(/^\d+\.\s*/, "");
+        grupoFases.setAttribute("aria-labelledby", "fases-t");
+        grupoFases.appendChild(fasesT);
+        var botoesFase = [];
+        fases.forEach(function (f) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.textContent = f.nivel;
+          b.setAttribute("aria-pressed", "false");
+          b.addEventListener("click", function () {
+            var ligar = b.getAttribute("aria-pressed") !== "true";
+            botoesFase.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b && ligar)); });
+            grelha.classList.toggle("com-fase", ligar);
+            Object.keys(tiles).forEach(function (num) {
+              tiles[num].classList.toggle("na-fase", ligar && f.espacos.indexOf(num) !== -1);
+            });
+          });
+          botoesFase.push(b);
+          grupoFases.appendChild(b);
+        });
+        grelha.insertBefore(grupoFases, grelha.firstChild);
+      }
+    }
+
+    /* Seguir um fio: nas linhas do quadro da §10 com fio definido, um botão marca em todo o
+       documento as passagens sobre essa condicionante, abre as partes fechadas onde estão e leva
+       o leitor de uma à seguinte. Cada passagem é um excerto exato do README: se for o texto todo
+       de um item, célula ou parágrafo, marca-se o elemento; senão, marca-se só o excerto. As
+       passagens marcam-se uma vez, ao carregar, e só se veem com o fio ligado. */
+    var fios = [];
+    var marcarExcerto = function (excerto) {
+      var candidatos = Array.prototype.filter.call(doc.querySelectorAll("p, li, td"), function (el) {
+        return normal(el.textContent).indexOf(excerto) !== -1;
+      });
+      var el = candidatos.filter(function (x) {
+        return !candidatos.some(function (y) { return y !== x && x.contains(y); });
+      })[0];
+      if (!el) return null;
+      if (semFim(normal(el.textContent)) === semFim(excerto)) { el.classList.add("fio-bloco"); return el; }
+      var andar = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      while (andar.nextNode()) {
+        var no = andar.currentNode;
+        var i = no.data.indexOf(excerto);
+        if (i === -1) continue;
+        var meio = no.splitText(i);
+        meio.splitText(excerto.length);
+        var marca = document.createElement("span");
+        marca.className = "fio-frase";
+        meio.parentNode.insertBefore(marca, meio);
+        marca.appendChild(meio);
+        return marca;
+      }
+      /* O excerto atravessa marcação (um tema, uma ligação): marca-se o elemento inteiro */
+      el.classList.add("fio-bloco");
+      return el;
+    };
+    var antes = function (a, b) { return a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1; };
+    var linhas10 = doc.querySelectorAll('[id^="10-"] ~ table:not([id^="11-"] ~ table) tbody tr');
+    if (dados && dados.fios && linhas10.length) {
+      dados.fios.forEach(function (f) {
+        var linha = Array.prototype.filter.call(linhas10, function (tr) {
+          return tr.cells.length && normal(tr.cells[0].textContent) === f.condicionante;
+        })[0];
+        if (!linha) return;
+        var els = f.passagens.map(marcarExcerto).filter(Boolean).sort(antes);
+        if (!els.length) return;
+        var k = fios.length;
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "seguir";
+        b.textContent = "Seguir no documento";
+        b.setAttribute("aria-label", "Seguir no documento: " + f.condicionante);
+        b.addEventListener("click", function () { ativarFio(k, b); });
+        linha.cells[0].appendChild(b);
+        fios.push({ nome: f.condicionante, els: els });
+      });
+    }
+    var fioAtivo = -1;
+    var fioPosicao = 0;
+    var gatilho = null;
+    var irPara = function (i) {
+      var lista = fios[fioAtivo].els;
+      fioPosicao = (i + lista.length) % lista.length;
+      lista.forEach(function (el, j) { el.classList.toggle("fio-atual", j === fioPosicao); });
+      var el = lista[fioPosicao];
+      abrirOnde(el);
+      el.scrollIntoView({ block: "center", behavior: "instant" });
+      /* O percurso passa para logo a seguir ao bloco da passagem, na ordem da página */
+      var bloco = blocoDe(el);
+      if (bloco && bloco.nextSibling !== percurso) {
+        var foco = percurso.contains(document.activeElement) ? document.activeElement : null;
+        doc.insertBefore(percurso, bloco.nextSibling);
+        if (foco) foco.focus({ preventScroll: true });
+      }
+      fioPos.textContent = (fioPosicao + 1) + " de " + lista.length;
+      medirPercurso();
+      anunciar(fios[fioAtivo].nome + ", " + (fioPosicao + 1) + " de " + lista.length + ": " + normal(el.textContent));
+    };
+    var desligarFio = function (regressar) {
+      if (fioAtivo === -1) return;
+      fios[fioAtivo].els.forEach(function (el) { el.classList.remove("fio-marcado", "fio-atual"); });
+      fioAtivo = -1;
+      mostrarModo(null);
+      if (regressar && gatilho) {
+        gatilho.scrollIntoView({ block: "center", behavior: "instant" });
+        gatilho.focus({ preventScroll: true });
+      }
+      gatilho = null;
+    };
+    /* Ao ligar, o foco passa para «Seguinte», para se continuar pelo teclado; os leitores de ecrã
+       ouvem a posição e a passagem («Ruído, 2 de 7: …»). Ao fechar, o leitor volta à linha da §10
+       de onde partiu. */
+    var ativarFio = function (k, botao) {
+      desligarFio(false);
+      origem = null;
+      fioAtivo = k;
+      gatilho = botao;
+      fios[k].els.forEach(function (el) { abrirOnde(el); el.classList.add("fio-marcado"); });
+      fioNome.textContent = fios[k].nome;
+      mostrarModo("fio");
+      irPara(0);
+      seguinte.focus({ preventScroll: true });
+    };
+    anterior.addEventListener("click", function () { if (fioAtivo !== -1) irPara(fioPosicao - 1); });
+    seguinte.addEventListener("click", function () { if (fioAtivo !== -1) irPara(fioPosicao + 1); });
+    fecharFio.addEventListener("click", function () { desligarFio(true); });
+    /* Um Escape que já fechou o índice da faixa ou o menu (defaultPrevented) não fecha também o fio */
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && fioAtivo !== -1 && !e.defaultPrevented) desligarFio(true);
+    });
   }
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */

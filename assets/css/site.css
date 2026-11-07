@@ -35,6 +35,7 @@
   --neblina: #DDD6CA;     /* fundo das imagens; texto secundário sobre escuro */
   --pedra: #ECE8DF;       /* caixas de nota */
   --filete: #D8D3C8;
+  --marca: #D9E0C6;       /* seleção e passagens de um fio: verde-pálido de pinhal, por baixo de texto em tinta */
   --sombra-paisagem: rgba(22, 27, 18, .8);
 
   --f-titulo: "Source Sans 3", "Segoe UI", system-ui, sans-serif;  /* orientação */
@@ -62,7 +63,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-::selection { background: #D9E0C6; color: var(--tinta); }
+::selection { background: var(--marca); color: var(--tinta); }
 :focus-visible { outline: 3px solid var(--pinho); outline-offset: 3px; border-radius: 2px; }
 
 a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: .18em; }
@@ -503,6 +504,82 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
   .postal-img { height: 6.2rem; }
 }
 
+/* Lente do faseamento (§4 da apresentação, montada pelo script): os níveis do quadro da §11 por
+   cima da grelha dos espaços. O nível escolhido fica em pinho cheio; os espaços desse nível
+   ganham um traço de pinho por cima e os outros esbatem-se, para não depender só da cor. */
+.fases { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 1.6rem 0 0; font-family: var(--f-titulo); }
+.fases-t { margin-right: .35rem; font-weight: 700; font-size: .97rem; color: var(--tinta); }
+.fases button {
+  min-height: 44px; padding: .45rem .8rem; border: 1px solid var(--filete); border-radius: 2px;
+  background: var(--chao); color: var(--pinho); font: 600 .93rem/1.2 var(--f-titulo); cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color .2s var(--suave), background-color .2s var(--suave), color .2s var(--suave), transform .16s ease-out;
+}
+.fases button[aria-pressed="true"] { background: var(--pinho); border-color: var(--pinho); color: var(--chao); }
+@media (hover: hover) and (pointer: fine) { .fases button:hover { border-color: var(--pinho); } }
+/* Esbate-se só a miniatura; o número e o nome passam a oliva esbatido (6,3:1), porque continuam a
+   ser ligações e o anel de foco tem de se ver */
+.espaco-img { transition: opacity .2s var(--suave); }
+.espacos.com-fase li:not(.na-fase) .espaco-img { opacity: .38; }
+.espacos.com-fase li:not(.na-fase) :is(.espaco-nome, .espaco-num) { color: var(--tinta-2); }
+.espacos.com-fase li.na-fase a { box-shadow: 0 -3px 0 var(--pinho); }
+.espacos.com-fase li.na-fase .espaco-nome { color: var(--pinho); }
+@media (prefers-reduced-motion: reduce) { .fases button, .espaco-img { transition: none; } }
+
+/* Fio (§10 da apresentação): o botão «Seguir no documento» em cada linha com fio e as passagens
+   marcadas a verde-pálido enquanto o fio está ligado; a passagem atual ganha ainda o traço de
+   pinho (sublinhado nas frases, à esquerda nos blocos), para não depender só da cor. A marca
+   dos blocos é um contorno da mesma cor, que não mexe no texto. */
+.seguir {
+  display: inline-flex; align-items: center; min-height: 44px; margin-top: .5rem; padding: .35rem .7rem;
+  border: 1px solid var(--filete); border-radius: 2px; background: var(--chao); color: var(--pinho);
+  font: 600 .88rem/1.2 var(--f-titulo); cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: border-color .2s var(--suave), background-color .2s var(--suave), transform .16s ease-out;
+}
+@media (hover: hover) and (pointer: fine) { .seguir:hover { border-color: var(--pinho); background: var(--pedra); } }
+.fio-marcado { background-color: var(--marca); }
+.fio-frase.fio-marcado { box-shadow: 0 0 0 .14em var(--marca); border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.fio-bloco.fio-marcado { outline: .3rem solid var(--marca); }
+.fio-frase.fio-atual { text-decoration: underline 2px var(--pinho); text-underline-offset: .22em; }
+/* O traço dos blocos fica por fora do contorno, para não pisar as letras */
+.fio-bloco.fio-atual { box-shadow: calc(-.3rem - 3px) 0 0 var(--pinho); }
+
+/* Percurso: «Voltar ao ponto de leitura» depois de uma remissão e o navegador de um fio, montados
+   pelo script. No ecrã largo, um painel em baixo, na largura da coluna lateral, com o filete de
+   erva seca e a sombra dos painéis; nunca fica por cima da coluna de leitura. */
+.percurso[hidden] { display: none; }
+.percurso { position: fixed; z-index: 24; background: var(--chao); font-family: var(--f-titulo); }
+.percurso[data-modo="voltar"] .percurso-fio, .percurso[data-modo="fio"] .percurso-voltar { display: none; }
+.percurso button {
+  display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: .45rem .8rem;
+  border: 1px solid var(--filete); border-radius: 2px; background: var(--chao); color: var(--pinho);
+  font: 600 .93rem/1.2 var(--f-titulo); cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: border-color .2s var(--suave), background-color .2s var(--suave), transform .16s ease-out;
+}
+@media (hover: hover) and (pointer: fine) { .percurso button:hover { border-color: var(--pinho); background: var(--pedra); } }
+.percurso-voltar::before {
+  content: ""; flex: none; width: .42rem; height: .42rem; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: translateX(2px) rotate(45deg);
+}
+/* .percurso .percurso-t, e não só .percurso-t: o percurso pode estar dentro do documento (.doc p) */
+.percurso .percurso-t { max-width: none; margin: 0 0 .55rem; font-weight: 600; font-size: .97rem; line-height: 1.3; color: var(--tinta); }
+/* Texto só para leitores de ecrã */
+.so-leitor { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.percurso-pos { font-variant-numeric: tabular-nums; }
+.percurso-botoes { display: flex; flex-wrap: wrap; gap: .4rem; }
+@media (prefers-reduced-motion: no-preference) { .percurso button:active, .seguir:active, .fases button:active { transform: scale(.97); } }
+@media (min-width: 64.01rem) {
+  .percurso {
+    bottom: 1.5rem; right: max(var(--margem), calc((100% - 76rem) / 2 + var(--margem))); width: var(--lado);
+    padding: .85rem 1rem 1rem; border-top: 3px solid var(--erva);
+    box-shadow: 0 18px 40px -18px rgba(30, 34, 26, .55), 0 2px 8px -4px rgba(30, 34, 26, .25);
+  }
+  /* A coluna lateral ganha folga em baixo para o painel não tapar o fim do índice, e o foco e as
+     âncoras param acima do painel (no passeio da §4 o texto chega à largura da coluna lateral) */
+  .com-percurso .lado { padding-bottom: 9rem; scroll-padding-bottom: 9rem; }
+  html.com-percurso { scroll-padding-bottom: calc(var(--percurso-altura, 9rem) + 2.5rem); }
+}
+
 /* A faixa da secção só existe em ecrãs sem coluna lateral (ver Ecrãs médios) */
 .faixa { display: none; }
 
@@ -561,6 +638,18 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 }
 @media (max-width: 64rem) and (prefers-reduced-motion: reduce) {
   .faixa, .faixa.visivel, .faixa-botao::after { transition: none; }
+}
+/* Percurso abaixo de 64rem: uma segunda faixa, logo por baixo da faixa da secção (que fica à
+   vista enquanto ele estiver), a toda a largura e alinhada com a coluna de texto */
+@media (max-width: 64rem) {
+  .percurso { top: var(--faixa-altura, 45px); left: 0; right: 0; padding: .35rem var(--margem); border-bottom: 1px solid var(--filete); }
+  .percurso-fio { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .4rem .8rem; }
+  .percurso .percurso-t { margin: 0; }
+  html.com-percurso { scroll-padding-top: calc(var(--faixa-altura, 45px) + var(--percurso-altura, 53px) + 1rem); }
+}
+@media (max-width: 40rem) {
+  .percurso { padding-inline: var(--gutter); }
+  .percurso button { padding-inline: .65rem; }
 }
 
 /* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */
@@ -639,7 +728,8 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .faixa, .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .faixa, .espacos, .inicio::before, .ler-mais, .abrir-tudo, .percurso, .seguir { display: none; }
+  :is(.fio-frase, .fio-bloco) { background: none !important; outline: 0 !important; box-shadow: none !important; text-decoration: none !important; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
   .inicio .temas { display: block; }

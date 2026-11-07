@@ -182,5 +182,9 @@
     <p>Contactos: <a href="tel:+351{{ site.contacto_telefone | remove: ' ' }}">{{ site.contacto_telefone }}</a> e <a href="mailto:{{ site.contacto_email }}">{{ site.contacto_email }}</a></p>
   </div>
 </footer>
+{%- if inicio %}
+{%- comment -%} Correspondências da lente do faseamento e dos fios (_data/percurso.json), lidas pelo script; sem ele, não servem para nada e não se veem. Só saem as listas: a nota do ficheiro fica no repositório. {%- endcomment %}
+<script type="application/json" id="dados-percurso">{"fases":{{ site.data.percurso.fases | jsonify }},"fios":{{ site.data.percurso.fios | jsonify }}}</script>
+{%- endif %}
 </body>
 </html>
