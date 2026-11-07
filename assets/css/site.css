@@ -333,8 +333,10 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 /* §4 Passeio: cada espaço com a sua aguarela e a legenda numa coluna própria, montada pelo
    script. No ecrã largo, a coluna fica fixa ao lado do texto enquanto se lê o espaço, e o
    espaço ocupa também a largura da coluna lateral, que recolhe como com as figuras largas;
-   no estreito e no papel, a figura vem por cima do texto. No fim de cada espaço, ligações
-   para o anterior e o seguinte. */
+   os lados alternam de espaço para espaço (texto à esquerda no primeiro, à direita no
+   segundo), com o título por cima do texto e a imagem alinhada pelo título. No estreito e
+   no papel, a figura vem por cima do texto. No fim de cada espaço, ligações para o anterior
+   e o seguinte. */
 .doc .passeio-fig p:has(> img:only-child) { margin: 1.1rem 0 .7rem; }
 .doc .passeio-fig p:has(> img:only-child) + p { margin-bottom: 1.6rem; }
 .passeio-nav {
@@ -349,13 +351,17 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .passeio:not([hidden]) { margin-bottom: 1.6rem; }
 @media screen and (min-width: 64.01rem) {
   .passeio:not([hidden]) {
-    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: clamp(2rem, 3vw, 3.2rem); align-items: start;
+    display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: clamp(2rem, 3vw, 3.2rem); align-items: start;
     position: relative; z-index: 3; background: var(--chao);
-    margin-right: calc(-1 * (var(--lado) + var(--vao)));
+    margin-top: 2.6rem; margin-right: calc(-1 * (var(--lado) + var(--vao)));
   }
-  .passeio > h3 { grid-column: 1 / -1; }
-  .passeio-fig { position: sticky; top: 1.5rem; }
-  .doc .passeio-fig p:has(> img:only-child) { margin: .35rem 0 .7rem; }
+  .passeio > h3 { grid-column: 1; grid-row: 1; margin-top: 0; }
+  .passeio-texto { grid-column: 1; grid-row: 2; }
+  .passeio-fig { grid-column: 2; grid-row: 1 / span 2; position: sticky; top: 1.5rem; }
+  .passeio-alterno:not([hidden]) { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+  .passeio-alterno > h3, .passeio-alterno .passeio-texto { grid-column: 2; }
+  .passeio-alterno .passeio-fig { grid-column: 1; }
+  .doc .passeio-fig p:has(> img:only-child) { margin: .2rem 0 .7rem; }
   .doc .passeio-fig p:has(> img:only-child) + p { margin-bottom: 0; }
   .passeio-texto > :first-child { margin-top: .35rem; }
 }

@@ -256,7 +256,9 @@
     });
     /* §4 como passeio: em cada espaço, a aguarela e a legenda passam a uma coluna própria, fixa
        ao lado do texto no ecrã largo e por cima dele no estreito, e o espaço acaba com ligações
-       para o anterior e o seguinte. Só reorganiza: o texto e as figuras são os mesmos. */
+       para o anterior e o seguinte. No ecrã largo os lados alternam: texto à esquerda e imagem
+       à direita no primeiro espaço, o contrário no segundo, e assim por diante. Só reorganiza:
+       o texto e as figuras são os mesmos. */
     var passeio = Array.prototype.filter.call(doc.querySelectorAll(":scope > .detalhe"), function (parte) {
       var h3 = parte.firstElementChild;
       return !!h3 && h3.tagName === "H3" && /^4/.test(h3.id) && !!parte.querySelector(":scope > p > img:only-child");
@@ -294,6 +296,7 @@
       });
       texto.appendChild(nav);
       parte.classList.add("passeio");
+      if (i % 2) parte.classList.add("passeio-alterno");
       parte.appendChild(coluna);
       parte.appendChild(texto);
     });
