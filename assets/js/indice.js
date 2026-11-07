@@ -1,5 +1,5 @@
-/* Comportamentos do site: menu «Entidades», coluna lateral perante figuras largas e índice que
-   marca a secção que está a ser lida (no índice lateral e no do telemóvel).
+/* Comportamentos do site: menu «Entidades», faixa da secção no telemóvel e no tablet, coluna
+   lateral perante figuras largas e índice que marca a secção que está a ser lida.
    Melhoria progressiva: sem este script, os índices funcionam como listas de ligações.
    Não recolhe nem envia dados. */
 (function () {
@@ -21,36 +21,80 @@
     });
     window.addEventListener("pageshow", function () { menu.open = false; });
   }
-  /* Em ecrãs sem coluna lateral, o botão «Índice» aparece depois de o leitor passar o índice
-     e leva-o de volta a ele, já aberto; sem este script, o botão fica escondido. */
-  var aoIndice = document.querySelector(".ao-indice");
+  /* Em ecrãs sem coluna lateral, depois de o leitor passar o índice, uma faixa fina no topo
+     mostra a secção que está a ser lida (o título vem do próprio índice). Um toque abre ali o
+     índice, com essa secção marcada, sem tirar o leitor do sítio onde está. Fecha como o menu
+     «Entidades»: com Escape, com um toque fora ou quando o foco sai dela. Sem este script, a
+     faixa não existe e o índice fica no topo da página. */
   var indiceMovel = document.getElementById("indice");
-  if (aoIndice && indiceMovel) {
-    /* Verificação no scroll e não IntersectionObserver: um salto direto (ligação, movimento
-       reduzido) pode passar por cima do índice sem ele nunca entrar no ecrã. */
-    var marcado = false;
-    var rodape = document.querySelector(".pe");
-    var rever = function () {
-      marcado = false;
-      /* Só aparece quando o índice está visível na página (não na coluna lateral) e já
-         ficou todo acima do ecrã; esconde-se quando o rodapé entra no ecrã, porque tem a
-         mesma cor do botão e o botão taparia os contactos. */
-      aoIndice.hidden = !indiceMovel.offsetParent || indiceMovel.getBoundingClientRect().bottom > 0 ||
-        (rodape && rodape.getBoundingClientRect().top < window.innerHeight);
+  var faixaAtual = null;
+  if (indiceMovel && indiceMovel.querySelector("ol")) {
+    /* A faixa é uma navegação própria, antes do conteúdo principal na ordem da página, como no ecrã */
+    var nomeIndice = indiceMovel.querySelector("summary").textContent.trim();
+    var faixa = document.createElement("nav");
+    faixa.className = "faixa";
+    faixa.setAttribute("aria-label", nomeIndice);
+    var faixaBotao = document.createElement("button");
+    faixaBotao.type = "button";
+    faixaBotao.className = "faixa-botao";
+    faixaBotao.setAttribute("aria-expanded", "false");
+    faixaBotao.setAttribute("aria-controls", "faixa-lista");
+    var faixaT = document.createElement("span");
+    faixaT.className = "faixa-t";
+    faixaT.textContent = nomeIndice + ": ";
+    faixaAtual = document.createElement("span");
+    faixaAtual.className = "faixa-atual";
+    faixaBotao.appendChild(faixaT);
+    faixaBotao.appendChild(faixaAtual);
+    var faixaLista = document.createElement("div");
+    faixaLista.id = "faixa-lista";
+    faixaLista.className = "indice faixa-lista";
+    faixaLista.hidden = true;
+    faixaLista.appendChild(indiceMovel.querySelector("ol").cloneNode(true));
+    faixa.appendChild(faixaBotao);
+    faixa.appendChild(faixaLista);
+    document.body.insertBefore(faixa, document.querySelector("main"));
+    document.documentElement.classList.add("com-faixa");
+
+    var fecharLista = function (focar) {
+      if (faixaLista.hidden) return;
+      faixaLista.hidden = true;
+      faixaBotao.setAttribute("aria-expanded", "false");
+      if (focar) faixaBotao.focus();
     };
-    var pedir = function () { if (!marcado) { marcado = true; window.requestAnimationFrame(rever); } };
-    window.addEventListener("scroll", pedir, { passive: true });
-    window.addEventListener("resize", pedir);
-    rever();
-    /* Ao carregar, abre o índice, leva-o ao topo e põe o foco no seu título. O botão
-       esconde-se a seguir, e o foco não pode ficar num elemento escondido; a navegação
-       pela âncora devolveria o foco ao corpo da página, por isso é feita aqui. */
-    aoIndice.addEventListener("click", function (e) {
-      e.preventDefault();
-      indiceMovel.open = true;
-      indiceMovel.scrollIntoView({ block: "start" });
-      indiceMovel.querySelector("summary").focus({ preventScroll: true });
+    faixaBotao.addEventListener("click", function () {
+      if (!faixaLista.hidden) { fecharLista(false); return; }
+      faixaLista.hidden = false;
+      faixaBotao.setAttribute("aria-expanded", "true");
+      /* A secção que está a ser lida fica à vista dentro da lista */
+      var atual = faixaLista.querySelector('a[aria-current="true"]');
+      if (atual) faixaLista.scrollTop = Math.max(0, atual.offsetTop - faixaLista.clientHeight / 2);
     });
+    faixaLista.addEventListener("click", function (e) { if (e.target.closest("a")) fecharLista(false); });
+    document.addEventListener("pointerdown", function (e) { if (!faixa.contains(e.target)) fecharLista(false); });
+    faixa.addEventListener("focusout", function (e) {
+      if (e.relatedTarget && !faixa.contains(e.relatedTarget)) fecharLista(false);
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !faixaLista.hidden) fecharLista(true); });
+    window.addEventListener("pageshow", function () { fecharLista(false); });
+
+    /* Verificação no scroll e não IntersectionObserver: um salto direto (ligação, movimento
+       reduzido) pode passar por cima do índice sem ele nunca entrar no ecrã. A faixa só
+       aparece quando o índice está na página (não na coluna lateral) e já ficou todo acima
+       do ecrã; se o foco estiver nela quando se esconde, passa para o índice. */
+    var largoFaixa = window.matchMedia("(min-width: 64.01rem)");
+    var faixaPendente = false;
+    var reverFaixa = function () {
+      faixaPendente = false;
+      var ver = !largoFaixa.matches && indiceMovel.getBoundingClientRect().bottom < 0;
+      if (!ver && faixa.contains(document.activeElement)) indiceMovel.querySelector("summary").focus({ preventScroll: true });
+      if (!ver) fecharLista(false);
+      faixa.classList.toggle("visivel", ver);
+    };
+    var pedirFaixa = function () { if (!faixaPendente) { faixaPendente = true; window.requestAnimationFrame(reverFaixa); } };
+    window.addEventListener("scroll", pedirFaixa, { passive: true });
+    window.addEventListener("resize", pedirFaixa);
+    reverFaixa();
   }
   /* Apresentação: marca a primeira frase de cada secção (entrada) e de cada critério da
      secção 3, e parte as componentes do faseamento (secção 11) em etiquetas. Só mexe na
@@ -184,11 +228,24 @@
         }
       });
     };
+    /* Uma figura do texto é um parágrafo só com a imagem, e a legenda é o parágrafo seguinte,
+       só com o itálico. Fora da §4 ficam à vista com o resumo: são as únicas pausas visuais
+       entre a grelha da §4 e o fim da página. Na §4 fecham com a sua subsecção, que as leva
+       para o passeio. A figura e a legenda ficam sempre juntas. */
+    var eFigura = function (el) {
+      return !!el && el.tagName === "P" && el.children.length === 1 && el.firstElementChild.tagName === "IMG" && !el.textContent.trim();
+    };
+    var eLegenda = function (el) {
+      return !!el && el.tagName === "P" && el.children.length === 1 && el.firstElementChild.tagName === "EM" &&
+        el.textContent.trim() === el.firstElementChild.textContent.trim();
+    };
     seccoes.forEach(function (s, k) {
       if (/^(sobre-este-documento|1-|3-|12-)/.test(s.h2.id)) return;
+      var quatro = /^4-/.test(s.h2.id);
       var visivel = function (el, i) {
         if (i === 0 && el.tagName === "P") return true;
         if (el.matches(PECAS)) return true;
+        if (!quatro && (eFigura(el) || (eLegenda(el) && eFigura(s.els[i - 1])))) return true;
         if (el.tagName === "P" && PRUDENCIA.test(el.textContent)) return true;
         var seguinte = s.els[i + 1];
         return el.tagName === "P" && /:\s*$/.test(el.textContent) && !!seguinte && seguinte.matches(PECAS);
@@ -197,7 +254,6 @@
       var texto = escondidos.reduce(function (t, el) { return t + el.textContent.trim().length; }, 0);
       if (!escondidos.length || (texto < CURTO && !escondidos.some(function (el) { return el.querySelector("img"); }))) return;
       /* Agrupa os elementos fechados em blocos seguidos; na §4, um grupo por subsecção */
-      var quatro = /^4-/.test(s.h2.id);
       var grupos = [];
       var grupo = null;
       var parte = null;
@@ -216,17 +272,29 @@
         parte.appendChild(el);
       });
       var todas = [].concat.apply([], grupos);
-      var botao = document.createElement("button");
-      botao.type = "button";
-      botao.className = "ler-mais";
-      botao.setAttribute("aria-controls", todas.map(function (p) { return p.id; }).join(" "));
-      doc.insertBefore(botao, seccoes[k + 1] ? seccoes[k + 1].h2 : null);
-      /* O estado diz-se num só sinal, o rótulo (sem aria-expanded, que o contradiria). Com a
-         secção só em parte aberta (uma subsecção da §4, por exemplo), oferece o resto. */
+      var ids = todas.map(function (p) { return p.id; }).join(" ");
+      /* Dois botões, cada um onde faz falta. «Ler a secção completa» fica no ponto onde o texto
+         foi fechado, antes da primeira parte ainda fechada: o texto abre logo abaixo, onde o
+         leitor está, e a página não se mexe. «Mostrar só o resumo» aparece no fim da secção
+         quando ela está toda aberta. O estado diz-se pelo rótulo e pelo botão que está à
+         vista, sem aria-expanded. Com a secção só em parte aberta (uma subsecção da §4, por
+         exemplo), «Ler a secção completa» passa para antes da parte seguinte ainda fechada. */
+      var abrir = document.createElement("button");
+      abrir.type = "button";
+      abrir.className = "ler-mais";
+      abrir.textContent = "Ler a secção completa";
+      abrir.setAttribute("aria-controls", ids);
+      var fechar = document.createElement("button");
+      fechar.type = "button";
+      fechar.className = "ler-mais aberto";
+      fechar.textContent = "Mostrar só o resumo";
+      fechar.setAttribute("aria-controls", ids);
+      doc.insertBefore(fechar, seccoes[k + 1] ? seccoes[k + 1].h2 : null);
       var atualizar = function () {
-        var completa = todas.every(aberta);
-        botao.classList.toggle("aberto", completa);
-        botao.textContent = completa ? "Mostrar só o resumo" : "Ler a secção completa";
+        var fechada = todas.filter(function (p) { return !aberta(p); })[0];
+        abrir.hidden = !fechada;
+        fechar.hidden = !!fechada;
+        if (fechada && abrir.nextElementSibling !== fechada) doc.insertBefore(abrir, fechada);
       };
       atualizar();
       controlos.push({ todas: todas, atualizar: atualizar });
@@ -237,21 +305,22 @@
           p.addEventListener("beforematch", abrirGrupo);
         });
       });
-      /* Ao abrir, o leitor vai para o primeiro texto acabado de abrir (na §4, a 4.1, logo
-         abaixo da grelha), com o foco nele. Ao fechar, volta ao título da secção, para não
-         ficar a meio de texto que desapareceu, e o foco fica no botão. */
-      botao.addEventListener("click", function () {
+      /* Ao abrir, o botão desaparece e o foco passa para o texto acabado de abrir, logo abaixo,
+         sem scroll. Ao fechar, o leitor volta ao título da secção, sem animação, para não ficar
+         a meio de texto que desapareceu, e o foco fica no botão que a volta a abrir. */
+      abrir.addEventListener("click", function () {
         var novas = todas.filter(function (p) { return !aberta(p); });
-        if (novas.length) {
-          mostrar(novas, true);
-          atualizarTudo();
-          novas[0].scrollIntoView({ block: "start" });
-          novas[0].focus({ preventScroll: true });
-        } else {
-          mostrar(todas, false);
-          atualizarTudo();
-          s.h2.scrollIntoView({ block: "start" });
-        }
+        mostrar(novas, true);
+        atualizarTudo();
+        if (novas.length) novas[0].focus({ preventScroll: true });
+      });
+      fechar.addEventListener("click", function () {
+        mostrar(todas, false);
+        atualizarTudo();
+        s.h2.scrollIntoView({ block: "start", behavior: "instant" });
+        abrir.focus({ preventScroll: true });
+        /* Na §4, no telemóvel, a grelha pode deixar o botão abaixo do ecrã; o foco tem de se ver */
+        abrir.scrollIntoView({ block: "nearest", behavior: "instant" });
       });
     });
     /* §4 como passeio: em cada espaço, a aguarela e a legenda passam a uma coluna própria, fixa
@@ -362,8 +431,12 @@
     verificar();
   }
 
+  /* O índice marca a secção que está a ser lida, nos três índices (lateral, do telemóvel e da
+     faixa), e a faixa mostra o seu título. Atualiza-se no scroll, e não só quando um título
+     cruza o ecrã: depois de um salto (abrir uma secção, seguir uma ligação), o índice ficava
+     a marcar a secção errada. */
   var links = Array.prototype.slice.call(document.querySelectorAll(".indice a[href^='#']"));
-  if (!links.length || !("IntersectionObserver" in window)) return;
+  if (!links.length) return;
 
   var byId = {};
   links.forEach(function (a) {
@@ -371,10 +444,15 @@
     (byId[id] = byId[id] || []).push(a);
   });
   var heads = Object.keys(byId).map(function (id) { return document.getElementById(id); }).filter(Boolean);
+  if (!heads.length) return;
+  var atualId = null;
 
   function mark(id) {
+    if (id === atualId) return;
+    atualId = id;
     links.forEach(function (a) { a.removeAttribute("aria-current"); });
     (byId[id] || []).forEach(function (a) { a.setAttribute("aria-current", "true"); });
+    if (faixaAtual && byId[id]) faixaAtual.textContent = byId[id][0].textContent.trim();
   }
 
   function update() {
@@ -384,6 +462,13 @@
     mark(heads[0].id);
   }
 
-  var observer = new IntersectionObserver(update, { rootMargin: "0px 0px -60% 0px", threshold: [0, 1] });
-  heads.forEach(function (h) { observer.observe(h); });
+  var indicePendente = false;
+  var pedirIndice = function () {
+    if (indicePendente) return;
+    indicePendente = true;
+    window.requestAnimationFrame(function () { indicePendente = false; update(); });
+  };
+  window.addEventListener("scroll", pedirIndice, { passive: true });
+  window.addEventListener("resize", pedirIndice);
+  update();
 })();

@@ -66,7 +66,10 @@ body {
 :focus-visible { outline: 3px solid var(--pinho); outline-offset: 3px; border-radius: 2px; }
 
 a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: .18em; }
-a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
+/* Os efeitos de passar o rato ficam só para ecrãs com rato: num ecrã tátil, o toque deixava-os presos */
+@media (hover: hover) and (pointer: fine) {
+  a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
+}
 
 .saltar {
   position: absolute; left: var(--gutter); top: -4rem;
@@ -83,15 +86,15 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   font-family: var(--f-titulo);
 }
 .nome { font: 600 1.15rem/1.25 var(--f-texto); color: var(--tinta); text-decoration: none; letter-spacing: -.005em; }
-.nome:hover { color: var(--pinho); }
+@media (hover: hover) and (pointer: fine) { .nome:hover { color: var(--pinho); } }
 
 /* Menu «Entidades»: um só botão abre a lista dos seis documentos (funciona sem JavaScript) */
 .menu { position: relative; flex: none; font-family: var(--f-titulo); }
 .menu summary {
   list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .6rem;
   padding: .5rem .95rem; border: 1px solid var(--filete); border-radius: 2px; background: var(--chao);
-  font-weight: 600; font-size: .98rem; color: var(--tinta);
-  transition: border-color .2s var(--suave), color .2s var(--suave);
+  font-weight: 600; font-size: .98rem; color: var(--tinta); -webkit-tap-highlight-color: transparent;
+  transition: border-color .2s var(--suave), color .2s var(--suave), transform .16s ease-out;
 }
 .menu summary::-webkit-details-marker { display: none; }
 .menu summary::after {
@@ -99,7 +102,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   transform: translateY(-2px) rotate(45deg); transition: transform .25s var(--suave);
 }
 .menu[open] summary::after { transform: translateY(2px) rotate(-135deg); }
-.menu summary:hover, .menu[open] summary { border-color: var(--pinho); color: var(--pinho); }
+.menu[open] summary { border-color: var(--pinho); color: var(--pinho); }
+@media (hover: hover) and (pointer: fine) { .menu summary:hover { border-color: var(--pinho); color: var(--pinho); } }
 .menu nav {
   position: absolute; right: 0; top: calc(100% + .5rem); z-index: 20; width: min(25rem, calc(100vw - 2 * var(--gutter)));
   background: var(--chao); border-top: 3px solid var(--erva); padding: .35rem 0;
@@ -110,7 +114,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   display: block; padding: .75rem 1.1rem .75rem .95rem; border-left: 3px solid transparent;
   color: var(--tinta); text-decoration: none; font-weight: 600; font-size: .98rem; line-height: 1.3;
 }
-.menu a:hover { background: var(--pedra); color: var(--pinho); }
+@media (hover: hover) and (pointer: fine) { .menu a:hover { background: var(--pedra); color: var(--pinho); } }
 .menu a[aria-current="page"] { color: var(--pinho); border-left-color: var(--pinho); }
 /* A apresentação não é uma entidade: fica no topo da lista, separada das cinco por um filete */
 .menu .menu-inicio { border-bottom: 1px solid var(--filete); margin-bottom: .35rem; padding-bottom: .35rem; }
@@ -179,11 +183,13 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   display: block; flex: 1; padding: .75rem .9rem .9rem; border-top: 3px solid var(--erva);
   font: 600 .98rem/1.3 var(--f-titulo); text-wrap: balance;
 }
-.postais a:hover { transform: translateY(-3px); box-shadow: 0 20px 34px -18px rgba(30, 34, 26, .6), 0 2px 6px -3px rgba(30, 34, 26, .25); }
-.postais a:hover .postal-img img { transform: scale(calc(var(--zoom, 1) * 1.06)); }
+@media (hover: hover) and (pointer: fine) {
+  .postais a:hover { transform: translateY(-3px); box-shadow: 0 20px 34px -18px rgba(30, 34, 26, .6), 0 2px 6px -3px rgba(30, 34, 26, .25); }
+  .postais a:hover .postal-img img { transform: scale(calc(var(--zoom, 1) * 1.06)); }
+}
 /* Foco em dois tons: legível sobre a paisagem escura e sobre o fundo claro */
 .postais a:focus-visible { outline: 2px solid var(--chao); outline-offset: 2px; box-shadow: 0 0 0 5px var(--pinho); }
-.postais a:hover .postal-nome { color: var(--pinho); }
+@media (hover: hover) and (pointer: fine) { .postais a:hover .postal-nome { color: var(--pinho); } }
 @media (prefers-reduced-motion: reduce) { .postais a, .postal-img img { transition: none; } .postais a:hover { transform: none; } }
 
 .postais-entrada { position: relative; z-index: 2; max-width: 76rem; margin: -5rem auto 0; padding-inline: var(--margem); }
@@ -203,7 +209,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .indice-movel { display: none; }
 .indice-t { font-weight: 700; margin: 0 0 .5rem; }
 
-/* Secções: o número abre cada secção, em grande, na voz do documento */
+/* Secções: o número abre cada secção, em grande, na voz do documento, mas abaixo do título
+   da página em qualquer largura, para a hierarquia começar no título */
 .doc h2 {
   position: relative; margin: 4.2rem 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--filete);
   font: 600 clamp(1.7rem, 1.35rem + 1vw, 2.15rem)/1.12 var(--f-texto); letter-spacing: -.012em; text-wrap: balance;
@@ -212,7 +219,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .doc h2::before { content: ""; position: absolute; top: -1px; left: 0; width: 3rem; height: 3px; background: var(--erva); }
 .doc h2 .num {
   display: block; margin: 0 0 .35rem; color: var(--pinho);
-  font: 400 clamp(2.6rem, 2rem + 2vw, 3.6rem)/1 var(--f-texto); letter-spacing: -.03em; font-variant-numeric: lining-nums;
+  font: 400 clamp(1.7rem, 1.35rem + 1.2vw, 2.6rem)/1 var(--f-texto); letter-spacing: -.03em; font-variant-numeric: lining-nums;
 }
 .doc h3 { font: 600 1.32rem/1.25 var(--f-texto); letter-spacing: -.005em; margin: 2.6rem 0 .6rem; }
 .doc h3 .num { color: var(--pinho); font-variant-numeric: lining-nums tabular-nums; margin-right: .25em; }
@@ -245,7 +252,9 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 
 /* Figuras no texto: imagem sozinha num parágrafo e legenda em itálico logo a seguir */
 .doc p:has(> img:only-child) { margin: 2.4rem 0 .7rem; max-width: none; position: relative; z-index: 3; }
-.doc p > img:only-child { display: block; width: 100%; height: auto; background: var(--neblina); }
+/* As aguarelas são todas 3:2: o espaço fica reservado antes de a imagem carregar (carrega tarde,
+   lazy), para os saltos do índice e das ligações não pararem acima do destino */
+.doc p > img:only-child { display: block; width: 100%; height: auto; aspect-ratio: auto 3 / 2; background: var(--neblina); }
 .doc p:has(> img:only-child) + p { font: 400 .92rem/1.45 var(--f-titulo); color: var(--tinta-2); margin-bottom: 2.4rem; }
 .doc p:has(> img:only-child) + p em { font-style: normal; }
 /* Em ecrãs largos, a figura no texto ocupa também a largura da coluna lateral */
@@ -326,8 +335,10 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 }
 .sem-figura a::before { content: ""; position: absolute; z-index: 1; top: 0; left: 0; width: 3rem; height: 3px; background: var(--erva); }
 .espaco-nome { display: block; margin-top: .55rem; font: 600 .98rem/1.3 var(--f-titulo); text-wrap: balance; }
-.espacos a:hover .espaco-nome { color: var(--pinho); }
-.espacos a:hover .espaco-img img { transform: scale(1.06); }
+@media (hover: hover) and (pointer: fine) {
+  .espacos a:hover .espaco-nome { color: var(--pinho); }
+  .espacos a:hover .espaco-img img { transform: scale(1.06); }
+}
 @media (prefers-reduced-motion: reduce) { .espaco-img img { transition: none; } .espacos a:hover .espaco-img img { transform: none; } }
 
 /* §4 Passeio: cada espaço com a sua aguarela e a legenda numa coluna própria, montada pelo
@@ -415,25 +426,31 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 
 /* Resumo primeiro, detalhe a pedido (o script fecha o detalhe de cada secção e põe estes
    botões; sem script, não existem e aparece tudo). Os botões são controlos, como o botão
-   «Entidades»: contorno de filete, cantos de 2px, e o verde de pinhal da ação. */
+   «Entidades»: contorno de filete, cantos de 2px, e o verde de pinhal da ação.
+   «Ler a secção completa» fica no ponto onde o texto foi fechado, e o texto abre logo
+   abaixo dele; «Mostrar só o resumo» fica no fim da secção aberta. */
 .ler-mais, .abrir-tudo {
   display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; padding: .5rem .95rem;
   border: 1px solid var(--filete); border-radius: 2px; background: var(--chao); color: var(--pinho);
-  font: 600 .98rem/1.2 var(--f-titulo); cursor: pointer;
-  transition: border-color .2s var(--suave), background-color .2s var(--suave);
+  font: 600 .98rem/1.2 var(--f-titulo); cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: border-color .2s var(--suave), background-color .2s var(--suave), transform .16s ease-out;
 }
-.ler-mais { margin: .2rem 0 0; }
+.ler-mais { margin: .2rem 0 1.4rem; scroll-margin-bottom: 1.5rem; }
+.ler-mais[hidden] { display: none; }
 .ler-mais::after, .abrir-tudo::after {
   content: ""; flex: none; width: .42rem; height: .42rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
   transform: translateY(-2px) rotate(45deg); transition: transform .25s var(--suave);
 }
 .ler-mais.aberto::after, .abrir-tudo.aberto::after { transform: translateY(2px) rotate(-135deg); }
-.ler-mais:hover, .abrir-tudo:hover { border-color: var(--pinho); background: var(--pedra); }
+@media (hover: hover) and (pointer: fine) { .ler-mais:hover, .abrir-tudo:hover { border-color: var(--pinho); background: var(--pedra); } }
 /* O texto acabado de abrir recebe o foco, para a leitura continuar nele; não é um controlo, sem anel */
 .detalhe:focus { outline: none; }
+/* Os controlos afundam ligeiramente ao toque; o texto aberto entra em pouco mais de um quinto de
+   segundo, porque abre onde o leitor está e tem de ser visto sem o fazer esperar */
 @media (prefers-reduced-motion: no-preference) {
-  .detalhe.a-abrir { animation: abrir .5s var(--suave) both; }
-  @keyframes abrir { from { opacity: 0; transform: translateY(-.4rem); } }
+  .ler-mais:active, .abrir-tudo:active, .menu summary:active { transform: scale(.97); }
+  .detalhe.a-abrir { animation: abrir .22s var(--suave) both; }
+  @keyframes abrir { from { opacity: 0; transform: translateY(-.25rem); } }
 }
 @media (prefers-reduced-motion: reduce) { .ler-mais, .abrir-tudo, .ler-mais::after, .abrir-tudo::after { transition: none; } }
 
@@ -469,7 +486,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .indice summary { font-weight: 700; cursor: pointer; padding: .2rem 0 .5rem; }
 .indice ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--filete); }
 .indice a { display: block; padding: .28rem 0 .28rem .9rem; margin-left: -1px; border-left: 2px solid transparent; color: var(--tinta-2); text-decoration: none; }
-.indice a:hover { color: var(--pinho); }
+@media (hover: hover) and (pointer: fine) { .indice a:hover { color: var(--pinho); } }
 .indice a[aria-current="true"] { color: var(--pinho); border-left-color: var(--pinho); font-weight: 600; }
 
 /* Rodapé: a sombra do pinhal fecha cada página, com os contactos */
@@ -477,7 +494,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .pe-in { max-width: 76rem; margin: 0 auto; padding: 2.6rem var(--margem) 3rem; font: 400 .95rem/1.55 var(--f-titulo); }
 .pe-in p { margin: 0 0 .4rem; max-width: 62rem; color: var(--neblina); }
 .pe a { color: var(--chao); }
-.pe a:hover { color: var(--chao); text-decoration-thickness: 2px; }
+@media (hover: hover) and (pointer: fine) { .pe a:hover { color: var(--chao); text-decoration-thickness: 2px; } }
 
 /* Portáteis com pouca altura: os postais das entidades continuam no primeiro ecrã */
 @media (min-width: 64.01rem) and (max-height: 820px) {
@@ -485,6 +502,9 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .inicio .vista-texto { bottom: 6.2rem; }
   .postal-img { height: 6.2rem; }
 }
+
+/* A faixa da secção só existe em ecrãs sem coluna lateral (ver Ecrãs médios) */
+.faixa { display: none; }
 
 /* Ecrãs médios */
 @media (max-width: 64rem) {
@@ -498,24 +518,55 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .indice-movel summary::marker { color: var(--pinho); }
   .indice-movel[open] ol { margin: .4rem 0 .6rem; }
   .indice-movel a { display: flex; align-items: center; min-height: 44px; padding-block: .4rem; }
-  /* Botão «Índice»: sem coluna lateral, leva de volta ao índice depois de o leitor o passar.
-     A margem de scroll impede que o Tab deixe uma ligação focada por baixo do botão. */
-  html { scroll-padding-bottom: calc(44px + 2rem); }
-  .ao-indice:not([hidden]) {
-    position: fixed; z-index: 15; right: var(--gutter); bottom: max(1rem, env(safe-area-inset-bottom));
-    display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.05rem;
-    background: var(--pinho); color: var(--chao); border-radius: 2px;
-    font: 600 .95rem/1 var(--f-titulo); text-decoration: none;
-    box-shadow: 0 10px 24px -12px rgba(30, 34, 26, .6), 0 2px 6px -3px rgba(30, 34, 26, .3);
+  /* Faixa da secção: sem coluna lateral, depois de o leitor passar o índice, uma faixa fina no
+     topo mostra a secção que está a ser lida, com o título tirado do índice; um toque abre ali
+     o índice, sem tirar o leitor do sítio. Montada pelo script; sem ele, não existe. Fica por
+     cima do texto, como uma barra, e não ao lado das linhas; as âncoras e o foco param abaixo dela. */
+  html.com-faixa { scroll-padding-top: calc(44px + 1rem); }
+  .faixa {
+    display: block; position: fixed; z-index: 25; top: 0; left: 0; right: 0;
+    background: var(--chao); border-bottom: 1px solid var(--filete);
+    visibility: hidden; opacity: 0; transform: translateY(-100%);
+    transition: opacity .18s ease-out, transform .18s ease-out, visibility 0s linear .18s;
   }
-  .ao-indice:hover { background: var(--pinho-escuro); }
+  .faixa.visivel { visibility: visible; opacity: 1; transform: none; transition: opacity .18s ease-out, transform .18s ease-out, visibility 0s; }
+  /* O texto da faixa alinha com a coluna de texto (margem da folha); numa barra a toda a largura,
+     o toque responde no fundo e não com escala, e o anel de foco fica por dentro, porque por fora
+     sairia do ecrã */
+  .faixa-botao {
+    display: flex; align-items: center; gap: .7rem; width: 100%; min-height: 44px;
+    padding: .5rem var(--margem); border: 0; border-radius: 0; background: none; color: var(--tinta);
+    font: 600 .95rem/1.25 var(--f-titulo); text-align: left; cursor: pointer; -webkit-tap-highlight-color: transparent;
+  }
+  .faixa-botao:active { background: var(--pedra); }
+  .faixa-botao:focus-visible { outline-offset: -3px; }
+  .faixa-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .faixa-atual { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .faixa-botao::after {
+    content: ""; flex: none; width: .42rem; height: .42rem; margin-right: .2rem; color: var(--pinho);
+    border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+    transform: translateY(-2px) rotate(45deg); transition: transform .25s var(--suave);
+  }
+  .faixa-botao[aria-expanded="true"]::after { transform: translateY(2px) rotate(-135deg); }
+  /* A altura conta com as barras do browser no telemóvel (dvh, com vh onde não existe), e o
+     scroll da lista não passa para a página quando chega ao fim */
+  .faixa-lista {
+    position: absolute; top: 100%; left: 0; right: 0; overflow-y: auto; overscroll-behavior: contain;
+    max-height: calc(100vh - 44px - 2rem); max-height: calc(100dvh - 44px - 2rem);
+    background: var(--chao); border-top: 3px solid var(--erva); padding: .5rem var(--margem) .7rem;
+    box-shadow: 0 18px 40px -18px rgba(30, 34, 26, .55), 0 2px 8px -4px rgba(30, 34, 26, .25);
+    font: 400 .97rem/1.45 var(--f-titulo);
+  }
+  .faixa-lista a { display: flex; align-items: center; min-height: 44px; padding-block: .4rem; }
 }
-.ao-indice { display: none; }
+@media (max-width: 64rem) and (prefers-reduced-motion: reduce) {
+  .faixa, .faixa.visivel, .faixa-botao::after { transition: none; }
+}
 
 /* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */
 @media (max-width: 40rem) {
   body { font-size: 1.0625rem; }
-  .barra, .folha, .pe-in, .postais-fim, .postais-entrada { padding-inline: var(--gutter); }
+  .barra, .folha, .pe-in, .postais-fim, .postais-entrada, .faixa-botao, .faixa-lista { padding-inline: var(--gutter); }
   .barra { gap: 1rem; }
   .nome { font-size: 1.02rem; }
   .vista, .inicio .vista { height: auto; background: var(--pinho-escuro); }
@@ -588,7 +639,7 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .faixa, .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
   .inicio .temas { display: block; }
