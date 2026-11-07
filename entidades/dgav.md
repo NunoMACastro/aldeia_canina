@@ -2,9 +2,9 @@
 
 ## 1. Apresentação e pedido
 
-Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md) e que inclui alojamento com pernoita, creche diária/ATL canino, grooming, treino e transporte de animais. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md) e que inclui alojamento com pernoita, creche diária/ATL canino, grooming, treino e transporte de animais. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
 
-O enquadramento do alojamento condiciona o desenho das instalações, a capacidade e o serviço de transporte. Por isso gostaríamos de ter desde já a vossa orientação, e de saber se a nossa leitura está certa, antes de prepararmos a mera comunicação prévia e as instalações.
+Gostaríamos de ter desde já a vossa orientação, e de saber se a nossa leitura está certa, antes de prepararmos a mera comunicação prévia e as instalações.
 
 ## 2. O que já analisámos
 
@@ -27,14 +27,13 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 3. Como se aplicam os mínimos do anexo III do Decreto-Lei n.º 276/2001 a casas com um quarto interior e um espaço exterior privado e vedado? O quarto conta como recinto fechado e o exterior como recinto fechado exterior, ou é de outra forma?
 4. Nas casas familiares, com dois a quatro cães do mesmo agregado, aplicam-se os mínimos de alojamento em grupo do anexo III? Há requisitos adicionais?
 5. Como deve ser calculada e documentada a capacidade máxima do alojamento e da creche/ATL, e que elementos esperam para a demonstrar (plantas funcionais, circuitos de limpo e sujo, pessoal)?
-6. Onde situam a fronteira entre a enfermaria de isolamento e primeiros cuidados e o regime dos CAMV, em particular quando o médico veterinário responsável observa ou trata pontualmente, no local, um animal alojado? Recomendam obter uma posição escrita sobre esse modelo?
+6. Onde situam a fronteira entre a enfermaria de isolamento e primeiros cuidados e o regime dos CAMV, em particular quando o médico veterinário responsável observa ou trata pontualmente, no local, um animal alojado?
 7. Em que condições pode a equipa administrar medicação prescrita pelo médico veterinário assistente do tutor, sob orientação do médico veterinário responsável, e que registos esperam?
 8. Nas recolhas e entregas em domicílio até 65 km, como se aplica o artigo 8.º, n.º 4, do Decreto-Lei n.º 265/2007? Que autorização e que passos no SITA devemos cumprir antes de adquirir ou adaptar a viatura?
-9. Para rotas de mais de 65 km e até oito horas, que autorização, registo do meio e documentação se aplicam, e que formação deve ter o condutor de cães?
-10. Em que momento deve ser apresentada a comunicação, face ao controlo urbanístico e às obras? A partir de que ato pode ser recebido o primeiro animal: a submissão e o pagamento, ou a atribuição do número de registo?
-11. Está prevista alguma vistoria da DGAV antes ou depois do início da atividade?
-12. Como devemos comunicar o aumento faseado da capacidade e a eventual inclusão futura de gatos: como alteração ou como nova comunicação?
+9. Em que momento deve ser apresentada a comunicação, face ao controlo urbanístico e às obras? A partir de que ato pode ser recebido o primeiro animal: a submissão e o pagamento, ou a atribuição do número de registo?
+10. Está prevista alguma vistoria da DGAV antes ou depois do início da atividade?
+11. Como devemos comunicar o aumento faseado da capacidade e a eventual inclusão futura de gatos: como alteração ou como nova comunicação?
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal, o transporte e o faseamento. Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas, porque dependem da escolha do terreno.
+Neste momento podemos facultar a [apresentação do projeto](../README.md). Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas, porque dependem da escolha do terreno.

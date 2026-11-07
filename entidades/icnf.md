@@ -2,7 +2,7 @@
 
 ## 1. Apresentação e pedido
 
-Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
 
 Antes de escolhermos o terreno e de apresentarmos o pedido de informação prévia à Câmara Municipal, queremos perceber como a perigosidade de incêndio rural, as intervenções florestais e a conservação da natureza podem condicionar a implantação e qualquer intervenção na vegetação. Gostaríamos de ter a vossa orientação e de saber se a nossa leitura está certa.
 
@@ -25,18 +25,17 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 
 ## 3. Perguntas
 
-Como este documento é público, não identificamos aqui os terrenos candidatos. Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
+Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
 
 1. Qual é o calendário previsto para a carta de APPS adaptada da sub-região Viseu Dão Lafões? Que cartografia de perigosidade se aplicará aos procedimentos a partir de 1 de janeiro de 2027, quando os PMDFCI deixarem de produzir efeitos?
-2. Qual é a natureza jurídica da metodologia nacional de adaptação das APPS? Prevê alguma zona de transição ou distância em torno das manchas de perigosidade «muito alta»? Como tendem a ser tratadas, nas tipologias C e D, as áreas de classe «alta»?
+2. Qual é a natureza jurídica da metodologia nacional de adaptação das APPS? Como tendem a ser tratadas, nas tipologias C e D, as áreas de classe «alta»?
 3. Se a implantação exigir corte, desbaste ou arranque de árvores, aplica-se o manifesto prévio (artigo 4.º) ou a autorização prévia (artigo 4.º-A) do Decreto-Lei n.º 31/2020? O regime abrange esse corte quando a madeira não se destina a comercialização nem a autoconsumo industrial, e em que condições se aplica a dispensa do artigo 2.º, n.º 3?
 4. A execução de faixas de gestão de combustível que implique corte de árvores exige manifesto ou autorização?
-5. Se a portaria de rastreabilidade prevista no artigo 8.º da Lei n.º 18/2026 ainda não tiver sido publicada, que procedimento devemos seguir numa intervenção abrangida?
-6. Se algum terreno tiver sobreiros ou azinheiras, o que exige o Decreto-Lei n.º 169/2001 para cortes e para obras na sua proximidade, e como pode condicionar a implantação?
-7. A plantação de árvores de sombra, de barreiras vegetais e de vegetação autóctone em parques e trilhos fica sujeita ao RJAAR? Em que condições?
-8. Como podemos verificar se algum terreno se situa em Rede Natura 2000, noutra área classificada ou em área submetida a regime florestal, ou se contém arvoredo de interesse público? Nesses casos, que parecer ou autorização do ICNF seria exigível por razões de conservação da natureza, e como se articula com o pedido de informação prévia (PIP) à Câmara Municipal e com uma eventual avaliação de impacte ambiental?
-9. Que informação recomendam que recolhamos em cada terreno antes da escolha (ocupação florestal, inventário de espécies, número de árvores) e com que nível de detalhe?
+5. Se algum terreno tiver sobreiros ou azinheiras, o que exige o Decreto-Lei n.º 169/2001 para cortes e para obras na sua proximidade, e como pode condicionar a implantação?
+6. A plantação de árvores de sombra, de barreiras vegetais e de vegetação autóctone em parques e trilhos fica sujeita ao RJAAR? Em que condições?
+7. Se algum terreno se situar em Rede Natura 2000, noutra área classificada ou em área submetida a regime florestal, ou contiver arvoredo de interesse público, que parecer ou autorização do ICNF será exigível por razões de conservação da natureza? Como se articula esse parecer ou essa autorização com o pedido de informação prévia (PIP) à Câmara Municipal e com uma eventual avaliação de impacte ambiental?
+8. Que informação recomendam que recolhamos em cada terreno antes da escolha (ocupação florestal, inventário de espécies, número de árvores) e com que nível de detalhe?
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com o conceito, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, a informação sobre a ocupação florestal, o inventário de espécies, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação ainda não está definida, porque depende do terreno que escolhermos e da orientação que recebermos.
+Neste momento podemos facultar a [apresentação do projeto](../README.md). Para cada terreno candidato, ainda não temos a cartografia de perigosidade de incêndio rural, a informação sobre a ocupação florestal, o inventário de espécies, o levantamento topográfico nem as certidões prediais e o cadastro. A implantação ainda não está definida, porque depende do terreno que escolhermos e da orientação que recebermos.

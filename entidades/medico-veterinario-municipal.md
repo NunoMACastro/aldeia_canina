@@ -2,7 +2,7 @@
 
 ## 1. Apresentação e pedido
 
-Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). No alojamento com pernoita e na creche diária vamos receber cães de diferentes tutores. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). No alojamento com pernoita e na creche diária vamos receber cães de diferentes tutores. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
 
 Antes de prepararmos as instalações e a mera comunicação prévia à [DGAV](dgav.md), gostaríamos de ter a vossa orientação sobre a vertente hígio-sanitária das instalações e da operação: profilaxia, isolamento, higiene e articulação com o médico veterinário responsável do alojamento. Gostaríamos também de saber se a nossa leitura está certa.
 
@@ -25,8 +25,7 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 5. Além da identificação e da vacinação antirrábica, há recomendações concelhias de profilaxia para cães em alojamento coletivo e em creche, por exemplo em função de ocorrências locais?
 6. Que procedimento e que comunicação à autoridade sanitária veterinária concelhia esperam perante suspeita de raiva, de doença transmissível ou de surto, e como deve articular-se com o médico veterinário responsável?
 7. Existe circuito municipal ou procedimento local para o encaminhamento de cadáveres de animais de companhia, incluindo a sua conservação temporária?
-8. Se a zona aquática avançar, que critérios sanitários consideram adequados para a qualidade da água e para o controlo de algas e vetores?
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com os serviços, os espaços, o bem-estar animal e a sustentabilidade. Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas: dependem da escolha do terreno.
+Neste momento podemos facultar a [apresentação do projeto](../README.md). Para cada terreno candidato, ainda não temos o levantamento topográfico nem as certidões prediais e o cadastro. A implantação, as plantas e a capacidade máxima ainda não estão definidas: dependem da escolha do terreno.

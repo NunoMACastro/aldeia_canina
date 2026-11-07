@@ -2,9 +2,9 @@
 
 ## 1. Apresentação e pedido
 
-Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, um projeto de alojamento de animais com pernoita, creche diária/ATL canino e serviços complementares, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, um projeto de alojamento de animais com pernoita, creche diária/ATL canino e serviços complementares, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
 
-Antes de o escolhermos e de apresentarmos o pedido de informação prévia (PIP), gostaríamos de ter a vossa orientação e de saber se a nossa leitura está certa.
+Antes de escolhermos o terreno e de apresentarmos o pedido de informação prévia (PIP), gostaríamos de ter a vossa orientação e de saber se a nossa leitura está certa.
 
 Na escolha do terreno aplicamos [critérios nossos](../README.md#3-terreno-e-critérios-de-seleção), que não são obrigações legais. O saneamento é eliminatório. Não construímos nas áreas de perigosidade de incêndio rural «muito alta» nem na sua envolvente, e avaliamos caso a caso cada terreno que tenha uma mancha destas.
 
@@ -27,21 +27,19 @@ Se houver outras normas ou aspetos que devamos ter em conta desde já, agradecem
 
 ## 3. Perguntas
 
-Como este documento é público, não identificamos aqui os terrenos candidatos. Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
+Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vossos serviços.
 
-1. Os artigos 60.º e 61.º que nos indicaram são os do Decreto-Lei n.º 82/2021, de 13 de outubro?
-2. Para cada terreno candidato, qual é a classe e a categoria de solo no PDM, que usos e parâmetros de edificabilidade se aplicam e que condicionantes (REN, RAN, domínio hídrico, outras servidões) constam da planta de condicionantes? Concordam que a atividade seja apreciada como serviço de alojamento de animais?
-3. Existe algum processo pendente ou decisão que afete normas do PDM aplicáveis aos terrenos em avaliação?
-4. Algum terreno integra a Estrutura Ecológica Municipal? Se sim, as casas de alojamento e a Casa de Apoio Operacional podem enquadrar-se na exceção do artigo 24.º, n.º 1, alínea f), do regulamento do PDM, ou aplica-se a interdição? Na parte integrada na EEM, são admissíveis parques vedados, trilhos e caminhos sem edificação, à luz dos n.os 2 e 3?
-5. Que modalidade de PIP recomendam, a do n.º 1 ou a do n.º 2 do artigo 14.º do RJUE? Que normas municipais de instrução se aplicam, além da Portaria n.º 320/2026/1? Em que casos exigem o levantamento topográfico? É possível um atendimento técnico antes da submissão?
-6. Recomendam que o PIP descreva a implantação máxima, as fases, a capacidade e as componentes que dependem do terreno, como a zona aquática e o gatil, para que fiquem abrangidas pela resposta? Que matérias ficam fora do que o PIP decide?
-7. Como qualificam as casas de alojamento modulares e a Casa de Apoio Operacional, e que procedimento (licença, comunicação prévia ou comunicação prévia com prazo) e que título de utilização se aplicam? Há normas do RMUE que considerem incompatíveis com o RJUE revisto?
-8. Num terreno com ruínas, como se demonstra o último antecedente válido e que elementos existem no arquivo municipal? A reconstrução com o novo uso é admissível no PDM, e que limites de ampliação se aplicam?
-9. Como se articulam, no PIP, a verificação das exceções do artigo 60.º, n.º 3, e o parecer vinculativo da comissão municipal? Como se obtém o reconhecimento de interesse municipal referido no artigo 60.º, n.º 2? As condições do artigo 61.º são apreciadas logo no PIP?
-10. Os terrenos têm acesso às redes públicas de água e saneamento, com capacidade para a lotação máxima? Que entidade gestora devemos consultar e que requisitos municipais acrescem a uma solução autónoma?
-11. Que exigências se aplicam aos acessos, incluindo os de emergência, e ao estacionamento? Que classificação acústica abrange cada terreno e os recetores próximos, e exigem avaliação acústica no PIP? Há regras municipais sobre o número de animais ou sobre horários?
-12. Em que fases do procedimento o Município consultará o Gabinete Técnico Florestal e o médico veterinário municipal, e com que finalidade?
+1. Concordam que a atividade seja apreciada como serviço de alojamento de animais? Para cada terreno candidato, o PDM admite esse uso e que parâmetros de edificabilidade se lhe aplicam?
+2. Existe algum processo pendente ou decisão que afete normas do PDM aplicáveis aos terrenos em avaliação?
+3. Num terreno que integre a Estrutura Ecológica Municipal (EEM), as casas de alojamento e a Casa de Apoio Operacional podem enquadrar-se na exceção do artigo 24.º, n.º 1, alínea f), do regulamento do PDM, ou aplica-se a interdição? Na parte integrada na EEM, são admissíveis parques vedados, trilhos e caminhos sem edificação, à luz dos n.os 2 e 3?
+4. Que modalidade de PIP recomendam, a do n.º 1 ou a do n.º 2 do artigo 14.º do RJUE? Que normas municipais de instrução se aplicam, além da Portaria n.º 320/2026/1? Em que casos exigem o levantamento topográfico? É possível um atendimento técnico antes da submissão?
+5. Recomendam que o PIP descreva a implantação máxima, as fases, a capacidade e as componentes que dependem do terreno, como a zona aquática e o gatil, para que fiquem abrangidas pela resposta? Que matérias ficam fora do que o PIP decide?
+6. Como qualificam as casas de alojamento modulares e a Casa de Apoio Operacional, e que procedimento (licença, comunicação prévia ou comunicação prévia com prazo) e que título de utilização se aplicam? Há normas do RMUE que considerem incompatíveis com o RJUE revisto?
+7. Num terreno com ruínas, como se demonstra o último antecedente válido e que elementos existem no arquivo municipal? A reconstrução com o novo uso é admissível no PDM, e que limites de ampliação se aplicam?
+8. Como se articulam, no PIP, a verificação das exceções do artigo 60.º, n.º 3, do Decreto-Lei n.º 82/2021, e o parecer vinculativo da comissão municipal? Como se obtém o reconhecimento de interesse municipal referido no artigo 60.º, n.º 2? As condições do artigo 61.º são apreciadas logo no PIP?
+9. Os terrenos têm acesso às redes públicas de água e saneamento, com capacidade para a lotação máxima? Que requisitos municipais acrescem a uma solução autónoma?
+10. Que exigências se aplicam aos acessos, incluindo os de emergência, e ao estacionamento? Exigem avaliação acústica no PIP? Há regras municipais sobre o número de animais ou sobre horários?
 
 ## 4. O que podemos facultar
 
-Neste momento podemos facultar a [apresentação do projeto](../README.md), com o conceito, os serviços, os espaços, os critérios de seleção do terreno e o faseamento. Para cada terreno candidato, ainda não temos o levantamento topográfico, as certidões prediais e o cadastro, nem a cartografia de perigosidade de incêndio rural. A implantação, o projeto de arquitetura e a capacidade máxima ainda não estão definidos: dependem da escolha do terreno e da orientação que recebermos.
+Neste momento podemos facultar a [apresentação do projeto](../README.md). Para cada terreno candidato, ainda não temos o levantamento topográfico, as certidões prediais e o cadastro, nem a cartografia de perigosidade de incêndio rural. A implantação, o projeto de arquitetura e a capacidade máxima ainda não estão definidos: dependem da escolha do terreno e da orientação que recebermos.
