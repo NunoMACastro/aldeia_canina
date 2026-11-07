@@ -63,7 +63,7 @@ Os serviços combinam-se entre si. A creche/ATL, por exemplo, pode juntar-se ao 
 
 ## 3. Terreno e critérios de seleção
 
-O projeto não depende de uma parcela concreta. Tomamos como referência um terreno com 15 000 a 25 000 m², sem forma topográfica obrigatória. Esta faixa é um pressuposto funcional do conceito, e não um mínimo legal nem uma dimensão fixada. Para cada terreno, a área necessária confirma-se num estudo prévio de implantação, que tem em conta a capacidade prevista, a área que se pode realmente usar, a topografia, os acessos, a drenagem, a segurança, as condicionantes territoriais e a possibilidade de expansão.
+O projeto não depende de uma parcela concreta. Tomamos como referência um terreno com 15 000 a 25 000 m², sem forma topográfica obrigatória. Esta faixa é um pressuposto funcional do conceito, e não um mínimo legal nem uma dimensão fixada. Para cada terreno, a área necessária confirma-se num estudo prévio de implantação. O estudo tem em conta a capacidade prevista e a área que se pode realmente usar, o próprio terreno (topografia, acessos e drenagem), a segurança e as condicionantes territoriais, e a possibilidade de expansão.
 
 A área deve permitir uma implantação pouco densa, com separação entre núcleos, zonas de atividade e de descanso, percursos, áreas verdes e infraestruturas operacionais.
 
@@ -105,7 +105,7 @@ A dimensão, o número e a localização de cada espaço dependem do terreno esc
 
 ### 4.1 Casa de Apoio Operacional
 
-Na Casa de Apoio Operacional ficam a receção e as funções de apoio da aldeia. Se o terreno escolhido tiver ruínas e a sua estabilidade, o seu enquadramento urbanístico e a sua adequação funcional forem confirmados, a casa resulta de preferência da sua reabilitação. Se não, será construção nova ou aproveitará o edificado existente, se houver.
+Na Casa de Apoio Operacional ficam a receção e as funções de apoio da aldeia. A casa resulta de preferência da reabilitação de uma ruína, nas condições descritas na [secção 3](#3-terreno-e-critérios-de-seleção).
 
 ![Aguarela ilustrativa da Casa de Apoio Operacional numa casa de pedra, na hipótese de reabilitação de uma ruína existente, com porta de entrada de duas folhas, pérgula, estacionamento em saibro e a viatura de transporte](images/aguarelas/casa-de-apoio.jpg)
 
@@ -115,7 +115,7 @@ Na receção atendemos os tutores e fazemos o check-in e o check-out das estadia
 
 Para a equipa há instalações sanitárias, incluindo uma solução acessível, vestiários, duche e cacifos, uma pequena copa e uma sala de repouso temporário, para permanências prolongadas ou situações operacionais excecionais. A sala de repouso serve de apoio à equipa e não se destina a habitação, alojamento turístico nem residência permanente.
 
-As áreas operacionais e técnicas incluem a lavandaria, com circuitos separados para o material sujo e o limpo, e a zona de preparação da alimentação animal. Há três armazéns distintos: um para a alimentação, protegido de humidade, pragas e contaminação, outro para produtos de limpeza e higienização e outro para ferramentas, equipamentos e materiais de manutenção. Completam o conjunto uma zona de lavagem, secagem e recolha de material, arrumos para equipamento limpo, uma área técnica para os sistemas elétricos, a água, a energia e a monitorização, uma área controlada para separar e recolher resíduos e um espaço para registos operacionais.
+As áreas operacionais e técnicas incluem a lavandaria, com circuitos separados para o material sujo e o limpo, e a zona de preparação da alimentação animal. Há três armazéns distintos: um para a alimentação, protegido de humidade, pragas e contaminação, outro para produtos de limpeza e higienização e outro para ferramentas, equipamentos e materiais de manutenção. Completam o conjunto uma zona de lavagem, secagem e recolha de material e arrumos para equipamento limpo. Há ainda uma área técnica para os sistemas elétricos, a água, a energia e a monitorização, uma área controlada para separar e recolher resíduos e um espaço para registos operacionais.
 
 O acesso é controlado, com dupla porta de segurança e uma zona de espera separada. A circulação pública fica separada das áreas da equipa e dos circuitos operacionais, e a alimentação, os produtos de limpeza, a manutenção e os resíduos ficam fisicamente separados entre si. O edifício terá boa sinalética, acesso fácil para a viatura de transporte de animais, acessibilidade e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio. Pode ter painéis solares, quando for técnica e economicamente viável.
 
@@ -139,7 +139,7 @@ Prevemos cinco tipologias de casa:
 
 As casas podem ficar a cotas ou em zonas diferentes do terreno, consoante a topografia, o ruído, a sombra, os acessos e a drenagem. As dos cães sénior, ansiosos ou sensíveis ficam nas zonas mais tranquilas, e as dos cães que não toleram bem a proximidade constante ficam mais afastadas.
 
-Cada casa tem um ou mais quartos de alojamento, conforme a tipologia. Cada quarto tem uma área interior protegida e acesso direto a um espaço exterior privado, vedado e separado das restantes áreas da aldeia, e o animal pode alternar entre o repouso, a observação e a permanência no exterior, de acordo com a sua rotina e nas condições definidas pela equipa.
+Cada casa tem um ou mais quartos de alojamento, conforme a tipologia. Cada quarto tem uma área interior protegida e acesso direto a um espaço exterior privado, vedado e separado das restantes áreas da aldeia. O animal pode alternar entre o repouso, a observação e a permanência no exterior, de acordo com a sua rotina e nas condições definidas pela equipa.
 
 A construção tem de ser resistente e enquadrar-se na paisagem, com isolamento térmico ajustado ao clima local, atenuação acústica entre quartos, casas e zonas funcionais, ventilação e renovação de ar adequadas, iluminação natural controlada e iluminação artificial eficiente. O pavimento é confortável, antiderrapante, lavável e resistente ao uso intensivo, e as paredes, os remates e os materiais são compatíveis com higienização frequente. As casas protegem da humidade, da chuva, do calor, do frio e das correntes de ar e, quando aplicável, têm monitorização de temperatura e humidade.
 
@@ -168,13 +168,13 @@ _Figura 4. Visualização ilustrativa dos parques exteriores por perfil._
 
 ### 4.4 Trilhos sensoriais e atividades de enriquecimento
 
-Os trilhos sensoriais juntam relva, areia, madeira, pedra lisa, casca de pinheiro, plantas aromáticas seguras, pequenas rampas, túneis, plataformas, zonas de faro e pontos de pausa, em percursos com estímulos controlados. Contribuem para estimular mentalmente os animais, reduzir a ansiedade e dar-lhes atividade física moderada e enriquecimento ambiental.
+Os trilhos sensoriais juntam superfícies diferentes (relva, areia, madeira, pedra lisa e casca de pinheiro), plantas aromáticas seguras, equipamentos (pequenas rampas, túneis e plataformas), zonas de faro e pontos de pausa, em percursos com estímulos controlados. Contribuem para estimular mentalmente os animais, reduzir a ansiedade e dar-lhes atividade física moderada e enriquecimento ambiental.
 
 ![Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães](images/aguarelas/trilho-sensorial.jpg)
 
 _Figura 5. Visualização ilustrativa de um trilho sensorial._
 
-Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos, zonas de escavação controlada, pequenas pontes, túneis baixos e plataformas de equilíbrio, agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
+Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos e zonas de escavação controlada. Há também equipamentos (pequenas pontes, túneis baixos e plataformas de equilíbrio), agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
 
 As atividades ajustam-se à idade, ao porte, à energia e à condição física de cada animal e alternam com períodos de descanso, porque o descanso, a previsibilidade e as pausas contam tanto como o exercício. O mesmo exercício pode ser adequado para um cão jovem e não para um cão sénior, braquicefálico, ansioso ou com limitações físicas.
 
@@ -231,7 +231,7 @@ _Figura 9. Visualização ilustrativa da zona aquática._
 
 O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes, e valoriza a paisagem do terreno. Não é uma zona de recreio livre nem permanente.
 
-Tem profundidade reduzida e controlada, zonas rasas claramente delimitadas, margens seguras, rampas de entrada e saída em vários pontos, acessos antiderrapantes, vedação ou delimitação física e sombra nas zonas de espera, e entra no plano geral de drenagem e gestão da água.
+Tem profundidade reduzida e controlada, zonas rasas claramente delimitadas e margens seguras, com rampas de entrada e saída em vários pontos e acessos antiderrapantes. Tem também vedação ou delimitação física e sombra nas zonas de espera, e entra no plano geral de drenagem e gestão da água.
 
 Só se acede ao lago com supervisão da equipa, segundo regras por porte, idade, condição física e perfil comportamental, em grupos separados e com horários próprios. Os cães idosos, pequenos, com problemas articulares, ansiosos, braquicefálicos ou com limitações físicas têm avaliação individual prévia, e há uma zona seca alternativa para os cães que não gostam de água ou não devem aceder ao lago.
 
@@ -239,7 +239,7 @@ A qualidade da água é controlada com regularidade e há um plano de limpeza, f
 
 ### 4.9 Gatil
 
-O gatil é só uma possibilidade futura ou uma componente secundária, e depende da área e das condicionantes do terreno. A existir, fica separado da área canina, num edifício afastado do ruído dos cães, com boa ventilação, luz natural, enriquecimento vertical, esconderijos, prateleiras, zonas individuais, controlo de odores, acesso controlado e baixa densidade.
+O gatil é só uma possibilidade futura ou uma componente secundária, e depende da área e das condicionantes do terreno. A existir, fica separado da área canina, num edifício afastado do ruído dos cães. Tem boa ventilação e luz natural, enriquecimento vertical, esconderijos e prateleiras, zonas individuais e baixa densidade, com controlo de odores e acesso controlado.
 
 ![Aguarela ilustrativa de um possível gatil num edifício de madeira afastado das casas dos cães, que se veem ao longe, com janelas grandes que mostram prateleiras, postes para trepar, esconderijos e zonas individuais com três gatos, e um recinto exterior fechado com rede](images/aguarelas/gatil.jpg)
 
@@ -261,15 +261,15 @@ Antes de alojar um animal ou de o receber na creche/ATL, a equipa recolhe, pesso
 
 A admissão exige informação vacinal e sanitária adequada e segue critérios definidos de aceitação, recusa ou aceitação condicionada.
 
-Os animais agrupam-se e alojam-se segundo o porte, a idade, o nível de energia, a sociabilidade, a ansiedade, a reatividade, o estado de saúde, a experiência anterior de alojamento ou de creche/ATL e a pertença à mesma família. Entre os perfis que consideramos estão cães sénior, ansiosos, reativos, tímidos, em primeira estadia, com medicação, com limitações físicas, com menor tolerância a grupos, muito ativos, pequenos, grandes e da mesma família.
+Os animais agrupam-se e alojam-se segundo o porte, a idade, o estado de saúde, o perfil comportamental (nível de energia, sociabilidade, ansiedade e reatividade), a experiência anterior de alojamento ou de creche/ATL e a pertença à mesma família. Entre os perfis que consideramos estão cães pequenos, grandes ou sénior; cães muito ativos, ansiosos, reativos, tímidos ou com menor tolerância a grupos; cães com medicação ou com limitações físicas; e cães em primeira estadia ou da mesma família.
 
 O perfil serve para escolher a casa e o quarto mais adequados, os parques compatíveis e a integração na creche/ATL, e para gerir a alimentação, a medicação e o descanso. Cada animal tem uma ficha individual que vai sendo revista, porque o comportamento pode variar com a idade, a saúde e a experiência; o perfil não funciona como rótulo permanente. A equipa terá formação em leitura comportamental básica e manterá registos de incidentes, alterações de comportamento e observações.
 
-Para cães idosos, com menor mobilidade, em medicação, que precisam de descanso prolongado, ansiosos, sensíveis ao ruído, em primeira estadia, pequenos ou frágeis, há uma zona sénior e calma, mais tranquila. Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra. As rotinas de alimentação, passeio e descanso são previsíveis, com passeios curtos e adaptados, e o acompanhamento é mais próximo, com acesso rápido da equipa e procedimentos de medicação, observação e comunicação com os tutores.
+Há uma zona sénior e calma, mais tranquila, para cães idosos ou com menor mobilidade, em medicação ou que precisam de descanso prolongado, ansiosos ou sensíveis ao ruído, em primeira estadia, pequenos ou frágeis. Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra. As rotinas de alimentação, passeio e descanso são previsíveis, com passeios curtos e adaptados, e o acompanhamento é mais próximo, com acesso rápido da equipa e procedimentos de medicação, observação e comunicação com os tutores.
 
 Pensámo-la para o bem-estar e o acompanhamento adaptado. Não é uma enfermaria, não substitui a hospitalização nem os cuidados veterinários, e não mistura cães sénior frágeis com cães muito ativos. Para os cães sénior há também o Programa Cão Sénior, que acrescenta a tudo isto descanso prolongado, alimentação acompanhada, menor exposição a grupos e um relatório diário para o tutor.
 
-Cada cão tem um plano de rotina simples, com a alimentação, o descanso, o passeio, as atividades de enriquecimento, a socialização, as atividades de faro, os períodos de descanso na creche/ATL, a medicação e as observações.
+Cada cão tem um plano de rotina simples, com a alimentação e a medicação, o descanso (incluindo os períodos de descanso na creche/ATL), o passeio e a socialização, as atividades de enriquecimento e de faro, e as observações.
 
 O Programa de Adaptação à Primeira Estadia serve para reduzir a ansiedade e o risco de má adaptação e tem cinco etapas:
 
@@ -279,17 +279,17 @@ O Programa de Adaptação à Primeira Estadia serve para reduzir a ansiedade e o
 4. primeira noite, se necessário;
 5. relatório comportamental.
 
-Vamos validar com a equipa técnica e com o médico veterinário responsável as dimensões, os materiais, a ventilação, o isolamento térmico, o desempenho acústico, a drenagem, o saneamento e a higienização das instalações. O médico veterinário responsável intervém também nos protocolos de higiene e na conceção da enfermaria e da zona de isolamento. Em matéria de saúde animal, a equipa atua por observação, alerta, contacto com o tutor e articulação com médico veterinário quando necessário. A aldeia não substitui cuidados veterinários.
+Vamos validar com a equipa técnica e com o médico veterinário responsável as dimensões e os materiais das instalações, as condições interiores (ventilação, isolamento térmico e desempenho acústico), a drenagem e o saneamento, e a higienização. O médico veterinário responsável intervém também nos protocolos de higiene e na conceção da enfermaria e da zona de isolamento. Em matéria de saúde animal, a equipa atua por observação, alerta, contacto com o tutor e articulação com médico veterinário quando necessário. A aldeia não substitui cuidados veterinários.
 
 ## 6. Transporte de animais
 
-Prevemos um serviço próprio de transporte, numa carrinha ou num mini autocarro adaptado, para recolher e entregar animais que vêm para estadias, creche/ATL, grooming, treino ou outros serviços. O transporte reduz as barreiras de acesso, incluindo as territoriais, para tutores sem transporte próprio, pessoas idosas ou com dificuldade de deslocação, famílias com horários difíceis, tutores que vivem em zonas afastadas e quem queira usar a creche/ATL sem se deslocar.
+Prevemos um serviço próprio de transporte, numa carrinha ou num mini autocarro adaptado, para recolher e entregar animais que vêm para estadias, creche/ATL, grooming, treino ou outros serviços. O transporte reduz as barreiras de acesso, incluindo as territoriais. Serve tutores sem transporte próprio, pessoas idosas ou com dificuldade de deslocação, famílias com horários difíceis, tutores que vivem em zonas afastadas e quem queira usar a creche/ATL sem se deslocar.
 
 Pode recolher os animais em casa do tutor, entregá-los depois da estadia e levá-los à creche/ATL, ao grooming e às aulas de treino. Pode funcionar em rotas semanais ou em dias específicos e fazer deslocações ligadas a parcerias com médicos veterinários.
 
 A viatura é adaptada ao transporte animal, com transportadoras ou compartimentos seguros, climatização e ventilação, limpeza fácil, protocolo de higienização entre utilizações e separação entre animais. Leva kit de primeiros socorros e contactos de emergência, GPS e documentação de transporte, e será elétrica ou híbrida, se for viável.
 
-O transporte é uma operação controlada e registada. Segue regras por porte, temperamento e saúde, e os animais incompatíveis não viajam em contacto direto. Ficam registadas as autorizações de transporte, as recolhas e as entregas, e as rotas organizam-se para reduzir o stress e o tempo de viagem. Há também regras para atrasos, documentação, animais ansiosos, enjoos, fugas, acidentes e emergências.
+O transporte é uma operação controlada e registada. Segue regras por porte, temperamento e saúde, e os animais incompatíveis não viajam em contacto direto. Ficam registadas as autorizações de transporte, as recolhas e as entregas, e as rotas organizam-se para reduzir o stress e o tempo de viagem. Há também regras para atrasos e documentação, para animais ansiosos ou com enjoos, e para fugas, acidentes e emergências.
 
 ## 7. Sustentabilidade e infraestruturas
 
@@ -305,11 +305,11 @@ Na energia, prevemos painéis solares, com produção individual, agrupada ou ce
 
 Para poupar água, queremos recolher e armazenar águas pluviais em cisternas, regar gota a gota, usar espécies autóctones e, quando legalmente permitido, reduzir o consumo de água potável nas lavagens exteriores e na rega.
 
-O saneamento liga à rede pública ou a uma solução autónoma licenciável, dimensionada para a lotação máxima e para os dejetos, as lavagens, o grooming, a lavandaria e os picos de ocupação. É um critério eliminatório na escolha do terreno.
+O saneamento segue o critério eliminatório descrito na [secção 3](#3-terreno-e-critérios-de-seleção).
 
-No solo e na drenagem, o plano inclui um estudo de escoamento, proteção de taludes, caminhos estabilizados, valas drenantes, pavimentos permeáveis, bacias e zonas de retenção, drenagem natural, controlo de lama e vegetação para fixar o solo. A água, a drenagem e o saneamento planeiam-se em conjunto, sobretudo em terrenos com variação de cotas ou pontos de acumulação de água.
+No solo e na drenagem, o plano inclui um estudo de escoamento. Para a água, inclui valas drenantes, pavimentos permeáveis, drenagem natural e bacias e zonas de retenção; para o solo, proteção de taludes, caminhos estabilizados, controlo de lama e vegetação para o fixar. A água, a drenagem e o saneamento planeiam-se em conjunto, sobretudo em terrenos com variação de cotas ou pontos de acumulação de água.
 
-Nos materiais, prevemos madeira certificada, cortiça, materiais reciclados quando forem adequados, isolamento térmico eficiente, coberturas ventiladas, telhados verdes em zonas selecionadas e tintas e acabamentos de baixa toxicidade. Os materiais têm de ser duráveis, de baixa manutenção e resistentes à humidade, à limpeza e ao uso intensivo.
+Nos materiais, prevemos madeira certificada, cortiça, materiais reciclados quando forem adequados e tintas e acabamentos de baixa toxicidade. Nas construções, prevemos também isolamento térmico eficiente, coberturas ventiladas e telhados verdes em zonas selecionadas. Os materiais têm de ser duráveis, de baixa manutenção e resistentes à humidade, à limpeza e ao uso intensivo.
 
 Quanto aos resíduos, haverá separação, redução de plásticos descartáveis, estações de recolha de dejetos, produtos de limpeza adequados e um plano de higienização. A compostagem fica limitada aos resíduos verdes, salvo validação técnica para outras opções.
 
@@ -319,7 +319,7 @@ Evitamos soluções ambientais difíceis de limpar, de manter ou de licenciar.
 
 O que o projeto tem de inovador está no desenho modular da aldeia, nos serviços ajustados ao perfil de cada animal e no uso do digital na relação com os tutores.
 
-O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir erros, a fazer reservas e a comunicar, guarda o histórico, dá mais transparência e apoia a gestão interna. Arranca com as funcionalidades essenciais:
+O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir erros, a fazer reservas e a comunicar, guarda o histórico e apoia a gestão interna. Arranca com as funcionalidades essenciais, que dão ao tutor mais transparência:
 
 - registo do tutor e do animal, com contactos de emergência;
 - boletim de vacinas, ficha alimentar, medicação e preferências do animal;
@@ -339,11 +339,11 @@ Uma eventual videovigilância das instalações fica separada da comunicação c
 
 A aldeia pode criar emprego local em funções como tratadores e cuidadores, treinador canino, groomer, receção e administração, motorista e manutenção, e recorrer a apoio veterinário externo.
 
-Vemos parcerias possíveis com clínicas veterinárias, associações de proteção animal, escolas profissionais, juntas de freguesia, a Câmara Municipal, fornecedores locais, treinadores, groomers e produtores locais de produtos para animais.
+Vemos parcerias possíveis com clínicas veterinárias e associações de proteção animal, com escolas profissionais, com as juntas de freguesia e a Câmara Municipal, e com fornecedores locais, treinadores, groomers e produtores locais de produtos para animais.
 
-Com a comunidade, podemos organizar dias de adoção responsável, workshops de cuidados básicos e de primeiros socorros para animais, sessões sobre comportamento canino, formação para famílias e sessões para crianças, ações de prevenção do abandono, caminhadas educativas e campanhas solidárias.
+Com a comunidade, podemos organizar ações de formação: workshops de cuidados básicos e de primeiros socorros para animais, sessões sobre comportamento canino, formação para famílias e sessões para crianças. Podemos também organizar dias de adoção responsável, ações de prevenção do abandono, caminhadas educativas e campanhas solidárias.
 
-Pode haver ainda um programa social, com uma quota limitada e bem delimitada para situações especiais: apoio temporário a animais de pessoas hospitalizadas, apoio a tutores idosos, parcerias com associações, apoio em situações de emergência social e estadias solidárias mediante protocolo.
+Pode haver ainda um programa social, com uma quota limitada e bem delimitada para situações especiais. A existir, abrange o apoio temporário a animais de pessoas hospitalizadas, o apoio a tutores idosos, as parcerias com associações, o apoio em situações de emergência social e as estadias solidárias mediante protocolo.
 
 O transporte próprio contribui também para a mobilidade inclusiva no território (ver [secção 6](#6-transporte-de-animais)).
 

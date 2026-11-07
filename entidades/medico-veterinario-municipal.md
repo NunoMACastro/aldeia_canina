@@ -4,7 +4,7 @@
 
 Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, que descrevemos na [apresentação do projeto](../README.md). No alojamento com pernoita e na creche diária vamos receber cães de diferentes tutores. Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m². Ainda não escolhemos o terreno.
 
-Antes de prepararmos as instalações e a mera comunicação prévia à [DGAV](dgav.md), gostaríamos de ter a vossa orientação sobre a vertente hígio-sanitária das instalações e da operação (profilaxia, isolamento, higiene e articulação com o médico veterinário responsável do alojamento) e de saber se a nossa leitura está certa.
+Antes de prepararmos as instalações e a mera comunicação prévia à [DGAV](dgav.md), gostaríamos de ter a vossa orientação sobre a vertente hígio-sanitária das instalações e da operação: profilaxia, isolamento, higiene e articulação com o médico veterinário responsável do alojamento. Gostaríamos também de saber se a nossa leitura está certa.
 
 ## 2. O que já analisámos
 
