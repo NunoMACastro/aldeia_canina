@@ -366,8 +366,8 @@ A aldeia cresce por módulos, de forma progressiva, a partir de um núcleo essen
 
 | Nível | Componentes |
 | --- | --- |
-| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; plano de água, saneamento e drenagem. |
-| Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; creche diária/ATL canino; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino. |
+| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; creche diária/ATL canino; plano de água, saneamento e drenagem. |
+| Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino. |
 | Prioridade média | Zona aquática; grooming. |
 | Complementares ou futuras | Gatil; câmaras em direto. |
 

@@ -394,9 +394,25 @@
     var alvoDe = function (href) {
       try { return decodeURIComponent(href.slice(1)); } catch (e) { return href.slice(1); }
     };
+    /* Na grelha da §4, um espaço de cada vez: escolher um fecha os outros espaços que estiverem
+       abertos. «Ler a secção completa» continua a abrir todos, para quem quer lê-los de seguida;
+       as remissões, o índice e os fios não fecham nada. */
+    var partesEspacos = Array.prototype.filter.call(doc.querySelectorAll(":scope > .detalhe"), function (parte) {
+      var h3 = parte.querySelector("h3");
+      return !!h3 && /^4/.test(h3.id);
+    });
+    var fecharOutrosEspacos = function (id) {
+      var alvo = id && document.getElementById(id);
+      var parteAlvo = alvo && alvo.closest(".detalhe");
+      var outras = partesEspacos.filter(function (p) { return p !== parteAlvo && !p.hasAttribute("hidden"); });
+      if (outras.length) { mostrar(outras, false); atualizarTudo(); }
+    };
     document.addEventListener("click", function (e) {
       var a = e.target.closest && e.target.closest('a[href^="#"]');
-      if (a) abrirAlvo(alvoDe(a.getAttribute("href")));
+      if (!a) return;
+      var id = alvoDe(a.getAttribute("href"));
+      if (a.closest(".espacos")) fecharOutrosEspacos(id);
+      abrirAlvo(id);
     }, true);
     var irParaHash = function () {
       var alvo = abrirAlvo(alvoDe(location.hash));

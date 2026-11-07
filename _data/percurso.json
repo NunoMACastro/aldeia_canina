@@ -1,8 +1,8 @@
 {
   "_nota": "Correspondências editoriais da apresentação, decididas pelo utilizador a 2026-11-07. «fases»: os espaços da §4 que cada nível do quadro da §11 nomeia (o nível tem de ser o texto exato da primeira coluna desse quadro; os espaços, o número da subsecção). «fios»: as passagens do README sobre cada condicionante do quadro da §10 (a condicionante tem de ser o texto exato da primeira coluna; cada passagem, um excerto exato do README, dentro de um só parágrafo, item ou célula). Se o README mudar, estas listas mudam também; o verificar.py confirma que cada excerto ainda existe.",
   "fases": [
-    { "nivel": "Núcleo essencial", "espacos": ["4.1", "4.2", "4.6"] },
-    { "nivel": "Prioridade alta", "espacos": ["4.4", "4.5", "4.7"] },
+    { "nivel": "Núcleo essencial", "espacos": ["4.1", "4.2", "4.5", "4.6"] },
+    { "nivel": "Prioridade alta", "espacos": ["4.4", "4.7"] },
     { "nivel": "Prioridade média", "espacos": ["4.7", "4.8"] },
     { "nivel": "Complementares ou futuras", "espacos": ["4.9"] }
   ],
