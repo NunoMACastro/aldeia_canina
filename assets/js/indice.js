@@ -152,8 +152,8 @@
        parágrafo (com a entrada), as peças visuais e a frase com dois pontos que as introduz;
        o resto fica fechado até o leitor pedir, num botão no fim da secção. Ficam sempre
        abertos «Sobre este documento» e a §12, que têm as ressalvas; as secções 1 e 3 e o
-       quadro da 10, que o próprio README apresenta como o resumo («As secções 1, 3 e 10
-       resumem…»); os parágrafos de prudência que se leem sozinhos (a aldeia não substitui
+       quadro da 10, que resumem o conceito, os critérios do terreno e as
+       condicionantes; os parágrafos de prudência que se leem sozinhos (a aldeia não substitui
        cuidados veterinários, as câmaras em direto fora da primeira fase); e o que for tão
        curto que um botão não compensa. Na §4, cada entrada da grelha abre só a sua subsecção.
        As partes fechadas usam hidden="until-found": a pesquisa do browser encontra-as e

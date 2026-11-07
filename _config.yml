@@ -12,7 +12,7 @@ lang: pt-PT
 # «Documento preliminar» vai «natureza_curta», a mesma frase sem repetir o título,
 # que acompanha «natureza» quando esta mudar.
 versao: "Versão 1.0, de 3 de novembro de 2026."
-natureza: "É um documento preliminar, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal."
+natureza: "Este documento preliminar apresenta o projeto antes de escolhermos o terreno; não é projeto de execução nem pedido formal."
 natureza_curta: "Preparado antes de escolhermos o terreno; não é projeto de execução nem pedido formal."
 # Título da página de entrada no site: a primeira frase do README.
 titulo_entrada: "Apresentação do projeto às entidades"

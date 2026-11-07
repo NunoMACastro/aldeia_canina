@@ -4,7 +4,7 @@ Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026.
 
 ## Sobre este documento
 
-Este documento apresenta o projeto no seu conjunto: o conceito, os serviços, os espaços, o funcionamento, as infraestruturas e os critérios de escolha do terreno. É o mesmo para todas as entidades. É um documento preliminar, preparado antes de escolhermos o terreno, e não é projeto de execução nem pedido formal.
+Este documento preliminar apresenta o projeto antes de escolhermos o terreno; não é projeto de execução nem pedido formal.
 
 Para cada entidade preparámos também um documento com os regimes que identificámos e as questões que gostaríamos de confirmar:
 
@@ -15,8 +15,6 @@ Para cada entidade preparámos também um documento com os regimes que identific
 | Direção-Geral de Alimentação e Veterinária (DGAV) | [Pedido de orientação à Direção-Geral de Alimentação e Veterinária (DGAV)](entidades/dgav.md) |
 | Instituto da Conservação da Natureza e das Florestas (ICNF) | [Pedido de orientação ao Instituto da Conservação da Natureza e das Florestas (ICNF)](entidades/icnf.md) |
 | Médico veterinário municipal | [Pedido de orientação ao médico veterinário municipal](entidades/medico-veterinario-municipal.md) |
-
-As secções 1, 3 e 10 resumem o conceito, os critérios de escolha do terreno e as condicionantes com as medidas previstas.
 
 Conteúdo:
 
@@ -101,8 +99,6 @@ Na implantação, o desenho acompanha o terreno e evita soluções demasiado art
 
 ## 4. Espaços e componentes
 
-A dimensão, o número e a localização de cada espaço dependem do terreno escolhido e do projeto técnico.
-
 ### 4.1 Casa de Apoio Operacional
 
 Na Casa de Apoio Operacional ficam a receção e as funções de apoio da aldeia. A casa resulta de preferência da reabilitação de uma ruína, nas condições descritas na [secção 3](#3-terreno-e-critérios-de-seleção).
@@ -176,13 +172,13 @@ _Figura 5. Visualização ilustrativa de um trilho sensorial._
 
 Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos, zonas de escavação controlada, pequenas pontes, túneis baixos e plataformas de equilíbrio, agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
 
-As atividades ajustam-se à idade, ao porte, à energia e à condição física de cada animal e alternam com períodos de descanso, porque o descanso, a previsibilidade e as pausas contam tanto como o exercício. O mesmo exercício pode ser adequado para um cão jovem e não para um cão sénior, braquicefálico, ansioso ou com limitações físicas.
+As atividades ajustam-se à idade, ao porte, à energia e à condição física de cada animal e alternam com períodos de descanso.
 
 Os materiais são seguros, laváveis e resistentes. Os túneis, as rampas, as plataformas e os restantes equipamentos são inspecionados com regularidade, e as plantas e os substratos escolhem-se por serem seguros para cães. A equipa regista as preferências e as limitações de cada animal.
 
 ### 4.5 Creche diária e ATL canino
 
-A creche diária/ATL canino é para tutores que precisam de deixar o cão durante o dia, sem alojamento noturno. Usa os parques exteriores, os trilhos sensoriais e as zonas de descanso, e apoia-se na avaliação comportamental.
+A creche/ATL usa os parques exteriores, os trilhos sensoriais e as zonas de descanso, e apoia-se na avaliação comportamental.
 
 ![Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos](images/aguarelas/creche-e-parques.jpg)
 
@@ -192,11 +188,11 @@ Tem uma zona de receção e entrega rápida, áreas de permanência diurna e par
 
 A creche/ATL tem lotação própria, ajustada à equipa disponível, e critérios de admissão específicos, com avaliação prévia. Os cães separam-se por porte, idade, energia, sociabilidade e forma de interagir com outros cães, e ficam registadas a adaptação, os incidentes e as compatibilidades.
 
-Nem todos os cães são bons candidatos a uma creche em grupo. Quando a segurança ou o bem-estar do animal ou do grupo possam estar em causa, a resposta pode ser uma atividade individual, uma adaptação gradual ou uma recusa fundamentada.
+Quando a segurança ou o bem-estar do animal ou do grupo possam estar em causa, a resposta pode ser uma atividade individual, uma adaptação gradual ou uma recusa fundamentada.
 
 ### 4.6 Enfermaria e zona de isolamento
 
-A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação pública, da preparação de alimentos e das áreas comuns da equipa. São instalações especializadas e, conforme a validação técnica e veterinária, incluem:
+A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação pública, da preparação de alimentos e das áreas comuns da equipa. Conforme a validação técnica e veterinária, incluem:
 
 - acesso controlado e, sempre que possível, independente;
 - ventilação e materiais adequados à higienização;
@@ -263,11 +259,11 @@ A admissão exige informação vacinal e sanitária adequada e segue critérios 
 
 Os animais agrupam-se e alojam-se segundo o porte, a idade, o estado de saúde, o perfil comportamental (nível de energia, sociabilidade, ansiedade e reatividade), a experiência anterior de alojamento ou de creche/ATL e a pertença à mesma família. Entre os perfis que consideramos estão cães pequenos, grandes ou sénior; cães muito ativos, ansiosos, reativos, tímidos ou com menor tolerância a grupos; cães com medicação ou com limitações físicas; e cães em primeira estadia ou da mesma família.
 
-O perfil serve para escolher a casa e o quarto mais adequados, os parques compatíveis e a integração na creche/ATL, e para gerir a alimentação, a medicação e o descanso. Cada animal tem uma ficha individual que vai sendo revista, porque o comportamento pode variar com a idade, a saúde e a experiência; o perfil não funciona como rótulo permanente. A equipa terá formação em leitura comportamental básica e manterá registos de incidentes, alterações de comportamento e observações.
+O perfil serve para escolher a casa e o quarto mais adequados, os parques compatíveis e a integração na creche/ATL, e para gerir a alimentação, a medicação e o descanso. Cada animal tem uma ficha individual que vai sendo revista; o perfil não funciona como rótulo permanente. A equipa terá formação em leitura comportamental básica e manterá registos de incidentes, alterações de comportamento e observações.
 
 Há uma zona sénior e calma, mais tranquila, para cães idosos, com menor mobilidade, em medicação, que precisam de descanso prolongado, ansiosos, sensíveis ao ruído, em primeira estadia, pequenos ou frágeis. Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra. As rotinas de alimentação, passeio e descanso são previsíveis, com passeios curtos e adaptados, e o acompanhamento é mais próximo, com acesso rápido da equipa e procedimentos de medicação, observação e comunicação com os tutores.
 
-Pensámo-la para o bem-estar e o acompanhamento adaptado. Não é uma enfermaria, não substitui a hospitalização nem os cuidados veterinários, e não mistura cães sénior frágeis com cães muito ativos. Para os cães sénior há também o Programa Cão Sénior, que acrescenta a tudo isto descanso prolongado, alimentação acompanhada, menor exposição a grupos e um relatório diário para o tutor.
+A zona sénior não é uma enfermaria e não mistura cães sénior frágeis com cães muito ativos. Para os cães sénior há também o Programa Cão Sénior, que acrescenta a tudo isto descanso prolongado, alimentação acompanhada, menor exposição a grupos e um relatório diário para o tutor.
 
 Cada cão tem um plano de rotina simples, com a alimentação, o descanso, o passeio, as atividades de enriquecimento, a socialização, as atividades de faro, os períodos de descanso na creche/ATL, a medicação e as observações.
 
@@ -301,7 +297,7 @@ _Figura 11. Visualização ilustrativa da integração da aldeia na paisagem._
 
 Se o terreno tiver ruínas ou edificado existente, queremos reabilitá-los e reutilizá-los, depois da avaliação estrutural e da confirmação do enquadramento urbanístico (ver [secção 3](#3-terreno-e-critérios-de-seleção)).
 
-Na energia, prevemos painéis solares, com produção individual, agrupada ou centralizada, eventualmente uma micro-rede energética e baterias, quando fizerem sentido técnico. Juntam-se iluminação LED e sensores de presença, iluminação exterior eficiente, monitorização de consumos e carregamento para a viatura elétrica ou híbrida. O dimensionamento parte dos consumos reais previstos.
+Na energia, prevemos painéis solares, com produção individual, agrupada ou centralizada, eventualmente uma micro-rede energética e baterias, quando fizerem sentido técnico. Juntam-se iluminação LED e sensores de presença, iluminação exterior eficiente, monitorização de consumos e carregamento para a viatura elétrica ou híbrida.
 
 Para poupar água, queremos recolher e armazenar águas pluviais em cisternas, regar gota a gota, usar espécies autóctones e, quando legalmente permitido, reduzir o consumo de água potável nas lavagens exteriores e na rega.
 
@@ -319,7 +315,7 @@ Evitamos soluções ambientais difíceis de limpar, de manter ou de licenciar.
 
 O que o projeto tem de inovador está no desenho modular da aldeia, nos serviços ajustados ao perfil de cada animal e no uso do digital na relação com os tutores.
 
-O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir erros, a fazer reservas e a comunicar, guarda o histórico e apoia a gestão interna. Arranca com as funcionalidades essenciais, que dão ao tutor mais transparência:
+O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir erros, a fazer reservas e a comunicar, e guarda o histórico. Arranca com as funcionalidades essenciais, que dão ao tutor mais transparência:
 
 - registo do tutor e do animal, com contactos de emergência;
 - boletim de vacinas, ficha alimentar, medicação e preferências do animal;
@@ -329,7 +325,7 @@ O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir 
 
 Mais tarde, ou como complemento, podem vir relatórios diários, fotografias e vídeos curtos, check-in e check-out digital, alertas, recomendações pós-estadia e agenda de grooming e treino.
 
-O acesso ao portal será autenticado, com os dados organizados por tutor e por animal, permissões de visualização adequadas e registo de autorizações. O portal recolhe apenas os dados necessários, protege os dados pessoais e a informação sensível, tem prazos definidos de conservação e eliminação e prevê cópias de segurança e controlo de acessos. Liga-se às reservas, à admissão e à comunicação diária, para simplificar a operação sem duplicar trabalho.
+O acesso ao portal será autenticado, com os dados organizados por tutor e por animal, permissões de visualização adequadas e registo de autorizações. O portal recolhe apenas os dados necessários, protege os dados pessoais e a informação sensível, tem prazos definidos de conservação e eliminação e prevê cópias de segurança e controlo de acessos. Liga-se às reservas, à admissão e à comunicação diária.
 
 A partilha de fotografias e vídeos com os tutores segue uma política de imagens própria, baseada no consentimento e na proteção de dados pessoais. Fotografar e filmar vem depois do bem-estar animal e da rotina de cuidado.
 
@@ -344,8 +340,6 @@ Vemos parcerias possíveis com clínicas veterinárias, associações de proteç
 Com a comunidade, podemos organizar ações de formação: workshops de cuidados básicos e de primeiros socorros para animais, sessões sobre comportamento canino, formação para famílias e sessões para crianças. Podemos também organizar dias de adoção responsável, ações de prevenção do abandono, caminhadas educativas e campanhas solidárias.
 
 Pode haver ainda um programa social, com uma quota limitada e bem delimitada para situações especiais: apoio temporário a animais de pessoas hospitalizadas, apoio a tutores idosos, parcerias com associações, apoio em situações de emergência social e estadias solidárias mediante protocolo.
-
-O transporte próprio contribui também para a mobilidade inclusiva no território (ver [secção 6](#6-transporte-de-animais)).
 
 ## 10. Condicionantes e medidas previstas
 
@@ -372,17 +366,17 @@ A aldeia cresce por módulos, de forma progressiva, a partir de um núcleo essen
 
 | Nível | Componentes |
 | --- | --- |
-| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional (por reabilitação de ruínas, quando existam e sejam viáveis); enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; plano de água, saneamento e drenagem. |
+| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; plano de água, saneamento e drenagem. |
 | Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; creche diária/ATL canino; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino. |
 | Prioridade média | Zona aquática; grooming. |
 | Complementares ou futuras | Gatil; câmaras em direto. |
 
-A composição e o calendário de cada fase definem-se no desenvolvimento do projeto. O que depende do terreno escolhido está descrito na [secção 3](#3-terreno-e-critérios-de-seleção).
+A composição e o calendário de cada fase definem-se no desenvolvimento do projeto.
 
 ## 12. Natureza e limites deste documento
 
-Este é um documento preliminar. Não é projeto de execução nem estudo de implantação, nem um pedido formal de informação prévia, licenciamento ou autorização. Apresentamo-lo às entidades antes da escolha do terreno e do PIP, para recolher a sua orientação. O terreno ainda não foi escolhido, e não identificamos nem avaliamos aqui nenhum dos quatro terrenos que estamos a considerar.
+Este é um documento preliminar. Não é projeto de execução nem estudo de implantação, nem um pedido formal de informação prévia, licenciamento ou autorização. Apresentamo-lo às entidades antes da escolha do terreno e do PIP, para recolher a sua orientação.
 
-As figuras são visualizações ilustrativas e não representam nenhum dos terrenos em estudo, nem uma implantação, planta ou infraestrutura existente. Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
+Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
 
 O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes que identificámos, mas o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.
