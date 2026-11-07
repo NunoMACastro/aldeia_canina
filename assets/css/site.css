@@ -259,8 +259,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 /* Apresentação: as estruturas que o README já tem (quadros, listas, etapas) leem-se de
    relance. Cada peça é apanhada pela secção onde está, pelo id do título (o h2 da secção N
    tem id começado por «N-»), sem mudar o Markdown; tudo isto se aplica sem JavaScript.
-   O script só marca a primeira frase de cada secção e de cada critério e parte o
-   faseamento em etiquetas. */
+   O script marca a primeira frase de cada secção e de cada critério, parte o faseamento
+   em etiquetas, junta os temas da §7 e monta o passeio da §4. */
 .inicio .doc .entrada {
   display: block; margin-bottom: .6rem; color: var(--tinta);
   font-size: 1.28rem; line-height: 1.45; letter-spacing: -.004em;
@@ -329,6 +329,56 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .espacos a:hover .espaco-nome { color: var(--pinho); }
 .espacos a:hover .espaco-img img { transform: scale(1.06); }
 @media (prefers-reduced-motion: reduce) { .espaco-img img { transition: none; } .espacos a:hover .espaco-img img { transform: none; } }
+
+/* §4 Passeio: cada espaço com a sua aguarela e a legenda numa coluna própria, montada pelo
+   script. No ecrã largo, a coluna fica fixa ao lado do texto enquanto se lê o espaço, e o
+   espaço ocupa também a largura da coluna lateral, que recolhe como com as figuras largas;
+   no estreito e no papel, a figura vem por cima do texto. No fim de cada espaço, ligações
+   para o anterior e o seguinte. */
+.doc .passeio-fig p:has(> img:only-child) { margin: 1.1rem 0 .7rem; }
+.doc .passeio-fig p:has(> img:only-child) + p { margin-bottom: 1.6rem; }
+.passeio-nav {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.6rem;
+  max-width: var(--medida); margin: 2.2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--filete);
+}
+.passeio-nav a { display: flex; flex-direction: column; gap: .2rem; min-height: 44px; color: var(--tinta); text-decoration: none; }
+.passeio-seguinte { grid-column: 2; text-align: right; align-items: flex-end; }
+.passeio-rel { font: 600 .84rem/1.3 var(--f-titulo); color: var(--tinta-2); }
+.passeio-t { font: 600 1.02rem/1.3 var(--f-texto); text-wrap: balance; transition: color .25s var(--suave); }
+.passeio-nav a:hover .passeio-t { color: var(--pinho); }
+.passeio:not([hidden]) { margin-bottom: 1.6rem; }
+@media screen and (min-width: 64.01rem) {
+  .passeio:not([hidden]) {
+    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: clamp(2rem, 3vw, 3.2rem); align-items: start;
+    position: relative; z-index: 3; background: var(--chao);
+    margin-right: calc(-1 * (var(--lado) + var(--vao)));
+  }
+  .passeio > h3 { grid-column: 1 / -1; }
+  .passeio-fig { position: sticky; top: 1.5rem; }
+  .doc .passeio-fig p:has(> img:only-child) { margin: .35rem 0 .7rem; }
+  .doc .passeio-fig p:has(> img:only-child) + p { margin-bottom: 0; }
+  .passeio-texto > :first-child { margin-top: .35rem; }
+}
+/* O movimento do passeio, um só: no ecrã largo, enquanto se lê o espaço, a aguarela
+   aproxima-se devagar, presa ao scroll. Só onde o browser liga a animação ao scroll e sem
+   pedido de movimento reduzido. */
+@supports (animation-timeline: view()) {
+  @media screen and (min-width: 64.01rem) and (prefers-reduced-motion: no-preference) {
+    .passeio { view-timeline: --espaco block; }
+    .passeio-fig p:has(> img:only-child) { overflow: hidden; }
+    .passeio-fig img { animation: deriva linear both; animation-timeline: --espaco; }
+    @keyframes deriva { from { transform: scale(1); } to { transform: scale(1.06); } }
+  }
+}
+@media (prefers-reduced-motion: reduce) { .passeio-t { transition: none; } }
+
+/* §7 Temas: os parágrafos que abrem por um tema, em blocos lado a lado. O texto continua na
+   serifa do documento; o tema é o início do próprio parágrafo, marcado pelo script e posto
+   em linha própria, maior e sem negrito, como a entrada; filete por cima e sem fundo, para
+   não se confundirem com os critérios da §3. */
+.inicio .temas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.2rem; margin: 1.8rem 0 2.2rem; }
+.inicio .doc .tema { max-width: none; margin: 0; padding: .95rem 0 1.15rem; border-top: 1px solid var(--filete); font: 400 1.02rem/1.55 var(--f-texto); }
+.tema-t { display: block; margin-bottom: .3rem; color: var(--tinta); font: 400 1.2rem/1.35 var(--f-texto); letter-spacing: -.004em; }
 
 /* §5 Programa de Adaptação: as cinco etapas num percurso, com o traço das secções a marcar cada uma */
 .inicio .doc h2[id^="5-"] ~ ol:not(h2[id^="6-"] ~ ol) {
@@ -509,6 +559,10 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tbody,
   .inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) { grid-template-columns: minmax(0, 1fr); }
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr { padding: 1rem var(--gutter) 1.15rem; margin-inline: calc(-1 * var(--gutter)); }
+  /* Temas e ligações do passeio numa coluna */
+  .inicio .temas { grid-template-columns: minmax(0, 1fr); }
+  .passeio-nav { grid-template-columns: minmax(0, 1fr); }
+  .passeio-seguinte { grid-column: auto; text-align: left; align-items: flex-start; }
   /* Grelha da §4: uma lista de linhas, com a miniatura à esquerda */
   .espacos ol { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--filete); }
   .espacos a {
@@ -544,6 +598,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .menu, .saltar, .indice, .postais-entrada, .postais-fim, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
+  .passeio-nav { display: none; }
+  .inicio .temas { display: block; }
   /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr,
   .inicio .doc h2[id^="11-"] ~ table:not(h2[id^="12-"] ~ table) tbody tr:first-child { background: none; border: 1px solid #999; border-top: 2px solid #000; margin-inline: 0; }

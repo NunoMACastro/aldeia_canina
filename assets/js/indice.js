@@ -105,6 +105,49 @@
       td.appendChild(ul);
     });
 
+    /* Temas das secções 7 a 9: uma sequência de três ou mais parágrafos que abrem por um tema
+       («Na energia, …», «Para poupar água, …») passa a blocos lado a lado, com o tema à vista.
+       O tema é o início do próprio parágrafo, marcado; o texto fica igual. Um parágrafo curto
+       entre dois temas («O saneamento segue…») entra na sequência, com o sujeito como tema. */
+    var TEMA = /^((?:Na|No|Nas|Nos|Para|Quanto (?:a|ao|aos|à|às))\s[^,.;:]{2,40}),\s/;
+    var SUJEITO = /^((?:O|A|Os|As)\s[^\s,.;:]+)\s/;
+    var abreTema = function (el) {
+      return !!el && el.tagName === "P" && !!el.firstChild && el.firstChild.nodeType === 3 && TEMA.test(el.firstChild.data);
+    };
+    Array.prototype.forEach.call(document.querySelectorAll('.doc > h2[id^="7-"], .doc > h2[id^="8-"], .doc > h2[id^="9-"]'), function (h) {
+      var els = [];
+      for (var el = h.nextElementSibling; el && el.tagName !== "H2"; el = el.nextElementSibling) els.push(el);
+      var marca = els.map(function (el, i) {
+        if (abreTema(el)) return TEMA;
+        var ponte = el.tagName === "P" && el.firstChild && el.firstChild.nodeType === 3 && el.textContent.length < 200 &&
+          abreTema(els[i - 1]) && abreTema(els[i + 1]) && SUJEITO.test(el.firstChild.data);
+        return ponte ? SUJEITO : null;
+      });
+      var seq = [];
+      var fechar = function () {
+        if (seq.length >= 3) {
+          var caixa = document.createElement("div");
+          caixa.className = "temas";
+          seq[0].el.parentNode.insertBefore(caixa, seq[0].el);
+          seq.forEach(function (t) {
+            var texto = t.el.firstChild;
+            var m = t.re.exec(texto.data);
+            var corte = t.re === TEMA ? m[1].length + 1 : m[1].length;
+            texto.splitText(corte);
+            var rotulo = document.createElement("span");
+            rotulo.className = "tema-t";
+            t.el.insertBefore(rotulo, texto);
+            rotulo.appendChild(texto);
+            t.el.classList.add("tema");
+            caixa.appendChild(t.el);
+          });
+        }
+        seq = [];
+      };
+      els.forEach(function (el, i) { if (marca[i]) seq.push({ el: el, re: marca[i] }); else fechar(); });
+      fechar();
+    });
+
     /* Resumo primeiro, detalhe a pedido. Em cada secção ficam à vista o título, o primeiro
        parágrafo (com a entrada), as peças visuais e a frase com dois pontos que as introduz;
        o resto fica fechado até o leitor pedir, num botão no fim da secção. Ficam sempre
@@ -118,7 +161,7 @@
     var doc = document.querySelector(".doc");
     var PECAS = '[id^="2-"] + table, [id^="3-"] ~ table:not([id^="4-"] ~ table), [id^="3-"] ~ ul:not([id^="4-"] ~ ul), ' +
       '.espacos, [id^="5-"] ~ ol:not([id^="6-"] ~ ol), [id^="10-"] ~ table:not([id^="11-"] ~ table), ' +
-      '[id^="11-"] ~ table:not([id^="12-"] ~ table)';
+      '[id^="11-"] ~ table:not([id^="12-"] ~ table), .temas';
     var PRUDENCIA = /A aldeia não substitui cuidados veterinários|câmaras em direto para tutores/;
     var CURTO = 300;
     var seccoes = [];
@@ -211,6 +254,50 @@
         }
       });
     });
+    /* §4 como passeio: em cada espaço, a aguarela e a legenda passam a uma coluna própria, fixa
+       ao lado do texto no ecrã largo e por cima dele no estreito, e o espaço acaba com ligações
+       para o anterior e o seguinte. Só reorganiza: o texto e as figuras são os mesmos. */
+    var passeio = Array.prototype.filter.call(doc.querySelectorAll(":scope > .detalhe"), function (parte) {
+      var h3 = parte.firstElementChild;
+      return !!h3 && h3.tagName === "H3" && /^4/.test(h3.id) && !!parte.querySelector(":scope > p > img:only-child");
+    });
+    passeio.forEach(function (parte, i) {
+      var h3 = parte.firstElementChild;
+      var fig = parte.querySelector(":scope > p > img:only-child").parentNode;
+      var leg = fig.nextElementSibling;
+      var coluna = document.createElement("div");
+      coluna.className = "passeio-fig";
+      coluna.appendChild(fig);
+      if (leg && leg.tagName === "P" && leg.querySelector(":scope > em:only-child")) coluna.appendChild(leg);
+      var texto = document.createElement("div");
+      texto.className = "passeio-texto";
+      while (h3.nextSibling) texto.appendChild(h3.nextSibling);
+      /* Um bloco simples e não uma nav: nove pontos de referência iguais só fariam ruído no
+         leitor de ecrã, e cada ligação já diz para onde vai */
+      var nav = document.createElement("div");
+      nav.className = "passeio-nav";
+      [[passeio[i - 1], "Espaço anterior", "anterior"], [passeio[i + 1], "Espaço seguinte", "seguinte"]].forEach(function (v) {
+        if (!v[0]) return;
+        var alvo = v[0].firstElementChild;
+        var a = document.createElement("a");
+        a.href = "#" + alvo.id;
+        a.className = "passeio-" + v[2];
+        var rel = document.createElement("span");
+        rel.className = "passeio-rel";
+        rel.textContent = v[1];
+        var t = document.createElement("span");
+        t.className = "passeio-t";
+        t.textContent = alvo.textContent.replace(/\s+/g, " ").trim();
+        a.appendChild(rel);
+        a.appendChild(t);
+        nav.appendChild(a);
+      });
+      texto.appendChild(nav);
+      parte.classList.add("passeio");
+      parte.appendChild(coluna);
+      parte.appendChild(texto);
+    });
+
     /* Um só botão, na coluna lateral, abre ou fecha todas as secções */
     var tudo = null;
     var atualizarTudo = function () {
@@ -267,7 +354,10 @@
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */
   var lado = document.querySelector(".lado");
-  var largas = Array.prototype.slice.call(document.querySelectorAll(".doc p > img:only-child")).map(function (i) { return i.parentNode; });
+  var largas = Array.prototype.slice.call(document.querySelectorAll(".doc p > img:only-child"))
+    .map(function (i) { return i.parentNode; })
+    .filter(function (p) { return !p.closest(".passeio"); })
+    .concat(Array.prototype.slice.call(document.querySelectorAll(".doc .passeio")));
   if (lado && largas.length && window.matchMedia) {
     var largo = window.matchMedia("(min-width: 64.01rem)");
     var pendente = false;
@@ -277,7 +367,8 @@
       if (largo.matches) {
         var r = lado.getBoundingClientRect();
         largas.forEach(function (p) {
-          if (getComputedStyle(p).display === "none") return;
+          /* Uma parte fechada não ocupa altura nem tapa nada */
+          if (p.closest("[hidden]") || getComputedStyle(p).display === "none") return;
           var f = p.getBoundingClientRect();
           if (f.bottom > r.top && f.top < r.bottom) tapa = true;
         });
