@@ -189,6 +189,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
 .postais-entrada { position: relative; z-index: 2; max-width: 76rem; margin: -5rem auto 0; padding-inline: var(--margem); }
 .postais-fim { max-width: 76rem; margin: 0 auto; padding: 1rem var(--margem) 3.5rem; }
 .postais-t { font: 600 1.6rem/1.2 var(--f-texto); margin: 0 0 1.2rem; padding-top: 1.4rem; border-top: 1px solid var(--filete); }
+/* Na entrada, o título só aparece no telemóvel, onde os postais deixam de assentar na imagem */
+.postais-entrada .postais-t { display: none; }
 
 /* Folha: coluna de leitura e coluna lateral */
 .folha {
@@ -480,9 +482,18 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .inicio .vista-texto { padding-bottom: 1.6rem; }
   .inicio .vista h1 { font-size: 2.1rem; }
   .postais-entrada { margin-top: 1.2rem; }
-  .postais ul { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: .8rem; padding-bottom: .6rem; scrollbar-width: none; }
-  .postais ul::-webkit-scrollbar { display: none; }
-  .postais li { flex: 0 0 72%; scroll-snap-align: start; }
+  /* Postais: uma lista de linhas com a miniatura à esquerda, como a grelha da §4; as cinco
+     entidades veem-se sem deslocar para o lado */
+  .postais-entrada .postais-t { display: block; padding-top: 0; border-top: 0; }
+  .postais ul { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--filete); }
+  .postais a {
+    flex-direction: row; align-items: center; gap: .9rem; min-height: 44px; padding: .55rem 0;
+    background: none; box-shadow: none; border-top: 1px solid var(--filete);
+  }
+  .postais a:hover { transform: none; }
+  .postais a:hover:not(:focus-visible) { box-shadow: none; }
+  .postal-img { flex: 0 0 5.2rem; height: 3.5rem; }
+  .postal-nome { padding: 0; border-top: 0; font-size: 1rem; }
   .doc h2 { margin-top: 3.2rem; }
   .doc tbody td:first-child { min-width: 7rem; }
   /* Quadros de três colunas: a primeira coluna passa a título da linha e as outras duas
