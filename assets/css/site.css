@@ -335,19 +335,9 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
    espaço ocupa também a largura da coluna lateral, que recolhe como com as figuras largas;
    os lados alternam de espaço para espaço (texto à esquerda no primeiro, à direita no
    segundo), com o título por cima do texto e a imagem alinhada pelo título. No estreito e
-   no papel, a figura vem por cima do texto. No fim de cada espaço, ligações para o anterior
-   e o seguinte. */
+   no papel, a figura vem por cima do texto. */
 .doc .passeio-fig p:has(> img:only-child) { margin: 1.1rem 0 .7rem; }
 .doc .passeio-fig p:has(> img:only-child) + p { margin-bottom: 1.6rem; }
-.passeio-nav {
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.6rem;
-  max-width: var(--medida); margin: 2.2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--filete);
-}
-.passeio-nav a { display: flex; flex-direction: column; gap: .2rem; min-height: 44px; color: var(--tinta); text-decoration: none; }
-.passeio-seguinte { grid-column: 2; text-align: right; align-items: flex-end; }
-.passeio-rel { font: 600 .84rem/1.3 var(--f-titulo); color: var(--tinta-2); }
-.passeio-t { font: 600 1.02rem/1.3 var(--f-texto); text-wrap: balance; transition: color .25s var(--suave); }
-.passeio-nav a:hover .passeio-t { color: var(--pinho); }
 .passeio:not([hidden]) { margin-bottom: 1.6rem; }
 @media screen and (min-width: 64.01rem) {
   .passeio:not([hidden]) {
@@ -376,7 +366,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
     @keyframes deriva { from { transform: scale(1); } to { transform: scale(1.06); } }
   }
 }
-@media (prefers-reduced-motion: reduce) { .passeio-t { transition: none; } }
 
 /* §7 Temas: os parágrafos que abrem por um tema, em blocos lado a lado. O texto continua na
    serifa do documento; o tema é o início do próprio parágrafo, marcado pelo script e posto
@@ -565,10 +554,8 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tbody,
   .inicio .doc h2[id^="3-"] ~ ul:not(h2[id^="4-"] ~ ul) { grid-template-columns: minmax(0, 1fr); }
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr { padding: 1rem var(--gutter) 1.15rem; margin-inline: calc(-1 * var(--gutter)); }
-  /* Temas e ligações do passeio numa coluna */
+  /* Temas numa coluna */
   .inicio .temas { grid-template-columns: minmax(0, 1fr); }
-  .passeio-nav { grid-template-columns: minmax(0, 1fr); }
-  .passeio-seguinte { grid-column: auto; text-align: left; align-items: flex-start; }
   /* Grelha da §4: uma lista de linhas, com a miniatura à esquerda */
   .espacos ol { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--filete); }
   .espacos a {
@@ -604,7 +591,6 @@ a:hover { color: var(--pinho-escuro); text-decoration-thickness: 2px; }
   .menu, .saltar, .indice, .postais-entrada, .postais-fim, .ao-indice, .ao-indice:not([hidden]), .espacos, .inicio::before, .ler-mais, .abrir-tudo { display: none; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
-  .passeio-nav { display: none; }
   .inicio .temas { display: block; }
   /* O papel não imprime fundos: os blocos e as etiquetas passam a contorno cinzento, como a nota */
   .inicio .doc h2[id^="3-"] ~ table:not(h2[id^="4-"] ~ table) tr,

@@ -255,8 +255,7 @@
       });
     });
     /* §4 como passeio: em cada espaço, a aguarela e a legenda passam a uma coluna própria, fixa
-       ao lado do texto no ecrã largo e por cima dele no estreito, e o espaço acaba com ligações
-       para o anterior e o seguinte. No ecrã largo os lados alternam: texto à esquerda e imagem
+       ao lado do texto no ecrã largo e por cima dele no estreito. No ecrã largo os lados alternam: texto à esquerda e imagem
        à direita no primeiro espaço, o contrário no segundo, e assim por diante. Só reorganiza:
        o texto e as figuras são os mesmos. */
     var passeio = Array.prototype.filter.call(doc.querySelectorAll(":scope > .detalhe"), function (parte) {
@@ -274,27 +273,6 @@
       var texto = document.createElement("div");
       texto.className = "passeio-texto";
       while (h3.nextSibling) texto.appendChild(h3.nextSibling);
-      /* Um bloco simples e não uma nav: nove pontos de referência iguais só fariam ruído no
-         leitor de ecrã, e cada ligação já diz para onde vai */
-      var nav = document.createElement("div");
-      nav.className = "passeio-nav";
-      [[passeio[i - 1], "Espaço anterior", "anterior"], [passeio[i + 1], "Espaço seguinte", "seguinte"]].forEach(function (v) {
-        if (!v[0]) return;
-        var alvo = v[0].firstElementChild;
-        var a = document.createElement("a");
-        a.href = "#" + alvo.id;
-        a.className = "passeio-" + v[2];
-        var rel = document.createElement("span");
-        rel.className = "passeio-rel";
-        rel.textContent = v[1];
-        var t = document.createElement("span");
-        t.className = "passeio-t";
-        t.textContent = alvo.textContent.replace(/\s+/g, " ").trim();
-        a.appendChild(rel);
-        a.appendChild(t);
-        nav.appendChild(a);
-      });
-      texto.appendChild(nav);
       parte.classList.add("passeio");
       if (i % 2) parte.classList.add("passeio-alterno");
       parte.appendChild(coluna);
