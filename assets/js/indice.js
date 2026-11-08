@@ -411,11 +411,16 @@
       var a = e.target.closest && e.target.closest('a[href^="#"]');
       if (!a) return;
       var id = alvoDe(a.getAttribute("href"));
-      if (a.closest(".espacos")) fecharOutrosEspacos(id);
+      if (a.closest(".espacos, .mini-espacos")) fecharOutrosEspacos(id);
       abrirAlvo(id);
+      /* A paragem do scroll calcula-se agora: se o destino é um espaço da §4, conta já com a
+         mini-grelha, que só aparece no frame seguinte (ver a mini-grelha, mais abaixo) */
+      if (typeof prepararMini === "function") prepararMini(id);
     }, true);
     var irParaHash = function () {
-      var alvo = abrirAlvo(alvoDe(location.hash));
+      var id = alvoDe(location.hash);
+      var alvo = abrirAlvo(id);
+      if (typeof prepararMini === "function") prepararMini(id);
       if (alvo) alvo.scrollIntoView({ block: "start" });
     };
     window.addEventListener("hashchange", irParaHash);
@@ -424,7 +429,10 @@
     if (location.hash) {
       var inicial = abrirAlvo(alvoDe(location.hash));
       if (inicial) {
-        window.addEventListener("load", function () { inicial.scrollIntoView({ block: "start", behavior: "instant" }); });
+        window.addEventListener("load", function () {
+          if (typeof prepararMini === "function") prepararMini(inicial.id);
+          inicial.scrollIntoView({ block: "start", behavior: "instant" });
+        });
       }
     }
 
@@ -527,7 +535,7 @@
       /* Um clique com modificadores (nova aba) ou de outro botão não sai da página */
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       var a = e.target.closest && e.target.closest('.doc a[href^="#"]');
-      if (!a || modo === "fio" || a.closest(".espacos") || !a.closest("p, li, td")) return;
+      if (!a || modo === "fio" || a.closest(".espacos, .mini-espacos") || !a.closest("p, li, td")) return;
       origem = a;
       origemSaiu = false;
       colocar(blocoDe(document.getElementById(alvoDe(a.getAttribute("href")))));
@@ -720,6 +728,142 @@
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && fioAtivo !== -1 && !e.defaultPrevented) desligarFio(true);
     });
+
+    /* Mini-grelha dos espaços: enquanto se lê a §4 e a grelha já ficou acima do ecrã, uma versão
+       compacta dela fica fixa no topo (abaixo de 64rem, por baixo da faixa da secção), com o
+       espaço em leitura marcado; um toque troca de espaço, um de cada vez, como na grelha. Usa só
+       os números, os nomes e as miniaturas que a grelha já tem. Na ordem da página fica logo a
+       seguir à grelha. Abaixo de 64rem esconde-se enquanto houver um percurso ligado, para as
+       barras do topo não se empilharem. */
+    var h4 = doc.querySelector(':scope > h2[id^="4-"]');
+    var h5 = doc.querySelector(':scope > h2[id^="5-"]');
+    if (grelha && h4 && partesEspacos.length) {
+      var mini = document.createElement("nav");
+      mini.className = "mini-espacos";
+      mini.setAttribute("aria-label", normal(h4.textContent).replace(/^\d+\.\s*/, ""));
+      var miniLista = document.createElement("ol");
+      var miniLinks = {};
+      Array.prototype.forEach.call(grelha.querySelectorAll("li > a"), function (orig) {
+        var num = orig.querySelector(".espaco-num");
+        var nome = orig.querySelector(".espaco-nome");
+        if (!num || !nome) return;
+        var a = document.createElement("a");
+        a.href = orig.getAttribute("href");
+        /* O lugar da miniatura existe sempre (sem figura, fica a neblina), para o número assentar
+           igual; a imagem só carrega na primeira vez que a mini-grelha aparece no ecrã largo */
+        var caixa = document.createElement("span");
+        caixa.className = "mini-img";
+        var img = orig.querySelector(".espaco-img img");
+        if (img) {
+          var im = document.createElement("img");
+          im.setAttribute("data-src", img.getAttribute("src"));
+          im.alt = "";
+          im.decoding = "async";
+          caixa.appendChild(im);
+        }
+        a.appendChild(caixa);
+        var n = document.createElement("span");
+        n.className = "mini-num";
+        n.textContent = normal(num.textContent);
+        var t = document.createElement("span");
+        t.className = "so-leitor";
+        t.textContent = " " + normal(nome.textContent);
+        a.appendChild(n);
+        a.appendChild(t);
+        var li = document.createElement("li");
+        li.appendChild(a);
+        miniLista.appendChild(li);
+        miniLinks[alvoDe(a.getAttribute("href"))] = a;
+      });
+      mini.appendChild(miniLista);
+      doc.insertBefore(mini, grelha.nextSibling);
+
+      var largoMini = window.matchMedia("(min-width: 64.01rem)");
+      var miniPendente = false;
+      var miniCarregada = false;
+      var idAnterior = null;
+      var faixaPosta = null;
+      var escrever = function (texto) {
+        if (faixaAtual && faixaPosta !== texto) { faixaAtual.textContent = texto; faixaPosta = texto; }
+      };
+      var reverMini = function () {
+        miniPendente = false;
+        var abertas = partesEspacos.filter(function (p) { return !p.hasAttribute("hidden"); });
+        var faixaEl = document.querySelector(".faixa");
+        var alturaFaixa = largoMini.matches || !faixaEl ? 0 : faixaEl.offsetHeight;
+        var topo = mini.offsetHeight + alturaFaixa;
+        /* A grelha conta como acima do ecrã também quando está tapada pela faixa da secção; a
+           mini-grelha sai quando a §5 passa a ser a secção em leitura (a mesma linha do índice, 35%
+           da altura do ecrã), ou antes, se o título da §5 chegar por baixo dela */
+        var ver = abertas.length > 0 &&
+          grelha.getBoundingClientRect().bottom < alturaFaixa &&
+          (!h5 || h5.getBoundingClientRect().top > Math.max(topo + 8, window.innerHeight * 0.35)) &&
+          !(!largoMini.matches && raiz.classList.contains("com-percurso"));
+        /* O espaço em leitura: o último aberto cujo início já passou 35% da altura do ecrã */
+        var atual = null;
+        abertas.forEach(function (p) { if (p.getBoundingClientRect().top < window.innerHeight * 0.35) atual = p; });
+        if (!atual) atual = abertas[0];
+        var idAtual = atual ? atual.querySelector("h3").id : null;
+        /* Só se escreve quando muda: o espaço marcado e, na ordem da página, a mini-grelha logo
+           antes do espaço em leitura, para o Tab e os leitores de ecrã a encontrarem ali */
+        if (idAtual !== idAnterior) {
+          Object.keys(miniLinks).forEach(function (id) {
+            if (id === idAtual) miniLinks[id].setAttribute("aria-current", "true");
+            else miniLinks[id].removeAttribute("aria-current");
+          });
+          if (atual && mini.nextSibling !== atual) {
+            var foco = mini.contains(document.activeElement) ? document.activeElement : null;
+            doc.insertBefore(mini, atual);
+            if (foco) foco.focus({ preventScroll: true });
+          }
+          idAnterior = idAtual;
+        }
+        if (ver && largoMini.matches && !miniCarregada) {
+          Array.prototype.forEach.call(mini.querySelectorAll("img[data-src]"), function (im) { im.src = im.getAttribute("data-src"); });
+          miniCarregada = true;
+        }
+        /* Se o foco estiver na mini-grelha quando ela se esconde, passa para a entrada da grelha */
+        if (!ver && mini.contains(document.activeElement)) {
+          var naGrelha = grelha.querySelector('a[href="' + document.activeElement.getAttribute("href") + '"]');
+          if (naGrelha) naGrelha.focus({ preventScroll: true });
+        }
+        mini.classList.toggle("visivel", ver);
+        raiz.classList.toggle("com-mini", ver);
+        if (ver) raiz.style.setProperty("--mini-altura", mini.offsetHeight + "px");
+        /* Abaixo de 64rem, a faixa da secção mostra o espaço em leitura enquanto a mini-grelha
+           está à vista (a mini-grelha só tem os números); depois volta à secção do índice */
+        if (faixaAtual) {
+          if (ver && atual) escrever(normal(atual.querySelector("h3").textContent));
+          else if (miniNaFaixa) {
+            var marcado = document.querySelector(".indice-movel a[aria-current]");
+            if (marcado) escrever(marcado.textContent.trim());
+          }
+          miniNaFaixa = ver && !!atual;
+          if (!miniNaFaixa) faixaPosta = null;
+        }
+      };
+      var miniNaFaixa = false;
+      /* Antes de um salto para um espaço da §4, a paragem do scroll conta já com a mini-grelha:
+         o browser calcula o destino logo, e a mini-grelha só aparece no frame seguinte, por cima do
+         título. O frame seguinte confirma ou desfaz. */
+      var prepararMini = function (id) {
+        var alvo = id && document.getElementById(id);
+        if (!alvo || !partesEspacos.some(function (p) { return p.contains(alvo); })) return;
+        raiz.style.setProperty("--mini-altura", mini.offsetHeight + "px");
+        raiz.classList.add("com-mini");
+      };
+      var pedirMini = function () {
+        if (!miniPendente) { miniPendente = true; window.requestAnimationFrame(reverMini); }
+      };
+      window.addEventListener("scroll", pedirMini, { passive: true });
+      window.addEventListener("resize", pedirMini);
+      /* Abrir ou fechar partes sem mexer a página também muda o que a mini-grelha mostra */
+      var atualizarTudoAntes = atualizarTudo;
+      atualizarTudo = function () { atualizarTudoAntes(); pedirMini(); };
+      var mostrarModoAntes = mostrarModo;
+      mostrarModo = function (novo) { mostrarModoAntes(novo); pedirMini(); };
+      reverMini();
+    }
   }
   /* Em ecrãs largos, a coluna lateral recolhe enquanto uma figura larga lhe passa por cima;
      sem este script, a figura cobre-a por instantes. */
@@ -772,7 +916,10 @@
     atualId = id;
     links.forEach(function (a) { a.removeAttribute("aria-current"); });
     (byId[id] || []).forEach(function (a) { a.setAttribute("aria-current", "true"); });
-    if (faixaAtual && byId[id]) faixaAtual.textContent = byId[id][0].textContent.trim();
+    /* Com a mini-grelha da §4 à vista, a faixa mostra o espaço em leitura, posto por ela */
+    if (faixaAtual && byId[id] && !document.documentElement.classList.contains("com-mini")) {
+      faixaAtual.textContent = byId[id][0].textContent.trim();
+    }
   }
 
   function update() {

@@ -526,6 +526,46 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 .espacos.com-fase li.na-fase .espaco-nome { color: var(--pinho); }
 @media (prefers-reduced-motion: reduce) { .fases button, .espaco-img { transition: none; } }
 
+/* Mini-grelha dos espaços (§4 da apresentação, montada pelo script): enquanto se lê a §4 com a
+   grelha acima do ecrã, uma faixa fixa no topo com os nove espaços. No ecrã largo, a miniatura de
+   cada aguarela com o número numa placa, como a grelha; o espaço em leitura ganha um traço de 3px
+   em pinho por baixo e o número a 600. Sem sombra, separada do texto por um filete, como a faixa
+   da secção. */
+.mini-espacos {
+  position: fixed; z-index: 23; top: 0; left: 0; right: 0; visibility: hidden;
+  background: var(--chao); border-bottom: 1px solid var(--filete); font-family: var(--f-titulo);
+}
+.mini-espacos.visivel { visibility: visible; }
+/* A entrada e a saída só existem sem pedido de movimento reduzido */
+@media (prefers-reduced-motion: no-preference) {
+  .mini-espacos { opacity: 0; transform: translateY(-.5rem); transition: opacity .18s ease-out, transform .18s ease-out, visibility 0s linear .18s; }
+  .mini-espacos.visivel { opacity: 1; transform: none; transition: opacity .18s ease-out, transform .18s ease-out, visibility 0s; }
+}
+.doc .mini-espacos ol {
+  display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: .5rem;
+  list-style: none; max-width: 76rem; margin: 0 auto; padding: .45rem var(--margem) .35rem;
+}
+.doc .mini-espacos li { max-width: none; margin: 0; }
+.mini-espacos a {
+  position: relative; display: block; padding-bottom: .25rem; border-bottom: 3px solid transparent;
+  color: var(--tinta); text-decoration: none; -webkit-tap-highlight-color: transparent;
+}
+.mini-img { display: block; height: 2.6rem; overflow: hidden; background: var(--neblina); }
+.mini-img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.mini-num {
+  position: absolute; left: 0; bottom: .5rem; padding: .1rem .35rem 0; background: var(--chao); color: var(--pinho);
+  font: 400 .95rem/1.2 var(--f-texto); font-variant-numeric: lining-nums tabular-nums; letter-spacing: -.01em;
+}
+.mini-espacos a[aria-current="true"] { border-bottom-color: var(--pinho); }
+.mini-espacos a[aria-current="true"] .mini-num { font-weight: 600; }
+.mini-espacos a:focus-visible { outline-offset: 1px; }
+@media (hover: hover) and (pointer: fine) { .mini-espacos a:hover { border-bottom-color: var(--filete); } .mini-espacos a[aria-current="true"]:hover { border-bottom-color: var(--pinho); } }
+/* Com a mini-grelha à vista, as âncoras e a aguarela fixa do passeio param abaixo dela */
+@media (min-width: 64.01rem) {
+  html.com-mini { scroll-padding-top: calc(var(--mini-altura, 4rem) + 1rem); }
+  .com-mini .passeio-fig { top: calc(var(--mini-altura, 4rem) + 1rem); }
+}
+
 /* Fio (§10 da apresentação): o botão «Seguir no documento» em cada linha com fio e as passagens
    marcadas a verde-pálido enquanto o fio está ligado; a passagem atual ganha ainda o traço de
    pinho (sublinhado nas frases, à esquerda nos blocos), para não depender só da cor. A marca
@@ -651,6 +691,22 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
   .percurso { padding-inline: var(--gutter); }
   .percurso button { padding-inline: .65rem; }
 }
+/* Mini-grelha abaixo de 64rem: por baixo da faixa da secção, só com os números, numa linha; o
+   nome de cada espaço fica para os leitores de ecrã, e o do espaço em leitura já está na faixa */
+@media (max-width: 64rem) {
+  .mini-espacos { top: var(--faixa-altura, 45px); }
+  .doc .mini-espacos ol { gap: .15rem; padding: .15rem var(--margem); }
+  .mini-img { display: none; }
+  .mini-espacos a { padding-bottom: 0; }
+  .mini-num {
+    position: static; display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 0;
+    background: none; font-size: .98rem;
+  }
+  html.com-mini { scroll-padding-top: calc(var(--faixa-altura, 45px) + var(--mini-altura, 50px) + 1rem); }
+}
+@media (max-width: 40rem) {
+  .doc .mini-espacos ol { padding-inline: var(--gutter); }
+}
 
 /* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */
 @media (max-width: 40rem) {
@@ -728,7 +784,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 @media print {
   @page { margin: 18mm 16mm 20mm; }
   body { background: #fff; color: #000; font-size: 10.5pt; line-height: 1.5; }
-  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .faixa, .espacos, .inicio::before, .ler-mais, .abrir-tudo, .percurso, .seguir { display: none; }
+  .menu, .saltar, .indice, .postais-entrada, .postais-fim, .faixa, .espacos, .mini-espacos, .inicio::before, .ler-mais, .abrir-tudo, .percurso, .seguir { display: none; }
   :is(.fio-frase, .fio-bloco) { background: none !important; outline: 0 !important; box-shadow: none !important; text-decoration: none !important; }
   /* No papel sai o documento inteiro, com as partes fechadas abertas */
   .detalhe[hidden] { display: block !important; content-visibility: visible !important; }
