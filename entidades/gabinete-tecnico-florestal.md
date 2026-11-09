@@ -26,10 +26,14 @@ Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vo
 2. Se ainda não houver carta de APPS adaptada para Viseu Dão Lafões, que áreas da carta do PMDFCI contam como APPS com condicionamentos à edificação, para efeitos do artigo 60.º do Decreto-Lei n.º 82/2021?
 3. Como é tratada na carta transitória uma mancha pequena de perigosidade «muito alta»? Há alguma norma, plano municipal ou carta que fixe uma distância em redor dessas manchas e que possamos usar como referência para definir a envolvente?
 4. Existe território florestal em cada terreno, ou a menos de 50 m dele, que torne aplicáveis as condições do artigo 61.º, n.º 1?
-5. Que faixas de gestão de combustível, existentes ou planeadas, incidem sobre cada terreno ou junto dele, com que larguras e a cargo de quem? Como se articulam com a faixa de 50 m em redor dos edifícios, e que cuidados recomendam no desenho de parques, trilhos, sombras e vegetação dentro dessas faixas?
-6. A cartografia de infraestruturas florestais identifica caminhos ou pontos de água junto dos terrenos que devamos considerar na implantação, nos acessos de emergência e no plano de emergência?
-7. De que elementos precisará a comissão municipal para se pronunciar sobre o projeto?
-8. Que entidade emite o parecer e faz a vistoria das medidas de resistência à passagem do fogo previstas no artigo 61.º? Que referências técnicas recomendam para essas medidas e para a contenção de fontes de ignição, incluindo na reconstrução de ruínas?
+5. Que faixas de gestão de combustível, existentes ou planeadas, incidem sobre cada terreno ou junto dele, com que larguras e a cargo de quem? Alguma delas é rede secundária estabelecida no programa sub-regional, para efeitos do artigo 61.º, n.º 2? Que cuidados recomendam no desenho de parques, trilhos, sombras e vegetação, caso venham a ficar dentro dessas faixas?
+6. Se concentrarmos as casas de alojamento em núcleos ou numa área central do terreno, o critério de 50 m entre edifícios da definição de «áreas edificadas» (artigo 3.º, n.º 1, alínea b)) serve de referência para o «conjunto de edifícios» do artigo 61.º, ou aplica-se outro? A Casa de Apoio Operacional pode integrar o mesmo conjunto?
+7. À luz da definição de edifício (artigo 3.º, n.º 1, alínea d)), as casas modulares de pequena dimensão contam para o afastamento de 50 m à estrema? Uma casa geminada conta como um edifício ou dois? Os espaços exteriores vedados, os parques e os trilhos podem ficar dentro da faixa e da área de afastamento?
+8. Como se mede o afastamento à estrema quando o prédio confina com outro do mesmo proprietário?
+9. Que recomendações têm para a evacuação ou a transferência dos animais em caso de incêndio rural? A presença de pessoas durante a noite influencia as vossas recomendações ou a pronúncia da comissão municipal? Se esta matéria couber ao serviço municipal de proteção civil, agradecemos que nos indiquem.
+10. A cartografia de infraestruturas florestais identifica caminhos ou pontos de água junto dos terrenos que devamos considerar na implantação, nos acessos de emergência e no plano de emergência?
+11. De que elementos precisará a comissão municipal para se pronunciar sobre o projeto?
+12. Que entidade emite o parecer e faz a vistoria das medidas de resistência à passagem do fogo previstas no artigo 61.º? Que referências técnicas recomendam para essas medidas e para a contenção de fontes de ignição, incluindo na reconstrução de ruínas?
 
 ## 4. O que podemos facultar
 

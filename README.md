@@ -67,7 +67,7 @@ A área deve permitir uma implantação pouco densa, com separação entre núcl
 
 Estamos a avaliar quatro terrenos, dois deles com ruínas. Não os identificamos nem avaliamos neste documento.
 
-As componentes do núcleo essencial (ver [secção 11](#11-faseamento)) foram pensadas para caber em qualquer terreno dentro da faixa de referência. A zona aquática, o gatil e os trilhos mais extensos dependem da área, da topografia e das condicionantes de cada terreno. Só reabilitamos ruínas se o terreno escolhido as tiver e se a sua estabilidade, o seu enquadramento urbanístico e a sua adequação funcional forem confirmados. Se não for esse o caso, a Casa de Apoio Operacional será construção nova ou aproveitará o edificado existente, se houver.
+As componentes do núcleo essencial (ver [secção 11](#11-faseamento)) foram pensadas para caber dentro da faixa de referência, embora a área disponível para edificar dependa das condicionantes de cada terreno. A zona aquática, o gatil e os trilhos mais extensos dependem da área, da topografia e das condicionantes de cada terreno. Só reabilitamos ruínas se o terreno escolhido as tiver e se a sua estabilidade, o seu enquadramento urbanístico e a sua adequação funcional forem confirmados. Se não for esse o caso, a Casa de Apoio Operacional será construção nova ou aproveitará o edificado existente, se houver.
 
 Na escolha do terreno aplicamos dois critérios nossos:
 
@@ -123,7 +123,7 @@ O projeto gira à volta das casas de alojamento animal: pequenas construções i
 
 _Figura 3. Visualização ilustrativa do ambiente pretendido._
 
-Prevemos cinco tipologias de casa:
+Prevemos seis tipologias de casa:
 
 | Tipo de casa | Utilização | Configuração e adaptações principais |
 | --- | --- | --- |
@@ -132,8 +132,9 @@ Prevemos cinco tipologias de casa:
 | Casa Família | 2 a 4 cães da mesma família | Quartos comunicantes ou área conjunta, sem contacto com animais de outra família. |
 | Casa Calma | Cães idosos ou sensíveis | Zona silenciosa, maior atenuação acústica e pavimento confortável. |
 | Casa Individual | Cães que não podem conviver | Barreiras visuais, acessos próprios e maior controlo operacional. |
+| Casa Geminada | Duas casas do tipo S, M ou Família | Parede comum com atenuação acústica; cada casa mantém quartos e exteriores privados próprios. |
 
-As casas podem ficar a cotas ou em zonas diferentes do terreno, consoante a topografia, o ruído, a sombra, os acessos e a drenagem. As dos cães sénior, ansiosos ou sensíveis ficam nas zonas mais tranquilas, e as dos cães que não toleram bem a proximidade constante ficam mais afastadas.
+As casas podem ficar a cotas ou em zonas diferentes do terreno, consoante a topografia, o ruído, a sombra, os acessos e a drenagem. As dos cães sénior, ansiosos ou sensíveis ficam nas zonas mais tranquilas, e as dos cães que não toleram bem a proximidade constante ficam mais afastadas. Em terrenos mais apertados, as casas geminadas podem permitir concentrar a construção.
 
 Cada casa tem um ou mais quartos de alojamento, conforme a tipologia. Cada quarto tem uma área interior protegida e acesso direto a um espaço exterior privado, vedado e separado das restantes áreas da aldeia. O animal pode alternar entre o repouso, a observação e a permanência no exterior, de acordo com a sua rotina e nas condições definidas pela equipa.
 
@@ -255,7 +256,7 @@ Antes de alojar um animal ou de o receber na creche/ATL, a equipa recolhe, pesso
 - comportamento com pessoas e com cães, reação a ruídos, à comida, à manipulação e à separação do tutor;
 - medos, rotinas e necessidades especiais.
 
-A admissão exige informação vacinal e sanitária adequada e segue critérios definidos de aceitação, recusa ou aceitação condicionada.
+A admissão exige informação vacinal e sanitária adequada e segue critérios definidos de aceitação, recusa ou aceitação condicionada. Ainda não decidimos se admitimos cães perigosos ou potencialmente perigosos. Se os admitirmos, seguimos as regras próprias desses animais, incluindo as de contenção e de seguro.
 
 Os animais agrupam-se e alojam-se segundo o porte, a idade, o estado de saúde, o perfil comportamental (nível de energia, sociabilidade, ansiedade e reatividade), a experiência anterior de alojamento ou de creche/ATL e a pertença à mesma família. Entre os perfis que consideramos estão cães pequenos, grandes ou sénior; cães muito ativos, ansiosos, reativos, tímidos ou com menor tolerância a grupos; cães com medicação ou com limitações físicas; e cães em primeira estadia ou da mesma família.
 
@@ -274,6 +275,8 @@ O Programa de Adaptação à Primeira Estadia serve para reduzir a ansiedade e o
 3. dia experimental;
 4. primeira noite, se necessário;
 5. relatório comportamental.
+
+Ainda não definimos a presença ou a vigilância durante a noite, que vai depender da lotação e da organização da equipa. A forma de evacuar ou transferir os animais em caso de incêndio ou de outra situação grave ainda não está definida e vai constar do plano de emergência, o que temos de ter em conta nos acessos, na energia de emergência e na equipa disponível.
 
 Vamos validar com a equipa técnica e com o médico veterinário responsável as dimensões, os materiais, a ventilação, o isolamento térmico, o desempenho acústico, a drenagem, o saneamento e a higienização das instalações. O médico veterinário responsável intervém também nos protocolos de higiene e na conceção da enfermaria e da zona de isolamento. Em matéria de saúde animal, a equipa atua por observação, alerta, contacto com o tutor e articulação com médico veterinário quando necessário. A aldeia não substitui cuidados veterinários.
 
@@ -354,6 +357,9 @@ Pode haver ainda um programa social, com uma quota limitada e bem delimitada par
 | Drenagem | Levantamento topográfico e plano técnico de drenagem, porque os pontos baixos podem acumular água e lama. |
 | Ruído | Atenuação acústica, orientação e afastamento das casas, barreiras vegetais, distância a recetores sensíveis e lotação controlada. |
 | Contenção dos animais | Espaços exteriores vedados, dupla barreira nos acessos e equipamentos instalados sem riscos de fuga ou ferimento. |
+| Cães perigosos ou potencialmente perigosos | Admissão por decidir; se existir, regras próprias de contenção e de seguro. |
+| Presença noturna | Presença ou vigilância durante a noite por definir, em função da lotação e da organização da equipa. |
+| Evacuação dos animais | Forma de evacuação ou transferência por definir; plano de emergência, acessos, energia de emergência e equipa disponível. |
 | Higiene e saúde animal | Protocolos de higienização, acompanhamento do médico veterinário responsável e zona de isolamento. |
 | Lotação | Crescimento progressivo e lotação controlada. |
 | Zona aquática | Estudo técnico, validação ambiental e licenciamento prévios; acesso apenas supervisionado. |

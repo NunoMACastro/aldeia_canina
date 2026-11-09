@@ -24,15 +24,17 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 
 1. O alojamento com pernoita, a creche/ATL, as casas familiares e o eventual treino com alojamento cabem numa única mera comunicação prévia? Como devem ser descritas as atividades e a capacidade, por recinto e por espécie?
 2. O grooming e o treino sem alojamento devem constar autonomamente da comunicação? Exigem plantas ou elementos próprios?
-3. Como se aplicam os mínimos do anexo III do Decreto-Lei n.º 276/2001 a casas com um quarto interior e um espaço exterior privado e vedado? O quarto conta como recinto fechado e o exterior como recinto fechado exterior, ou é de outra forma?
+3. Como se aplicam os mínimos do anexo III do Decreto-Lei n.º 276/2001 a casas com um quarto interior e um espaço exterior privado e vedado? O quarto conta como recinto fechado e o exterior como recinto fechado exterior, ou é de outra forma? Nas casas geminadas, com uma parede comum, há requisitos próprios de separação?
 4. Nas casas familiares, com dois a quatro cães do mesmo agregado, aplicam-se os mínimos de alojamento em grupo do anexo III? Há requisitos adicionais?
 5. Como deve ser calculada e documentada a capacidade máxima do alojamento e da creche/ATL, e que elementos esperam para a demonstrar (plantas funcionais, circuitos de limpo e sujo, pessoal)?
 6. Onde situam a fronteira entre a enfermaria de isolamento e primeiros cuidados e o regime dos CAMV, em particular quando o médico veterinário responsável observa ou trata pontualmente, no local, um animal alojado?
 7. Em que condições pode a equipa administrar medicação prescrita pelo médico veterinário assistente do tutor, sob orientação do médico veterinário responsável, e que registos esperam?
-8. Nas recolhas e entregas em domicílio até 65 km, como se aplica o artigo 8.º, n.º 4, do Decreto-Lei n.º 265/2007? Que autorização e que passos no SITA devemos cumprir antes de adquirir ou adaptar a viatura?
-9. Em que momento deve ser apresentada a comunicação, face ao controlo urbanístico e às obras? A partir de que ato pode ser recebido o primeiro animal: a submissão e o pagamento, ou a atribuição do número de registo?
-10. Está prevista alguma vistoria da DGAV antes ou depois do início da atividade?
-11. Como devemos comunicar o aumento faseado da capacidade e a eventual inclusão futura de gatos: como alteração ou como nova comunicação?
+8. O regime exige presença de pessoal durante a noite num alojamento com pernoita, ou admite outras formas de vigilância? O que esperam quanto à proteção contra incêndios e à evacuação ou transferência dos animais?
+9. Se admitirmos cães perigosos ou potencialmente perigosos, que requisitos adicionais se aplicam à mera comunicação prévia, às instalações e ao alojamento temporário, incluindo na creche/ATL?
+10. Nas recolhas e entregas em domicílio até 65 km, como se aplica o artigo 8.º, n.º 4, do Decreto-Lei n.º 265/2007? Que autorização e que passos no SITA devemos cumprir antes de adquirir ou adaptar a viatura?
+11. Em que momento deve ser apresentada a comunicação, face ao controlo urbanístico e às obras? A partir de que ato pode ser recebido o primeiro animal: a submissão e o pagamento, ou a atribuição do número de registo?
+12. Está prevista alguma vistoria da DGAV antes ou depois do início da atividade?
+13. Como devemos comunicar o aumento faseado da capacidade e a eventual inclusão futura de gatos: como alteração ou como nova comunicação?
 
 ## 4. O que podemos facultar
 
