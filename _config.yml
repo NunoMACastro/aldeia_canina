@@ -51,6 +51,7 @@ defaults:
 exclude:
   - PRODUCT.md
   - DESIGN.md
+  - financiamento-apoios-publicos.md
   - prototipo-site
   - Gemfile
   - Gemfile.lock
