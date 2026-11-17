@@ -29,7 +29,6 @@ Conteúdo:
 - **Nos avisos para PME comuns** dos últimos 18 meses, o apoio foi de **40% a 50% a fundo perdido** e incide apenas sobre as despesas elegíveis.
 - **A compra do terreno não é elegível** em nenhum dos avisos analisados.
 - **A atividade da aldeia (CAE 96992) não consta** das listas de atividades elegíveis dos avisos de pequena dimensão analisados.
-- **A 16/11/2026 não encontrámos nenhum aviso aberto que sirva claramente ao projeto.** Até agosto de 2027, o plano oficial de avisos do Centro 2030 só prevê, para empresas, um sistema de incentivos ligado a estratégias PROVERE.
 
 ## 2. Três condições que pesam em quase todos os apoios
 
