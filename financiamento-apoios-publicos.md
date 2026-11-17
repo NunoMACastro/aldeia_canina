@@ -1,6 +1,6 @@
 # Apoios públicos ao investimento: levantamento de novembro de 2026
 
-Documento interno de trabalho. Não faz parte do site (está excluído em `_config.yml`), mas, como o repositório é público, pode ser lido no GitHub.
+Documento de trabalho. Não faz parte do site (está excluído em `_config.yml`), mas, como o repositório é público, pode ser lido no GitHub.
 
 | | |
 | --- | --- |
@@ -18,18 +18,17 @@ Conteúdo:
 3. [O que existiu entre maio de 2025 e novembro de 2026](#3-o-que-existiu-entre-maio-de-2025-e-novembro-de-2026)
 4. [O que está aberto a 16 de novembro de 2026](#4-o-que-está-aberto-a-16-de-novembro-de-2026)
 5. [O que está previsto](#5-o-que-está-previsto)
-6. [De onde pode vir a ideia dos 80%](#6-de-onde-pode-vir-a-ideia-dos-80)
+6. [Como ler as taxas de apoio](#6-como-ler-as-taxas-de-apoio)
 7. [Exemplo de contas](#7-exemplo-de-contas)
-8. [Questões a esclarecer com quem acompanha o financiamento](#8-questões-a-esclarecer-com-quem-acompanha-o-financiamento)
-9. [Onde confirmar](#9-onde-confirmar)
-10. [O que ficou por confirmar](#10-o-que-ficou-por-confirmar)
-11. [Fontes](#fontes)
+8. [Onde confirmar](#8-onde-confirmar)
+9. [O que ficou por confirmar](#9-o-que-ficou-por-confirmar)
+10. [Fontes](#fontes)
 
 ## 1. Resumo
 
-- **Existe um programa com taxas de 80% ou mais**: o Crescer com o Turismo, aberto até 31/12/2026. Para empresas, porém, só se aplica a projetos de inovação social com valor para o turismo ou integrados numa estratégia PROVERE, e a parte a fundo perdido tem um teto de 200 000 €. Não está demonstrado que a aldeia se enquadre.
-- **Há outro "80%" que não é subsídio**: a Linha de Apoio à Qualificação da Oferta financia até 80%, mas em crédito, e só para empresas turísticas.
-- **O Empreende XXI chegava aos 85%**, dos quais 45% eram empréstimo sem juros. Está fechado desde junho de 2023 e não encontrámos reabertura.
+- **As taxas mais altas para empresas estão no Crescer com o Turismo**, aberto até 31/12/2026: 60% de base, com majorações de 20 pontos em baixa densidade e de 10 pontos por estratégia de eficiência coletiva. Para empresas, só se aplica a projetos de inovação social com valor para o turismo ou integrados numa estratégia PROVERE, e a parte a fundo perdido tem um teto de 200 000 €. Não está demonstrado que a aldeia se enquadre.
+- **A Linha de Apoio à Qualificação da Oferta** financia até 80% do investimento elegível, mas em crédito, e só para empresas turísticas.
+- **O Empreende XXI (IEFP)** combinava até 40% a fundo perdido com até 45% de empréstimo sem juros. Está fechado desde junho de 2023 e não encontrámos reabertura.
 - **Nos avisos para PME comuns** dos últimos 18 meses, o apoio foi de **40% a 50% a fundo perdido** e incide apenas sobre as despesas elegíveis.
 - **A compra do terreno não é elegível** em nenhum dos avisos analisados.
 - **A atividade da aldeia (CAE 96992) não consta** das listas de atividades elegíveis dos avisos de pequena dimensão analisados.
@@ -71,7 +70,7 @@ Contexto anterior: o **SIBT – ITI CIM Viseu Dão Lafões** (Centro2030-2024-49
 
 | Programa | Situação | Condições | Leitura para a aldeia |
 | --- | --- | --- | --- |
-| **Crescer com o Turismo** (Turismo de Portugal; Portaria n.º 50/2025/1, alterada pela Portaria n.º 159/2026/1) | Contínuo até 31/12/2026 ou até esgotar a dotação de 30 M€ | Taxa base de 60%, mais 20 pontos em baixa densidade e mais 10 por integração numa Estratégia de Eficiência Coletiva aprovada. Empresas: fundo perdido até 200 000 €; a pedido, componente reembolsável até 1 M€ (7 anos, 2 de carência). Regime de minimis. | É o único programa encontrado com taxas de 80% ou mais. Para PME, exige um projeto de inovação social com valor para o turismo ou integração numa estratégia PROVERE. Bem-estar animal e sustentabilidade não demonstram, por si, esse enquadramento. O terreno não consta das despesas elegíveis. |
+| **Crescer com o Turismo** (Turismo de Portugal; Portaria n.º 50/2025/1, alterada pela Portaria n.º 159/2026/1) | Contínuo até 31/12/2026 ou até esgotar a dotação de 30 M€ | Taxa base de 60%, mais 20 pontos em baixa densidade e mais 10 por integração numa Estratégia de Eficiência Coletiva aprovada. Empresas: fundo perdido até 200 000 €; a pedido, componente reembolsável até 1 M€ (7 anos, 2 de carência). Regime de minimis. | É o programa encontrado com as taxas mais altas para empresas. Para PME, exige um projeto de inovação social com valor para o turismo ou integração numa estratégia PROVERE. Bem-estar animal e sustentabilidade não demonstram, por si, esse enquadramento. O terreno não consta das despesas elegíveis. |
 | **Linha de Apoio à Qualificação da Oferta 2024** (Turismo de Portugal e bancos) | Contínuo, até esgotar a dotação | Até 80% do investimento elegível em **crédito**: parte do Turismo de Portugal sem juros, parte bancária com juro. Um prémio de desempenho pode converter 25% do empréstimo do Turismo de Portugal (PME) em apoio não reembolsável. | Só para empresas turísticas registadas e licenciadas como tal. Não se aplica a uma atividade 96992. |
 | **BPF InvestEU – Investimento e Investimento Sustentável** (Banco Português de Fomento) | Vigência até 31/12/2028, sujeita a dotação | Garantias a empréstimos bancários | É crédito, sujeito a análise do banco. A percentagem garantida não é apoio dado à empresa. |
 | **IEFP – INVEST+ e MICROINVEST** | Medidas descritas no portal do IEFP | Crédito com garantia e juro reduzido: INVEST+ para investimentos de 20 000 € a 200 000 €, com crédito até 100 000 €; MICROINVEST até 20 000 € | Só para promotores em situações específicas (por exemplo, desempregados inscritos). Um investimento acima de 250 000 € ultrapassa o limite do INVEST+. |
@@ -108,15 +107,12 @@ Contexto anterior: o **SIBT – ITI CIM Viseu Dão Lafões** (Centro2030-2024-49
 - A negociação continuava em 2026; os líderes comprometeram-se a procurar acordo até ao fim do ano.
 - Estimativa nossa: os novos programas e avisos não deverão surgir antes de 2028.
 
-## 6. De onde pode vir a ideia dos 80%
+## 6. Como ler as taxas de apoio
 
-- **Crescer com o Turismo:** 60% + 20% em baixa densidade, mas com as condições da [secção 4](#4-o-que-está-aberto-a-16-de-novembro-de-2026) e um teto de 200 000 € a fundo perdido para empresas.
-- **Linha de Apoio à Qualificação da Oferta:** até 80%, mas em crédito e só para empresas turísticas.
-- **Empreende XXI:** até 85%, mas 45% eram empréstimo sem juros; está fechado.
-- **Taxas de 85%** para entidades públicas ou infraestruturas críticas, que não se aplicam a uma empresa privada como esta.
-- **Confusão de taxas:** a "taxa máxima de cofinanciamento" do programa é a parte europeia da despesa pública, não a percentagem que a empresa recebe.
-
-A percentagem existe em programas reais. A sua aplicação a este projeto continua por demonstrar.
+- **Fundo perdido, empréstimo e garantia são coisas diferentes.** Uma subvenção não se devolve. Um empréstimo devolve-se, mesmo que seja sem juros. Uma garantia apenas facilita o crédito bancário e não entra no projeto como dinheiro.
+- **A taxa aplica-se à despesa elegível, não ao investimento total.** O terreno, o IVA e as despesas fora da lista do aviso ficam de fora.
+- **A taxa de cofinanciamento do programa não é a taxa de apoio à empresa.** Nos avisos, a "taxa máxima de cofinanciamento" indica a parte europeia (FEDER) do financiamento público. A percentagem que a empresa recebe é definida noutra secção do aviso.
+- **As taxas máximas dependem de condições.** Somam majorações (localização, emprego qualificado, capitais próprios, entre outras) e podem ser reduzidas no fim se as metas contratadas não forem cumpridas.
 
 ## 7. Exemplo de contas
 
@@ -124,23 +120,14 @@ Números meramente ilustrativos, para um investimento total de 250 000 €:
 
 | Cenário | Despesa elegível | Taxa | Apoio | Peso no total | Fica por financiar |
 | --- | --- | --- | --- | --- | --- |
-| Otimista | 200 000 € | 80% | 160 000 € | 64% | 90 000 € |
-| Típico para PME | 150 000 € | 40% | 60 000 € | 24% | 190 000 € |
+| Taxa de 50% (baixa densidade) | 200 000 € | 50% | 100 000 € | 40% | 150 000 € |
+| Taxa de 40% (restantes territórios) | 150 000 € | 40% | 60 000 € | 24% | 190 000 € |
 
 Em ambos os casos, o terreno e o IVA ficam por conta do promotor. Também é preciso ter tesouraria para pagar antes de receber, porque os apoios são pagos por reembolso ou com adiantamentos limitados.
 
-## 8. Questões a esclarecer com quem acompanha o financiamento
+## 8. Onde confirmar
 
-Pedir resposta por escrito com:
-
-1. **O programa e o código do aviso** a que se refere a percentagem de 80%, com o PDF do aviso.
-2. **A divisão do apoio:** que parte é a fundo perdido, que parte é empréstimo e que parte é só garantia.
-3. **O enquadramento:** onde está demonstrado que a CAE 96992, o promotor e a localização são elegíveis.
-4. **O orçamento por rubricas** (terreno, construção, equipamentos, projetos, IVA, fundo de maneio), com a elegibilidade de cada uma.
-5. **O calendário de pagamentos** e a tesouraria necessária até receber o apoio.
-6. **O trabalho feito até agora:** análises, contactos com entidades, pedidos de esclarecimento e eventuais submissões, com comprovativos.
-
-## 9. Onde confirmar
+Para avaliar um apoio concreto, é preciso ter o código do aviso, a CAE da empresa, o orçamento dividido por rubricas (terreno, construção, equipamentos, projetos, IVA, fundo de maneio) com a elegibilidade de cada uma e um plano de tesouraria até ao recebimento do apoio.
 
 - **Linha dos Fundos:** 800 10 35 10, gratuita, para dúvidas sobre o Portugal 2030.
 - **Balcão dos Fundos:** onde se submetem as candidaturas aos avisos do Portugal 2030.
@@ -150,7 +137,7 @@ Pedir resposta por escrito com:
 - **Turismo de Portugal**, para o Crescer com o Turismo.
 - **IEFP**, para o Empreende XXI e as linhas de crédito à criação de empresas.
 
-## 10. O que ficou por confirmar
+## 9. O que ficou por confirmar
 
 - Os limites da medida LEADER D.1.1.1.3 (10 000 € a 300 000 €, até 60%): não conseguimos abrir o texto da Portaria n.º 247/2025/1.
 - Se o Crescer com o Turismo tem ou não uma lista fechada de CAE: a FAQ oficial citada numa das pesquisas já não está disponível.
@@ -201,4 +188,3 @@ PRR e orçamento europeu:
 - [Governo – PRR totalmente executado](https://portugal.gov.pt/gc25/comunicacao/noticias/ministro-da-economia-e-coesao-territorial-prr-esta-totalmente-executado)
 - [DN – proposta de 33,5 mil milhões de euros para Portugal até 2034](https://www.dn.pt/economia/bruxelas-propõe-que-portugal-tenha-335-mil-me-até-2034-com-plano-no-novo-orçamento-da-ue)
 - [ECO – negociação do orçamento europeu, agosto de 2026](https://eco.sapo.pt/2026/08/11/costa-inicia-periplo-para-negociar-orcamento-da-ue-de-dois-bilioes-de-euros/)
-- [Governo – aviso de 25 M€ para infraestruturas críticas (exemplo de taxa de 85%)](https://portugal.gov.pt/gc25/comunicacao/comunicados/25-milhoes-de-euros-para-a-resiliencia-de-infraestruturas-criticas)
