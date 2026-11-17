@@ -16,11 +16,10 @@ Conteúdo:
 3. [O que existiu entre maio de 2025 e novembro de 2026](#3-o-que-existiu-entre-maio-de-2025-e-novembro-de-2026)
 4. [O que está aberto a 16 de novembro de 2026](#4-o-que-está-aberto-a-16-de-novembro-de-2026)
 5. [O que está previsto](#5-o-que-está-previsto)
-6. [Como ler as taxas de apoio](#6-como-ler-as-taxas-de-apoio)
-7. [Exemplo de contas](#7-exemplo-de-contas)
-8. [Onde confirmar](#8-onde-confirmar)
-9. [O que ficou por confirmar](#9-o-que-ficou-por-confirmar)
-10. [Fontes](#fontes)
+6. [Apoio](#6-apoio)
+7. [Onde confirmar](#7-onde-confirmar)
+8. [O que ficou por confirmar](#8-o-que-ficou-por-confirmar)
+9. [Fontes](#fontes)
 
 ## 1. Resumo
 
