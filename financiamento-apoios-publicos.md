@@ -1,15 +1,13 @@
 # Apoios públicos ao investimento: levantamento de novembro de 2026
 
-Documento de trabalho. Não faz parte do site (está excluído em `_config.yml`), mas, como o repositório é público, pode ser lido no GitHub.
+|                    |                                                                                                                        |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Data de referência | 16 de novembro de 2026                                                                                                 |
+| Período analisado  | maio de 2025 a novembro de 2026, com o que está previsto para 2027 e depois                                            |
+| Projeto            | Aldeia canina no concelho de Viseu, com compra de terreno e construção; investimento total estimado acima de 250 000 € |
+| Método             | Páginas oficiais indicados em [Fontes](#fontes)                                                                        |
 
-| | |
-| --- | --- |
-| Data de referência | 16 de novembro de 2026 |
-| Período analisado | maio de 2025 a novembro de 2026, com o que está previsto para 2027 e depois |
-| Projeto | Aldeia canina no concelho de Viseu, com compra de terreno e construção; investimento total estimado acima de 250 000 € |
-| Método | Duas pesquisas independentes, feitas com apoio de assistentes de IA, cruzadas e verificadas nos avisos e páginas oficiais indicados em [Fontes](#fontes) |
-
-> **Natureza e limites.** Este levantamento não é aconselhamento financeiro, contabilístico nem jurídico, e não confirma a elegibilidade do projeto para nenhum apoio. As condições mudam e cada aviso tem regras próprias. Antes de qualquer decisão, confirmar no aviso oficial e junto da entidade gestora.
+> **Natureza e limites.** As condições mudam e cada aviso tem regras próprias. Antes de qualquer decisão, confirmar no aviso oficial e junto da entidade gestora.
 
 Conteúdo:
 
@@ -54,26 +52,26 @@ Vários avisos dão taxas mais altas em territórios de baixa densidade, definid
 
 ## 3. O que existiu entre maio de 2025 e novembro de 2026
 
-| Aviso | Prazo | Condições principais | Leitura para a aldeia |
-| --- | --- | --- | --- |
-| **SICE – Inovação Produtiva – Territórios de Baixa Densidade** (MPr-2025-9) | Aberto a 30/07/2025; fase 1 até 28/11/2025, fase 2 até 31/03/2026 | PME em territórios de baixa densidade; taxa máxima de 50% no Centro | Muito improvável. Exige bens ou serviços "transacionáveis e internacionalizáveis" (exportação ou substituição de importações), e a construção só é elegível para turismo e indústria. |
-| **SIBT – ITI CIM Viseu Dão Lafões – Comércio e Serviços** (Centro2030-2025-29) | 29/09/2025 a 08/01/2026 | Micro e pequenas empresas; 1 000 000 € no total; 40% de subvenção, ou 50% em baixa densidade; despesa elegível entre 10 000 € e 50 000 €; construção até 60% da despesa | Não serve. A CAE 96992 não consta da lista de atividades elegíveis, que inclui apenas o comércio a retalho de animais de companhia e respetivos alimentos. A escala também não chegaria para o projeto. |
-| **SICE – Inovação Produtiva – Baixa Densidade e Outros Territórios** (MPR-2026-6) | 15/06/2026 a 30/09/2026; prorrogado até 06/11/2026 só para candidaturas pendentes do aviso anterior | Mínimo de 300 000 € de despesa elegível; micro e pequenas empresas: 50% em baixa densidade, 30% nos outros territórios | Muito improvável, pelas mesmas razões do aviso de 2025. A lista fechada de despesas não inclui terrenos. |
-| **Economia Circular (SI)** (Centro2030-2026-17) | 25/06/2026 a 30/10/2026 | 50% para micro e pequenas empresas | Não serve ao núcleo da aldeia: dirige-se à circularidade em processos produtivos (reaproveitamento de materiais, ecodesign, embalagens). |
-| **PEPAC/LEADER – Pequenos investimentos na exploração agrícola** (D.1.1.1.1) | Avisos dos GAL em 2025–2026 | 55% para investimentos de 2 000 € a 50 000 € | Não serve: só para quem exerce atividade agrícola. |
-| **Empreende XXI** (IEFP) | Último período confirmado: abril a 23/06/2023 | Até 85% do investimento elegível: até 40% a fundo perdido, com majorações, e até 45% de empréstimo sem juros; apoio máximo do IEFP de 200 000 € | Fechado. Não encontrámos período de candidaturas em 2025 nem em 2026. |
-| **PRR** | Terminou a 31/08/2026 | — | Já não há avisos. |
+| Aviso                                                                             | Prazo                                                                                               | Condições principais                                                                                                                                                    | Leitura para a aldeia                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SICE – Inovação Produtiva – Territórios de Baixa Densidade** (MPr-2025-9)       | Aberto a 30/07/2025; fase 1 até 28/11/2025, fase 2 até 31/03/2026                                   | PME em territórios de baixa densidade; taxa máxima de 50% no Centro                                                                                                     | Muito improvável. Exige bens ou serviços "transacionáveis e internacionalizáveis" (exportação ou substituição de importações), e a construção só é elegível para turismo e indústria.                   |
+| **SIBT – ITI CIM Viseu Dão Lafões – Comércio e Serviços** (Centro2030-2025-29)    | 29/09/2025 a 08/01/2026                                                                             | Micro e pequenas empresas; 1 000 000 € no total; 40% de subvenção, ou 50% em baixa densidade; despesa elegível entre 10 000 € e 50 000 €; construção até 60% da despesa | Não serve. A CAE 96992 não consta da lista de atividades elegíveis, que inclui apenas o comércio a retalho de animais de companhia e respetivos alimentos. A escala também não chegaria para o projeto. |
+| **SICE – Inovação Produtiva – Baixa Densidade e Outros Territórios** (MPR-2026-6) | 15/06/2026 a 30/09/2026; prorrogado até 06/11/2026 só para candidaturas pendentes do aviso anterior | Mínimo de 300 000 € de despesa elegível; micro e pequenas empresas: 50% em baixa densidade, 30% nos outros territórios                                                  | Muito improvável, pelas mesmas razões do aviso de 2025. A lista fechada de despesas não inclui terrenos.                                                                                                |
+| **Economia Circular (SI)** (Centro2030-2026-17)                                   | 25/06/2026 a 30/10/2026                                                                             | 50% para micro e pequenas empresas                                                                                                                                      | Não serve ao núcleo da aldeia: dirige-se à circularidade em processos produtivos (reaproveitamento de materiais, ecodesign, embalagens).                                                                |
+| **PEPAC/LEADER – Pequenos investimentos na exploração agrícola** (D.1.1.1.1)      | Avisos dos GAL em 2025–2026                                                                         | 55% para investimentos de 2 000 € a 50 000 €                                                                                                                            | Não serve: só para quem exerce atividade agrícola.                                                                                                                                                      |
+| **Empreende XXI** (IEFP)                                                          | Último período confirmado: abril a 23/06/2023                                                       | Até 85% do investimento elegível: até 40% a fundo perdido, com majorações, e até 45% de empréstimo sem juros; apoio máximo do IEFP de 200 000 €                         | Fechado. Não encontrámos período de candidaturas em 2025 nem em 2026.                                                                                                                                   |
+| **PRR**                                                                           | Terminou a 31/08/2026                                                                               | —                                                                                                                                                                       | Já não há avisos.                                                                                                                                                                                       |
 
 Contexto anterior: o **SIBT – ITI CIM Viseu Dão Lafões** (Centro2030-2024-49), com prazo prorrogado até 13/12/2024, apoiava investimentos de 50 000 € a 300 000 € com 40% ou 50%, mas só em indústria e turismo (hotelaria, turismo no espaço rural, parques de campismo, restauração e animação turística). A aldeia também não se enquadraria.
 
 ## 4. O que está aberto a 16 de novembro de 2026
 
-| Programa | Situação | Condições | Leitura para a aldeia |
-| --- | --- | --- | --- |
+| Programa                                                                                                       | Situação                                                  | Condições                                                                                                                                                                                                                                                   | Leitura para a aldeia                                                                                                                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Crescer com o Turismo** (Turismo de Portugal; Portaria n.º 50/2025/1, alterada pela Portaria n.º 159/2026/1) | Contínuo até 31/12/2026 ou até esgotar a dotação de 30 M€ | Taxa base de 60%, mais 20 pontos em baixa densidade e mais 10 por integração numa Estratégia de Eficiência Coletiva aprovada. Empresas: fundo perdido até 200 000 €; a pedido, componente reembolsável até 1 M€ (7 anos, 2 de carência). Regime de minimis. | É o programa encontrado com as taxas mais altas para empresas. Para PME, exige um projeto de inovação social com valor para o turismo ou integração numa estratégia PROVERE. Bem-estar animal e sustentabilidade não demonstram, por si, esse enquadramento. O terreno não consta das despesas elegíveis. |
-| **Linha de Apoio à Qualificação da Oferta 2024** (Turismo de Portugal e bancos) | Contínuo, até esgotar a dotação | Até 80% do investimento elegível em **crédito**: parte do Turismo de Portugal sem juros, parte bancária com juro. Um prémio de desempenho pode converter 25% do empréstimo do Turismo de Portugal (PME) em apoio não reembolsável. | Só para empresas turísticas registadas e licenciadas como tal. Não se aplica a uma atividade 96992. |
-| **BPF InvestEU – Investimento e Investimento Sustentável** (Banco Português de Fomento) | Vigência até 31/12/2028, sujeita a dotação | Garantias a empréstimos bancários | É crédito, sujeito a análise do banco. A percentagem garantida não é apoio dado à empresa. |
-| **IEFP – INVEST+ e MICROINVEST** | Medidas descritas no portal do IEFP | Crédito com garantia e juro reduzido: INVEST+ para investimentos de 20 000 € a 200 000 €, com crédito até 100 000 €; MICROINVEST até 20 000 € | Só para promotores em situações específicas (por exemplo, desempregados inscritos). Um investimento acima de 250 000 € ultrapassa o limite do INVEST+. |
+| **Linha de Apoio à Qualificação da Oferta 2024** (Turismo de Portugal e bancos)                                | Contínuo, até esgotar a dotação                           | Até 80% do investimento elegível em **crédito**: parte do Turismo de Portugal sem juros, parte bancária com juro. Um prémio de desempenho pode converter 25% do empréstimo do Turismo de Portugal (PME) em apoio não reembolsável.                          | Só para empresas turísticas registadas e licenciadas como tal. Não se aplica a uma atividade 96992.                                                                                                                                                                                                       |
+| **BPF InvestEU – Investimento e Investimento Sustentável** (Banco Português de Fomento)                        | Vigência até 31/12/2028, sujeita a dotação                | Garantias a empréstimos bancários                                                                                                                                                                                                                           | É crédito, sujeito a análise do banco. A percentagem garantida não é apoio dado à empresa.                                                                                                                                                                                                                |
+| **IEFP – INVEST+ e MICROINVEST**                                                                               | Medidas descritas no portal do IEFP                       | Crédito com garantia e juro reduzido: INVEST+ para investimentos de 20 000 € a 200 000 €, com crédito até 100 000 €; MICROINVEST até 20 000 €                                                                                                               | Só para promotores em situações específicas (por exemplo, desempregados inscritos). Um investimento acima de 250 000 € ultrapassa o limite do INVEST+.                                                                                                                                                    |
 
 ## 5. O que está previsto
 
@@ -107,25 +105,14 @@ Contexto anterior: o **SIBT – ITI CIM Viseu Dão Lafões** (Centro2030-2024-49
 - A negociação continuava em 2026; os líderes comprometeram-se a procurar acordo até ao fim do ano.
 - Estimativa nossa: os novos programas e avisos não deverão surgir antes de 2028.
 
-## 6. Como ler as taxas de apoio
+## 6. Apoio
 
 - **Fundo perdido, empréstimo e garantia são coisas diferentes.** Uma subvenção não se devolve. Um empréstimo devolve-se, mesmo que seja sem juros. Uma garantia apenas facilita o crédito bancário e não entra no projeto como dinheiro.
 - **A taxa aplica-se à despesa elegível, não ao investimento total.** O terreno, o IVA e as despesas fora da lista do aviso ficam de fora.
 - **A taxa de cofinanciamento do programa não é a taxa de apoio à empresa.** Nos avisos, a "taxa máxima de cofinanciamento" indica a parte europeia (FEDER) do financiamento público. A percentagem que a empresa recebe é definida noutra secção do aviso.
 - **As taxas máximas dependem de condições.** Somam majorações (localização, emprego qualificado, capitais próprios, entre outras) e podem ser reduzidas no fim se as metas contratadas não forem cumpridas.
 
-## 7. Exemplo de contas
-
-Números meramente ilustrativos, para um investimento total de 250 000 €:
-
-| Cenário | Despesa elegível | Taxa | Apoio | Peso no total | Fica por financiar |
-| --- | --- | --- | --- | --- | --- |
-| Taxa de 50% (baixa densidade) | 200 000 € | 50% | 100 000 € | 40% | 150 000 € |
-| Taxa de 40% (restantes territórios) | 150 000 € | 40% | 60 000 € | 24% | 190 000 € |
-
-Em ambos os casos, o terreno e o IVA ficam por conta do promotor. Também é preciso ter tesouraria para pagar antes de receber, porque os apoios são pagos por reembolso ou com adiantamentos limitados.
-
-## 8. Onde confirmar
+## 7. Onde confirmar
 
 Para avaliar um apoio concreto, é preciso ter o código do aviso, a CAE da empresa, o orçamento dividido por rubricas (terreno, construção, equipamentos, projetos, IVA, fundo de maneio) com a elegibilidade de cada uma e um plano de tesouraria até ao recebimento do apoio.
 
@@ -137,7 +124,7 @@ Para avaliar um apoio concreto, é preciso ter o código do aviso, a CAE da empr
 - **Turismo de Portugal**, para o Crescer com o Turismo.
 - **IEFP**, para o Empreende XXI e as linhas de crédito à criação de empresas.
 
-## 9. O que ficou por confirmar
+## 8. O que ficou por confirmar
 
 - Os limites da medida LEADER D.1.1.1.3 (10 000 € a 300 000 €, até 60%): não conseguimos abrir o texto da Portaria n.º 247/2025/1.
 - Se o Crescer com o Turismo tem ou não uma lista fechada de CAE: a FAQ oficial citada numa das pesquisas já não está disponível.
