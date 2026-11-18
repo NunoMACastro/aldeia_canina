@@ -25,6 +25,7 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 5. Além da identificação e da vacinação antirrábica, há recomendações concelhias de profilaxia para cães em alojamento coletivo e em creche, por exemplo em função de ocorrências locais?
 6. Que procedimento e que comunicação à autoridade sanitária veterinária concelhia esperam perante suspeita de raiva, de doença transmissível ou de surto, e como deve articular-se com o médico veterinário responsável?
 7. Existe circuito municipal ou procedimento local para o encaminhamento de cadáveres de animais de companhia, incluindo a sua conservação temporária?
+8. No programa de voluntariado, cães do centro de recolha municipal e de associações vêm à aldeia só durante o dia, sem contacto com os cães alojados nem com os da creche/ATL. Que protocolo sanitário recomendam para a sua entrada? Como pode o programa articular-se com o centro de recolha do município?
 
 ## 4. O que podemos facultar
 

@@ -2,7 +2,7 @@
 
 ## 1. Apresentação e pedido
 
-Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, um projeto de alojamento de animais com pernoita, creche diária/ATL canino e serviços complementares, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
+Estamos a desenvolver a Aldeia Canina Sustentável em Viseu, um projeto de alojamento de animais com pernoita, creche diária/ATL canino, serviços complementares e programas abertos à comunidade e a quem visita a região, que descrevemos na [apresentação do projeto](../README.md). Temos quatro terrenos em avaliação, dois deles com ruínas, e tomamos como referência uma área de 15 000 a 25 000 m².
 
 Antes de escolhermos o terreno e de apresentarmos o pedido de informação prévia (PIP), gostaríamos de ter a vossa orientação e de saber se a nossa leitura está certa.
 
@@ -21,6 +21,7 @@ Nas fontes oficiais que consultámos até 3 de novembro de 2026, identificámos 
 - o [Decreto-Lei n.º 49/2022](https://diariodarepublica.pt/dr/detalhe/decreto-lei/49-2022-186307878) e o [Decreto-Lei n.º 86/2026](https://diariodarepublica.pt/dr/detalhe/decreto-lei/86-2026-1085738182), que mantêm transitoriamente as cartas de perigosidade dos planos municipais de defesa da floresta contra incêndios (PMDFCI);
 - o [Decreto-Lei n.º 276/2001](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2001-34555875), quanto ao alojamento de animais de companhia e à mera comunicação prévia à DGAV;
 - a [Lei da Água](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-34506275) e o [Decreto-Lei n.º 226-A/2007](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34479475-43942075), quanto aos títulos de utilização dos recursos hídricos, incluindo a captação e a rejeição de águas residuais ([licenciamento da APA](https://apambiente.pt/agua/licenciamento-online));
+- a [Lei n.º 92/95](https://diariodarepublica.pt/dr/detalhe/lei/92-1995-562269), quanto à autorização municipal de certas utilizações e exibições de animais;
 - o [Regulamento Geral do Ruído](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34526375-43526275), quanto aos limites de exposição e ao critério de incomodidade.
 
 Se houver outras normas ou aspetos que devamos ter em conta desde já, agradecemos que nos digam.
@@ -38,7 +39,10 @@ Para as perguntas sobre cada terreno, indicaremos os terrenos diretamente aos vo
 7. Num terreno com ruínas, como se demonstra o último antecedente válido e que elementos existem no arquivo municipal? A reconstrução com o novo uso é admissível no PDM, e que limites de ampliação se aplicam?
 8. Como se articulam, no PIP, a verificação, prevista no artigo 60.º, n.º 3, do Decreto-Lei n.º 82/2021, das exceções do n.º 2 e o parecer vinculativo da comissão municipal? Como se obtém o reconhecimento de interesse municipal referido no artigo 60.º, n.º 2? As condições do artigo 61.º são apreciadas logo no PIP? A redução da faixa e do afastamento prevista no artigo 61.º, n.º 3, pode aplicar-se a um alojamento de animais?
 9. Os terrenos têm acesso às redes públicas de água e saneamento, com capacidade para a lotação máxima? Que requisitos municipais acrescem a uma solução autónoma?
-10. Que exigências se aplicam aos acessos, incluindo os de emergência, e ao estacionamento? Exigem avaliação acústica no PIP? Há regras municipais sobre o número de animais ou sobre horários?
+10. Que exigências se aplicam aos acessos, incluindo os de emergência, e ao estacionamento, incluindo lugares acessíveis? Exigem avaliação acústica no PIP? Há regras municipais sobre o número de animais ou sobre horários?
+11. A aldeia prevê atividades com público: voluntariado com cães de abrigo durante o dia, formação em turismo, sessões de educação ambiental, dias de adoção e outras atividades abertas. Isto muda a forma como a atividade é apreciada ou o que o PIP deve descrever?
+12. As atividades com animais abertas ao público, como os dias de adoção, precisam de autorização municipal?
+13. Como podemos articular o calendário das atividades abertas com a agenda do município?
 
 ## 4. O que podemos facultar
 

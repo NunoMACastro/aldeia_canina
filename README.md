@@ -1,12 +1,12 @@
 # Aldeia Canina Sustentável em Viseu
 
-Apresentação do projeto às entidades. Versão 1.0, de 3 de novembro de 2026.
+Apresentação do projeto às entidades. Versão 1.1, de 18 de novembro de 2026.
 
 ## Sobre este documento
 
 Este documento preliminar apresenta o projeto antes de escolhermos o terreno; não é projeto de execução nem pedido formal.
 
-Para cada entidade preparámos também um documento com os regimes que identificámos e as questões que gostaríamos de confirmar:
+Para cada entidade preparámos também um documento com os regimes ou os documentos de referência que identificámos e as questões que gostaríamos de confirmar:
 
 | Entidade | Documento próprio |
 | --- | --- |
@@ -15,6 +15,7 @@ Para cada entidade preparámos também um documento com os regimes que identific
 | Direção-Geral de Alimentação e Veterinária (DGAV) | [Pedido de orientação à Direção-Geral de Alimentação e Veterinária (DGAV)](entidades/dgav.md) |
 | Instituto da Conservação da Natureza e das Florestas (ICNF) | [Pedido de orientação ao Instituto da Conservação da Natureza e das Florestas (ICNF)](entidades/icnf.md) |
 | Médico veterinário municipal | [Pedido de orientação ao médico veterinário municipal](entidades/medico-veterinario-municipal.md) |
+| Turismo Centro de Portugal | [Pedido de orientação à Turismo Centro de Portugal](entidades/turismo-centro-portugal.md) |
 
 Conteúdo:
 
@@ -39,7 +40,7 @@ A aldeia é feita de pequenas casas de alojamento animal, independentes e de vá
 
 Os serviços vão do alojamento com pernoita à creche diária/ATL canino, com transporte próprio e serviços complementares de treino e educação canina, grooming, socialização e educação de tutores. O bem-estar de cada animal é acompanhado individualmente, com programas ajustados ao seu perfil. Para apoio à operação haverá uma Casa de Apoio Operacional, de preferência em ruínas reabilitadas, se o terreno as tiver e forem viáveis.
 
-Para a sustentabilidade ambiental, procuramos soluções eficientes (ver [secção 7](#7-sustentabilidade-e-infraestruturas)). O transporte serve também quem tem dificuldade em deslocar-se, a relação com os tutores apoia-se num portal digital (ver [secção 8](#8-inovação-e-relação-com-os-tutores)) e queremos que a aldeia tenha impacto económico e social no território. Crescerá por módulos, de forma progressiva (ver [secção 11](#11-faseamento)).
+Para a sustentabilidade ambiental, procuramos soluções eficientes (ver [secção 7](#7-sustentabilidade-e-infraestruturas)). O transporte serve também quem tem dificuldade em deslocar-se, a relação com os tutores apoia-se num portal digital (ver [secção 8](#8-inovação-e-relação-com-os-tutores)) e queremos que a aldeia tenha impacto económico e social no território, com programas feitos com parceiros e abertos à comunidade e a quem visita a região (ver [secção 9](#9-impacto-no-território)). Crescerá por módulos, de forma progressiva (ver [secção 11](#11-faseamento)).
 
 ![Vista aérea ilustrativa, em aguarela, de uma aldeia canina numa paisagem de colinas, com pequenas casas de madeira e os seus espaços exteriores vedados, caminhos, parques, um trilho sensorial, um lago raso vedado (previsto só se o terreno o permitir) e a casa de apoio em pedra](images/aguarelas/aldeia-vista-aerea.jpg)
 
@@ -50,11 +51,15 @@ _Figura 1. Visualização ilustrativa da organização geral da aldeia._
 | Serviço | Descrição |
 | --- | --- |
 | Alojamento com pernoita | Estadias curtas, médias ou prolongadas nas casas de alojamento animal. Há alojamento individual e para cães da mesma família, cães sénior, cães ansiosos ou sensíveis e cães com menor tolerância a grupos. |
-| Creche diária/ATL canino | Permanência diurna, sem pernoita, em dia completo, meio dia, dias pontuais ou utilização regular, com avaliação prévia e grupos compatíveis. |
+| Creche diária/ATL canino | Permanência diurna, sem pernoita, em dia completo, meio dia, dias pontuais ou utilização regular, com avaliação prévia e grupos compatíveis. Há horários alargados para quem trabalha por turnos. |
 | Treino e educação canina | Aulas individuais e de grupo, socialização de cachorros, obediência básica, treino de cães adotados, sessões para cães reativos e aulas para famílias com crianças. |
 | Grooming | Banho, tosquia, escovagem, corte de unhas, higiene básica e preparação pós-estadia. |
 | Transporte de animais | Recolha e entrega para estadias, creche/ATL, grooming e aulas, em viatura adaptada (ver [secção 6](#6-transporte-de-animais)). |
-| Workshops e eventos | Workshops para tutores, sessões sobre comportamento canino e cuidados básicos, e ações abertas à comunidade (ver [secção 9](#9-impacto-no-território)). |
+| Workshops e eventos | Workshops para tutores, sessões sobre comportamento canino e cuidados básicos, e ações abertas à comunidade, com calendário anual (ver [secção 9](#9-impacto-no-território)). |
+| Voluntariado com cães de abrigo | Residentes, visitantes e voluntários passeiam e socializam, durante o dia e com a equipa, cães do centro de recolha municipal e de associações, com ligação à adoção responsável. |
+| Acolhimento dos animais de visitantes | Acolhimento diurno, na creche/ATL, dos animais de quem visita a região, com recolha e entrega nos alojamentos (ver [secção 4.5](#45-creche-diária-e-atl-canino)). |
+| Formação em turismo | Formação em acolhimento e atendimento de visitantes que viajam com animais, para pessoas socialmente vulneráveis, com uma entidade formadora e uma instituição social. |
+| Educação ambiental | Sessões para escolas, residentes e visitantes sobre comportamento canino, bem-estar animal, fauna, resíduos e uso responsável dos espaços. |
 | Gatil | Só como possibilidade futura, num edifício separado da área canina (ver [secção 4.9](#49-gatil)). |
 
 Os serviços combinam-se entre si. A creche/ATL, por exemplo, pode juntar-se ao transporte, ao grooming e ao treino, e serve também de adaptação progressiva antes de uma primeira estadia.
@@ -107,13 +112,13 @@ Na Casa de Apoio Operacional ficam a receção e as funções de apoio da aldeia
 
 _Figura 2. Visualização ilustrativa da Casa de Apoio Operacional._
 
-Na receção atendemos os tutores e fazemos o check-in e o check-out das estadias, da creche/ATL e dos serviços complementares, a validação documental, a avaliação inicial e a entrega e recolha dos animais. Há também um gabinete administrativo, um espaço para reuniões e, eventualmente, uma pequena loja de produtos.
+Na receção atendemos os tutores e fazemos o check-in e o check-out das estadias, da creche/ATL e dos serviços complementares, a validação documental, a avaliação inicial e a entrega e recolha dos animais. Recebemos aqui também os visitantes, os voluntários e quem participa nas atividades abertas. Há também um gabinete administrativo, um espaço para reuniões e, eventualmente, uma pequena loja de produtos.
 
 Para a equipa há instalações sanitárias, incluindo uma solução acessível, vestiários, duche e cacifos, uma pequena copa e uma sala de repouso temporário, para permanências prolongadas ou situações operacionais excecionais. A sala de repouso serve de apoio à equipa e não se destina a habitação, alojamento turístico nem residência permanente.
 
 As áreas operacionais e técnicas incluem a lavandaria, com circuitos separados para o material sujo e o limpo, e a zona de preparação da alimentação animal. Há três armazéns distintos: um para a alimentação, protegido de humidade, pragas e contaminação, outro para produtos de limpeza e higienização e outro para ferramentas, equipamentos e materiais de manutenção. Há também uma zona de lavagem, secagem e recolha de material e arrumos para equipamento limpo. Completam o conjunto uma área técnica para os sistemas elétricos, a água, a energia e a monitorização, uma área controlada para separar e recolher resíduos e um espaço para registos operacionais.
 
-O acesso é controlado, com dupla porta de segurança e uma zona de espera separada. A circulação pública fica separada das áreas da equipa e dos circuitos operacionais, e a alimentação, os produtos de limpeza, a manutenção e os resíduos ficam fisicamente separados entre si. O edifício terá boa sinalética, acesso fácil para a viatura de transporte de animais, acessibilidade e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio. Pode ter painéis solares, quando for técnica e economicamente viável.
+O acesso é controlado, com dupla porta de segurança e uma zona de espera separada. A circulação pública fica separada das áreas da equipa e dos circuitos operacionais, e a alimentação, os produtos de limpeza, a manutenção e os resíduos ficam fisicamente separados entre si. O edifício terá boa sinalética, acesso fácil para a viatura de transporte de animais e condições adequadas de ventilação, iluminação, saneamento e segurança contra incêndio. O estacionamento, a receção, os sanitários e a entrega e recolha dos animais são acessíveis, e a informação e a sinalética servem também quem tem limitações sensoriais. Pode ter painéis solares, quando for técnica e economicamente viável.
 
 ### 4.2 Casas de alojamento animal
 
@@ -177,6 +182,8 @@ As atividades ajustam-se à idade, ao porte, à energia e à condição física 
 
 Os materiais são seguros, laváveis e resistentes. Os túneis, as rampas, as plataformas e os restantes equipamentos são inspecionados com regularidade, e as plantas e os substratos escolhem-se por serem seguros para cães. A equipa regista as preferências e as limitações de cada animal.
 
+Em horários próprios, longe da zona sénior e calma, os trilhos recebem também o voluntariado com cães de abrigo, sempre com a equipa e sem contacto com os cães alojados nem com os da creche/ATL, e as sessões de educação ambiental, sem perturbar os animais alojados (ver [secção 9](#9-impacto-no-território)).
+
 ### 4.5 Creche diária e ATL canino
 
 A creche/ATL usa os parques exteriores, os trilhos sensoriais e as zonas de descanso, e apoia-se na avaliação comportamental.
@@ -190,6 +197,8 @@ Tem uma zona de receção e entrega rápida, áreas de permanência diurna e par
 A creche/ATL tem lotação própria, ajustada à equipa disponível, e critérios de admissão específicos, com avaliação prévia. Os cães separam-se por porte, idade, energia, sociabilidade e forma de interagir com outros cães, e ficam registadas a adaptação, os incidentes e as compatibilidades.
 
 Quando a segurança ou o bem-estar do animal ou do grupo possam estar em causa, a resposta pode ser uma atividade individual, uma adaptação gradual ou uma recusa fundamentada.
+
+Para quem trabalha por turnos, por exemplo na hotelaria e na restauração, há horários alargados, combinados com os empregadores, depois de a creche/ATL estar a funcionar e de confirmarmos a procura junto deles. Não são horários noturnos. A creche/ATL acolhe também, durante o dia, os animais de quem visita a região, com recolha e entrega nos alojamentos. A admissão destes animais faz-se antes da visita, pelo portal, com a ficha e os documentos, e há uma avaliação curta à chegada. Os horários alargados e o acolhimento de visitantes usam a lotação da creche/ATL, não a aumentam.
 
 ### 4.6 Enfermaria e zona de isolamento
 
@@ -212,7 +221,7 @@ _Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento._
 
 Há um espaço para os serviços de grooming descritos na [secção 2](#2-serviços-previstos). Pode entrar na fase de arranque ou ficar como componente complementar, o que se decide no desenvolvimento do projeto.
 
-O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), incluindo os workshops para tutores, usam o parque próprio e os espaços para aulas, workshops e eventos.
+O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), incluindo os workshops para tutores, usam o parque próprio e os espaços para aulas, workshops e eventos. Estes espaços servem também a formação em turismo e as atividades abertas à comunidade.
 
 ![Aguarela ilustrativa de um pequeno edifício de madeira com a sala de grooming à vista, onde uma groomer escova um cão preso na mesa, e de um parque de treino vedado ao lado, com entrada de portão duplo, onde um treinador trabalha com um cão pela trela e uma família com uma criança assiste num banco](images/aguarelas/grooming-e-treino.jpg)
 
@@ -284,9 +293,9 @@ Vamos validar com a equipa técnica e com o médico veterinário responsável as
 
 Prevemos um serviço próprio de transporte, numa carrinha ou num mini autocarro adaptado, para recolher e entregar animais que vêm para estadias, creche/ATL, grooming, treino ou outros serviços. O transporte reduz as barreiras de acesso, incluindo as territoriais. Serve tutores sem transporte próprio, pessoas idosas ou com dificuldade de deslocação, famílias com horários difíceis, tutores que vivem em zonas afastadas e quem queira usar a creche/ATL sem se deslocar.
 
-Pode recolher os animais em casa do tutor, entregá-los depois da estadia e levá-los à creche/ATL, ao grooming e às aulas de treino. Pode funcionar em rotas semanais ou em dias específicos e fazer deslocações ligadas a parcerias com médicos veterinários.
+Pode recolher os animais em casa do tutor, entregá-los depois da estadia e levá-los à creche/ATL, ao grooming e às aulas de treino, e recolher e entregar nos alojamentos os animais de quem visita a região. Pode funcionar em rotas semanais ou em dias específicos e fazer deslocações ligadas a parcerias com médicos veterinários.
 
-A viatura é adaptada ao transporte animal, com transportadoras ou compartimentos seguros, climatização e ventilação, limpeza fácil, protocolo de higienização entre utilizações e separação entre animais. Leva kit de primeiros socorros e contactos de emergência, GPS e documentação de transporte, e será elétrica ou híbrida, se for viável.
+A viatura é adaptada ao transporte animal, com transportadoras ou compartimentos seguros, climatização e ventilação, limpeza fácil, protocolo de higienização entre utilizações e separação entre animais. Leva kit de primeiros socorros e contactos de emergência, GPS e documentação de transporte, e será elétrica.
 
 O transporte é uma operação controlada e registada. Segue regras por porte, temperamento e saúde, e os animais incompatíveis não viajam em contacto direto. Ficam registadas as autorizações de transporte, as recolhas e as entregas, e as rotas organizam-se para reduzir o stress e o tempo de viagem. Há também regras para atrasos e documentação, para animais ansiosos ou com enjoos, e para fugas, acidentes e emergências.
 
@@ -300,7 +309,7 @@ _Figura 11. Visualização ilustrativa da integração da aldeia na paisagem._
 
 Se o terreno tiver ruínas ou edificado existente, queremos reabilitá-los e reutilizá-los, depois da avaliação estrutural e da confirmação do enquadramento urbanístico (ver [secção 3](#3-terreno-e-critérios-de-seleção)).
 
-Na energia, prevemos painéis solares, com produção individual, agrupada ou centralizada, eventualmente uma micro-rede energética e baterias, quando fizerem sentido técnico. Juntam-se iluminação LED e sensores de presença, iluminação exterior eficiente, monitorização de consumos e carregamento para a viatura elétrica ou híbrida.
+Na energia, prevemos painéis solares, com produção individual, agrupada ou centralizada, eventualmente uma micro-rede energética e baterias, quando fizerem sentido técnico. Juntam-se iluminação LED e sensores de presença, iluminação exterior eficiente, monitorização de consumos e carregamento para a viatura elétrica.
 
 Para poupar água, queremos recolher e armazenar águas pluviais em cisternas, regar gota a gota, usar espécies autóctones e, quando legalmente permitido, reduzir o consumo de água potável nas lavagens exteriores e na rega.
 
@@ -328,6 +337,8 @@ O portal digital do tutor reúne a informação num só sítio. Ajuda a reduzir 
 
 Mais tarde, ou como complemento, podem vir relatórios diários, fotografias e vídeos curtos, check-in e check-out digital, alertas, recomendações pós-estadia e agenda de grooming e treino.
 
+Depois das funcionalidades essenciais do tutor, o portal tem um módulo para visitantes e voluntários: reserva do acolhimento diurno dos animais de quem visita a região, inscrição nas atividades abertas e no voluntariado, o calendário das atividades e informação, feita com os parceiros, sobre os locais da região que aceitam animais. O módulo funciona em português e inglês, com alternativa assistida por telefone ou presencial, e todo o portal é acessível também a quem tem limitações sensoriais.
+
 O acesso ao portal será autenticado, com os dados organizados por tutor e por animal, permissões de visualização adequadas e registo de autorizações. O portal recolhe apenas os dados necessários, protege os dados pessoais e a informação sensível, tem prazos definidos de conservação e eliminação e prevê cópias de segurança e controlo de acessos. Liga-se às reservas, à admissão e à comunicação diária.
 
 A partilha de fotografias e vídeos com os tutores segue uma política de imagens própria, baseada no consentimento e na proteção de dados pessoais. Fotografar e filmar vem depois do bem-estar animal e da rotina de cuidado.
@@ -338,11 +349,11 @@ Uma eventual videovigilância das instalações fica separada da comunicação c
 
 A aldeia pode criar emprego local em funções como tratadores e cuidadores, treinador canino, groomer, receção e administração, motorista e manutenção, e recorrer a apoio veterinário externo.
 
-Vemos parcerias possíveis com clínicas veterinárias, associações de proteção animal, escolas profissionais, juntas de freguesia, a Câmara Municipal, fornecedores locais, treinadores, groomers e produtores locais de produtos para animais.
+Os programas da aldeia são feitos com parceiros, que participam no seu desenho e, uma vez por ano, na avaliação dos resultados. O voluntariado funciona com o centro de recolha municipal e com associações de proteção animal, que trazem os cães e acompanham as adoções; os cães de abrigo vêm só durante o dia e seguem um protocolo sanitário validado pelo médico veterinário responsável. A formação em turismo é dada com uma entidade formadora e uma instituição social. O acolhimento dos animais de quem visita a região organiza-se com alojamentos e outros agentes turísticos do território. As sessões de educação ambiental preparam-se com as escolas. O funcionamento corrente envolve também clínicas veterinárias, escolas profissionais, juntas de freguesia, fornecedores locais, treinadores, groomers e produtores locais de produtos para animais.
 
-Com a comunidade, podemos organizar ações de formação: workshops de cuidados básicos e de primeiros socorros para animais, sessões sobre comportamento canino, formação para famílias e sessões para crianças. Podemos também organizar dias de adoção responsável, ações de prevenção do abandono, caminhadas educativas e campanhas solidárias.
+Com a comunidade, organizamos ao longo do ano ações de formação: workshops de cuidados básicos e de primeiros socorros para animais, sessões sobre comportamento canino, formação para famílias e sessões para crianças. Organizamos também dias de adoção responsável, ações de prevenção do abandono, caminhadas educativas e campanhas solidárias. O calendário destas atividades é publicado no portal e combinado com a Câmara Municipal e a Turismo Centro de Portugal, para entrar na agenda da região.
 
-Pode haver ainda um programa social, com uma quota limitada e bem delimitada para situações especiais: apoio temporário a animais de pessoas hospitalizadas, apoio a tutores idosos, parcerias com associações, apoio em situações de emergência social e estadias solidárias mediante protocolo.
+O programa social, com capacidade reservada, responde a situações especiais: apoio temporário a animais de pessoas hospitalizadas, apoio a tutores idosos, apoio em situações de emergência social e estadias solidárias mediante protocolo. Os casos chegam encaminhados por associações e serviços sociais, com critérios de acesso objetivos e proteção de dados.
 
 ## 10. Condicionantes e medidas previstas
 
@@ -364,6 +375,7 @@ Pode haver ainda um programa social, com uma quota limitada e bem delimitada par
 | Lotação | Crescimento progressivo e lotação controlada. |
 | Zona aquática | Estudo técnico, validação ambiental e licenciamento prévios; acesso apenas supervisionado. |
 | Transporte | Operação controlada e registada, com regras por perfil do animal e procedimentos de emergência. |
+| Atividades com público e voluntários | Horários próprios e acompanhamento da equipa; separação dos cães alojados, da creche/ATL e da zona sénior e calma; protocolo sanitário para os cães de abrigo; seguro e plano de emergência. |
 | Imagens e dados pessoais | Consentimento, partilha controlada e proteção de dados; câmaras em direto fora da primeira fase. |
 
 ## 11. Faseamento
@@ -373,8 +385,8 @@ A aldeia cresce por módulos, de forma progressiva, a partir de um núcleo essen
 | Nível | Componentes |
 | --- | --- |
 | Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; creche diária/ATL canino; plano de água, saneamento e drenagem. |
-| Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino. |
-| Prioridade média | Zona aquática; grooming. |
+| Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino; programa social; voluntariado com cães de abrigo; horários alargados da creche/ATL; acolhimento dos animais de visitantes; educação ambiental; calendário de atividades abertas; receção e reservas em português e inglês. |
+| Prioridade média | Zona aquática; grooming; formação em turismo. |
 | Complementares ou futuras | Gatil; câmaras em direto. |
 
 A composição e o calendário de cada fase definem-se no desenvolvimento do projeto.
@@ -385,4 +397,4 @@ Este é um documento preliminar. Não é projeto de execução nem estudo de imp
 
 Áreas, capacidades, dimensões e soluções técnicas confirmam-se no projeto técnico, com as entidades competentes e com o médico veterinário responsável.
 
-O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes que identificámos, mas o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.
+O documento não é parecer jurídico e não confirma a licenciabilidade nem a conformidade legal do projeto. Os documentos das entidades indicam os regimes ou os documentos de referência que identificámos, mas o enquadramento de cada matéria depende das fontes oficiais e da validação das entidades competentes.

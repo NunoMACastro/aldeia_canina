@@ -31,10 +31,12 @@ Se houver outros aspetos que devamos ter em conta desde já, agradecemos que nos
 7. Em que condições pode a equipa administrar medicação prescrita pelo médico veterinário assistente do tutor, sob orientação do médico veterinário responsável, e que registos esperam?
 8. O regime exige presença de pessoal durante a noite num alojamento com pernoita, ou admite outras formas de vigilância? O que esperam quanto à proteção contra incêndios e à evacuação ou transferência dos animais?
 9. Se admitirmos cães perigosos ou potencialmente perigosos, que requisitos adicionais se aplicam à mera comunicação prévia, às instalações e ao alojamento temporário, incluindo na creche/ATL?
-10. Nas recolhas e entregas em domicílio até 65 km, como se aplica o artigo 8.º, n.º 4, do Decreto-Lei n.º 265/2007? Que autorização e que passos no SITA devemos cumprir antes de adquirir ou adaptar a viatura?
+10. Nas recolhas e entregas em domicílio até 65 km, como se aplica o artigo 8.º, n.º 4, do Decreto-Lei n.º 265/2007? Que autorização e que passos no SITA devemos cumprir antes de adquirir ou adaptar a viatura? Aplica-se o mesmo às recolhas e entregas nos alojamentos de quem visita a região?
 11. Em que momento deve ser apresentada a comunicação, face ao controlo urbanístico e às obras? A partir de que ato pode ser recebido o primeiro animal: a submissão e o pagamento, ou a atribuição do número de registo?
 12. Está prevista alguma vistoria da DGAV antes ou depois do início da atividade?
 13. Como devemos comunicar o aumento faseado da capacidade e a eventual inclusão futura de gatos: como alteração ou como nova comunicação?
+14. A creche/ATL acolhe também, durante o dia, os animais de quem visita a região, admitidos antes da visita com a ficha e os documentos do animal. Estes animais contam para a capacidade comunicada da creche/ATL, ou exigem outro registo?
+15. No programa de voluntariado, cães do centro de recolha municipal e de associações vêm à aldeia só durante o dia, para passeios e socialização, sem contacto com os cães alojados nem com os da creche/ATL. Que requisitos se aplicam quanto ao detentor, ao registo no SIAC e à saúde? Isto altera a mera comunicação prévia?
 
 ## 4. O que podemos facultar
 

@@ -52,3 +52,11 @@
   foco_x: 50%
   foco_y: 40%
   zoom: 1
+
+- url: /entidades/turismo-centro-portugal.html
+  md: entidades/turismo-centro-portugal.md
+  nome: Turismo Centro de Portugal
+  figura: creche
+  foco_x: 50%
+  foco_y: 40%
+  zoom: 1

@@ -117,7 +117,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 }
 @media (hover: hover) and (pointer: fine) { .menu a:hover { background: var(--pedra); color: var(--pinho); } }
 .menu a[aria-current="page"] { color: var(--pinho); border-left-color: var(--pinho); }
-/* A apresentação não é uma entidade: fica no topo da lista, separada das cinco por um filete */
+/* A apresentação não é uma entidade: fica no topo da lista, separada das seis por um filete */
 .menu .menu-inicio { border-bottom: 1px solid var(--filete); margin-bottom: .35rem; padding-bottom: .35rem; }
 @media (prefers-reduced-motion: reduce) { .menu summary, .menu summary::after { transition: none; } }
 
@@ -167,7 +167,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 }
 
 /* Postais: cada documento com o recorte da paisagem da sua entidade */
-.postais ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+.postais ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1rem; }
 .postais li { display: flex; }
 .postais a {
   display: flex; flex-direction: column; width: 100%; background: var(--chao); color: var(--tinta);
@@ -723,7 +723,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
   .inicio .vista-texto { padding-bottom: 1.6rem; }
   .inicio .vista h1 { font-size: 2.1rem; }
   .postais-entrada { margin-top: 1.2rem; }
-  /* Postais: uma lista de linhas com a miniatura à esquerda, como a grelha da §4; as cinco
+  /* Postais: uma lista de linhas com a miniatura à esquerda, como a grelha da §4; as seis
      entidades veem-se sem deslocar para o lado */
   .postais-entrada .postais-t { display: block; padding-top: 0; border-top: 0; }
   .postais ul { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--filete); }
