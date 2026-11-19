@@ -311,10 +311,10 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
   content: ""; position: absolute; left: 0; top: 1.22rem; width: .42rem; height: .42rem; background: var(--pinho);
 }
 
-/* §4 Espaços: grelha das nove subsecções, com a miniatura da aguarela de cada uma, quando há */
+/* §4 Espaços: grelha das doze subsecções, com a miniatura da aguarela de cada uma, quando há */
 .espacos ol {
   list-style: none; margin: 1.8rem 0 .6rem; padding: 0;
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem 1.1rem;
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.4rem 1.1rem;
 }
 .espacos li { margin: 0; max-width: none; }
 /* Cada entrada: o lugar da imagem com o número da subsecção numa placa de pedra ao sol no
@@ -527,7 +527,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 @media (prefers-reduced-motion: reduce) { .fases button, .espaco-img { transition: none; } }
 
 /* Mini-grelha dos espaços (§4 da apresentação, montada pelo script): enquanto se lê a §4 com a
-   grelha acima do ecrã, uma faixa fixa no topo com os nove espaços. No ecrã largo, a miniatura de
+   grelha acima do ecrã, uma faixa fixa no topo com os doze espaços. No ecrã largo, a miniatura de
    cada aguarela com o número numa placa, como a grelha; o espaço em leitura ganha um traço de 3px
    em pinho por baixo e o número a 600. Sem sombra, separada do texto por um filete, como a faixa
    da secção. */
@@ -542,7 +542,7 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
   .mini-espacos.visivel { opacity: 1; transform: none; transition: opacity .18s ease-out, transform .18s ease-out, visibility 0s; }
 }
 .doc .mini-espacos ol {
-  display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: .5rem;
+  display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: .5rem;
   list-style: none; max-width: 76rem; margin: 0 auto; padding: .45rem var(--margem) .35rem;
 }
 .doc .mini-espacos li { max-width: none; margin: 0; }
@@ -706,6 +706,16 @@ a { color: var(--pinho); text-decoration-thickness: 1px; text-underline-offset: 
 }
 @media (max-width: 40rem) {
   .doc .mini-espacos ol { padding-inline: var(--gutter); }
+}
+/* Com doze espaços, os números de dois algarismos («4.10» a «4.12») não cabem a .98rem num
+   telemóvel estreito: sem vão entre as ligações e com o número mais pequeno, cada um cabe na sua */
+@media (max-width: 40rem) {
+  .doc .mini-espacos ol { gap: 0; }
+  .mini-num { font-size: .82rem; }
+}
+@media (max-width: 22.5rem) {
+  .doc .mini-espacos ol { padding-inline: max(.5rem, env(safe-area-inset-left, 0px)); }
+  .mini-num { font-size: .75rem; }
 }
 
 /* Telemóvel: a imagem fica por cima e o texto da abertura passa para a sombra do pinhal */

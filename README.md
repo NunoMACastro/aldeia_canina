@@ -57,10 +57,10 @@ _Figura 1. Visualização ilustrativa da organização geral da aldeia._
 | Transporte de animais | Recolha e entrega para estadias, creche/ATL, grooming e aulas, em viatura adaptada (ver [secção 6](#6-transporte-de-animais)). |
 | Workshops e eventos | Workshops para tutores, sessões sobre comportamento canino e cuidados básicos, e ações abertas à comunidade, com calendário anual (ver [secção 9](#9-impacto-no-território)). |
 | Voluntariado com cães de abrigo | Residentes, visitantes e voluntários passeiam e socializam, durante o dia e com a equipa, cães do centro de recolha municipal e de associações, com ligação à adoção responsável. |
-| Acolhimento dos animais de visitantes | Acolhimento diurno, na creche/ATL, dos animais de quem visita a região, com recolha e entrega nos alojamentos (ver [secção 4.5](#45-creche-diária-e-atl-canino)). |
+| Acolhimento dos animais de visitantes | Acolhimento diurno, na creche/ATL, dos animais de quem visita a região, com recolha e entrega nos alojamentos (ver [secção 4.6](#46-creche-diária-e-atl-canino)). |
 | Formação em turismo | Formação em acolhimento e atendimento de visitantes que viajam com animais, para pessoas socialmente vulneráveis, com uma entidade formadora e uma instituição social. |
 | Educação ambiental | Sessões para escolas, residentes e visitantes sobre comportamento canino, bem-estar animal, fauna, resíduos e uso responsável dos espaços. |
-| Gatil | Só como possibilidade futura, num edifício separado da área canina (ver [secção 4.9](#49-gatil)). |
+| Gatil | Só como possibilidade futura, num edifício separado da área canina (ver [secção 4.12](#412-gatil)). |
 
 Os serviços combinam-se entre si. A creche/ATL, por exemplo, pode juntar-se ao transporte, ao grooming e ao treino, e serve também de adaptação progressiva antes de uma primeira estadia.
 
@@ -100,7 +100,7 @@ Para cada terreno candidato, consideramos aconselhável fazer um levantamento to
 
 Como boa prática, não pretendemos adquirir nem comprometer definitivamente nenhum terreno sem diligência técnica e jurídica e sem um PIP favorável e suficientemente detalhado, salvo alternativa de controlo expressamente validada para a operação concreta.
 
-Na implantação, o desenho acompanha o terreno e evita soluções demasiado artificiais. Onde houver variação de cotas, usamo-la para separar zonas funcionais. As casas de alojamento ficam nas zonas altas e secas, e as zonas mais baixas recebem especial atenção à drenagem. As zonas ruidosas ficam afastadas das calmas. Os caminhos internos são estabilizados, seguros e antiderrapantes, e há áreas de sombra natural e artificial. Usamos barreiras vegetais pensadas para o conforto visual, o ruído e o vento, e a vegetação autóctone e as espécies adequadas ao local integram a aldeia na paisagem. A circulação é planeada para animais, equipa, tutores, viaturas, manutenção e emergência.
+Na implantação, o desenho acompanha o terreno e evita soluções demasiado artificiais. Onde houver variação de cotas, usamo-la para separar zonas funcionais. As casas de alojamento ficam nas zonas altas e secas, e as zonas mais baixas recebem especial atenção à drenagem. As zonas ruidosas ficam afastadas das calmas. Os caminhos internos são estabilizados, seguros e antiderrapantes, entre zonas verdes com sombra e barreiras vegetais (ver [secção 4.10](#410-paisagem-vegetação-e-sombra)). A circulação é planeada para animais, equipa, tutores, viaturas, manutenção e emergência.
 
 ## 4. Espaços e componentes
 
@@ -160,7 +160,13 @@ As casas têm abastecimento de água e eletricidade, drenagem e encaminhamento a
 
 As dimensões das casas, dos quartos e dos espaços exteriores ficam definidas no projeto técnico. Vamos dimensionar as instalações para respeitar as áreas mínimas legais aplicáveis ao alojamento de cães. Tomamo-las como mínimos, não como dimensões de projeto, e vamos confirmá-las com a DGAV e validá-las com o médico veterinário responsável.
 
-### 4.3 Parques exteriores por perfil
+### 4.3 Zona sénior e calma
+
+Há uma zona sénior e calma, mais tranquila, para cães idosos, com menor mobilidade, em medicação, que precisam de descanso prolongado, ansiosos, sensíveis ao ruído, em primeira estadia, pequenos ou frágeis (ver [secção 5](#5-bem-estar-animal-e-funcionamento)). Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra.
+
+As casas dos cães sénior, ansiosos ou sensíveis ficam nas zonas mais tranquilas do terreno (ver [secção 4.2](#42-casas-de-alojamento-animal)), e há parques próprios para cães sénior e um parque calmo (ver [secção 4.4](#44-parques-exteriores-por-perfil)). O voluntariado com cães de abrigo e as sessões de educação ambiental decorrem longe desta zona (ver [secção 4.5](#45-trilhos-sensoriais-e-atividades-de-enriquecimento)).
+
+### 4.4 Parques exteriores por perfil
 
 As áreas exteriores dividem-se por perfil. Há parques para cães pequenos, para cães grandes e para cães sénior, um parque ativo e um parque calmo, um parque individual, um parque de adaptação e um parque para aulas. Os parques usam-se por horários e por grupos de compatibilidade, alternados para reduzir conflitos.
 
@@ -168,7 +174,7 @@ As áreas exteriores dividem-se por perfil. Há parques para cães pequenos, par
 
 _Figura 4. Visualização ilustrativa dos parques exteriores por perfil._
 
-### 4.4 Trilhos sensoriais e atividades de enriquecimento
+### 4.5 Trilhos sensoriais e atividades de enriquecimento
 
 Os trilhos sensoriais juntam superfícies diferentes (relva, areia, madeira, pedra lisa e casca de pinheiro), plantas aromáticas seguras, equipamentos (pequenas rampas, túneis e plataformas), zonas de faro e pontos de pausa, em percursos com estímulos controlados. Contribuem para estimular mentalmente os animais, reduzir a ansiedade e dar-lhes atividade física moderada e enriquecimento ambiental.
 
@@ -184,7 +190,7 @@ Os materiais são seguros, laváveis e resistentes. Os túneis, as rampas, as pl
 
 Em horários próprios, longe da zona sénior e calma, os trilhos recebem também o voluntariado com cães de abrigo, sempre com a equipa e sem contacto com os cães alojados nem com os da creche/ATL, e as sessões de educação ambiental, sem perturbar os animais alojados (ver [secção 9](#9-impacto-no-território)).
 
-### 4.5 Creche diária e ATL canino
+### 4.6 Creche diária e ATL canino
 
 A creche/ATL usa os parques exteriores, os trilhos sensoriais e as zonas de descanso, e apoia-se na avaliação comportamental.
 
@@ -200,7 +206,7 @@ Quando a segurança ou o bem-estar do animal ou do grupo possam estar em causa, 
 
 Para quem trabalha por turnos, por exemplo na hotelaria e na restauração, há horários alargados, combinados com os empregadores, depois de a creche/ATL estar a funcionar e de confirmarmos a procura junto deles. Não são horários noturnos. A creche/ATL acolhe também, durante o dia, os animais de quem visita a região, com recolha e entrega nos alojamentos. A admissão destes animais faz-se antes da visita, pelo portal, com a ficha e os documentos, e há uma avaliação curta à chegada. Os horários alargados e o acolhimento de visitantes usam a lotação da creche/ATL, não a aumentam.
 
-### 4.6 Enfermaria e zona de isolamento
+### 4.7 Enfermaria e zona de isolamento
 
 A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação pública, da preparação de alimentos e das áreas comuns da equipa. Conforme a validação técnica e veterinária, incluem:
 
@@ -217,23 +223,39 @@ A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação p
 
 _Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento._
 
-### 4.7 Grooming e treino
+### 4.8 Grooming e treino
 
 Há um espaço para os serviços de grooming descritos na [secção 2](#2-serviços-previstos). Pode entrar na fase de arranque ou ficar como componente complementar, o que se decide no desenvolvimento do projeto.
 
-O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), incluindo os workshops para tutores, usam o parque próprio e os espaços para aulas, workshops e eventos. Estes espaços servem também a formação em turismo e as atividades abertas à comunidade.
+O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), incluindo os workshops para tutores, usam o parque próprio e os espaços para aulas, workshops e eventos (ver [secção 4.9](#49-espaços-para-aulas-workshops-e-eventos)).
 
 ![Aguarela ilustrativa de um pequeno edifício de madeira com a sala de grooming à vista, onde uma groomer escova um cão preso na mesa, e de um parque de treino vedado ao lado, com entrada de portão duplo, onde um treinador trabalha com um cão pela trela e uma família com uma criança assiste num banco](images/aguarelas/grooming-e-treino.jpg)
 
 _Figura 8. Visualização ilustrativa do espaço de grooming e do parque de treino._
 
-### 4.8 Zona aquática
+### 4.9 Espaços para aulas, workshops e eventos
+
+Os espaços para aulas, workshops e eventos recebem as aulas de treino em grupo e os workshops para tutores (ver [secção 2](#2-serviços-previstos)), a formação em turismo e as atividades abertas à comunidade (ver [secção 9](#9-impacto-no-território)). Para as aulas com cães há também um parque para aulas (ver [secção 4.4](#44-parques-exteriores-por-perfil)).
+
+Os grupos chegam pela receção da Casa de Apoio Operacional (ver [secção 4.1](#41-casa-de-apoio-operacional)), por percursos acessíveis. A localização e a dimensão destes espaços dependem do terreno e do projeto técnico.
+
+### 4.10 Paisagem, vegetação e sombra
+
+![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
+
+_Figura 9. Visualização ilustrativa da integração da aldeia na paisagem._
+
+Entre as casas, os parques e os trilhos há zonas verdes e áreas de sombra natural e artificial. Usamos barreiras vegetais pensadas para o conforto visual, o ruído e o vento, e a vegetação autóctone e as espécies adequadas ao local integram a aldeia na paisagem.
+
+A vegetação entra também no plano de solo e drenagem e na poupança de água (ver [secção 7](#7-sustentabilidade-e-infraestruturas)). As sessões de educação ambiental decorrem nos trilhos e com a vegetação autóctone (ver [secção 4.5](#45-trilhos-sensoriais-e-atividades-de-enriquecimento)).
+
+### 4.11 Zona aquática
 
 Se o terreno escolhido o permitir, prevemos um lago raso naturalizado, pensado como zona aquática controlada e de acesso condicionado. A sua criação depende de um estudo técnico prévio (viabilidade, drenagem, impermeabilização, segurança e manutenção), de validação ambiental e do licenciamento que se aplique.
 
 ![Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado](images/aguarelas/lago.jpg)
 
-_Figura 9. Visualização ilustrativa da zona aquática._
+_Figura 10. Visualização ilustrativa da zona aquática._
 
 O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes. Não é uma zona de recreio livre nem permanente.
 
@@ -243,13 +265,13 @@ Só se acede ao lago com supervisão da equipa, segundo regras por porte, idade,
 
 A qualidade da água é controlada com regularidade e há um plano de limpeza, filtragem e manutenção, com prevenção de algas, odores, mosquitos e águas paradas. O lago fecha temporariamente sempre que as condições de segurança ou de higiene não estejam reunidas. Previnem-se também os riscos de fuga, queda, lama excessiva e contaminação cruzada entre animais.
 
-### 4.9 Gatil
+### 4.12 Gatil
 
 O gatil é só uma possibilidade futura ou uma componente secundária, e depende da área e das condicionantes do terreno. A existir, fica separado da área canina, num edifício afastado do ruído dos cães. Tem boa ventilação, luz natural, enriquecimento vertical, esconderijos, prateleiras, zonas individuais, controlo de odores, acesso controlado e baixa densidade.
 
 ![Aguarela ilustrativa de um possível gatil num edifício de madeira afastado das casas dos cães, que se veem ao longe, com janelas grandes que mostram prateleiras, postes para trepar, esconderijos e zonas individuais com três gatos, e um recinto exterior fechado com rede](images/aguarelas/gatil.jpg)
 
-_Figura 10. Visualização ilustrativa de um possível gatil._
+_Figura 11. Visualização ilustrativa de um possível gatil._
 
 ## 5. Bem-estar animal e funcionamento
 
@@ -271,7 +293,7 @@ Os animais agrupam-se e alojam-se segundo o porte, a idade, o estado de saúde, 
 
 O perfil serve para escolher a casa e o quarto mais adequados, os parques compatíveis e a integração na creche/ATL, e para gerir a alimentação, a medicação e o descanso. Cada animal tem uma ficha individual que vai sendo revista; o perfil não funciona como rótulo permanente. A equipa terá formação em leitura comportamental básica e manterá registos de incidentes, alterações de comportamento e observações.
 
-Há uma zona sénior e calma, mais tranquila, para cães idosos, com menor mobilidade, em medicação, que precisam de descanso prolongado, ansiosos, sensíveis ao ruído, em primeira estadia, pequenos ou frágeis. Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra. As rotinas de alimentação, passeio e descanso são previsíveis, com passeios curtos e adaptados, e o acompanhamento é mais próximo, com acesso rápido da equipa e procedimentos de medicação, observação e comunicação com os tutores.
+Na zona sénior e calma (ver [secção 4.3](#43-zona-sénior-e-calma)), as rotinas de alimentação, passeio e descanso são previsíveis, com passeios curtos e adaptados, e o acompanhamento é mais próximo, com acesso rápido da equipa e procedimentos de medicação, observação e comunicação com os tutores.
 
 A zona sénior não é uma enfermaria e não mistura cães sénior frágeis com cães muito ativos. Para os cães sénior há também o Programa Cão Sénior, que acrescenta a tudo isto descanso prolongado, alimentação acompanhada, menor exposição a grupos e um relatório diário para o tutor.
 
@@ -303,15 +325,11 @@ O transporte é uma operação controlada e registada. Segue regras por porte, t
 
 A sustentabilidade ambiental faz parte do projeto de raiz, e o terreno amplo, a exposição solar, a necessidade de água, a drenagem, o saneamento e a utilização diária das instalações dão-lhe ainda mais peso. As soluções finais dependem de estudo técnico e serão proporcionais ao consumo previsto.
 
-![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
-
-_Figura 11. Visualização ilustrativa da integração da aldeia na paisagem._
-
 Se o terreno tiver ruínas ou edificado existente, queremos reabilitá-los e reutilizá-los, depois da avaliação estrutural e da confirmação do enquadramento urbanístico (ver [secção 3](#3-terreno-e-critérios-de-seleção)).
 
 Na energia, prevemos painéis solares, com produção individual, agrupada ou centralizada, eventualmente uma micro-rede energética e baterias, quando fizerem sentido técnico. Juntam-se iluminação LED e sensores de presença, iluminação exterior eficiente, monitorização de consumos e carregamento para a viatura elétrica.
 
-Para poupar água, queremos recolher e armazenar águas pluviais em cisternas, regar gota a gota, usar espécies autóctones e, quando legalmente permitido, reduzir o consumo de água potável nas lavagens exteriores e na rega.
+Para poupar água, queremos recolher e armazenar águas pluviais em cisternas, regar gota a gota, usar espécies autóctones (ver [secção 4.10](#410-paisagem-vegetação-e-sombra)) e, quando legalmente permitido, reduzir o consumo de água potável nas lavagens exteriores e na rega.
 
 O saneamento segue o critério eliminatório descrito na [secção 3](#3-terreno-e-critérios-de-seleção).
 

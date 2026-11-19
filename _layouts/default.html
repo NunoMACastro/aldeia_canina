@@ -77,7 +77,7 @@
   Número das secções em destaque. As capturas guardam o espaço final de propósito
   (sem controlo de espaços no endcapture), para «4. » não apanhar «4.1 ».
 {%- endcomment -%}
-{%- for m in (1..9) -%}
+{%- for m in (1..12) -%}
   {%- capture de %}">4.{{ m }} {% endcapture -%}
   {%- capture para %}"><span class="num">4.{{ m }}</span> {% endcapture -%}
   {%- assign corpo = corpo | replace: de, para -%}

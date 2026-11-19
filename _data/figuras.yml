@@ -39,14 +39,14 @@ creche:
   legenda: "Visualização ilustrativa da creche diária e dos parques por grupo."
 
 lago:
-  numero: 9
+  numero: 10
   imagem: images/aguarelas/lago.jpg
   postal: images/aguarelas/postais/lago.jpg
   alt: "Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado"
   legenda: "Visualização ilustrativa da zona aquática."
 
 paisagem:
-  numero: 11
+  numero: 9
   imagem: images/aguarelas/aldeia-na-paisagem.jpg
   postal: images/aguarelas/postais/aldeia-na-paisagem.jpg
   alt: "Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados"
