@@ -164,6 +164,10 @@ As dimensões das casas, dos quartos e dos espaços exteriores ficam definidas n
 
 Há uma zona sénior e calma, mais tranquila, para cães idosos, com menor mobilidade, em medicação, que precisam de descanso prolongado, ansiosos, sensíveis ao ruído, em primeira estadia, pequenos ou frágeis (ver [secção 5](#5-bem-estar-animal-e-funcionamento)). Fica afastada das zonas de maior ruído, com menos estímulo visual entre cães, pavimento confortável, antiderrapante e fácil de limpar e zonas de descanso com sombra.
 
+![Aguarela ilustrativa da zona sénior e calma: um cão idoso a descansar numa cama baixa à sombra de um carvalho, com uma taça de água ao lado, e uma cuidadora a passear devagar um cão pequeno mais velho num caminho plano, junto a três casas de madeira com espaços exteriores vedados, separados por sebes e painéis de madeira](images/aguarelas/zona-senior-e-calma.jpg)
+
+_Figura 4. Visualização ilustrativa da zona sénior e calma._
+
 As casas dos cães sénior, ansiosos ou sensíveis ficam nas zonas mais tranquilas do terreno (ver [secção 4.2](#42-casas-de-alojamento-animal)), e há parques próprios para cães sénior e um parque calmo (ver [secção 4.4](#44-parques-exteriores-por-perfil)). O voluntariado com cães de abrigo e as sessões de educação ambiental decorrem longe desta zona (ver [secção 4.5](#45-trilhos-sensoriais-e-atividades-de-enriquecimento)).
 
 ### 4.4 Parques exteriores por perfil
@@ -172,7 +176,7 @@ As áreas exteriores dividem-se por perfil. Há parques para cães pequenos, par
 
 ![Aguarela ilustrativa de quatro parques vedados lado a lado, cada um com entrada de portão duplo: dois cães pequenos num, um cão grande a correr atrás de uma bola noutro, um cão mais velho a descansar numa plataforma à sombra de um carvalho, e uma cuidadora à entrada do último com um cão pela trela; ao fundo, casas de madeira e a casa de apoio em pedra](images/aguarelas/parques-por-perfil.jpg)
 
-_Figura 4. Visualização ilustrativa dos parques exteriores por perfil._
+_Figura 5. Visualização ilustrativa dos parques exteriores por perfil._
 
 ### 4.5 Trilhos sensoriais e atividades de enriquecimento
 
@@ -180,7 +184,7 @@ Os trilhos sensoriais juntam superfícies diferentes (relva, areia, madeira, ped
 
 ![Aguarela ilustrativa de um trilho sensorial entre árvores e penedos de granito, com troços de areia, casca e pedra, rampas baixas, um túnel de ripas, plataformas e um banco, e uma cuidadora a passear dois cães](images/aguarelas/trilho-sensorial.jpg)
 
-_Figura 5. Visualização ilustrativa de um trilho sensorial._
+_Figura 6. Visualização ilustrativa de um trilho sensorial._
 
 Além dos trilhos, há atividades de enriquecimento ambiental: percursos de faro e zonas com texturas e cheiros diferentes, jogos cognitivos, zonas de escavação controlada, pequenas pontes, túneis baixos e plataformas de equilíbrio, agility leve, zonas de relaxamento e passeios orientados. As atividades são supervisionadas pela equipa. As de grupo fazem-se em grupos de compatibilidade, e para os cães que não convivem bem com outros há atividades individuais.
 
@@ -196,7 +200,7 @@ A creche/ATL usa os parques exteriores, os trilhos sensoriais e as zonas de desc
 
 ![Aguarela ilustrativa de um parque vedado da creche, com uma cuidadora e um pequeno grupo de cães de porte médio, uma zona de descanso à sombra com plataformas e água, e um parque separado com dois cães pequenos](images/aguarelas/creche-e-parques.jpg)
 
-_Figura 6. Visualização ilustrativa da creche diária e dos parques por grupo._
+_Figura 7. Visualização ilustrativa da creche diária e dos parques por grupo._
 
 Tem uma zona de receção e entrega rápida, áreas de permanência diurna e parques por grupo de compatibilidade. O dia segue horários de entrada, saída, atividade, descanso e alimentação, e há zonas de pausa para evitar o excesso de excitação. As rotinas adaptam-se ao perfil do cão, e a creche liga-se ao treino, ao grooming e ao transporte.
 
@@ -221,7 +225,7 @@ A enfermaria e a zona de isolamento/quarentena ficam separadas da circulação p
 
 ![Aguarela ilustrativa de uma pequena enfermaria em pedra e madeira, separada das casas de alojamento por uma sebe, com uma cuidadora à porta, interior de azulejo claro, ponto de água e grelha de drenagem à entrada, e um pátio vedado de observação, com entrada de portão duplo, onde um cão descansa numa cama](images/aguarelas/enfermaria-e-isolamento.jpg)
 
-_Figura 7. Visualização ilustrativa da enfermaria e da zona de isolamento._
+_Figura 8. Visualização ilustrativa da enfermaria e da zona de isolamento._
 
 ### 4.8 Grooming e treino
 
@@ -231,21 +235,25 @@ O treino e a educação canina (ver [secção 2](#2-serviços-previstos)), inclu
 
 ![Aguarela ilustrativa de um pequeno edifício de madeira com a sala de grooming à vista, onde uma groomer escova um cão preso na mesa, e de um parque de treino vedado ao lado, com entrada de portão duplo, onde um treinador trabalha com um cão pela trela e uma família com uma criança assiste num banco](images/aguarelas/grooming-e-treino.jpg)
 
-_Figura 8. Visualização ilustrativa do espaço de grooming e do parque de treino._
+_Figura 9. Visualização ilustrativa do espaço de grooming e do parque de treino._
 
 ### 4.9 Espaços para aulas, workshops e eventos
 
 Os espaços para aulas, workshops e eventos recebem as aulas de treino em grupo e os workshops para tutores (ver [secção 2](#2-serviços-previstos)), a formação em turismo e as atividades abertas à comunidade (ver [secção 9](#9-impacto-no-território)). Para as aulas com cães há também um parque para aulas (ver [secção 4.4](#44-parques-exteriores-por-perfil)).
 
+![Aguarela ilustrativa de um espaço de madeira e granito com as portas de vidro abertas, onde um pequeno grupo de adultos sentados em bancos ouve uma formadora, com dois cães deitados ao lado dos tutores; uma rampa com corrimão leva à entrada a partir da Casa de Apoio, e ao lado há um parque vedado para aulas com alguns cones](images/aguarelas/espacos-para-aulas.jpg)
+
+_Figura 10. Visualização ilustrativa dos espaços para aulas, workshops e eventos._
+
 Os grupos chegam pela receção da Casa de Apoio Operacional (ver [secção 4.1](#41-casa-de-apoio-operacional)), por percursos acessíveis. A localização e a dimensão destes espaços dependem do terreno e do projeto técnico.
 
 ### 4.10 Paisagem, vegetação e sombra
 
+Entre as casas, os parques e os trilhos há zonas verdes e áreas de sombra natural e artificial. Usamos barreiras vegetais pensadas para o conforto visual, o ruído e o vento, e a vegetação autóctone e as espécies adequadas ao local integram a aldeia na paisagem.
+
 ![Aguarela ilustrativa da aldeia vista do alto na paisagem, com casas espaçadas rodeadas de relva baixa, algumas com telhado verde e painéis solares, uma cisterna junto à casa de apoio, o lago vedado (previsto só se o terreno o permitir), caminhos de saibro e árvores espaçadas e afastadas dos telhados](images/aguarelas/aldeia-na-paisagem.jpg)
 
-_Figura 9. Visualização ilustrativa da integração da aldeia na paisagem._
-
-Entre as casas, os parques e os trilhos há zonas verdes e áreas de sombra natural e artificial. Usamos barreiras vegetais pensadas para o conforto visual, o ruído e o vento, e a vegetação autóctone e as espécies adequadas ao local integram a aldeia na paisagem.
+_Figura 11. Visualização ilustrativa da integração da aldeia na paisagem._
 
 A vegetação entra também no plano de solo e drenagem e na poupança de água (ver [secção 7](#7-sustentabilidade-e-infraestruturas)). As sessões de educação ambiental decorrem nos trilhos e com a vegetação autóctone (ver [secção 4.5](#45-trilhos-sensoriais-e-atividades-de-enriquecimento)).
 
@@ -255,7 +263,7 @@ Se o terreno escolhido o permitir, prevemos um lago raso naturalizado, pensado c
 
 ![Aguarela ilustrativa de um lago raso naturalizado e vedado, com rampas de entrada, dois cães na água sob a supervisão de uma cuidadora, uma zona de espera à sombra de uma pérgula com uma taça de água potável e uma zona seca ao lado](images/aguarelas/lago.jpg)
 
-_Figura 10. Visualização ilustrativa da zona aquática._
+_Figura 12. Visualização ilustrativa da zona aquática._
 
 O lago serve o enriquecimento ambiental, o exercício supervisionado e o conforto térmico dos animais nos dias quentes. Não é uma zona de recreio livre nem permanente.
 
@@ -271,7 +279,7 @@ O gatil é só uma possibilidade futura ou uma componente secundária, e depende
 
 ![Aguarela ilustrativa de um possível gatil num edifício de madeira afastado das casas dos cães, que se veem ao longe, com janelas grandes que mostram prateleiras, postes para trepar, esconderijos e zonas individuais com três gatos, e um recinto exterior fechado com rede](images/aguarelas/gatil.jpg)
 
-_Figura 11. Visualização ilustrativa de um possível gatil._
+_Figura 13. Visualização ilustrativa de um possível gatil._
 
 ## 5. Bem-estar animal e funcionamento
 
@@ -402,7 +410,7 @@ A aldeia cresce por módulos, de forma progressiva, a partir de um núcleo essen
 
 | Nível | Componentes |
 | --- | --- |
-| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; creche diária/ATL canino; plano de água, saneamento e drenagem. |
+| Núcleo essencial | Aldeia canina modular; casas de alojamento com quartos interiores e espaços exteriores privados; Casa de Apoio Operacional; enfermaria e zona de isolamento; zonas por perfil comportamental; zona sénior e calma; creche diária/ATL canino; paisagem, vegetação e sombra; plano de água, saneamento e drenagem. |
 | Prioridade alta | Trilhos sensoriais; Programa de Adaptação à Primeira Estadia; portal do tutor; partilha controlada de fotografias e vídeos; energia solar; viatura de transporte; treino; programa social; voluntariado com cães de abrigo; horários alargados da creche/ATL; acolhimento dos animais de visitantes; educação ambiental; calendário de atividades abertas; receção e reservas em português e inglês. |
 | Prioridade média | Zona aquática; grooming; formação em turismo. |
 | Complementares ou futuras | Gatil; câmaras em direto. |
