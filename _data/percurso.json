@@ -1,9 +1,9 @@
 {
-  "_nota": "Correspondências editoriais da apresentação, decididas pelo utilizador a 2026-11-07 e atualizadas a 2026-11-19, com a secção 4 em doze subsecções (DEC-2026-066). «fases»: os espaços da §4 que cada nível do quadro da §11 nomeia (o nível tem de ser o texto exato da primeira coluna desse quadro; os espaços, o número da subsecção). «fios»: as passagens do README sobre cada condicionante do quadro da §10 (a condicionante tem de ser o texto exato da primeira coluna; cada passagem, um excerto exato do README, dentro de um só parágrafo, item ou célula). Se o README mudar, estas listas mudam também; o verificar.py confirma que cada excerto ainda existe.",
+  "_nota": "Correspondências editoriais da apresentação, decididas pelo utilizador a 2026-11-07 e atualizadas a 2026-11-19, com a secção 4 em doze subsecções (DEC-2026-066); cada espaço entra no nível que lhe acrescenta construção, não só um uso novo (DEC-2026-069). «fases»: os espaços da §4 que cada nível do quadro da §11 nomeia (o nível tem de ser o texto exato da primeira coluna desse quadro; os espaços, o número da subsecção). «fios»: as passagens do README sobre cada condicionante do quadro da §10 (a condicionante tem de ser o texto exato da primeira coluna; cada passagem, um excerto exato do README, dentro de um só parágrafo, item ou célula). Se o README mudar, estas listas mudam também; o verificar.py confirma que cada excerto ainda existe.",
   "fases": [
     { "nivel": "Núcleo essencial", "espacos": ["4.1", "4.2", "4.3", "4.6", "4.7", "4.10"] },
-    { "nivel": "Prioridade alta", "espacos": ["4.5", "4.6", "4.8", "4.9"] },
-    { "nivel": "Prioridade média", "espacos": ["4.8", "4.9", "4.11"] },
+    { "nivel": "Prioridade alta", "espacos": ["4.5", "4.8", "4.9"] },
+    { "nivel": "Prioridade média", "espacos": ["4.8", "4.11"] },
     { "nivel": "Complementares ou futuras", "espacos": ["4.12"] }
   ],
   "fios": [
